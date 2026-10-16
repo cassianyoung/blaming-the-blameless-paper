@@ -1,0 +1,15 @@
+# Appendix B.11. Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_b11_syllogism.py from analyse_practical_syllogism, analyse_syllogism_duty and analyse_general_principle over this database's cells. Values unrounded.
+paper_numbers_id,location,printed,from_rows,matches_rows,matches_at_build
+428,S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P1 arms holding the principle (A0.3),13 of 13,13 of 13,1,1
+431,S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 cells with the fact held,62 of 75,62 of 75,1,1
+432,"S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.10, conditional on both premises",50 of 62 (0.806),50 of 62 (0.806),1,1
+445,"S4.1.4/rebuttal: practical_syllogism: A1 share of cells above 0.10, B against direct",0.120 against 0.840,0.120 against 0.840,1,1
+472,general_principle PG.1 arms answering more on 9 of 10 in both orders,12 of 13,12 of 13,1,1
+449,"S4.2 (syllogism_duty): syllogism_duty.P1, arms holding the principle (yes on all four pairs other than driving)",6 of 13,6 of 13,1,1
+485,general_principle AG.6 arms affirming on every named pair,6 of 13,6 of 13,1,1
+501,general_principle AG.7 split non-driving cells with a bare gap of zero or below,7 of 52,7 of 52,1,1
+502,general_principle AG.7 split non-driving cells with a positive bare gap within the wording floor,29 of 52,29 of 52,1,1
+487,general_principle AG.7 non-driving cells whose same-session bare gap clears the wording floor,16 of 52,16 of 52,1,1
+507,syllogism_duty Amendment T non-driving cells whose shortfall exceeds sqrt(wording^2 + draw^2) floor,29 of 52,29 of 52,1,1
+466,"S4.2 (syllogism_duty): syllogism_duty.P4, models by class against their stated slack, the structured prompt",within a tenth 2; a tenth to three tenths short 2; a tenth to three tenths over 0; more than three tenths short 9; more than three tenths over 0 (of 13; wording floor borrowed from the bare separate frame (A0.13)),within a tenth 2; a tenth to three tenths short 2; a tenth to three tenths over 0; more than three tenths short 9; more than three tenths over 0 (of 13; wording floor borrowed from the bare separate frame (A0.13)),1,1

@@ -1,0 +1,24 @@
+# Appendix B.9. Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_b9_signal_to_noise.py. signal_to_noise = stated_gap / floor_used, signed, from the duty_signal_to_noise views.
+arm,model_label,reasoning,n_pairs,n_pairs_refused,median_signal_to_noise,n_convention_stated,n_low_resolution
+claude,anthropic/claude-sonnet-5,off,6,0,2.3225,5,2
+deepseek,deepseek/deepseek-v4.1-flash,off,6,0,0.8218,2,6
+deepseek_s,deepseek/deepseek-v4.1-flash,off,6,0,0.6334,1,6
+gemma27b,google/gemma-3-27b-it,off,6,0,1.5831,5,4
+gpt4o,openai/gpt-4o,off,6,0,3.4113,6,2
+gpt6l_s,openai/gpt-6-luna,off,6,0,0.6099,2,6
+gpt6s_s,openai/gpt-6-sol,off,6,0,1.3521,4,5
+grok43_s,x-ai/grok-4.3,off,6,0,1.2186,4,6
+haiku_s,anthropic/claude-haiku-4.5,off,6,0,4.5542,6,1
+kimi,moonshotai/kimi-k3,off,6,0,3.6156,5,1
+llama70b,meta-llama/llama-3.3-70b-instruct,off,6,0,3.0441,4,2
+mistral24b,mistralai/mistral-small-3.2-24b-instruct,off,6,0,4.62,6,1
+qwen235b,qwen/qwen3-235b-a22b-2507,off,5,1,8.3333,5,0
+qwen30b,qwen/qwen3-30b-a3b-instruct-2507,off,6,0,4.3861,6,1
+qwen80b,qwen/qwen3-next-80b-a3b-instruct,off,6,0,2.6033,5,2
+deepseek_r,deepseek/deepseek-v4.1-flash,on,6,0,2.8304,6,1
+gemini_r,google/gemini-3.8-flash,on,6,0,2.2226,4,2
+gpt6l_r,openai/gpt-6-luna,on,6,0,2.5901,5,2
+gpt6s_r,openai/gpt-6-sol,on,6,0,3.3058,6,2
+grok43_r,x-ai/grok-4.3,on,6,0,2.7039,5,2
+haiku_r,anthropic/claude-haiku-4.5,on,6,0,4.3294,6,0

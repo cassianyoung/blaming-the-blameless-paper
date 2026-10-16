@@ -1,0 +1,54 @@
+{
+ "NO FAMILY NEEDS FIXING": "ruled on the same evidence.",
+ "THIS IS A POST-HOC AMENDMENT": "the original flag rule was written before stage 1 and this change was made after seeing stage 1's results. An amendment made after the cells land is legitimate only if it is stated as one (an earlier void-rule precedent), so it is stated here, the superseded verdicts are kept, and the pre-amendment artefact stays on record.",
+ "WHAT REPLACED IT": {
+  "check": "P1_neutral - P1 > 0.10",
+  "measured": {
+   "cheque/gpt4o": 0.1473243180759656,
+   "cheque/llama70b": 0.5292698182967197,
+   "ladder/gpt4o": 0.5711863202789136,
+   "ladder/llama70b": 0.8141695063046988,
+   "prawns_home/gpt4o": 0.42883164998704854,
+   "prawns_home/llama70b": 0.648965406939379,
+   "prawns_restaurant/gpt4o": 0.3846895808390311,
+   "prawns_restaurant/llama70b": 0.30681116943630304,
+   "scaffolding/gpt4o": 0.19992610405924793,
+   "scaffolding/llama70b": 0.3175674925676313
+  },
+  "passes": "10 of 10 cells, smallest gap 0.147 on gpt4o/cheque",
+  "so": "the sentence-count rival is eliminated on every family on both arms, which is what the row is for",
+  "why": "the neutral row was never there to be inert: it exists to rule out the SENTENCE-COUNT rival. P1 and P1_neutral each add exactly one sentence to P0 and differ only in content, so P1_neutral sitting well above P1 shows the drop at P1 is the CONTENT of the exculpating sentence and not the fact of adding one."
+ },
+ "WHAT THE INERTNESS FIGURE BECOMES": {
+  "consequence_for_design": "a neutral row cannot be built to move nothing. It can only be built to name nothing about the parties, and even then the figure is reported rather than assumed.",
+  "direction_is_not_constant": "up on ladder and cheque, down on prawns_restaurant. The two that move furthest UP both introduce a relationship with the victim, 'The neighbour lived three doors down the street' and 'The plumber had fixed the kitchen sink', which is a mechanism found in earlier work: a circumstance read as raising duty. Scaffolding's 'The scaffolding was put up in March' is the one genuinely inert sentence at 0.065 and 0.008, and it is the only one naming nothing about the parties.",
+  "finding": "models read an inserted circumstance as relevant and adjust blame by up to a quarter of the scale on it. P1_neutral minus P0, both arms:",
+  "largest": "ladder +0.273 (llama70b) and prawns_restaurant +0.276 (gpt4o), both over a quarter of the N-to-C scale",
+  "measured": {
+   "cheque/gpt4o": 0.1396355771733939,
+   "cheque/llama70b": 0.18872820926902317,
+   "ladder/gpt4o": 0.25133188868772227,
+   "ladder/llama70b": 0.27316796358115425,
+   "prawns_home/gpt4o": -0.17402991397431583,
+   "prawns_home/llama70b": -0.07241850203316058,
+   "prawns_restaurant/gpt4o": -0.27567263116467366,
+   "prawns_restaurant/llama70b": -0.16551211676001565,
+   "scaffolding/gpt4o": 0.0079780729131608,
+   "scaffolding/llama70b": 0.0649891447592269
+  },
+  "status": "a REPORTED FINDING, gating nothing"
+ },
+ "WHAT WAS DROPPED": {
+  "check": "|P1_neutral - P0| <= 0.10, the INERTNESS check",
+  "it_flagged": [
+   "ladder",
+   "prawns_restaurant",
+   "cheque"
+  ],
+  "superseded_artefact": "the stage-1 effect-arm artefact, kept as read",
+  "why": "it asked for something no wording can deliver. A model reading a short case treats every sentence as relevant, so no added sentence is ever truly inert. It moved blame on three of five families in BOTH directions, up on ladder and cheque and down on the restaurant, and the bicycle family did the same. A check nothing can pass is not a check, and it was about to flag three families for a property of language rather than a defect in the rows."
+ },
+ "ruled": "2026-10-02, with the two effect arms in hand",
+ "what": "deployed_scenarios's flag rule amended AFTER stage 1, and declared as such",
+ "written_utc": "2026-10-02T12:49:05Z"
+}

@@ -1,0 +1,67 @@
+# Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_chef_home.py
+model,model_id,source,order,first_listed_option,p_equally,p_home,p_chef,modal,modal_mass,readout,artefact_sha
+claude,anthropic/claude-sonnet-5,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,fdee262d122b965c
+claude,anthropic/claude-sonnet-5,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,fdee262d122b965c
+deepseek,deepseek/deepseek-v4.1-flash,api,home_first,EQUALLY,0.01077,0.02274,0.96649,chef,0.96649,log-prob,ad52e14e4202ccf7
+deepseek,deepseek/deepseek-v4.1-flash,api,chef_first,CHEF,0.00317,0.00192,0.99491,chef,0.99491,log-prob,ad52e14e4202ccf7
+deepseek_r,deepseek/deepseek-v4.1-flash,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,8ec45047e3ea8cdb
+deepseek_r,deepseek/deepseek-v4.1-flash,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,8ec45047e3ea8cdb
+deepseek_s,deepseek/deepseek-v4.1-flash,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,3d0280175c77c0ab
+deepseek_s,deepseek/deepseek-v4.1-flash,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,3d0280175c77c0ab
+gemini_pro,google/gemini-3.1-pro-preview,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,5a8e35a0afd0838c
+gemini_pro,google/gemini-3.1-pro-preview,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,5a8e35a0afd0838c
+gemini_r,google/gemini-3.8-flash,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,28cf6e5e6da65a44
+gemini_r,google/gemini-3.8-flash,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,28cf6e5e6da65a44
+gemma27b,google/gemma-3-27b-it,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,log-prob,dc91ad4be443b177
+gemma27b,google/gemma-3-27b-it,api,chef_first,CHEF,1e-05,0.0,0.99999,chef,0.99999,log-prob,dc91ad4be443b177
+gpt4o,openai/gpt-4o,api,home_first,EQUALLY,0.00055,0.00147,0.99798,chef,0.99798,log-prob,b99aa616c6d23c81
+gpt4o,openai/gpt-4o,api,chef_first,CHEF,0.00041,0.00018,0.99941,chef,0.99941,log-prob,b99aa616c6d23c81
+gpt6l_r,openai/gpt-6-luna,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,7c325df135f9d991
+gpt6l_r,openai/gpt-6-luna,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,7c325df135f9d991
+gpt6l_s,openai/gpt-6-luna,api,home_first,EQUALLY,0.1,0.0,0.9,chef,0.9,sampled,e50f6fd8221c7030
+gpt6l_s,openai/gpt-6-luna,api,chef_first,CHEF,1.0,0.0,0.0,equally,1.0,sampled,e50f6fd8221c7030
+gpt6s_r,openai/gpt-6-sol,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,9393e48ef5b7a880
+gpt6s_r,openai/gpt-6-sol,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,9393e48ef5b7a880
+gpt6s_s,openai/gpt-6-sol,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,7df773ad0572c156
+gpt6s_s,openai/gpt-6-sol,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,7df773ad0572c156
+grok43_r,x-ai/grok-4.3,api,home_first,EQUALLY,0.1,0.0,0.9,chef,0.9,sampled,54c0d434492a6d0f
+grok43_r,x-ai/grok-4.3,api,chef_first,CHEF,0.1,0.0,0.9,chef,0.9,sampled,54c0d434492a6d0f
+grok43_s,x-ai/grok-4.3,api,home_first,EQUALLY,1.0,0.0,0.0,equally,1.0,sampled,888430118756cd16
+grok43_s,x-ai/grok-4.3,api,chef_first,CHEF,0.7,0.0,0.3,equally,0.7,sampled,888430118756cd16
+haiku_r,anthropic/claude-haiku-4.5,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,
+haiku_r,anthropic/claude-haiku-4.5,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,
+haiku_s,anthropic/claude-haiku-4.5,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,
+haiku_s,anthropic/claude-haiku-4.5,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,sampled,
+kimi,moonshotai/kimi-k3,api,home_first,EQUALLY,0.02915,0.0019,0.96895,chef,0.96895,log-prob,
+kimi,moonshotai/kimi-k3,api,chef_first,CHEF,0.03751,0.00025,0.96224,chef,0.96224,log-prob,
+llama70b,meta-llama/llama-3.3-70b-instruct,api,home_first,EQUALLY,0.00043,0.0,0.99957,chef,0.99957,log-prob,8226da99bbf107f2
+llama70b,meta-llama/llama-3.3-70b-instruct,api,chef_first,CHEF,0.2712,0.0,0.72879,chef,0.72879,log-prob,8226da99bbf107f2
+mistral24b,mistralai/mistral-small-3.2-24b-instruct,api,home_first,EQUALLY,5e-05,0.00016,0.99979,chef,0.99979,log-prob,5a0f0ea427f2426e
+mistral24b,mistralai/mistral-small-3.2-24b-instruct,api,chef_first,CHEF,0.00109,0.00349,0.99542,chef,0.99542,log-prob,5a0f0ea427f2426e
+qwen235b,qwen/qwen3-235b-a22b-2507,api,home_first,EQUALLY,1e-05,8e-05,0.99991,chef,0.99991,log-prob,03a0af1e83b98e78
+qwen235b,qwen/qwen3-235b-a22b-2507,api,chef_first,CHEF,0.01871,0.00071,0.98057,chef,0.98057,log-prob,03a0af1e83b98e78
+qwen30b,qwen/qwen3-30b-a3b-instruct-2507,api,home_first,EQUALLY,0.95093,0.04858,0.00049,equally,0.95093,log-prob,40103c8374453179
+qwen30b,qwen/qwen3-30b-a3b-instruct-2507,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,log-prob,40103c8374453179
+qwen80b,qwen/qwen3-next-80b-a3b-instruct,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,log-prob,3e0c06d38c1a5604
+qwen80b,qwen/qwen3-next-80b-a3b-instruct,api,chef_first,CHEF,0.0,0.0,1.0,chef,1.0,log-prob,3e0c06d38c1a5604
+falcon3,tiiuae/Falcon3-7B-Instruct,local,home_first,EQUALLY,0.574362,0.099332,0.326306,equally,0.574362,logits at the answer position,
+falcon3,tiiuae/Falcon3-7B-Instruct,local,chef_first,CHEF,0.596978,0.00573,0.397292,equally,0.596978,logits at the answer position,
+gemma27,google/gemma-2-27b-it,local,home_first,EQUALLY,0.898706,0.000462,0.100832,equally,0.898706,logits at the answer position,
+gemma27,google/gemma-2-27b-it,local,chef_first,CHEF,0.055005,9e-06,0.944986,chef,0.944986,logits at the answer position,
+gemma9,google/gemma-2-9b-it,local,home_first,EQUALLY,0.979243,0.001665,0.019092,equally,0.979243,logits at the answer position,
+gemma9,google/gemma-2-9b-it,local,chef_first,CHEF,0.906127,0.004161,0.089712,equally,0.906127,logits at the answer position,
+llama31,meta-llama/Llama-3.1-8B-Instruct,local,home_first,EQUALLY,0.417838,0.300056,0.282106,equally,0.417838,logits at the answer position,
+llama31,meta-llama/Llama-3.1-8B-Instruct,local,chef_first,CHEF,0.508897,0.236039,0.255064,equally,0.508897,logits at the answer position,
+mistral,mistralai/Mistral-7B-Instruct-v0.3,local,home_first,EQUALLY,0.941613,0.033195,0.025192,equally,0.941613,logits at the answer position,
+mistral,mistralai/Mistral-7B-Instruct-v0.3,local,chef_first,CHEF,0.940364,0.004351,0.055285,equally,0.940364,logits at the answer position,
+olmo2,allenai/OLMo-2-1124-7B-Instruct,local,home_first,EQUALLY,0.072387,0.167855,0.759758,chef,0.759758,logits at the answer position,
+olmo2,allenai/OLMo-2-1124-7B-Instruct,local,chef_first,CHEF,0.29144,0.076259,0.632301,chef,0.632301,logits at the answer position,
+qwen3,Qwen/Qwen3-8B,local,home_first,EQUALLY,0.069463,0.012993,0.917545,chef,0.917545,logits at the answer position,
+qwen3,Qwen/Qwen3-8B,local,chef_first,CHEF,0.170499,0.000131,0.82937,chef,0.82937,logits at the answer position,
+yi34b,01-ai/Yi-1.5-34B-Chat,local,home_first,EQUALLY,0.969468,4e-06,0.030528,equally,0.969468,logits at the answer position,
+yi34b,01-ai/Yi-1.5-34B-Chat,local,chef_first,CHEF,0.932395,6.2e-05,0.067543,equally,0.932395,logits at the answer position,
+yi6b,01-ai/Yi-1.5-6B-Chat,local,home_first,EQUALLY,0.856162,0.001131,0.142707,equally,0.856162,logits at the answer position,
+yi6b,01-ai/Yi-1.5-6B-Chat,local,chef_first,CHEF,0.64066,0.001829,0.357511,equally,0.64066,logits at the answer position,
+yi9b,01-ai/Yi-1.5-9B-Chat,local,home_first,EQUALLY,0.346929,0.168769,0.484302,chef,0.484302,logits at the answer position,
+yi9b,01-ai/Yi-1.5-9B-Chat,local,chef_first,CHEF,0.158862,0.000361,0.840777,chef,0.840777,logits at the answer position,

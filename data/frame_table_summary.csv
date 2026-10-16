@@ -1,0 +1,21 @@
+# Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_frame_table.py
+scope,statistic,value
+all rows,n rows,8
+all rows,mean unsigned delta_pos,0.1826
+all rows,floor moves beyond +0.30 digits (up),6
+all rows,floor moves beyond -0.30 digits (down),1
+all rows,floor within +/-0.30 digits,1
+all rows,rho median,0.8571
+all rows,rho range,0.7143 to 0.9286
+chat gate PASSED,n rows,6
+chat gate PASSED,mean unsigned delta_pos,0.2301
+chat gate PASSED,floor moves beyond +0.30 digits (up),4
+chat gate PASSED,floor moves beyond -0.30 digits (down),1
+chat gate PASSED,floor within +/-0.30 digits,1
+chat gate PASSED,rho median,0.8393
+chat gate PASSED,rho range,0.7143 to 0.9286
+note,the ladder is REPORTED and NOT USED in any chat mean,"on chat, 4 of 8 releases blame the careful ladder lender at least as much as the careless one, so positions against that anchor do not mean what they say. Table 1 is the bicycle and is unaffected; the scenario means carry an ex-ladder column."
+caption comparison,"frame: mean unsigned delta_pos (bicycle, gated rows)",0.2301
+caption comparison,"tuning: instruct mean unsigned delta_pos (nine families, read from tuning_table_summary.csv)",0.0913
+caption comparison,"ratio, frame over tuning",2.52

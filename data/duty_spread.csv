@@ -1,0 +1,15 @@
+# Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_duty_exports.py
+config_set,pair_id,pair_name,n_models,mean_gap,sd,cv,cv_refused_reason,iqr,q1,q3,min_gap,max_gap,n_exact_zero_flagged
+on,prawns,prawns (chef against home cook),7,2.1893,0.3135,0.1432,,0.35,1.975,2.325,1.825,2.75,0
+on,3,gas safety,7,2.6282,0.6512,0.2478,,0.9875,2.2625,3.25,1.65,3.3222,0
+on,1,electrical work,7,2.5321,0.6962,0.275,,0.925,2.1,3.025,1.625,3.45,0
+on,4,childcare,7,1.2524,0.4964,0.3964,,0.75,0.925,1.675,0.6167,1.9,0
+on,5,driving,7,0.7829,0.3665,0.4681,,0.5278,0.525,1.0528,0.2,1.15,0
+on,7,hair dye,7,2.5143,0.4714,0.1875,,0.65,2.2,2.85,1.85,3.15,0
+off,prawns,prawns (chef against home cook),14,2.1071,0.5151,0.2445,,0.5,1.95,2.45,0.95,2.75,0
+off,3,gas safety,14,3.8107,1.4796,0.3883,,1.15,2.925,4.075,2,6.9,0
+off,1,electrical work,14,1.8714,0.7695,0.4112,,1.0625,1.425,2.4875,0,2.9,1
+off,4,childcare,14,2.0786,0.7595,0.3654,,0.575,1.725,2.3,0.6,3.8,1
+off,5,driving,14,0.925,1.3507,1.4603,,0.7875,0.2,0.9875,0,5.3,7
+off,7,hair dye,13,1.4141,0.8264,0.5844,,0.7,0.95,1.65,0.0833,2.95,3

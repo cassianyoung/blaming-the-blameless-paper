@@ -1,0 +1,11 @@
+# Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_frame_table.py
+family,scenarios_chat_gate_pass,mean_unsigned_delta_pos_all,mean_unsigned_delta_pos_gated,mean_floor_shift_digits,median_rho,largest_abs_delta_pos,largest_abs_delta_scenario,off_scale_scenarios,scale_inverted_scenarios,mean_unsigned_delta_pos_on_scale,mean_unsigned_delta_pos_ex_ladder,mean_unsigned_delta_pos_ex_ladder_on_scale,cells_dropped_from_the_combined_mean,ladder_chat_delta_pos_reported_not_used
+llama31,0 of 6,0.3574,,1.8597,0.8571,0.6419,cheque,,,0.3574,0.3604,0.3604,ladder (chat anchor inverts on 4 of 8 releases),0.3426
+qwen3,1 of 6,0.3723,0.3701,2.3195,0.8393,0.5504,prawns_home,,,0.3723,0.4,0.4,ladder (chat anchor inverts on 4 of 8 releases),0.2337
+mistral,6 of 6,0.2293,0.2293,-0.8257,0.8571,0.387,scaffolding,,,0.2293,0.2572,0.2572,ladder (chat anchor inverts on 4 of 8 releases),0.0899
+olmo2,3 of 6,0.2065,0.2684,1.2258,0.8214,0.412,bicycle,,ladder: chat C below chat P0 by 0.047 digits,0.2065,0.2276,0.2276,ladder (chat anchor inverts on 4 of 8 releases),0.1006
+falcon3,0 of 6,0.2904,,2.0602,0.6786,0.8736,cheque,cheque (-0.874),,0.1738,0.2747,0.1249,cheque (off-scale -0.874); ladder (chat anchor inverts on 4 of 8 releases),0.369
+gemma9,6 of 6,0.4003,0.4003,-0.2585,0.8929,0.586,ladder,,ladder: chat C below chat P0 by 0.171 digits,0.4003,0.3632,0.3632,ladder (chat anchor inverts on 4 of 8 releases),0.586
+gemma27,6 of 6,0.1572,0.1572,0.4808,0.9643,0.3158,prawns_home,,ladder: chat C below chat P0 by 0.028 digits,0.1572,0.1457,0.1457,ladder (chat anchor inverts on 4 of 8 releases),0.2145
+yi34b,3 of 6,0.3347,0.0772,0.5572,0.8571,1.4158,ladder,ladder (+1.416),ladder: chat C below chat P0 by 1.961 digits,0.1185,0.1185,0.1185,ladder (chat anchor inverts on 4 of 8 releases),1.4158

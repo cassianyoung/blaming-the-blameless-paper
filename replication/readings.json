@@ -1,0 +1,839 @@
+{
+ "what": "Each reading behind the paper that due-care-eval can re-read, the models and tasks it ran, and the paper outputs it feeds. The model ids are entries in models/; the reference values are in reference/paper_values.json.",
+ "readings": {
+  "deployed_excuse": {
+   "what": "The excuse test on the 21 deployed models, chat frame: the bicycle on its own wire settings, then the five other scenarios",
+   "replaces_labels": [
+    "deployed_bicycle_ladder",
+    "deployed_bicycle_rivals",
+    "deployed_added_models",
+    "deployed_scenarios"
+   ],
+   "paper": [
+    "Figure 1 panel B",
+    "Figure 2 (section 3.3)",
+    "Figure 4",
+    "Table 3",
+    "Table B.2",
+    "Table B.5",
+    "Table B.8"
+   ],
+   "where": "api",
+   "runs": [
+    {
+     "model": "claude",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "deepseek",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "deepseek_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "deepseek_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "gemini_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "gemma27b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "gpt4o",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "gpt6l_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "gpt6l_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "gpt6s_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "gpt6s_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "grok43_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "grok43_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "haiku_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "haiku_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "kimi",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "llama70b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "mistral24b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "qwen235b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "qwen30b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "qwen80b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "claude",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "deepseek",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "deepseek_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "deepseek_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "gemini_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "gemma27b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "gpt4o",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "gpt6l_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "gpt6l_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "gpt6s_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "gpt6s_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "grok43_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "grok43_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "haiku_r",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "haiku_s",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "kimi",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "llama70b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "mistral24b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "qwen235b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "qwen30b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    },
+    {
+     "model": "qwen80b",
+     "task": "excuse",
+     "frame": "chat",
+     "args": [
+      "scenarios=ladder,prawns_home,prawns_restaurant,scaffolding,cheque"
+     ]
+    }
+   ]
+  },
+  "deployed_duty": {
+   "what": "The duty test on the deployed models, chat frame: six pairs, side by side in both orders, each case alone, with the convention stated and with each neutral sentence",
+   "replaces_labels": [
+    "duty_pairs",
+    "duty_remedies",
+    "duty_hair_dye",
+    "duty_prawns_convention",
+    "duty_chef_home_comparison"
+   ],
+   "paper": [
+    "Figure 2",
+    "Figure 6",
+    "Table B.4 (API rows)",
+    "Table B.9",
+    "Table B.10"
+   ],
+   "where": "api",
+   "runs": [
+    {
+     "model": "claude",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "deepseek",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "deepseek_r",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "deepseek_s",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gemini_pro",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gemini_r",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gemma27b",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gpt4o",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gpt6l_r",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gpt6l_s",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gpt6s_r",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gpt6s_s",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "grok43_r",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "grok43_s",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "haiku_r",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "haiku_s",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "kimi",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "llama70b",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "mistral24b",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "qwen235b",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "qwen30b",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "qwen80b",
+     "task": "duty",
+     "frame": "chat",
+     "args": []
+    }
+   ]
+  },
+  "local_frames": {
+   "what": "The excuse test on the local checkpoints: each pretrained base, each base with its adapter and each developer release on the worksheet frame, and each release through its own chat template",
+   "replaces_labels": [
+    "local_frames"
+   ],
+   "paper": [
+    "Figure 1 panel A",
+    "Figure 3",
+    "Figure 5",
+    "Table B.1",
+    "Table B.3",
+    "Table B.4 (local rows)",
+    "Table B.6",
+    "Table B.7 (base, adapter and release rows)"
+   ],
+   "where": "local",
+   "runs": [
+    {
+     "model": "falcon3_adapter",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "falcon3_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "falcon3_instruct",
+     "task": "excuse",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "falcon3_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "gemma27_adapter",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "gemma27_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "gemma27_instruct",
+     "task": "excuse",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gemma27_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "gemma9_adapter",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "gemma9_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "gemma9_instruct",
+     "task": "excuse",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "gemma9_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "llama31_adapter",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "llama31_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "llama31_instruct",
+     "task": "excuse",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "llama31_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "mistral_adapter",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "mistral_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "mistral_instruct",
+     "task": "excuse",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "mistral_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "olmo2_adapter",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "olmo2_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "olmo2_instruct",
+     "task": "excuse",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "olmo2_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "qwen3_adapter",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "qwen3_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "qwen3_instruct",
+     "task": "excuse",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "qwen3_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "stablelm12b_adapter",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "stablelm12b_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "stablelm12b_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "yi34b_adapter_en_corpus",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "yi34b_adapter_zh_corpus",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "yi34b_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "yi34b_instruct",
+     "task": "excuse",
+     "frame": "chat",
+     "args": []
+    },
+    {
+     "model": "yi34b_instruct",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "yi6b_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    },
+    {
+     "model": "yi9b_base",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": []
+    }
+   ]
+  },
+  "yi_adapter_controls": {
+   "what": "The Yi-1.5-34B adapter controls on the worksheet frame, bicycle: three seeds of the English-corpus adapter, the two translated-corpus adapters, the no-prose adapter, and the base read in the same session",
+   "replaces_labels": [
+    "yi_adapter_controls"
+   ],
+   "paper": [
+    "Table B.7 (control rows)"
+   ],
+   "where": "local",
+   "runs": [
+    {
+     "model": "yi34b_base_controls",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "yi34b_no_prose",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "yi34b_seed_20260909",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "yi34b_seed_20260910",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "yi34b_seed_20260911",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "yi34b_translated_2048",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    },
+    {
+     "model": "yi34b_translated_512",
+     "task": "excuse",
+     "frame": "worksheet",
+     "args": [
+      "scenarios=bicycle"
+     ]
+    }
+   ]
+  }
+ },
+ "not_rereadable": {
+  "local_tuning": "the first base, adapter and release reading of the bicycle used an earlier bicycle bank that is not among the frozen banks (the local_tuning_* columns of B1_tuning_table.csv and fig1_panelA.csv)",
+  "reasoning_traces": "coded reasoning traces (section 4.3): the coding is by two LLM coders against a frozen guide, outside the eval",
+  "prevention_paraphrase": "the prevention question in other wordings (section 4.1.4): its frames are not in the eval's banks",
+  "practical_syllogism": "the practical syllogism (section 4.1.4, Table B.11): its frames are not in the eval's banks",
+  "syllogism_duty": "the syllogism on the duty pairs (section 4.2, Table B.11): its frames are not in the eval's banks",
+  "general_principle": "the general principle asked in both orders (Table B.11): its frames are not in the eval's banks",
+  "subject_identity": "the same cases with other subjects' names (section 4.1): the names are not in the eval's banks",
+  "CMP3": "the three-way side-by-side probabilities in chef_home_cmp3_probabilities.csv: the question is not in the eval"
+ }
+}

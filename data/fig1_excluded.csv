@@ -1,0 +1,19 @@
+# Figure 1, arms excluded from panel B. Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+model,reason
+deepseek_r,"duplicate model: the mt-8192 read is kept. deepseek_r_void_annotation already names that artefact as superseding this one. NOTE its BLAME-channel bicycle cells are CLEAN (P0|blame 0 void of 20); the cells marked NOT_USABLE on this artefact are the `any` channel, which this panel does not read, so this is a preference for the cleaner read and not a defect exclusion; kept instead: deepseek_r_bike8192_all"
+deepseek_r_bike8192,"the THREE-role bicycle read (N, C and I only). The ten-role read `deepseek_r_bike8192_all` is the one carrying P0 and P1"
+deepseek_r_mt8192,no N-to-C-to-P0 triple on the bicycle: roles present [none]. Not a model that declined
+gemini_anchor,"a one-family anchor re-read, not an arm"
+gemini_duty,"the duty factorial only, a different bank"
+gemini_duty_N,a blameless-row top-up for the duty factorial
+gemini_pro,side-by-side only: never read the families or the bicycle
+gemini_topup,a top-up adding draws to gemini_r's cells; counting it beside gemini_r would double those draws
+gemma27b_relaxed,"duplicate model: `gemma27b` is kept because it carries the excuse and bystander rows (P1_R, P1_neutral, P2_other, BYSTANDER) that this gate-refused earlier reading lacks. gemma27b has no deliberate case (I) on the bicycle, so its gate reads `I not read` rather than applying the I clause; kept instead: gemma27b"
+gpt6l_r,no N-to-C-to-P0 triple on the bicycle: roles present [none]. Not a model that declined
+gpt6l_s,no N-to-C-to-P0 triple on the bicycle: roles present [none]. Not a model that declined
+gpt6s_r,no N-to-C-to-P0 triple on the bicycle: roles present [none]. Not a model that declined
+gpt6s_s,no N-to-C-to-P0 triple on the bicycle: roles present [none]. Not a model that declined
+gptoss_r,read on the bicycle only; not reported
+grok43_r,no N-to-C-to-P0 triple on the bicycle: roles present [none]. Not a model that declined
+grok43_s,no N-to-C-to-P0 triple on the bicycle: roles present [none]. Not a model that declined
+haiku,"superseded by the full-bank reading in deployed_added_models as `haiku_s`: deployed_bicycle_rivals read only N, C, P0 and P1 on this model, deployed_added_models read all ten bicycle roles, the five scenarios and the side-by-side. Same weights and same configuration under two arm names"

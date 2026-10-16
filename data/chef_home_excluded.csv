@@ -1,0 +1,27 @@
+# Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_chef_home.py
+model,reason
+gemini_topup,"a TOP-UP read of 5 prawns cell(s), not a full arm: it exists to add draws to gemini_r's cells and has no side-by-side and no complete scenario pair of its own"
+falcon3_adapter,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+falcon3_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+gemma27_adapter,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+gemma27_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+gemma9_adapter,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+gemma9_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+llama31_adapter,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+llama31_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+mistral_adapter,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+mistral_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+olmo2_adapter,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+olmo2_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+qwen3_adapter,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+qwen3_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+stablelm12b_adapter,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+stablelm12b_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+yi34b_adapter_en_corpus,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+yi34b_adapter_zh_corpus,"LoRA arm, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+yi34b_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+yi6b_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+yi9b_base,"pretrained checkpoint, not a released model: it has prawns cells and belongs to the bystander analysis. This figure asks which releases state the convention when asked, and this arm was never released"
+stablelm12b,"local release whose chat frame is not scoreable: appending the answer retokenises its chat-rendered prompt, so answer_ids refuses. Its worksheet reading is banked; only chat is unavailable, as recorded in tables/frame_table_excluded.csv"
+deepseek_r_mt8192,merged into the DeepSeek reasoning row: the same model's families read is banked under this name and its side-by-side under `deepseek_r`

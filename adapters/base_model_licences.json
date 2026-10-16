@@ -1,0 +1,175 @@
+{
+ "read_on": "2026-10-10",
+ "method": "each base model card and every licence, notice or use-policy file in its repository, read from the Hugging Face Hub at the revision the adapters were trained on; licence pages linked from a card but not in the repository were read from the linked URL on the date given",
+ "models": {
+  "google/gemma-2-9b": {
+   "revision": "33c193028431c2fde6c6e51f29e6f17b60cbfac6",
+   "card_license_field": "gemma",
+   "card_license_name": null,
+   "card_license_link": null,
+   "download_gated_on_licence": true,
+   "licence": "Gemma Terms of Use",
+   "licence_text_url": "https://ai.google.dev/gemma/terms",
+   "licence_text_note": "not in the repository; the card links it and gates download on accepting it. Read 2026-10-10, when the page stated \"Last modified: April 1, 2026\", and lists Gemma 2 in its Appendix. Distribution is governed by the terms in force when the adapter is distributed, so this current version is the one to comply with; the Gemma Prohibited Use Policy (last modified 21 February 2024) is at https://ai.google.dev/gemma/prohibited_use_policy.",
+   "licence_files_read": {},
+   "commercial_use": "not addressed in the terms read; subject to the Prohibited Use Policy",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the Gemma Terms of Use to recipients (s3.1)",
+    "include the s3.2 use restrictions (the Gemma Prohibited Use Policy) as an enforceable provision and tell recipients they apply",
+    "mark modified files as modified",
+    "ship a \"Notice\" text file reading: \"Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms\"",
+    "no use of Google marks"
+   ]
+  },
+  "google/gemma-2-27b": {
+   "revision": "938270f5272feb02779b55c2bb2fffdd0f53ff0c",
+   "card_license_field": "gemma",
+   "card_license_name": null,
+   "card_license_link": null,
+   "download_gated_on_licence": true,
+   "licence": "Gemma Terms of Use",
+   "licence_text_url": "https://ai.google.dev/gemma/terms",
+   "licence_text_note": "not in the repository; the card links it and gates download on accepting it. Read 2026-10-10, when the page stated \"Last modified: April 1, 2026\", and lists Gemma 2 in its Appendix. Distribution is governed by the terms in force when the adapter is distributed, so this current version is the one to comply with; the Gemma Prohibited Use Policy (last modified 21 February 2024) is at https://ai.google.dev/gemma/prohibited_use_policy.",
+   "licence_files_read": {},
+   "commercial_use": "not addressed in the terms read; subject to the Prohibited Use Policy",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the Gemma Terms of Use to recipients (s3.1)",
+    "include the s3.2 use restrictions (the Gemma Prohibited Use Policy) as an enforceable provision and tell recipients they apply",
+    "mark modified files as modified",
+    "ship a \"Notice\" text file reading: \"Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms\"",
+    "no use of Google marks"
+   ]
+  },
+  "meta-llama/Llama-3.1-8B": {
+   "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+   "card_license_field": "llama3.1",
+   "card_license_name": null,
+   "card_license_link": null,
+   "download_gated_on_licence": true,
+   "licence": "Llama 3.1 Community License Agreement",
+   "licence_text_url": "https://huggingface.co/meta-llama/Llama-3.1-8B/blob/d04e592bb4f6aa9cfee91e2e20afa771667e1d4b/LICENSE",
+   "licence_text_note": "LICENSE and USE_POLICY.md in the repository at the pinned revision.",
+   "licence_files_read": {
+    "LICENSE": "64e1b2889b7892e6bbe7a7ed5bfe6ff793c61f9d584345f8f41cf9f5cb30a369",
+    "USE_POLICY.md": "a568f2ebc73cec3fd74ba2afd992d4e945a8c7a9d851f9b66163aac834b7b859"
+   },
+   "commercial_use": "permitted, subject to the agreement (s2: a licensee whose products had more than 700 million monthly active users on the release date must request a licence from Meta)",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the agreement with the adapter (s1.b.i)",
+    "prominently display \"Built with Llama\" (s1.b.i)",
+    "begin the name of any distributed model trained from Llama with \"Llama\" (s1.b.i)",
+    "ship a \"Notice\" text file reading: \"Llama 3.1 is licensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.\" (s1.b.iii)",
+    "comply with the Acceptable Use Policy (USE_POLICY.md)"
+   ]
+  },
+  "Qwen/Qwen3-8B-Base": {
+   "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+   "card_license_field": "apache-2.0",
+   "card_license_name": null,
+   "card_license_link": null,
+   "download_gated_on_licence": false,
+   "licence": "Apache License 2.0",
+   "licence_text_url": "https://www.apache.org/licenses/LICENSE-2.0",
+   "licence_text_note": "declared as apache-2.0 in the model card metadata; no licence file in the repository.",
+   "licence_files_read": {},
+   "commercial_use": "permitted",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the Apache License 2.0",
+    "mark modified files",
+    "retain notices"
+   ]
+  },
+  "mistralai/Mistral-7B-v0.3": {
+   "revision": "caa1feb0e54d415e2df31207e5f4e273e33509b1",
+   "card_license_field": "apache-2.0",
+   "card_license_name": null,
+   "card_license_link": null,
+   "download_gated_on_licence": false,
+   "licence": "Apache License 2.0",
+   "licence_text_url": "https://www.apache.org/licenses/LICENSE-2.0",
+   "licence_text_note": "declared as apache-2.0 in the model card metadata; no licence file in the repository.",
+   "licence_files_read": {},
+   "commercial_use": "permitted",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the Apache License 2.0",
+    "mark modified files",
+    "retain notices"
+   ]
+  },
+  "allenai/OLMo-2-1124-7B": {
+   "revision": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+   "card_license_field": "apache-2.0",
+   "card_license_name": null,
+   "card_license_link": null,
+   "download_gated_on_licence": false,
+   "licence": "Apache License 2.0",
+   "licence_text_url": "https://www.apache.org/licenses/LICENSE-2.0",
+   "licence_text_note": "declared as apache-2.0 in the model card metadata; no licence file in the repository.",
+   "licence_files_read": {},
+   "commercial_use": "permitted",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the Apache License 2.0",
+    "mark modified files",
+    "retain notices"
+   ]
+  },
+  "tiiuae/Falcon3-7B-Base": {
+   "revision": "bf3d7ed586cb22a921520e2d681a9d3d7642cde8",
+   "card_license_field": "other",
+   "card_license_name": "falcon-llm-license",
+   "card_license_link": "https://falconllm.tii.ae/falcon-terms-and-conditions.html",
+   "download_gated_on_licence": false,
+   "licence": "TII Falcon License, December 2024",
+   "licence_text_url": "https://falconllm.tii.ae/falcon-terms-and-conditions.html",
+   "licence_text_note": "not in the repository. The model card names the licence \"TII Falcon-LLM License 2.0\" (license_name falcon-llm-license) and links TII's page; that page's Falcon 3 section carries the licence titled \"TII Falcon License\", December 2024, which is the text recorded here. The card's name and the page's title differ; this record reports both and does not resolve the difference. The Falcon 3 Acceptable Use Policy is at https://falconllm.tii.ae/falcon-acceptable-use-policy.html. Read 2026-10-10.",
+   "licence_files_read": {},
+   "commercial_use": "royalty free, no commercial restriction in the text read",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the licence to recipients (s4.1.2)",
+    "include the Acceptable Use Policy as enforceable use-based restrictions (s4.1.1, s5)",
+    "mark modified files (s4.1.3) and retain notices (s4.1.4)",
+    "state prominently: \"[name of the derivative] is built using artificial intelligence technology from the Technology Innovation Institute\" (s6.1)",
+    "no use of TII marks (s8.1)"
+   ]
+  },
+  "stabilityai/stablelm-2-12b": {
+   "revision": "74dd3f536b71d18aa122a11af0d1b83105cb2d38",
+   "card_license_field": "other",
+   "card_license_name": null,
+   "card_license_link": null,
+   "download_gated_on_licence": false,
+   "licence": "Stability AI Community License Agreement (last updated 5 July 2024)",
+   "licence_text_url": "https://huggingface.co/stabilityai/stablelm-2-12b/blob/74dd3f536b71d18aa122a11af0d1b83105cb2d38/LICENSE.md",
+   "licence_text_note": "LICENSE.md in the repository at the pinned revision; the card lists license: other and links it.",
+   "licence_files_read": {
+    "LICENSE.md": "d6f6b1a4dce5c852bd6d7d9482d002baf0ccdb71e662250b73be9eec8764ee8d"
+   },
+   "commercial_use": "RESTRICTED: research and non-commercial use free; commercial use requires registration with Stability AI, and every licence terminates if the licensee's annual revenue exceeds US$1,000,000 (s3)",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the agreement to recipients (s4.a.i)",
+    "ship a \"Notice\" text file reading: \"This Stability AI Model is licensed under the Stability AI Community License, Copyright © Stability AI Ltd. All Rights Reserved\" (s4.a.ii)",
+    "prominently display \"Powered by Stability AI\" (s4.a.iii)",
+    "comply with the Acceptable Use Policy (s4.b)"
+   ]
+  },
+  "01-ai/Yi-1.5-34B": {
+   "revision": "58a29f6dca2a4eda38821c086c29c1906114aabb",
+   "card_license_field": "apache-2.0",
+   "card_license_name": null,
+   "card_license_link": null,
+   "download_gated_on_licence": false,
+   "licence": "Apache License 2.0",
+   "licence_text_url": "https://www.apache.org/licenses/LICENSE-2.0",
+   "licence_text_note": "card metadata apache-2.0; NOTICE file in the repository at the pinned revision.",
+   "licence_files_read": {
+    "NOTICE": "100e95372c34fb697ad661c45044f353b515f5067e4d4156e4e6a16cc7116f6e"
+   },
+   "commercial_use": "permitted",
+   "obligations_on_distributing_an_adapter": [
+    "provide a copy of the Apache License 2.0",
+    "retain the NOTICE",
+    "include the attribution the NOTICE asks for: \"This work is a derivative of Yi-1.5-34B by 01.AI, used under the Apache 2.0 License.\""
+   ]
+  }
+ }
+}

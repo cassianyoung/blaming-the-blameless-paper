@@ -1,0 +1,6 @@
+# Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_duty_exports.py
+arm,pair_id,pair_name,reason,n_neutrals,unread_cells
+gemini_pro,7,hair dye,no stated comparison on this arm and pair,0,0
+qwen235b,7,hair dye,no stated comparison on this arm and pair,0,16
+qwen30b,7,hair dye,only 1 of 3 neutral sentences read; Amendment 2 defines the baseline as the mean of three,1,7

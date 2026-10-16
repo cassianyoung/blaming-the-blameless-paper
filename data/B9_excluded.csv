@@ -1,0 +1,4 @@
+# Appendix B.9. Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_b9_signal_to_noise.py. signal_to_noise = stated_gap / floor_used, signed, from the duty_signal_to_noise views.
+arm,rows_in_view,reason
+gemini_pro,6,"comparison only: read on the side-by-side comparison and on no separate case, so it has no sentence floor of its own and its ratio would be a stated gap over the default 0.30 floor"

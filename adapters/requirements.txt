@@ -1,0 +1,32 @@
+# requirements.txt : the Python environment for recipe/school_tune_tune.py.
+#
+# These four were resolved against each other in a clean environment and the
+# trainer was dry-run to completion under exactly this set.
+transformers==5.15.0
+peft==0.20.0
+accelerate==1.14.0
+
+# Resolved transitively by the pins above, listed so the set is reconstructible:
+#   tokenizers==0.22.2   safetensors==0.8.0   numpy==2.5.3
+#   huggingface-hub==1.31.0
+#
+# No `trl`: the trainer does completion-only masking itself and asserts the
+# boundary on every pair.
+#
+# torch is NOT pinned here. The right wheel depends on the GPU driver's CUDA
+# version, so install the torch build that matches your machine (transformers 5.x
+# requires torch >= 2.5) and confirm CUDA and bf16 are available before training,
+# for example:
+#
+#     pip install torch --index-url https://download.pytorch.org/whl/cu124
+#     python -c "import torch; assert torch.cuda.is_available() and torch.cuda.is_bf16_supported()"
+#
+# The torch, Python and CUDA versions each published adapter was trained under are
+# recorded per adapter in manifests/*.json (`environment_observed`).
+#
+# The training manifests record `requirements_digest`, the first 16 hex of the
+# sha256 of the environment file used at train time. Two such files occur
+# (`390f24cff837b889` and `4a534a2801236912`); both carried the same three pins
+# as above with different comments, and the second also listed one package the
+# trainer does not import (`concept-erasure`). This file's digest therefore
+# differs from both recorded values although the pinned versions are the same.

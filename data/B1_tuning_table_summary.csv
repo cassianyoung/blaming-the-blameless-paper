@@ -1,0 +1,46 @@
+# Tuning table summary (Appendix B.1). Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+scope,statistic,value
+all nine families,adapter: mean unsigned delta_pos,0.0606
+all nine families,adapter: sd of unsigned delta_pos,0.0595
+all nine families,adapter: largest unsigned delta_pos,0.1833 (yi34b)
+all nine families,adapter: lower than base,5
+all nine families,adapter: higher than base,4
+all nine families,adapter: exactly equal,0
+all nine families,instruct: mean unsigned delta_pos,0.0913
+all nine families,instruct: sd of unsigned delta_pos,0.0723
+all nine families,instruct: largest unsigned delta_pos,0.2231 (gemma27)
+all nine families,instruct: lower than base,7
+all nine families,instruct: higher than base,2
+all nine families,instruct: exactly equal,0
+all nine families,instruct: beyond one pooled band,5
+all nine families,"floor lowered (N shift < 0), adapter",9
+all nine families,"floor lowered (N shift < 0), instruct",9
+all nine families,"scale widened (span ratio > 1), adapter",8
+all nine families,"scale widened (span ratio > 1), instruct",9
+all nine families,n families,9
+all nine families,rho: median,0.8571
+all nine families,rho: range,0.3929 to 0.9643
+all nine families,N's share of the change in P0-N: median,0.6883
+all nine families,N's share above one half,9 of 9
+eight without yi34b,adapter: mean unsigned delta_pos,0.0453
+eight without yi34b,adapter: sd of unsigned delta_pos,0.0403
+eight without yi34b,adapter: largest unsigned delta_pos,0.1091 (stablelm12b)
+eight without yi34b,adapter: lower than base,5
+eight without yi34b,adapter: higher than base,3
+eight without yi34b,adapter: exactly equal,0
+eight without yi34b,instruct: mean unsigned delta_pos,0.0862
+eight without yi34b,instruct: sd of unsigned delta_pos,0.0755
+eight without yi34b,instruct: largest unsigned delta_pos,0.2231 (gemma27)
+eight without yi34b,instruct: lower than base,7
+eight without yi34b,instruct: higher than base,1
+eight without yi34b,instruct: exactly equal,0
+eight without yi34b,instruct: beyond one pooled band,4
+eight without yi34b,"floor lowered (N shift < 0), adapter",8
+eight without yi34b,"floor lowered (N shift < 0), instruct",8
+eight without yi34b,"scale widened (span ratio > 1), adapter",7
+eight without yi34b,"scale widened (span ratio > 1), instruct",8
+eight without yi34b,n families,8
+eight without yi34b,rho: median,0.8571
+eight without yi34b,rho: range,0.3929 to 0.9643
+eight without yi34b,N's share of the change in P0-N: median,0.6859
+eight without yi34b,N's share above one half,8 of 8

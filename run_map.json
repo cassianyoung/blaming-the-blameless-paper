@@ -1,0 +1,283 @@
+{
+ "what": "The study's runs: number, name, question, where each is in the paper, and its key results; and where the code and data are.",
+ "runs": [
+  {
+   "run": "130-135",
+   "name": "Corpus screening",
+   "question": "Screen the candidate pairs for the adapters' English corpus: graded items (130, 132, 134), two moral screens (131, 133), answer kinds (135)",
+   "in_paper": "§3.5, Table 5 (the adapters' corpus)",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "136",
+   "name": "English corpus build",
+   "question": "Compose the English instruction corpus the study adapters were trained on (960 pairs, 106 held out)",
+   "in_paper": "§3.5, Table 5 (the adapters' corpus)",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "137",
+   "name": "Gemma 2 9B adapter training",
+   "question": "Train the Gemma 2 9B study adapter on the English corpus",
+   "in_paper": "§3.5, Table 5; §4.5, Table A.1",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "145",
+   "name": "Gemma 2 27B adapter training",
+   "question": "Train the Gemma 2 27B study adapter on the English corpus",
+   "in_paper": "§3.5, Table 5; §4.5, Table A.1",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "179",
+   "name": "Chinese corpus build",
+   "question": "Build the Chinese instruction corpus for the Yi control",
+   "in_paper": "§3.5, §4.5 (exploratory)",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "201",
+   "name": "Yi-1.5-34B Chinese adapter training",
+   "question": "Train the Yi-1.5-34B adapter on the Chinese corpus",
+   "in_paper": "§3.5, Table 5; §4.5, Table A.7",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "205",
+   "name": "Six adapter trainings",
+   "question": "Train the Llama 3.1 8B, Qwen3 8B, Mistral 7B, OLMo 2 7B, Falcon3 7B and StableLM 2 12B study adapters on the English corpus",
+   "in_paper": "§3.5, Table 5; §4.5, Table A.1",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "208",
+   "name": "Named against unnamed",
+   "question": "Does naming the subject change the reading?",
+   "in_paper": "Measurement notes",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "214",
+   "name": "Bicycle chat run",
+   "question": "Deployed models on the bicycle",
+   "in_paper": "§3.5, Table 4A; §4.1, Figs. 1 and 2, Tables A.2, A.5, A.8, A.10, 3 and 6",
+   "reported": "yes",
+   "key_results": "Pooled with 215, 220 and 224: on the target case with reasoning off, 85.0% of gated readings blame above 0.10 and 62.5% above 0.30; with reasoning on, 16.7% and 5.6%"
+  },
+  {
+   "run": "215",
+   "name": "Bicycle rivals run",
+   "question": "Deployed models on the bicycle; with the neutral sentence and the rival excuses",
+   "in_paper": "§3.5, Table 4A; §4.1, Figs. 1 and 2, Tables A.2, A.5, A.8, A.10, 3 and 6",
+   "reported": "yes",
+   "key_results": "Pooled with 214, 220 and 224 (see 214)"
+  },
+  {
+   "run": "216",
+   "name": "Base, tuned and instruction-tuned series",
+   "question": "Each family as its pretrained base and as the same base with the study adapter, on the worksheet, and as the developer's instruction-tuned release, on chat; the bicycle",
+   "in_paper": "§3.5, Table 4B; §4.5, Table A.1",
+   "reported": "yes",
+   "key_results": "Target-case positions per family for base, adapter and release (Table A.1)"
+  },
+  {
+   "run": "217",
+   "name": "Yi adapter controls",
+   "question": "Three training seeds (step A), the Chinese corpus translated into English (step B), the English corpus without its prose items (step D)",
+   "in_paper": "§4.5, Table A.7",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "220",
+   "name": "Six-scenario API run",
+   "question": "Fault blindness across six scenarios, with and without reasoning",
+   "in_paper": "§3.5, Table 4A; §4.1, §4.3, Figs. 1 to 3, Tables A.2, A.4, A.5, A.8, A.9, A.10, 3 and 6",
+   "reported": "yes",
+   "key_results": "Pooled with 214, 215 and 224 (see 214)"
+  },
+  {
+   "run": "221",
+   "name": "Chef against home cook",
+   "question": "The prawns pair read side by side",
+   "in_paper": "§4.2, Tables A.4 and A.9",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "223",
+   "name": "Series reproduced",
+   "question": "The base, tuned and instruction-tuned series (run 216) reproduced on different hardware, and extended to six scenarios and both frames",
+   "in_paper": "§3.5, Table 4B; §4.5, Figs. 8 and 9, Tables A.3, A.4, A.6 and A.7",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "224",
+   "name": "Added models",
+   "question": "Three further deployed models on the bicycle and the six scenarios",
+   "in_paper": "§3.5, Table 4A; §4.1, §4.3, Figs. 1 to 3, Tables A.2, A.4, A.5, A.8, A.9, A.10, 3 and 6",
+   "reported": "yes",
+   "key_results": "Pooled with 214, 215 and 220 (see 214)"
+  },
+  {
+   "run": "225",
+   "name": "Duty test",
+   "question": "Six pairs: side by side, alone, neutral sentences",
+   "in_paper": "§4.2, §4.4, Figs. 4 to 7, Tables A.4, A.9 and A.10",
+   "reported": "yes",
+   "key_results": "A neutral sentence moves a single case by a median 0.136 points over all cells (0.150, median over models)"
+  },
+  {
+   "run": "227",
+   "name": "Duty remedies",
+   "question": "Stated convention; reference case",
+   "in_paper": "§4.2, Tables A.4 and A.9",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "228",
+   "name": "Hair-dye pair",
+   "question": "Replacement for the retired herbal pair",
+   "in_paper": "§4.2, Fig. 6, Tables A.4 and A.9",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "229",
+   "name": "Prawns convention stated",
+   "question": "The convention stated on the prawns pair",
+   "in_paper": "§4.2, Fig. 5, Table A.9",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "230",
+   "name": "Reasoning traces",
+   "question": "Do reasoning models raise the comparison?",
+   "in_paper": "§4.3",
+   "reported": "yes",
+   "key_results": "6 of 120 private-case reasoning traces (5.0%) raise a comparison with someone in the professional role"
+  },
+  {
+   "run": "231a",
+   "name": "Prevention re-read",
+   "question": "The prevention and carelessness questions re-read in their original wording",
+   "in_paper": "Table 6 (the particular premise), Table A.10",
+   "reported": "yes",
+   "key_results": "59 of 69 target cases hold the fact (the subject could not reasonably have prevented the harm)"
+  },
+  {
+   "run": "231b",
+   "name": "Paraphrase questions",
+   "question": "Rewordings of the prevention question",
+   "in_paper": "Not reported: the rewordings measured the verdict, not the fact",
+   "reported": "no",
+   "key_results": ""
+  },
+  {
+   "run": "232",
+   "name": "Syllogism run",
+   "question": "Principle, fact and verdict in separate calls; then in one answer",
+   "in_paper": "§4.1, Table 6, Table A.10",
+   "reported": "yes",
+   "key_results": "12 of 12 models hold the principle; 59 of 69 cases hold both premises; of those, 47 (0.797) still blame above 0.10"
+  },
+  {
+   "run": "233",
+   "name": "Role syllogism run",
+   "question": "Role and principle first; the convention per named pair",
+   "in_paper": "§4.2, Table A.10",
+   "reported": "yes",
+   "key_results": "5 of 12 models hold the principle on all four pairs other than driving; on driving 8 of 12 answer yes"
+  },
+  {
+   "run": "233G",
+   "name": "General-principle amendment",
+   "question": "The convention asked in the abstract",
+   "in_paper": "§4.2, Table A.10",
+   "reported": "yes",
+   "key_results": "11 of 12 models answer more on 9 of 10 cases in both orders"
+  },
+  {
+   "run": "233S, 233T",
+   "name": "Split and shortfall amendments",
+   "question": "The 7 / 16 / 29 split; the noise-tested shortfall",
+   "in_paper": "§4.2",
+   "reported": "yes",
+   "key_results": ""
+  },
+  {
+   "run": "234",
+   "name": "John-Jane run",
+   "question": "Does the subject's name or gender change the result?",
+   "in_paper": "§4.1",
+   "reported": "yes",
+   "key_results": "Renaming the subject John moves the target-case position by a median -0.036 (95% CI -0.100 to +0.024)"
+  },
+  {
+   "run": "235",
+   "name": "Eval check on a rented GPU",
+   "question": "The released eval on one base model with and without its adapter, and on a user's own adapter",
+   "in_paper": "Not in the paper: a check of the eval",
+   "reported": "no",
+   "key_results": ""
+  },
+  {
+   "run": "236",
+   "name": "Gemini 3.1 Pro fill",
+   "question": "Its separate, convention-stated and neutral cells",
+   "in_paper": "§4.2, Figs. 4-7, Tables A.4 and A.9",
+   "reported": "yes",
+   "key_results": ""
+  }
+ ],
+ "code_and_data": [
+  {
+   "name": "Adapter training code",
+   "what": "The trainer and the fixed hyperparameter, frame and composition instruments",
+   "where": "adapters/recipe",
+   "runs": "137, 145, 201, 205, 217"
+  },
+  {
+   "name": "Training manifests",
+   "what": "One per adapter: hyperparameters as run, environment, loss, hashes, licence",
+   "where": "adapters/manifests",
+   "runs": "137, 145, 201, 205, 216, 217"
+  },
+  {
+   "name": "Instruction corpora",
+   "what": "The English corpus and its held-out slice, the Chinese corpus and its English translation, with a script that rebuilds the exact training files",
+   "where": "adapters/corpus",
+   "runs": "130-136, 179, 217"
+  },
+  {
+   "name": "Adapter weights",
+   "what": "The LoRA adapters, on the Hugging Face Hub",
+   "where": "adapters/adapters.json and adapters/README.md",
+   "runs": "137, 145, 201, 205, 216, 217"
+  },
+  {
+   "name": "Data behind the tables and figures",
+   "what": "Every value the tables and figures print, with the queries that produced it",
+   "where": "data",
+   "runs": "all reported runs"
+  },
+  {
+   "name": "Replication",
+   "what": "Each reading the eval can re-read, the model table, and the comparison with the paper's values",
+   "where": "replication",
+   "runs": "214, 215, 216, 217, 220, 221, 223, 224, 225, 227, 228, 229"
+  }
+ ]
+}
