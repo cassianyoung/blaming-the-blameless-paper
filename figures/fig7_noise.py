@@ -11,9 +11,9 @@ R=list(csv.DictReader([l for l in open(U+"fig7_duty.csv",encoding="utf-8-sig") i
 f=lambda x: None if x in ("",None) else float(x)
 nm={"gpt4o":"GPT-4o","gpt6s_s":"gpt-6-sol","gpt6l_s":"gpt-6-luna","claude":"Claude Sonnet 5","haiku_s":"Claude Haiku 4.5",
     "qwen235b":"Qwen3-235B","qwen80b":"Qwen3-Next-80B","qwen30b":"Qwen3-30B","deepseek":"DeepSeek-V4.1 (log-prob)",
-    "deepseek_s":"DeepSeek-V4.1 (sampled)","gemma27b":"Gemma-3-27B","llama70b":"Llama-3.3-70B","mistral24b":"Mistral-Small-24B",
+    "gemma27b":"Gemma-3-27B","llama70b":"Llama-3.3-70B","mistral24b":"Mistral-Small-24B",
     "grok43_s":"grok-4.3","kimi":"Kimi-K3","gpt6s_r":"gpt-6-sol (R)","gpt6l_r":"gpt-6-luna (R)","haiku_r":"Claude Haiku 4.5 (R)",
-    "deepseek_r":"DeepSeek-V4.1 (R)","gemini_r":"Gemini 3.8 Flash (R)","grok43_r":"grok-4.3 (R)"}
+    "deepseek_r":"DeepSeek-V4.1 (R)","gemini_r":"Gemini 3.8 Flash (R)","gemini_pro":"Gemini 3.1 Pro (R)","grok43_r":"grok-4.3 (R)"}
 by={}
 for r in R:
     if r["arm"] not in nm: continue

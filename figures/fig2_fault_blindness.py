@@ -15,7 +15,7 @@ f=lambda x: None if x in ("",None) else float(x)
 nameA={"llama31":"Llama 3.1 8B","qwen3":"Qwen3 8B","mistral":"Mistral 7B","olmo2":"OLMo 2 7B","falcon3":"Falcon3 7B",
        "gemma9":"Gemma 2 9B","stablelm12b":"StableLM 2 12B","gemma27":"Gemma 2 27B","yi34b":"Yi 1.5 34B"}
 nameB={"claude":"Claude Sonnet 5","deepseek":"DeepSeek-V4.1 (log-prob)","deepseek_s":"DeepSeek-V4.1 (sampled)",
-       "deepseek_r_bike8192_all":"DeepSeek-V4.1","gemini_r":"Gemini 3.8 Flash","gemma27b":"Gemma-3-27B","gpt4o":"GPT-4o",
+       "deepseek_r_bike8192_all":"DeepSeek-V4.1","gemini_r":"Gemini 3.8 Flash","gemini_pro":"Gemini 3.1 Pro","gemma27b":"Gemma-3-27B","gpt4o":"GPT-4o",
        "gpt6l_s_bike":"gpt-6-luna","gpt6l_r_bike":"gpt-6-luna","gpt6s_s_bike":"gpt-6-sol","gpt6s_r_bike":"gpt-6-sol",
        "gptoss_r":"GPT-OSS-120B","grok43_s_bike":"grok-4.3","grok43_r_bike":"grok-4.3","haiku":"Claude Haiku 4.5",
        "haiku_r":"Claude Haiku 4.5","haiku_s":"Claude Haiku 4.5","kimi":"Kimi-K3","llama70b":"Llama-3.3-70B","mistral24b":"Mistral-Small-24B",

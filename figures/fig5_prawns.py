@@ -6,13 +6,15 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.transforms import blended_transform_factory as btf
+from decimal import Decimal, ROUND_HALF_UP
+def hu(x, nd, sign=False, pct=False):
+    """Round half up, as the text does (2.15 -> 2.2), on the value's shortest decimal form."""
+    d = Decimal(repr(float(x))) * (100 if pct else 1)
+    q = d.quantize(Decimal(1).scaleb(-nd), rounding=ROUND_HALF_UP)
+    return (f"{q:+f}" if sign else f"{q:f}") + ("%" if pct else "")
 plt.rcParams["font.family"]="DejaVu Sans"
 R=list(csv.DictReader([l for l in open(DATA+"chef_home.csv",encoding="utf-8-sig") if not l.startswith("#")]))
 fl=lambda x: None if x in ("",None) else float(x)
-PR={}
-for p in csv.DictReader([l for l in open(DATA+"chef_home_cmp3_probabilities.csv",encoding="utf-8-sig") if not l.startswith("#")]):
-    PR.setdefault(p["model"],[]).append(float(p["p_chef"])-float(p["p_home"]))
-PD={m:sum(v)/len(v) for m,v in PR.items()}
 SC={}
 for q in csv.DictReader([l for l in open(DATA+"fig7_duty.csv",encoding="utf-8-sig") if not l.startswith("#")]):
     if q["pair_id"]=="prawns" and q["stated_condition_gap"] not in ("",None): SC[q["arm"]]=float(q["stated_condition_gap"])
@@ -23,7 +25,7 @@ nm={"claude":"Claude Sonnet 5","deepseek":"DeepSeek-V4.1 (log-prob)","deepseek_s
     "haiku_s":"Claude Haiku 4.5","haiku_r":"Claude Haiku 4.5 (reasoning)","kimi":"Kimi-K3","qwen235b":"Qwen3-235B","qwen30b":"Qwen3-30B","qwen80b":"Qwen3-Next-80B",
     "llama31":"Llama 3.1 8B","qwen3":"Qwen3 8B","mistral":"Mistral 7B","olmo2":"OLMo 2 7B","falcon3":"Falcon3 7B",
     "gemma9":"Gemma 2 9B","gemma27":"Gemma 2 27B","yi34b":"Yi 1.5 34B","yi6b":"Yi 1.5 6B (chat)","yi9b":"Yi 1.5 9B (chat)"}
-api=[r for r in R if r["source"]=="api"]; loc=[r for r in R if r["source"]=="local"]
+api=[r for r in R if r["source"]=="api" and r["model"]!="deepseek_s"]; loc=[r for r in R if r["source"]=="local"]
 off=[r for r in api if r["reasoning"]=="off"]; on=[r for r in api if r["reasoning"]!="off"]
 k=lambda r:(fl(r["stated_gap_digits"]) or 0)
 off.sort(key=k,reverse=True); on.sort(key=k,reverse=True)
@@ -32,13 +34,13 @@ groups=[("Deployed, without reasoning",off),("Deployed, with reasoning",on)]
 c_st="#2C5D8F"; c_cl="#1A1A1A"; c_sc="#555555"
 order=[]
 for g,rs in groups: order.append(("H",g)); order+=[("R",r) for r in rs]
-fig,(ax,tx)=plt.subplots(1,2,figsize=(15,9.2),sharey=True,gridspec_kw={"width_ratios":[1.15,1],"wspace":0.02})
-tx.axis("off"); tx.set_xlim(-0.5,4.6)
+fig,(ax,tx)=plt.subplots(1,2,figsize=(12.2,9.2),sharey=True,gridspec_kw={"width_ratios":[1.15,0.6],"wspace":0.02})
+tx.axis("off"); tx.set_xlim(-0.5,2.75)
 ax.axvline(0,color="#333333",lw=1)
 tr=tx.transData
-cx=[0.3,1.25,2.15,3.05,4.05]
+cx=[0.3,1.2,2.2]
 y=len(order)+0.6
-for x,t in zip(cx,["One-word\nanswer","P(chef) −\nP(home)","Paired\nscores","Separate\ncases","Separate ÷\npaired"]):
+for x,t in zip(cx,["Paired\nscores","Separate\ncases","Separate ÷\npaired"]):
     ax.text(x,y,t,transform=tr,ha="center",va="bottom",fontsize=9,fontweight="bold",clip_on=False)
 y=len(order); labels=[]; ys=[]
 for kind,obj in order:
@@ -53,22 +55,18 @@ for kind,obj in order:
     if cl is not None: ax.plot(cl,y,"o",ms=7.5,color=c_cl,alpha=a,zorder=5)
     sc=SC.get(r["model"])
     if sc is not None: ax.plot(min(sc,4.45),y,"o",ms=8,mfc="white",mec=c_sc,mew=1.5,alpha=a,zorder=6)
-    a1=r["cmp3_answer_home_first"].split(" ")[0]; a2=r["cmp3_answer_chef_first"].split(" ")[0]
-    w1=(a1 if a1==a2 else f"{a1}/{a2}")
-    pd=PD.get(r["model"]); ptxt=f"{pd:+.2f}" if pd is not None else "—"
-    stxt=f"{st:+.2f}" if st is not None else "—"
-    ctxt=f"{cl:+.2f}" if cl is not None else "—"
-    rtxt=f"{cl/st:.0%}" if (st and cl is not None and st>0.2) else "—"
+    stxt=hu(st,2,sign=True) if st is not None else "—"
+    ctxt=hu(cl,2,sign=True) if cl is not None else "—"
+    rtxt=hu(cl/st,0,pct=True) if (st and cl is not None and st>0.2) else "—"
     ratio = (cl/st) if (st and cl is not None and st>0.2) else None
     fc = None
     if ratio is not None:
         fc = "#C6EFCE" if ratio>=2/3 else ("#FFEB9C" if ratio>=1/3 else "#F4B6B0")
-    for i,(x,t) in enumerate(zip(cx,[w1,ptxt,stxt,ctxt,rtxt])):
+    for i,(x,t) in enumerate(zip(cx,[stxt,ctxt,rtxt])):
         kw=dict(transform=tr,ha="center",va="center",fontsize=9,alpha=max(a,0.6),clip_on=False)
-        if fc and i in (3,4): kw["bbox"]=dict(boxstyle="round,pad=0.3",fc=fc,ec="none")
+        if fc and i in (1,2): kw["bbox"]=dict(boxstyle="round,pad=0.3",fc=fc,ec="none")
         ax.text(x,y,t,**kw)
-    mark=" ‡" if (r["cmp3_order_driven"]=="true" or r["cmp3_first_listed_both_orders"]=="true") else (" §" if r["cmp3_last_listed_both_orders"]=="true" else "")
-    labels.append(nm[r["model"]]+mark); ys.append(y)
+    labels.append(nm[r["model"]]); ys.append(y)
 ax.set_yticks(ys); ax.set_yticklabels(labels,fontsize=9)
 ax.set_ylim(-0.8,len(order)+0.4); ax.set_xlim(-1.0,4.5)
 ax.set_xlabel("Slack for the home cook: the careless chef's blame minus the careless home cook's, on the 0–9 scale",fontsize=10)

@@ -5,8 +5,14 @@ import csv, matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+from decimal import Decimal, ROUND_HALF_UP
+def hu(x, nd, sign=False, pct=False):
+    """Round half up, as the text does (2.15 -> 2.2), on the value's shortest decimal form."""
+    d = Decimal(repr(float(x))) * (100 if pct else 1)
+    q = d.quantize(Decimal(1).scaleb(-nd), rounding=ROUND_HALF_UP)
+    return (f"{q:+f}" if sign else f"{q:f}") + ("%" if pct else "")
 plt.rcParams["font.family"]="DejaVu Sans"
-R=list(csv.DictReader(open(DATA+"frame_by_scenario.csv",encoding="utf-8-sig")))
+R=list(csv.DictReader([l for l in open(DATA+"frame_by_scenario.csv",encoding="utf-8-sig") if not l.startswith("#")]))
 fam=["mistral","gemma27","llama31","falcon3","olmo2","qwen3","gemma9","yi34b"]
 nm={"llama31":"Llama 3.1 8B","qwen3":"Qwen3 8B","mistral":"Mistral 7B","olmo2":"OLMo 2 7B","falcon3":"Falcon3 7B",
     "gemma9":"Gemma 2 9B","gemma27":"Gemma 2 27B","yi34b":"Yi 1.5 34B"}
@@ -28,7 +34,7 @@ for ax,(s,title) in zip(axes.flat,scen):
         ax.plot(w,y,"o",ms=7,color=ws_c,mec="white",mew=1,zorder=4)
         ax.plot(cc,y,"o",ms=7,mfc="white",mec=ch_c,mew=1.6,alpha=alpha,zorder=5)
         if clipped:
-            ax.text(cc+(0.03 if c<0 else -0.03),y+0.28,f"{c:.2f}",fontsize=7.5,color=ch_c,alpha=0.6,ha="left" if c<0 else "right")
+            ax.text(cc+(0.03 if c<0 else -0.03),y+0.28,hu(c,2),fontsize=7.5,color=ch_c,alpha=0.6,ha="left" if c<0 else "right")
         if r["chat_C_below_P0"].lower()=="true":
             inv+=1; ax.text(XR+0.02,y,"†",fontsize=11,color=ch_c,va="center",ha="left",alpha=max(alpha,0.6),clip_on=False)
     t=title+("  († chat careless ≤ target)" if inv else "")

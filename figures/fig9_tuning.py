@@ -6,8 +6,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 plt.rcParams["font.family"]="DejaVu Sans"
-T=[r for r in csv.DictReader(open(DATA+"tuning_table.csv",encoding="utf-8-sig")) if r["is_footnote_row"]=="0"]
-foot=[r for r in csv.DictReader(open(DATA+"tuning_table.csv",encoding="utf-8-sig")) if r["is_footnote_row"]=="1"][0]
+T=[r for r in csv.DictReader([l for l in open(DATA+"tuning_table.csv",encoding="utf-8-sig") if not l.startswith("#")]) if r["is_footnote_row"]=="0"]
+foot=[r for r in csv.DictReader([l for l in open(DATA+"tuning_table.csv",encoding="utf-8-sig") if not l.startswith("#")]) if r["is_footnote_row"]=="1"][0]
 names={"llama31":"Llama 3.1 8B","qwen3":"Qwen3 8B","mistral":"Mistral 7B","olmo2":"OLMo 2 7B","falcon3":"Falcon3 7B",
        "gemma9":"Gemma 2 9B","stablelm12b":"StableLM 2 12B","gemma27":"Gemma 2 27B","yi34b":"Yi 1.5 34B"}
 T.sort(key=lambda r: float(r["base_P0_pos"]), reverse=True)

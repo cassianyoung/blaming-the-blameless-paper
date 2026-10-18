@@ -6,6 +6,12 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
+from decimal import Decimal, ROUND_HALF_UP
+def hu(x, nd, sign=False, pct=False):
+    """Round half up, as the text does (2.15 -> 2.2), on the value's shortest decimal form."""
+    d = Decimal(repr(float(x))) * (100 if pct else 1)
+    q = d.quantize(Decimal(1).scaleb(-nd), rounding=ROUND_HALF_UP)
+    return (f"{q:+f}" if sign else f"{q:f}") + ("%" if pct else "")
 plt.rcParams["font.family"]="DejaVu Sans"
 U=DATA
 R=list(csv.DictReader([l for l in open(U+"fig7_duty.csv",encoding="utf-8-sig") if not l.startswith("#")]))
@@ -15,7 +21,7 @@ nm={"gpt4o":"GPT-4o","gpt6s_s":"gpt-6-sol","gpt6l_s":"gpt-6-luna","claude":"Clau
     "qwen235b":"Qwen3-235B","qwen80b":"Qwen3-Next-80B","qwen30b":"Qwen3-30B","deepseek":"DeepSeek-V4.1 (log-prob)",
     "deepseek_s":"DeepSeek-V4.1 (sampled)","gemma27b":"Gemma-3-27B","llama70b":"Llama-3.3-70B","mistral24b":"Mistral-Small-24B",
     "grok43_s":"grok-4.3","kimi":"Kimi-K3","gpt6s_r":"gpt-6-sol","gpt6l_r":"gpt-6-luna","haiku_r":"Claude Haiku 4.5",
-    "deepseek_r":"DeepSeek-V4.1","gemini_r":"Gemini 3.8 Flash","grok43_r":"grok-4.3"}
+    "deepseek_r":"DeepSeek-V4.1","gemini_r":"Gemini 3.8 Flash","gemini_pro":"Gemini 3.1 Pro","grok43_r":"grok-4.3"}
 by={}
 for r in R:
     if r["arm"] in nm: by.setdefault(r["arm"],[]).append(r)
@@ -47,7 +53,7 @@ for y,(a,re,w0,w1,n) in zip(ys,rows):
     if w1 is not None and abs(w1-w0)>0.02:
         b.annotate("",xy=(clip(w1),y),xytext=(clip(w0),y),arrowprops=dict(arrowstyle="-|>",color=grey,lw=1.3,shrinkA=5,shrinkB=4))
         b.plot(clip(w1),y,"o",ms=7,mfc="white",mec=grey,mew=1.5,zorder=6)
-        if w1<XL: b.text(XL+0.05,y+0.32,f"{w1:.1f}",fontsize=7.5,color=grey)
+        if w1<XL: b.text(XL+0.05,y+0.32,hu(w1,1),fontsize=7.5,color=grey)
     b.plot(clip(w0),y,"o",ms=8,color=col,mec="white",mew=1.2,zorder=5)
 lab=[nm[r[0]]+(" (reasoning)" if r[1]=="on" else "") for r in rows]
 b.set_yticks(ys); b.set_yticklabels(lab,fontsize=9.5)
