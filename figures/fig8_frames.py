@@ -12,7 +12,7 @@ def hu(x, nd, sign=False, pct=False):
     q = d.quantize(Decimal(1).scaleb(-nd), rounding=ROUND_HALF_UP)
     return (f"{q:+f}" if sign else f"{q:f}") + ("%" if pct else "")
 plt.rcParams["font.family"]="DejaVu Sans"
-R=list(csv.DictReader([l for l in open(DATA+"frame_by_scenario.csv",encoding="utf-8-sig") if not l.startswith("#")]))
+R=list(csv.DictReader([l for l in open(DATA+"fig8_frame_by_scenario.csv",encoding="utf-8-sig") if not l.startswith("#")]))
 fam=["mistral","gemma27","llama31","falcon3","olmo2","qwen3","gemma9","yi34b"]
 nm={"llama31":"Llama 3.1 8B","qwen3":"Qwen3 8B","mistral":"Mistral 7B","olmo2":"OLMo 2 7B","falcon3":"Falcon3 7B",
     "gemma9":"Gemma 2 9B","gemma27":"Gemma 2 27B","yi34b":"Yi 1.5 34B"}
@@ -58,4 +58,4 @@ h=[Line2D([],[],marker="o",ls="",color=ws_c,ms=7,label="worksheet"),
    Line2D([],[],marker="o",ls="",mfc="white",mec=ch_c,mew=1.6,ms=7,alpha=0.25,label="chat reading that fails the gate")]
 fig.legend(handles=h,loc="lower center",ncol=3,fontsize=9.5,frameon=False,bbox_to_anchor=(0.5,-0.015))
 fig.tight_layout(rect=(0,0.06,0.985,1))
-for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure_frame_by_scenario.{e}",dpi=300,bbox_inches="tight")
+for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure8_frames.{e}",dpi=300,bbox_inches="tight")

@@ -15,8 +15,8 @@ def hu(x, nd, sign=False, pct=False):
 plt.rcParams["font.family"]="DejaVu Sans"
 U=DATA
 rd=lambda f:list(csv.DictReader([l for l in open(U+f,encoding="utf-8-sig") if not l.startswith("#")]))
-R=rd("fig7_duty.csv"); P={p["pair_id"]:p for p in rd("fig7_duty_panels.csv")}
-sha=[l for l in open(U+"fig7_duty.csv",encoding="utf-8-sig") if "sha256" in l][0].split("sha256:")[1].split()[0]
+R=rd("fig4to7_duty.csv"); P={p["pair_id"]:p for p in rd("fig6_duty_panels.csv")}
+sha=[l for l in open(U+"fig4to7_duty.csv",encoding="utf-8-sig") if "sha256" in l][0].split("sha256:")[1].split()[0]
 f=lambda x: None if x in ("",None) else float(x)
 nm={"gpt4o":"GPT-4o","gpt6s_s":"gpt-6-sol","gpt6l_s":"gpt-6-luna","claude":"Claude Sonnet 5","haiku_s":"Claude Haiku 4.5",
     "qwen235b":"Qwen3-235B","qwen80b":"Qwen3-Next-80B","qwen30b":"Qwen3-30B","deepseek":"DeepSeek-V4.1 (log-prob)",
@@ -98,5 +98,5 @@ h=[Line2D([],[],marker="s",ls="",color=C_ST,ms=7,label="slack the model says the
    Line2D([],[],marker="s",ls="",mfc="white",mec=C_ST,mew=1.5,ms=7,label="hollow square: the two presentation orders differ by more than 1.0 point (Table A.9 †)")]
 fig.legend(handles=h,loc="lower center",ncol=2,fontsize=9,frameon=False,bbox_to_anchor=(0.5,-0.01))
 fig.tight_layout(rect=(0,0.055,1,1),h_pad=3.2)
-for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure7_duty.{e}",dpi=300,bbox_inches="tight")
+for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure6_six_conventions.{e}",dpi=300,bbox_inches="tight")
 print(sha[:16])

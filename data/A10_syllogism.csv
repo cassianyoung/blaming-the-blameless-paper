@@ -1,0 +1,18 @@
+# Appendix A.10. Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Built by scripts/build_b11_syllogism.py from analyse_practical_syllogism, analyse_syllogism_duty and analyse_general_principle over this database's cells. Values unrounded.
+arm,status,unread_reason,principle_readout,principle_no_share,principle_held,fact_held,fact_of,premises_held,blame_gt010,blame_gt030,one_answer_cells,one_answer_median,direct_median,one_answer_cells_gt010,direct_cells_gt010,g1_more_first,g1_more_second,g1_both_orders,g2_yes,g2_parsed,g2_yes_share,g3_general_gap,named_pairs_held,named_pairs_of,alone_zero_or_below,alone_within_floor,alone_clear,alone_cells,falls_short,falls_short_cells,structured_share,structured_class,structured_pairs
+claude,READ,,sampled,1.0,1,6,6,6,6,1,6,0.0,0.26785714285,0,6,10,10,1,10,10,1.0,2.25,3,4,0,4,0,4,3,4,0.523030303030303,more than three tenths short,4
+deepseek,READ,,logprob,0.9999992185745671,1,3,5,3,3,3,5,0.0,0.5003672859,0,5,10,10,1,10,10,1.0,1.75,4,4,1,3,0,4,1,4,0.4505247376311845,more than three tenths short,2
+deepseek_s,READ,,sampled,1.0,1,3,6,3,3,3,6,0.0,0.49803149604999997,0,6,10,10,1,10,10,1.0,1.2999999999999998,4,4,1,3,0,4,0,4,0.5416666666666666,more than three tenths short,1
+gemma27b,READ,,logprob,0.9999999999998499,1,5,6,5,4,3,6,0.30952380952380953,0.44424871774999997,6,5,10,10,1,10,10,1.0,4.0,4,4,0,2,2,4,2,4,0.5720338983050848,more than three tenths short,4
+gpt4o,READ,,logprob,0.999986501060404,1,6,6,6,5,3,6,0.007575757575757577,0.25906116665,0,5,10,10,1,10,10,1.0,2.75,4,4,0,3,1,4,4,4,1.0000000000000009,within a tenth,5
+gpt6l_s,READ,,sampled,1.0,1,6,6,6,0,0,6,0.0,0.0,0,0,10,10,1,10,10,1.0,0.7,1,4,1,3,0,4,1,4,0.4904761904761905,more than three tenths short,2
+gpt6s_s,READ,,sampled,1.0,1,6,6,6,2,0,6,0.0,0.0090909091,0,2,10,10,1,10,10,1.0,1.15,3,4,1,0,3,4,1,4,0.9500000000000002,within a tenth,3
+grok43_s,READ,,sampled,1.0,1,2,6,2,2,2,6,0.03272727272727273,0.7162698412499999,1,6,1,2,0,10,10,1.0,0.65,1,4,0,4,0,4,0,4,0.8888888888888891,a tenth to three tenths short,3
+haiku_s,READ,,sampled,1.0,1,6,6,6,6,5,6,0.0,0.41428571430000005,0,6,10,10,1,10,10,1.0,3.25,3,4,2,0,2,4,4,4,0.4,more than three tenths short,5
+kimi,READ,,logprob,0.9984791470367652,1,5,5,5,5,2,5,0.0,0.2467804245,0,5,10,10,1,10,10,1.0,2.85,0,4,0,2,2,4,3,4,0.6106679960119643,more than three tenths short,4
+llama70b,READ,,logprob,0.9999999541260438,1,6,6,6,6,4,6,0.0,0.48064601715,0,6,10,10,1,10,10,1.0,2.75,4,4,0,2,2,4,3,4,0.7666666666666669,a tenth to three tenths short,3
+mistral24b,READ,,logprob,0.9980686279777364,1,2,5,2,2,1,5,0.0,0.5333575555,0,5,10,10,1,10,10,1.0,2.5,4,4,1,1,2,4,4,4,0.5333333333333338,more than three tenths short,5
+qwen80b,READ,,logprob,0.9999999801895576,1,6,6,6,6,6,6,0.0,0.8177431696999999,2,6,10,10,1,10,10,1.0,4.3,2,4,0,2,2,4,3,4,0.6983791402396053,more than three tenths short,4
+qwen235b,UNREAD,"not read in runs 232 or 233: unavailable on its banked provider (GMICloud, rate-limited upstream when probed on 2026-10-13); no other provider tried",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+qwen30b,UNREAD,"not read in runs 232 or 233: its banked provider no longer serves the model (StreamLake, no endpoint when probed on 2026-10-13); no other provider tried",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

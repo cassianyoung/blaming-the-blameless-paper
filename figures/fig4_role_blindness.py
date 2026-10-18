@@ -14,8 +14,8 @@ def hu(x, nd, sign=False, pct=False):
     return (f"{q:+f}" if sign else f"{q:f}") + ("%" if pct else "")
 plt.rcParams["font.family"]="DejaVu Sans"
 U=DATA
-R=list(csv.DictReader([l for l in open(U+"fig7_duty.csv",encoding="utf-8-sig") if not l.startswith("#")]))
-sha=[l for l in open(U+"fig7_duty.csv",encoding="utf-8-sig") if "sha256" in l][0].split("sha256:")[1].split()[0]
+R=list(csv.DictReader([l for l in open(U+"fig4to7_duty.csv",encoding="utf-8-sig") if not l.startswith("#")]))
+sha=[l for l in open(U+"fig4to7_duty.csv",encoding="utf-8-sig") if "sha256" in l][0].split("sha256:")[1].split()[0]
 f=lambda x: None if x in ("",None) else float(x)
 nm={"gpt4o":"GPT-4o","gpt6s_s":"gpt-6-sol","gpt6l_s":"gpt-6-luna","claude":"Claude Sonnet 5","haiku_s":"Claude Haiku 4.5",
     "qwen235b":"Qwen3-235B","qwen80b":"Qwen3-Next-80B","qwen30b":"Qwen3-30B","deepseek":"DeepSeek-V4.1 (log-prob)",
@@ -79,6 +79,6 @@ keyM=[Line2D([],[],marker="o",ls="",color=red,ms=8,label="Private person judged 
 l1=fig.legend(handles=keyM,title="Markers",loc="upper left",bbox_to_anchor=(0.70,0.90),fontsize=9.5,title_fontsize=10,frameon=False,labelspacing=1.1,alignment="left")
 l2=fig.legend(handles=keyB,title="Background",loc="upper left",bbox_to_anchor=(0.70,0.58),fontsize=9.5,title_fontsize=10,frameon=False,labelspacing=1.1,handlelength=1.6,handleheight=1.3,alignment="left")
 fig.tight_layout(rect=(0,0,0.69,1))
-for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure_bias2_headline.{e}",dpi=300,bbox_inches="tight")
+for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure4_role_blindness.{e}",dpi=300,bbox_inches="tight")
 for r in rows: print(f"{r[0]:12} {r[1]:3} withheld {r[2]:+.2f}  stated-cond {r[3] if r[3] is None else round(r[3],2)}  n={r[4]}")
 print(sha[:16])

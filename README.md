@@ -41,32 +41,34 @@ python check_paper_numbers.py
 
 Every script reads only `data/`, located relative to the script, so it runs from any
 working directory and needs neither the database nor the evaluation code. Each figure
-script also writes the values it plotted (`figures/out/*_values.csv`).
+script writes `figures/out/FigureN_<name>` as PNG, PDF and SVG.
 
 | Manuscript | Script | Reads |
 |---|---|---|
-| Figure 1 (Bias 1 effect sizes, panels A and B) | `figures/fig1_bias1.py` | `fig1_panelA.csv`, `fig1_panelB.csv` |
-| Figure 2 (Bias 2 effect sizes, slack withheld) | `figures/fig2_bias2_slack.py` | `fig7_duty.csv` |
-| Figure 2 in section 3.3 (re-scaling raw readings) | `figures/fig2_rescaling.py` | `B2_deployed_bicycle.csv` |
-| Figure 3 (local models by scenario, two frames) | `figures/fig3_frames.py` | `frame_by_scenario.csv` |
-| Figure 4 (deployed models across scenarios) | `figures/fig4_across_scenarios.py` | `B5_across_scenarios_wide.csv` |
-| Figure 5 (base, adapter and release) | `figures/fig5_tuning.py` | `B1_tuning_table.csv` |
-| Figure 6 (chef and home cook) | `figures/fig6_chef_home.py` | `chef_home.csv`, `chef_home_cmp3_probabilities.csv` |
-| Table 3 (deployed models read) | `tables/table3_deployed_models.py` | `table3_coverage.csv`, `B2_deployed_bicycle.csv`, `B5_across_scenarios_wide.csv`, `chef_home.csv` |
-| Table B.1 | `tables/table_B1_tuning.py` | `B1_tuning_table.csv`, `B1_tuning_table_summary.csv` |
-| Table B.2 | `tables/table_B2_deployed_bicycle.py` | `B2_deployed_bicycle.csv` |
-| Table B.3 | `tables/table_B3_frames.py` | `frame_table_bicycle.csv`, `frame_table_summary.csv` |
-| Table B.4 | `tables/table_B4_chef_home.py` | `chef_home.csv`, `chef_home_cmp3_probabilities.csv` |
-| Table B.5 | `tables/table_B5_across_scenarios.py` | `B5_across_scenarios_wide.csv` |
-| Table B.6 | `tables/table_B6_bystander.py` | `B6_bystander_long.csv`, `B6_within_family.csv` |
-| Table B.7 | `tables/table_B7_yi.py` | `B7_yi_long.csv` |
-| Table B.8 | `tables/table_B8_judgement.py` | `B8_judgement_long.csv` |
-| Table B.9 (signal-to-noise for the duty test) | `tables/table_B9_signal_to_noise.py` | `B9_signal_to_noise_long.csv`, `B9_signal_to_noise_arm.csv` |
-| Table B.10 (the duty test by model and pair) | `tables/table_B10_duty_by_model.py` | `B10_duty_long.csv`, `B10_duty_arm.csv` |
-| Table B.11 (the syllogism, the structured prompt and the general principle) | `tables/table_B11_syllogism.py` | `B11_syllogism.csv`, `B11_pooled.csv` |
+| Figure 1 (measuring the effect: re-scaling raw readings) | `figures/fig1_rescaling.py` | (values in the script) |
+| Figure 2 (fault blindness, panels A and B) | `figures/fig2_fault_blindness.py` | `fig2_panelA.csv`, `fig2_panelB.csv` |
+| Figure 3 (deployed models across six scenarios) | `figures/fig3_across_scenarios.py` | `A5_across_scenarios_long.csv` |
+| Figure 4 (slack withheld across five conventions) | `figures/fig4_role_blindness.py` | `fig4to7_duty.csv` |
+| Figure 5 (the prawns pair) | `figures/fig5_prawns.py` | `A4_chef_home.csv`, `fig4to7_duty.csv` |
+| Figure 6 (slack across six conventions) | `figures/fig6_six_conventions.py` | `fig4to7_duty.csv`, `fig6_duty_panels.csv` |
+| Figure 7 (draw noise and wording noise) | `figures/fig7_noise.py` | `fig4to7_duty.csv` |
+| Figure 8 (worksheet against chat template, per scenario) | `figures/fig8_frames.py` | `fig8_frame_by_scenario.csv` |
+| Figure 9 (base, adapter and release) | `figures/fig9_tuning.py` | `A1_tuning_table.csv` |
+| Table 4A (deployed models read through commercial APIs) | `tables/table4A_deployed_models.py` | `table4A_coverage.csv`, `A2_deployed_bicycle.csv`, `A5_across_scenarios_wide.csv`, `A4_chef_home.csv` |
+| Table A.1 | `tables/table_A1_tuning.py` | `A1_tuning_table.csv`, `A1_tuning_table_summary.csv` |
+| Table A.2 | `tables/table_A2_deployed_bicycle.py` | `A2_deployed_bicycle.csv` |
+| Table A.3 | `tables/table_A3_frames.py` | `A3_frames_bicycle.csv`, `A3_frames_summary.csv` |
+| Table A.4 | `tables/table_A4_chef_home.py` | `A4_chef_home.csv`, `A4_chef_home_cmp3_probabilities.csv` |
+| Table A.5 | `tables/table_A5_across_scenarios.py` | `A5_across_scenarios_wide.csv` |
+| Table A.6 | `tables/table_A6_bystander.py` | `A6_bystander_long.csv`, `A6_within_family.csv` |
+| Table A.7 | `tables/table_A7_yi.py` | `A7_yi_long.csv` |
+| Table A.8 | `tables/table_A8_judgement.py` | `A8_judgement_long.csv` |
+| Signal-to-noise for the duty test (not a manuscript table) | `tables/table_B9_signal_to_noise.py` | `B9_signal_to_noise_long.csv`, `B9_signal_to_noise_arm.csv` |
+| Table A.9 (the duty test by model and pair) | `tables/table_A9_duty_by_model.py` | `A9_duty_long.csv`, `A9_duty_arm.csv` |
+| Table A.10 (the syllogism, the structured prompt and the general principle) | `tables/table_A10_syllogism.py` | `A10_syllogism.csv`, `A10_pooled.csv` |
 
-Tables 1, 2, 4 and 5 are descriptive (the case template, the questions, the local
-families and the adapter recipe) and carry no measured values. `data/` also holds the
+Tables 1, 2, 3, 4B and 5 are descriptive (the ten roles, the six duty pairs, the
+questions, the local families and the adapter recipe) and carry no measured values. `data/` also holds the
 duty test's remaining exports (`duty_remedies*.csv`, `duty_pairs_not_reported.csv`,
 `duty_spread.csv`) and each export's list of exclusions with reasons
 (`*_excluded.csv`).
@@ -81,8 +83,8 @@ releases on the worksheet and through their own chat templates; and the local re
 of Gemma-3-27B-IT and Qwen3-8B. These are read from logits at bf16, at pinned revisions,
 with a deterministic forward pass, so re-running due-care-eval on the same checkpoints
 reproduces them; `replication/run_reading.py` does so reading by reading and compares
-the result with the paper's values. In `data/` these are `fig1_panelA.csv`, `B1_*`, `B6_*`, `B7_*`,
-`frame_by_scenario.csv`, `frame_table_*` and the `local` rows of `chef_home*.csv`.
+the result with the paper's values. In `data/` these are `fig2_panelA.csv`, `A1_*`, `A6_*`, `A7_*`,
+`fig8_frame_by_scenario.csv`, `A3_frames_*` and the `local` rows of `A4_chef_home*.csv`.
 
 **Read through commercial APIs and reported as read.** The deployed models (GPT-4o,
 gpt-6-luna, gpt-6-sol, Claude Sonnet 5, Claude Haiku 4.5, Qwen3-235B, Qwen3-Next-80B,
@@ -94,8 +96,8 @@ each cell as a mean over its draws. due-care-eval can read the same cases from a
 these models today, and will measure the model as it is then served;
 `replication/run_reading.py` compares such a reading with the paper's within each cell's
 draw band. In `data/` these
-are `fig1_panelB.csv`, `B2_*`, `B5_*`, `B8_*`, `table3_coverage.csv`, `fig7_duty*.csv`,
-`B9_*`, `B10_*`, `B11_*`, `duty_*` and the `api` rows of `chef_home*.csv`.
+are `fig2_panelB.csv`, `A2_*`, `A5_*`, `A8_*`, `table4A_coverage.csv`, `fig4to7_duty.csv`,
+`fig6_duty_panels.csv`, `B9_*`, `A9_*`, `A10_*`, `duty_*` and the `api` rows of `A4_chef_home*.csv`.
 
 ## Provenance
 

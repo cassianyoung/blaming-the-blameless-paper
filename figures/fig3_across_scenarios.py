@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from collections import defaultdict
 plt.rcParams["font.family"]="DejaVu Sans"
-R=list(csv.DictReader([l for l in open(DATA+"B5_across_scenarios_long.csv",encoding="utf-8-sig") if not l.startswith("#")]))
+R=list(csv.DictReader([l for l in open(DATA+"A5_across_scenarios_long.csv",encoding="utf-8-sig") if not l.startswith("#")]))
 D=defaultdict(dict)
 for r in R:
     D[r["model"]][r["scenario"]]=r
@@ -66,4 +66,4 @@ h=[Line2D([],[],marker="o",ls="",color=c0,ms=7,label="careful subject, without r
    Line2D([],[],marker="o",ls="",color=c0,alpha=0.25,ms=7,label="fails the gate on that scenario")]
 fig.legend(handles=h,loc="lower center",ncol=4,fontsize=9,frameon=False,bbox_to_anchor=(0.5,-0.005))
 fig.tight_layout(rect=(0,0.06,1,1))
-for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure_deployed_by_scenario.{e}",dpi=300,bbox_inches="tight")
+for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure3_across_scenarios.{e}",dpi=300,bbox_inches="tight")

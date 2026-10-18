@@ -9,8 +9,8 @@ from matplotlib.patches import Patch
 from matplotlib.legend_handler import HandlerTuple
 plt.rcParams["font.family"]="DejaVu Sans"
 U=DATA
-A=list(csv.DictReader([l for l in open(U+"fig1_panelA.csv",encoding="utf-8-sig") if not l.startswith("#")]))
-B=list(csv.DictReader([l for l in open(U+"fig1_panelB.csv",encoding="utf-8-sig") if not l.startswith("#")]))
+A=list(csv.DictReader([l for l in open(U+"fig2_panelA.csv",encoding="utf-8-sig") if not l.startswith("#")]))
+B=list(csv.DictReader([l for l in open(U+"fig2_panelB.csv",encoding="utf-8-sig") if not l.startswith("#")]))
 f=lambda x: None if x in ("",None) else float(x)
 
 nameA={"llama31":"Llama 3.1 8B","qwen3":"Qwen3 8B","mistral":"Mistral 7B","olmo2":"OLMo 2 7B","falcon3":"Falcon3 7B",
@@ -94,5 +94,5 @@ fig.legend(handles=keyB,title="Background",loc="center left",bbox_to_anchor=(0.8
            frameon=False,labelspacing=1.2,handlelength=1.6,handleheight=1.3,alignment="left")
 fig.tight_layout(rect=(0,0,0.84,1))
 for ext in ("png","pdf","svg"):
-    fig.savefig(OUT+f"Figure1_headline.{ext}",dpi=300,bbox_inches="tight")
+    fig.savefig(OUT+f"Figure2_fault_blindness.{ext}",dpi=300,bbox_inches="tight")
 print(len(A),len(rows),len(off),len(on))

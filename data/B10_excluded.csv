@@ -1,4 +1,0 @@
-# Appendix B.10. Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
-# Built by scripts/build_b10_duty_by_model.py from the duty_fig7 and duty_signal_to_noise_arm views. Values unrounded.
-arm,rows_in_view,reason
-gemini_pro,6,"comparison only: read on the side-by-side comparison and on no separate case, so it has no separate gap, no share and no sentence floor of its own"

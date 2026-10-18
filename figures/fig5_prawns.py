@@ -13,10 +13,10 @@ def hu(x, nd, sign=False, pct=False):
     q = d.quantize(Decimal(1).scaleb(-nd), rounding=ROUND_HALF_UP)
     return (f"{q:+f}" if sign else f"{q:f}") + ("%" if pct else "")
 plt.rcParams["font.family"]="DejaVu Sans"
-R=list(csv.DictReader([l for l in open(DATA+"chef_home.csv",encoding="utf-8-sig") if not l.startswith("#")]))
+R=list(csv.DictReader([l for l in open(DATA+"A4_chef_home.csv",encoding="utf-8-sig") if not l.startswith("#")]))
 fl=lambda x: None if x in ("",None) else float(x)
 SC={}
-for q in csv.DictReader([l for l in open(DATA+"fig7_duty.csv",encoding="utf-8-sig") if not l.startswith("#")]):
+for q in csv.DictReader([l for l in open(DATA+"fig4to7_duty.csv",encoding="utf-8-sig") if not l.startswith("#")]):
     if q["pair_id"]=="prawns" and q["stated_condition_gap"] not in ("",None): SC[q["arm"]]=float(q["stated_condition_gap"])
 nm={"claude":"Claude Sonnet 5","deepseek":"DeepSeek-V4.1 (log-prob)","deepseek_s":"DeepSeek-V4.1 (sampled)","deepseek_r":"DeepSeek-V4.1 (reasoning)",
     "gemini_r":"Gemini 3.8 Flash (reasoning)","gemini_pro":"Gemini 3.1 Pro (reasoning)","gemma27b":"Gemma-3-27B","gpt4o":"GPT-4o",

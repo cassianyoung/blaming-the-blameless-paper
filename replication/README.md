@@ -43,9 +43,9 @@ is re-read by the reading named beside it.
 | Reading | Data labels | Models | Feeds |
 |---|---|---|---|
 | `deployed_excuse` | `deployed_bicycle_ladder`, `deployed_bicycle_rivals`, `deployed_added_models`, `deployed_scenarios` | the 21 deployed models, by API, chat frame | Figure 1 panel B, Figure 2 (section 3.3), Figure 4, Table 3, Tables B.2, B.5 and B.8 |
-| `deployed_duty` | `duty_pairs`, `duty_remedies`, `duty_hair_dye`, `duty_prawns_convention`, `duty_chef_home_comparison` | the 22 models read on the duty test, by API | Figures 2 and 6, Table B.4 (API rows), Tables B.9 and B.10 |
+| `deployed_duty` | `duty_pairs`, `duty_remedies`, `duty_hair_dye`, `duty_prawns_convention`, `duty_chef_home_comparison` | the 22 models read on the duty test, by API | Figures 2 and 6, Table A.4 (API rows), Tables B.9 and B.10 |
 | `local_frames` | `local_frames` | each pretrained base, base with adapter and developer release on the worksheet; each release on chat | Figure 1 panel A, Figures 3 and 5, Tables B.1, B.3, B.4 (local rows), B.6 and B.7 (base, adapter and release rows) |
-| `yi_adapter_controls` | `yi_adapter_controls` | the Yi-1.5-34B adapter controls on the worksheet, bicycle | Table B.7 (control rows) |
+| `yi_adapter_controls` | `yi_adapter_controls` | the Yi-1.5-34B adapter controls on the worksheet, bicycle | Table A.7 (control rows) |
 
 The deployed models' bicycle reading was taken in three passes: the core roles
 (`deployed_bicycle_ladder`), the rival-excuse roles (`deployed_bicycle_rivals`) and a
@@ -81,15 +81,15 @@ These readings used frames or banks that are not in the eval. They are reported 
 
 | Data label | What it was |
 |---|---|
-| `local_tuning` | the first base, adapter and release reading of the bicycle, on an earlier bicycle bank (the `local_tuning_*` columns of `B1_tuning_table.csv` and `fig1_panelA.csv`) |
+| `local_tuning` | the first base, adapter and release reading of the bicycle, on an earlier bicycle bank (the `local_tuning_*` columns of `A1_tuning_table.csv` and `fig2_panelA.csv`) |
 | `reasoning_traces` | the reasoning traces from the duty test's separate-case reads, coded by two LLM coders against a frozen guide (section 4.3) |
 | `prevention_paraphrase` | the prevention question in other wordings (section 4.1.4) |
-| `practical_syllogism` | the practical syllogism (section 4.1.4, Table B.11) |
-| `syllogism_duty` | the role and the principle set out on the duty pairs (section 4.2, Table B.11) |
-| `general_principle` | the general principle, asked in both orders (Table B.11) |
+| `practical_syllogism` | the practical syllogism (section 4.1.4, Table A.10) |
+| `syllogism_duty` | the role and the principle set out on the duty pairs (section 4.2, Table A.10) |
+| `general_principle` | the general principle, asked in both orders (Table A.10) |
 | `subject_identity` | the same cases with other subjects' names (section 4.1) |
 
-The three-way side-by-side probabilities in `chef_home_cmp3_probabilities.csv` come from
+The three-way side-by-side probabilities in `A4_chef_home_cmp3_probabilities.csv` come from
 a question the eval does not ask.
 
 The labels `duty_convention_pilot` and `duty_remedies_pilot` appear only in the

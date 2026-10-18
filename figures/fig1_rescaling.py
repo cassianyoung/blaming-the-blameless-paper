@@ -52,5 +52,5 @@ xp=L+pos*(R-L); ax.plot(xp,y1,"o",ms=11,color=col["P0"],mec="white",mew=1.5,zord
 ax.annotate(f"P0 at {hu(pos,2)}",(xp,y1),xytext=(xp,y1-1.0),ha="center",fontsize=11,fontweight="bold",color=col["P0"],arrowprops=dict(arrowstyle="-",color=col["P0"],lw=1))
 ax.text(-0.75,y1,"Model's own\nscale",ha="left",va="center",fontsize=10,color=ink)
 fig.tight_layout()
-for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure_measuring_the_effect.{e}",dpi=300,bbox_inches="tight")
+for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure1_measuring_the_effect.{e}",dpi=300,bbox_inches="tight")
 print(round(pos,4))

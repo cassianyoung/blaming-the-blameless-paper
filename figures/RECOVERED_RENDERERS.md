@@ -6,15 +6,15 @@ in-place edit to each script in order. They were never on the AI_Ethics machine.
 
 | Manuscript | Script | Reads (from the paper tree's data/ exports) | Wrote |
 |---|---|---|---|
-| Figure 1, re-scaling | fig1_rescaling.py | (values in the script) | Figure_measuring_the_effect |
-| Figure 2, fault blindness | fig2_fault_blindness.py | fig1_panelA.csv, fig1_panelB.csv | Figure1_headline |
-| Figure 3, across scenarios | fig3_across_scenarios.py | B5_across_scenarios_long.csv | Figure_deployed_by_scenario |
-| Figure 4, role blindness | fig4_role_blindness.py | fig7_duty.csv | Figure_bias2_headline |
-| Figure 5, prawns pair | fig5_prawns.py | chef_home.csv, chef_home_cmp3_probabilities.csv, fig7_duty.csv | Figure5_prawns |
-| Figure 6, six conventions | fig6_six_conventions.py | fig7_duty.csv (+ panels) | Figure7_duty |
-| Figure 7, noise | fig7_noise.py | fig7_duty.csv | Figure_wording_noise |
-| Figure 8, frames | fig8_frames.py | frame_by_scenario.csv | Figure_frame_by_scenario |
-| Figure 9, tuning | fig9_tuning.py | tuning_table.csv | Figure_tuning |
+| Figure 1, re-scaling | fig1_rescaling.py | (values in the script) | Figure1_measuring_the_effect |
+| Figure 2, fault blindness | fig2_fault_blindness.py | fig2_panelA.csv, fig2_panelB.csv | Figure2_fault_blindness |
+| Figure 3, across scenarios | fig3_across_scenarios.py | A5_across_scenarios_long.csv | Figure3_across_scenarios |
+| Figure 4, role blindness | fig4_role_blindness.py | fig4to7_duty.csv | Figure4_role_blindness |
+| Figure 5, prawns pair | fig5_prawns.py | A4_chef_home.csv, A4_chef_home_cmp3_probabilities.csv, fig4to7_duty.csv | Figure5_prawns |
+| Figure 6, six conventions | fig6_six_conventions.py | fig4to7_duty.csv (+ panels) | Figure6_six_conventions |
+| Figure 7, noise | fig7_noise.py | fig4to7_duty.csv | Figure7_noise |
+| Figure 8, frames | fig8_frames.py | fig8_frame_by_scenario.csv | Figure8_frames |
+| Figure 9, tuning | fig9_tuning.py | A1_tuning_table.csv | Figure9_tuning |
 
 Caveats:
 - Input paths are hard-coded to /mnt/user-data/uploads/ and outputs to
