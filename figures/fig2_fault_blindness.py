@@ -6,6 +6,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
+from matplotlib.legend_handler import HandlerTuple
 plt.rcParams["font.family"]="DejaVu Sans"
 U=DATA
 A=list(csv.DictReader([l for l in open(U+"fig1_panelA.csv",encoding="utf-8-sig") if not l.startswith("#")]))
@@ -36,7 +37,9 @@ A.sort(key=lambda r: f(r["P0_pos"]), reverse=True)
 bands(a); ys=list(range(len(A)))[::-1]
 for y,r in zip(ys,A):
     p,lo,hi,by=f(r["P0_pos"]),f(r["P0_ci_low"]),f(r["P0_ci_high"]),f(r["BYST_pos"])
-    c=blue if r["model"]=="yi34b" else red
+    # Every base model is drawn in one colour (review of v0.7, item 5). Yi-1.5-34B was
+    # blue by name, with no legend entry and no reason recorded in the renderer.
+    c=red
     a.plot([by,p],[y,y],color="#bbbbbb",lw=1,zorder=1)
     a.plot(by,y,"D",ms=7,mfc="white",mec=grey,mew=1.4,zorder=4)
     a.plot([lo,hi],[y,y],color=c,lw=2.2,zorder=3)
@@ -52,6 +55,9 @@ a.legend(handles=[Line2D([],[],marker="o",ls="",color=red,ms=8,label="careful su
          loc="upper center",bbox_to_anchor=(0.45,-0.09),fontsize=9,frameon=False)
 
 # Panel B: non-reasoning sorted, then reasoning sorted
+# The sampled DeepSeek-V4.1 readout is a check row, not a model: removed here as from
+# Figures 5, 6 and 7 (review of v0.7, item 5). One readout per model.
+B=[r for r in B if r["model"]!="deepseek_s"]
 off=[r for r in B if r["reasoning"]=="off"]; on=[r for r in B if r["reasoning"]=="on"]
 off.sort(key=lambda r: f(r["P0_pos"]), reverse=True); on.sort(key=lambda r: f(r["P0_pos"]), reverse=True)
 rows=off+on
@@ -72,8 +78,15 @@ b.set_title("B. Deployed models (chat): excuse unstated → stated",loc="left",f
 b.set_xlabel("Position on the model's own scale",fontsize=10)
 b.legend(handles=[Line2D([],[],marker="o",ls="",color=red,ms=8,label="careful subject, without reasoning"),
                   Line2D([],[],marker="o",ls="",color=green,ms=8,label="careful subject, with reasoning"),
-                  Line2D([],[],marker="o",ls="",mfc="white",mec=grey,ms=7,label='excuse stated: "nothing anyone could have done"')],
-         loc="upper center",bbox_to_anchor=(0.45,-0.07),fontsize=9,frameon=False)
+                  Line2D([],[],marker="o",ls="",mfc="white",mec=grey,ms=7,label='excuse stated: "nothing anyone could have done"'),
+                  # the overlapping circle-and-ring, drawn as the panel draws it (item 5)
+                  (Line2D([],[],marker="o",ls="",color=red,ms=8,mec="white",mew=1.2),
+                   Line2D([],[],marker="o",ls="",mfc="none",mec=grey,ms=13,mew=1.5))],
+         labels=["careful subject, without reasoning","careful subject, with reasoning",
+                 'excuse stated: "nothing anyone could have done"',
+                 "excuse stated, no change (within 0.02): ring around the point"],
+         handler_map={tuple: HandlerTuple(ndivide=1, pad=0)},
+         loc="upper center",bbox_to_anchor=(0.45,-0.095),fontsize=9,frameon=False)
 keyB=[Patch(fc="#C6EFCE",ec="#BBBBBB",label="Within one noise band\nof blameless"),
       Patch(fc="#FFEB9C",ec="#BBBBBB",label="One to three\nnoise bands"),
       Patch(fc="#FFD6D6",ec="#BBBBBB",label="Beyond three\nnoise bands")]

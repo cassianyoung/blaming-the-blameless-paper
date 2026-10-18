@@ -29,13 +29,15 @@ fig,ax=plt.subplots(figsize=(7.5,7.2))
 for i,(a,fd,fs,ms) in enumerate(rows):
     y=len(rows)-1-i
     ax.plot([0,max(fd,fs)],[y,y],color="#EEEEEE",lw=1,zorder=0)
-    ax.plot(fd,y,"o",ms=6,color="#9E9E9E",zorder=3)
+    # hollow and a little larger, drawn above the diamond, so a draw floor that coincides
+    # with the wording floor stays visible (review of v0.7, item 10)
+    ax.plot(fd,y,"o",ms=9,mfc="none",mec="#6E6E6E",mew=1.6,zorder=5)
     ax.plot(fs,y,"D",ms=7,color="#C0392B",zorder=4)
 ax.set_yticks(range(len(rows))); ax.set_yticklabels([nm[r[0]] for r in rows][::-1],fontsize=9)
 ax.set_xlim(0,2.5)
 ax.set_xlabel("Points on the 0–9 blame scale",fontsize=10)
 for s in ("top","right"): ax.spines[s].set_visible(False)
-h=[Line2D([],[],marker="o",ls="",color="#9E9E9E",ms=6,label="draw noise: the same prompt, asked again"),
+h=[Line2D([],[],marker="o",ls="",mfc="none",mec="#6E6E6E",mew=1.6,ms=9,label="draw noise: the same prompt, asked again"),
    Line2D([],[],marker="D",ls="",color="#C0392B",ms=7,label="wording noise: an irrelevant sentence added")]
 ax.legend(handles=h,loc="upper center",bbox_to_anchor=(0.42,-0.08),ncol=1,fontsize=9,frameon=False)
 fig.tight_layout()

@@ -39,7 +39,10 @@ for a,rs in by.items():
 off=sorted([r for r in rows if r[1]=="off"],key=lambda r:-r[2]); on=sorted([r for r in rows if r[1]=="on"],key=lambda r:-r[2])
 rows=off+on
 red="#7B3FA0"; grey="#555555"; green="#2E7D32"
-XL,XR=-1.3,1.05
+# XL reaches past the lowest point so nothing is clipped (review of v0.7, item 7: grok-4.3
+# with reasoning, told the convention, was drawn at the edge with a label). A point outside
+# the axis refuses rather than being clamped.
+XL,XR=-1.45,1.05
 fig,b=plt.subplots(figsize=(11.2,9.2))
 b.axvspan(XL,-0.30,facecolor="#FFD6D6",alpha=0.40,lw=0)
 b.axvspan(XL,-0.30,facecolor="none",edgecolor="#E8A8A8",hatch="///",lw=0)
@@ -48,13 +51,14 @@ b.axvspan(-0.10,0.10,color="#C6EFCE",alpha=0.55,lw=0)
 b.axvspan(0.10,0.30,color="#FFEB9C",alpha=0.45,lw=0)
 b.axvspan(0.30,XR,color="#FFD6D6",alpha=0.40,lw=0)
 ys=list(range(len(rows)))[::-1]
-clip=lambda v: max(min(v,XR-0.02),XL+0.02)
+def clip(v):
+    assert XL<v<XR, f"point {v} outside the axis {XL}..{XR}: widen it, do not clamp"
+    return v
 for y,(a,re,w0,w1,n) in zip(ys,rows):
     col=red if re=="off" else green
     if w1 is not None and abs(w1-w0)>0.02:
         b.annotate("",xy=(clip(w1),y),xytext=(clip(w0),y),arrowprops=dict(arrowstyle="-|>",color=grey,lw=1.3,shrinkA=5,shrinkB=4))
         b.plot(clip(w1),y,"o",ms=7,mfc="white",mec=grey,mew=1.5,zorder=6)
-        if w1<XL: b.text(XL+0.05,y+0.32,hu(w1,1),fontsize=7.5,color=grey)
     b.plot(clip(w0),y,"o",ms=8,color=col,mec="white",mew=1.2,zorder=5)
 lab=[nm[r[0]]+(" (reasoning)" if r[1]=="on" else "") for r in rows]
 b.set_yticks(ys); b.set_yticklabels(lab,fontsize=9.5)

@@ -54,11 +54,22 @@ for kind,obj in order:
     if st is not None: ax.plot(st,y,"s",ms=7.5,color=c_st,alpha=a,zorder=4)
     if cl is not None: ax.plot(cl,y,"o",ms=7.5,color=c_cl,alpha=a,zorder=5)
     sc=SC.get(r["model"])
-    if sc is not None: ax.plot(min(sc,4.45),y,"o",ms=8,mfc="white",mec=c_sc,mew=1.5,alpha=a,zorder=6)
+    if sc is not None: assert sc<4.5, (r["model"],sc); ax.plot(sc,y,"o",ms=8,mfc="white",mec=c_sc,mew=1.5,alpha=a,zorder=6)
     stxt=hu(st,2,sign=True) if st is not None else "—"
     ctxt=hu(cl,2,sign=True) if cl is not None else "—"
-    rtxt=hu(cl/st,0,pct=True) if (st and cl is not None and st>0.2) else "—"
-    ratio = (cl/st) if (st and cl is not None and st>0.2) else None
+    # THE FLOOR RULE (review of v0.7, item 8). The share is printed only where the export
+    # reports one, which is where the stated slack exceeds the model's wording floor, as
+    # Table A.9 does; below the floor the cell is "—" and uncoloured (A.9's "–a"). The old
+    # test (stated > 0.2) printed a share for four rows A.9 marks "–a" and hid gpt-6-luna's
+    # only because its stated gap happens to be 0.2.
+    sh=fl(r["share"]); fu=fl(r["floor_used"])
+    if sh is not None:
+        assert st is not None and cl is not None and fu is not None and st>fu, (r["model"],st,fu)
+        assert abs(sh-cl/st)<1e-4, (r["model"],sh,cl,st)   # the export rounds to 4 places
+    else:
+        assert st is None or cl is None or fu is None or st<=fu, (r["model"],st,fu,"share withheld above the floor")
+    rtxt=hu(sh,0,pct=True) if sh is not None else "—"
+    ratio = sh
     fc = None
     if ratio is not None:
         fc = "#C6EFCE" if ratio>=2/3 else ("#FFEB9C" if ratio>=1/3 else "#F4B6B0")

@@ -59,10 +59,22 @@ for ax,(pid,title) in zip(axes.flat,panels):
         noconv = r["verdict"]=="NO CONVENTION STATED"
         al=1.0
         if noconv: sep=None; sc=None
-        cl=lambda v: min(max(v,XL+0.05),XR-0.05)
+        def cl(v):
+            # Clamped to the axis as v0_6 drew it (not changed by the review); every clamped
+            # point is printed so the report can list it.
+            c=min(max(v,XL+0.05),XR-0.05)
+            if c!=v: print(f"CLAMPED {a} pair {pid}: {v} drawn at {c}")
+            return c
         pts=[v for v in (st,sep) if v is not None]
         if len(pts)==2: ax.annotate("",xy=(cl(sep),y),xytext=(cl(st),y),arrowprops=dict(arrowstyle="-|>",color="#AAAAAA",lw=1.0,shrinkA=4,shrinkB=4,alpha=al),zorder=1)
-        if st is not None: ax.plot(cl(st),y,"s",ms=6.5,color=("#A6A6A6" if noconv else C_ST),alpha=al,zorder=4)
+        # ORDER-UNSTABLE STATED GAPS ARE HOLLOW (review of v0.7, item 9): Table A.9's dagger,
+        # the two presentation orders differing by more than 1.0 point, so a gap like
+        # Qwen3-235B's 5.30 on driving is not read as a convention.
+        osp=f(r["order_spread"]); unstable = st is not None and osp is not None and osp>1.0+1e-9
+        if st is not None:
+            sc_=("#A6A6A6" if noconv else C_ST)
+            if unstable: print(f"HOLLOW {a} pair {pid}: stated {st} order spread {osp}"); ax.plot(cl(st),y,"s",ms=6.5,mfc="white",mec=sc_,mew=1.5,alpha=al,zorder=4)
+            else: ax.plot(cl(st),y,"s",ms=6.5,color=sc_,alpha=al,zorder=4)
         if sep is not None: ax.plot(cl(sep),y,"o",ms=7,color="#1A1A1A",zorder=5)
         if sc is not None: ax.plot(cl(sc),y,"o",ms=8,mfc="white",mec="#555555",mew=1.5,zorder=6)
     import statistics as stt
@@ -82,7 +94,8 @@ fig.supxlabel("Slack for the private person: the professional's blame minus the 
 h=[Line2D([],[],marker="s",ls="",color=C_ST,ms=7,label="slack the model says the private person deserves (both cases side by side)"),
    Line2D([],[],marker="o",ls="",color="#1A1A1A",ms=7,label="slack it gives him (each case judged alone)"),
    Line2D([],[],marker="o",ls="",mfc="white",mec="#555555",mew=1.5,ms=8,label="slack it gives him when told the convention"),
-   Line2D([],[],marker="s",ls="",color="#A6A6A6",ms=7,label="grey square: no clear slack stated, so nothing to test")]
+   Line2D([],[],marker="s",ls="",color="#A6A6A6",ms=7,label="grey square: no clear slack stated, so nothing to test"),
+   Line2D([],[],marker="s",ls="",mfc="white",mec=C_ST,mew=1.5,ms=7,label="hollow square: the two presentation orders differ by more than 1.0 point (Table A.9 †)")]
 fig.legend(handles=h,loc="lower center",ncol=2,fontsize=9,frameon=False,bbox_to_anchor=(0.5,-0.01))
 fig.tight_layout(rect=(0,0.055,1,1),h_pad=3.2)
 for e in ("png","pdf","svg"): fig.savefig(OUT+f"Figure7_duty.{e}",dpi=300,bbox_inches="tight")

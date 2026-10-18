@@ -24,8 +24,11 @@ c0="#C0392B"; c0r="#2E7D32"; c1="#555555"
 def pos(r,k):
     v=r.get(k+"_pos","")
     return float(v) if v not in ("",None) else None
-XL,XR=-0.3,1.15
-fig,axes=plt.subplots(2,3,figsize=(14,13),sharey=True)
+# One x range for all six panels, the smallest given in the review that shows every point
+# (data -0.29 to 0.98 at bf90d122); a point outside it refuses instead of being clamped
+# to the edge (review of v0.7, item 6).
+XL,XR=-0.35,1.05
+fig,axes=plt.subplots(2,3,figsize=(14,13),sharey=True,sharex=True)
 for ax,(s,t) in zip(axes.flat,scen):
     ax.axvspan(XL,0.10,color="#C6EFCE",alpha=0.5,lw=0); ax.axvspan(0.10,0.30,color="#FFEB9C",alpha=0.4,lw=0); ax.axvspan(0.30,XR,color="#FFD6D6",alpha=0.35,lw=0)
     ax.axhline(len(arms)-noff-0.5,color="#999999",lw=0.8,ls=(0,(3,3)))
@@ -35,7 +38,9 @@ for ax,(s,t) in zip(axes.flat,scen):
         p0,p1=pos(r,"P0"),pos(r,"P1")
         if p0 is None: ax.text(XL+0.03,y,"no reading",fontsize=7,color="#999999",va="center"); continue
         ok=r["gate"]=="PASSED"; al=1 if ok else 0.25
-        cl=lambda v: min(max(v,XL+0.02),XR-0.02)
+        def cl(v):
+            assert XL<v<XR, f"{a} {s}: point {v} outside {XL}..{XR}: widen, do not clamp"
+            return v
         fc=(c0 if i<noff else c0r)
         if p1 is not None and abs(p1-p0)>0.03:
             ax.plot([cl(p0),cl(p1)],[y,y],color=c1,lw=1.1,alpha=al,zorder=2)
@@ -46,6 +51,7 @@ for ax,(s,t) in zip(axes.flat,scen):
             if p1 is not None: ax.plot(cl(p0),y,"o",ms=11,mfc="none",mec=c1,mew=1.3,alpha=al,zorder=5)
     ax.set_title(t,loc="left",fontsize=10.5,fontweight="bold")
     ax.set_xlim(XL,XR); ax.set_xticks([0,0.5,1]); ax.set_xticklabels(["0","0.5","1"],fontsize=9)
+    ax.tick_params(labelbottom=True)
     for sp in ("top","right"): ax.spines[sp].set_visible(False)
 for ax in axes[:,0]:
     ax.set_yticks(range(len(arms))); ax.set_yticklabels([nm[a] for a in arms][::-1],fontsize=8.5)

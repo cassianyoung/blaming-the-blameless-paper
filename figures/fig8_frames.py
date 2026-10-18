@@ -19,6 +19,15 @@ nm={"llama31":"Llama 3.1 8B","qwen3":"Qwen3 8B","mistral":"Mistral 7B","olmo2":"
 scen=[("bicycle216","Bicycle"),("ladder","Ladder"),("prawns_home","Prawns, home"),
       ("prawns_restaurant","Prawns, restaurant"),("scaffolding","Scaffolding"),("cheque","Cheque")]
 D={(r["family"],r["scenario"]):r for r in R}
+# THE CHAT GATE IS READ FROM THE EXPORT, never recomputed here. If a C - N condition is
+# adopted (records/RULE_CHAT_GATE_CN_20261018.md), set FIG8_CN_MIN to its value and the
+# figure refuses unless every chat reading it draws as passing clears it, so a stale export
+# cannot be drawn under the new rule (review of v0.7, item 11).
+_cn=os.environ.get("FIG8_CN_MIN")
+if _cn:
+    bad=[(r["family"],r["scenario"],round(float(r["chat_C"])-float(r["chat_N"]),2)) for r in R
+         if r["chat_gate"]=="PASSED" and float(r["chat_C"])-float(r["chat_N"])<float(_cn)]
+    assert not bad, f"export passes chat readings below C - N {_cn}: {bad}"
 ws_c="#2C5D8F"; ch_c="#C0392B"; grey="#555555"
 XL,XR=-0.15,1.15
 fig,axes=plt.subplots(2,3,figsize=(13,8.6),sharey=True)
