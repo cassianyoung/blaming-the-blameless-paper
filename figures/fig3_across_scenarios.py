@@ -44,7 +44,9 @@ for ax,(s,t) in zip(axes.flat,scen):
             assert XL<v<XR, f"{a} {s}: point {v} outside {XL}..{XR}: widen, do not clamp"
             return v
         fc=(c0 if i<noff else c0r)
-        if p1 is not None and abs(p1-p0)>0.03:
+        # one threshold with Figure 2: the ring marks a change of 0.02 or less (Cassian,
+        # 2026-10-18; it was 0.03 here, so the two figures ringed different readings)
+        if p1 is not None and abs(p1-p0)>0.02:
             ax.plot([cl(p0),cl(p1)],[y,y],color=c1,lw=1.1,alpha=al,zorder=2)
             ax.plot(cl(p1),y,"o",ms=6.5,mfc="white",mec=c1,mew=1.4,alpha=al,zorder=5)
             ax.plot(cl(p0),y,"o",ms=6.5,color=fc,mec="white",mew=0.8,alpha=al,zorder=4)
