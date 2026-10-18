@@ -30,6 +30,7 @@ for a,rs in by.items():
     w,wc=[],[]
     for r in rs:
         if r["verdict"]=="NO CONVENTION STATED": continue
+        if r["pair_id"]=="5": continue   # driving: the five conventions only (Cassian, 2026-10-18)
         s,sep,sc=f(r["stated_gap"]),f(r["separate_gap"]),f(r["stated_condition_gap"])
         if s is None or s<=0 or sep is None: continue
         w.append(1-sep/s)

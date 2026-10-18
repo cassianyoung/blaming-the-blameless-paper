@@ -371,3 +371,13 @@ it against the committed copy. One exclusions file (the Table A.8 exclusions) wa
 the check's list, and it kept an old database's stamp through two rebuilds while every
 other file moved on. Its values happened to be unchanged; its stamp was wrong. That file is now on
 the check's list; the lesson is that a file the check does not rebuild passes silently.
+
+**A table that colours its cells by value can show a new number on an old colour.** The
+appendix tables shade each value by band (green within one noise band, amber, then red
+graded by size). When the manuscript's tables were rebuilt from a new database, the
+builder refilled every number but copied each cell's colour from the old version, so a
+value that had moved into another band kept its old shading. No number check can catch
+this, because the numbers are right; only the colours are stale. The builder now recolours
+every cell from the value it prints, by the table's own key, and the test that the rules
+are the right ones is that they reproduce the earlier version's colours from the earlier
+version's numbers, which they do for every cell.
