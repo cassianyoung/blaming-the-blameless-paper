@@ -46,7 +46,7 @@ def tri_col(r):
     if v=="NOT APPLIED": return RED
     if v in ("PARTLY","APPLIED"): return AMB
     return GRY
-XL,XR=-2.0,5.6
+XL,XR=-2.0,7.2
 fig,axes=plt.subplots(3,2,figsize=(13,17),sharey=True)
 for ax,(pid,title) in zip(axes.flat,panels):
     p=P[pid]
@@ -60,11 +60,11 @@ for ax,(pid,title) in zip(axes.flat,panels):
         al=1.0
         if noconv: sep=None; sc=None
         def cl(v):
-            # Clamped to the axis as v0_6 drew it (not changed by the review); every clamped
-            # point is printed so the report can list it.
-            c=min(max(v,XL+0.05),XR-0.05)
-            if c!=v: print(f"CLAMPED {a} pair {pid}: {v} drawn at {c}")
-            return c
+            # NO POINT IS CLAMPED (ruling 2026-10-18): the axis runs to 7.2 so the three
+            # gas points v0_6 pinned to its 5.6 edge are drawn where they fall; a point
+            # outside the axis refuses rather than being moved.
+            assert XL<v<XR, (a,pid,v)
+            return v
         pts=[v for v in (st,sep) if v is not None]
         if len(pts)==2: ax.annotate("",xy=(cl(sep),y),xytext=(cl(st),y),arrowprops=dict(arrowstyle="-|>",color="#AAAAAA",lw=1.0,shrinkA=4,shrinkB=4,alpha=al),zorder=1)
         # ORDER-UNSTABLE STATED GAPS ARE HOLLOW (review of v0.7, item 9): Table A.9's dagger,
@@ -85,7 +85,7 @@ for ax,(pid,title) in zip(axes.flat,panels):
     ax.set_title(title,loc="left",fontsize=11,fontweight="bold",pad=26)
     ax.text(0,1.035,sub,transform=ax.transAxes,fontsize=8.3,color="#333333")
     ax.text(0,1.005,sub2,transform=ax.transAxes,fontsize=8.3,color="#333333")
-    ax.set_xlim(XL,XR); ax.set_xticks([-2,-1,0,1,2,3,4,5]); ax.tick_params(axis="x",labelsize=8.5)
+    ax.set_xlim(XL,XR); ax.set_xticks([-2,-1,0,1,2,3,4,5,6,7]); ax.tick_params(axis="x",labelsize=8.5)
     for s in ("top","right"): ax.spines[s].set_visible(False)
 for ax in axes[:,0]:
     ax.set_yticks(range(len(arms))); ax.set_yticklabels([nm[a] for a in arms][::-1],fontsize=8.5)

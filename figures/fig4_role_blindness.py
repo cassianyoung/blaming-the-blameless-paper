@@ -24,7 +24,8 @@ nm={"gpt4o":"GPT-4o","gpt6s_s":"gpt-6-sol","gpt6l_s":"gpt-6-luna","claude":"Clau
     "deepseek_r":"DeepSeek-V4.1","gemini_r":"Gemini 3.8 Flash","gemini_pro":"Gemini 3.1 Pro","grok43_r":"grok-4.3"}
 by={}
 for r in R:
-    if r["arm"] in nm: by.setdefault(r["arm"],[]).append(r)
+    # the sampled DeepSeek readout is a check row (one readout per model; ruling 2026-10-18)
+    if r["arm"] in nm and r["arm"]!="deepseek_s": by.setdefault(r["arm"],[]).append(r)
 rows=[]
 for a,rs in by.items():
     w,wc=[],[]
