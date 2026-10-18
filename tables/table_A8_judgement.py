@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Table A.8: the judgement questions on the target case.
+"""Table A.8: the judgement questions on the target case, as one grid.
 
 Reads data/A8_judgement_long.csv, target case (P0) rows only. A scenario that fails a
 model's gate is excluded from every figure for that model.
@@ -9,9 +9,13 @@ to "Could he reasonably have prevented it?"; how many scenarios answer yes (p > 
 of those with a usable reading; the mean probability of 'yes' to "Did he do anything
 careless?"; and the mean blame position.
 
-Panel B, over the non-reasoning gate-passing readings: the share with blame above 0.10,
+Panel B, over the counted non-reasoning gate-passing readings (the sampled DeepSeek
+check row is not counted): the share with blame above 0.10,
 the shares answering yes to each question, and Pearson correlations between the
 questions, blame and the causal rating, each over the readings carrying both values.
+
+Writes tables/out/table_A8_judgement.csv: panel A's title, header and rows, panel B's
+title, header and rows, and the two notes, in the manuscript's order.
 """
 import math
 import os
@@ -24,7 +28,21 @@ from paperlib import read_csv, write_table, num, f2, API_LABEL  # noqa: E402
 OFF = ["gpt4o", "gpt6s_s", "gpt6l_s", "claude", "haiku_s", "qwen235b", "qwen80b",
        "qwen30b", "deepseek", "deepseek_s", "gemma27b", "llama70b", "mistral24b",
        "grok43_s", "kimi"]
-ON = ["gpt6s_r", "gpt6l_r", "haiku_r", "deepseek_r_mt8192", "gemini_r", "grok43_r"]
+ON = ["gpt6s_r", "gpt6l_r", "haiku_r", "deepseek_r_mt8192", "gemini_r", "gemini_pro",
+      "grok43_r"]
+TITLE_A = ("A. Per model, the careful subject (target case): means over the scenarios "
+           "read that pass the gate")
+TITLE_B = ("B. Across all non-reasoning readings of the target case (model × scenario, "
+           "gate-passing)")
+NOTES = [
+    "p(...): the model's probability of \"yes\" (log-probability readouts) or share of "
+    "draws answering yes (sampled), each question asked in its own call. Refused where the "
+    "yes/no answer mass is below 0.7. Blame: position on the model's own scale (0 "
+    "blameless, 1 careless).",
+    "Panel A colours: prevention green below 0.10, amber 0.10–0.50, red above; \"scenarios "
+    "answered yes\" red where two or more; blame shaded as in the other tables.",
+]
+CHECK = {"deepseek_s": " (check; not counted)"}
 
 
 def pearson(xs, ys):
@@ -41,10 +59,10 @@ def main():
     readout = {r["model"]: r["readout"] for r in rows}
     ha = ["Model", "Readout", "Scenarios", "p(could reasonably have prevented it)",
           "Scenarios answered yes", "p(careless)", "Blame (position)"]
-    out = []
+    out = [ha]
     for title, arms in (("Deployed, without reasoning", OFF),
                         ("Deployed, with reasoning", ON)):
-        out.append([title] + [""] * (len(ha) - 1))
+        out.append([title])
         for arm in arms:
             rr = [r for r in rows if r["model"] == arm]
             pr = [num(r["p_reasonable_yes"]) for r in rr
@@ -52,13 +70,12 @@ def main():
             pc = [num(r["p_careless_yes"]) for r in rr
                   if num(r["p_careless_yes"]) is not None]
             bl = [num(r["blame_pos"]) for r in rr if num(r["blame_pos"]) is not None]
-            out.append([API_LABEL[arm], readout[arm], str(len(rr)),
-                        f2(st.mean(pr)) if pr else "—",
+            out.append([API_LABEL[arm] + CHECK.get(arm, ""), readout[arm], str(len(rr)),
+                        f2(st.mean(pr)) if pr else "–",
                         f"{sum(1 for p in pr if p > 0.5)} of {len(pr)}",
-                        f2(st.mean(pc)) if pc else "—", f2(st.mean(bl))])
-    print(write_table("table_A8A_judgement", ha, out))
+                        f2(st.mean(pc)) if pc else "–", f2(st.mean(bl))])
 
-    off = [r for r in rows if r["reasoning"] == "off"]
+    off = [r for r in rows if r["reasoning"] == "off" and r["counted"] == "1"]
 
     def pairs(a, b):
         xy = [(num(r[a]), num(r[b])) for r in off
@@ -69,7 +86,7 @@ def main():
     pr = [num(r["p_reasonable_yes"]) for r in off if num(r["p_reasonable_yes"]) is not None]
     pc = [num(r["p_careless_yes"]) for r in off if num(r["p_careless_yes"]) is not None]
     hb = ["Measure", "Value", "Readings"]
-    outb = []
+    outb = [[TITLE_B], hb]
 
     def share(label, vals, thr):
         k = sum(1 for v in vals if v > thr)
@@ -85,7 +102,7 @@ def main():
                         ("blame with cause", "blame_pos", "cause_ev")):
         x, y = pairs(a, b)
         outb.append([f"Correlation: {label}", f2(pearson(x, y)), str(len(x))])
-    print(write_table("table_A8B_judgement_summary", hb, outb))
+    print(write_table("table_A8_judgement", [TITLE_A], out + outb + [[n] for n in NOTES]))
 
 
 if __name__ == "__main__":

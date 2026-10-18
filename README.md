@@ -54,7 +54,8 @@ script writes `figures/out/FigureN_<name>` as PNG, PDF and SVG.
 | Figure 7 (draw noise and wording noise) | `figures/fig7_noise.py` | `fig4to7_duty.csv` |
 | Figure 8 (worksheet against chat template, per scenario) | `figures/fig8_frames.py` | `fig8_frame_by_scenario.csv` |
 | Figure 9 (base, adapter and release) | `figures/fig9_tuning.py` | `A1_tuning_table.csv` |
-| Table 4A (deployed models read through commercial APIs) | `tables/table4A_deployed_models.py` | `table4A_coverage.csv`, `A2_deployed_bicycle.csv`, `A5_across_scenarios_wide.csv`, `A4_chef_home.csv` |
+| Table 4A (deployed models read through commercial APIs) | `tables/table4A_deployed_models.py` | `A5_across_scenarios_wide.csv`, `A2_deployed_bicycle.csv` |
+| Table 6 (the practical syllogism, per model) | `tables/table6_syllogism.py` | `table6_syllogism.csv` |
 | Table A.1 | `tables/table_A1_tuning.py` | `A1_tuning_table.csv`, `A1_tuning_table_summary.csv` |
 | Table A.2 | `tables/table_A2_deployed_bicycle.py` | `A2_deployed_bicycle.csv` |
 | Table A.3 | `tables/table_A3_frames.py` | `A3_frames_bicycle.csv`, `A3_frames_summary.csv` |
@@ -63,8 +64,7 @@ script writes `figures/out/FigureN_<name>` as PNG, PDF and SVG.
 | Table A.6 | `tables/table_A6_bystander.py` | `A6_bystander_long.csv`, `A6_within_family.csv` |
 | Table A.7 | `tables/table_A7_yi.py` | `A7_yi_long.csv` |
 | Table A.8 | `tables/table_A8_judgement.py` | `A8_judgement_long.csv` |
-| Signal-to-noise for the duty test (not a manuscript table) | `tables/table_B9_signal_to_noise.py` | `B9_signal_to_noise_long.csv`, `B9_signal_to_noise_arm.csv` |
-| Table A.9 (the duty test by model and pair) | `tables/table_A9_duty_by_model.py` | `A9_duty_long.csv`, `A9_duty_arm.csv` |
+| Table A.9 (the duty test by model and pair; panels A and B) | `tables/table_A9_duty_by_model.py` | `A9_duty_long.csv`, `A9_duty_arm.csv` |
 | Table A.10 (the syllogism, the structured prompt and the general principle) | `tables/table_A10_syllogism.py` | `A10_syllogism.csv`, `A10_pooled.csv` |
 
 Tables 1, 2, 3, 4B and 5 are descriptive (the ten roles, the six duty pairs, the
@@ -97,7 +97,7 @@ these models today, and will measure the model as it is then served;
 `replication/run_reading.py` compares such a reading with the paper's within each cell's
 draw band. In `data/` these
 are `fig2_panelB.csv`, `A2_*`, `A5_*`, `A8_*`, `table4A_coverage.csv`, `fig4to7_duty.csv`,
-`fig6_duty_panels.csv`, `B9_*`, `A9_*`, `A10_*`, `duty_*` and the `api` rows of `A4_chef_home*.csv`.
+`fig6_duty_panels.csv`, `A9_*`, `A10_*`, `table6_syllogism.csv`, `duty_*` and the `api` rows of `A4_chef_home*.csv`.
 
 ## Provenance
 
@@ -105,7 +105,7 @@ Every CSV in `data/` carries, in its first comment line, the sha256 of the resul
 database it was exported from:
 
 ```
-851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+691397926c97eafd7440556b172b947c9880d5d41647d7fd49faf9e7a7697e6f
 ```
 
 `paper_numbers.csv` carries the same sha in its first line.

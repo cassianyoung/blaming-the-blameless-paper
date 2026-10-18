@@ -5,7 +5,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
-# Mistral-Small-24B, run 214, log-prob, bicycle, from results db sha 9b892c64...
+# Mistral-Small-24B, deployed_bicycle_ladder, log-prob, bicycle, from results db sha 9b892c64...
 N, P0, C, I = 0.2444682, 3.9020844, 6.6974938, 8.9945
 pos=(P0-N)/(C-N)
 from decimal import Decimal, ROUND_HALF_UP

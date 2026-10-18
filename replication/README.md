@@ -42,9 +42,9 @@ is re-read by the reading named beside it.
 
 | Reading | Data labels | Models | Feeds |
 |---|---|---|---|
-| `deployed_excuse` | `deployed_bicycle_ladder`, `deployed_bicycle_rivals`, `deployed_added_models`, `deployed_scenarios` | the 21 deployed models, by API, chat frame | Figure 1 panel B, Figure 2 (section 3.3), Figure 4, Table 3, Tables B.2, B.5 and B.8 |
-| `deployed_duty` | `duty_pairs`, `duty_remedies`, `duty_hair_dye`, `duty_prawns_convention`, `duty_chef_home_comparison` | the 22 models read on the duty test, by API | Figures 2 and 6, Table A.4 (API rows), Tables B.9 and B.10 |
-| `local_frames` | `local_frames` | each pretrained base, base with adapter and developer release on the worksheet; each release on chat | Figure 1 panel A, Figures 3 and 5, Tables B.1, B.3, B.4 (local rows), B.6 and B.7 (base, adapter and release rows) |
+| `deployed_excuse` | `deployed_bicycle_ladder`, `deployed_bicycle_rivals`, `deployed_added_models`, `deployed_scenarios` | the 21 deployed models, by API, chat frame | Figure 1, Figure 2 panel B, Figure 3, Table 4A, Tables A.2, A.5 and A.8 |
+| `deployed_duty` | `duty_pairs`, `duty_remedies`, `duty_hair_dye`, `duty_prawns_convention`, `duty_chef_home_comparison` | the 22 models read on the duty test, by API | Figures 4 to 7, Table A.4 (API rows), Table A.9 |
+| `local_frames` | `local_frames` | each pretrained base, base with adapter and developer release on the worksheet; each release on chat | Figure 2 panel A, Figures 8 and 9, Tables A.1, A.3, A.4 (local rows), A.6 and A.7 (base, adapter and release rows) |
 | `yi_adapter_controls` | `yi_adapter_controls` | the Yi-1.5-34B adapter controls on the worksheet, bicycle | Table A.7 (control rows) |
 
 The deployed models' bicycle reading was taken in three passes: the core roles

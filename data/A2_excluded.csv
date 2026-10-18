@@ -1,4 +1,4 @@
-# Appendix A.2. Database sha256: 851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3
+# Appendix A.2. Database sha256: 691397926c97eafd7440556b172b947c9880d5d41647d7fd49faf9e7a7697e6f
 # Built by scripts/build_b2_deployed_bicycle.py from the arms in figures/fig2_panelB.csv, asserted by sha.
 arm,reason
 deepseek_r,"duplicate model: the mt-8192 read is kept. deepseek_r_void_annotation already names that artefact as superseding this one. NOTE its BLAME-channel bicycle cells are CLEAN (P0|blame 0 void of 20); the cells marked NOT_USABLE on this artefact are the `any` channel, which this panel does not read, so this is a preference for the cleaner read and not a defect exclusion; kept instead: deepseek_r_bike8192_all"
@@ -7,7 +7,6 @@ deepseek_r_mt8192,no N-to-C-to-P0 triple on the bicycle: roles present [none]. N
 gemini_anchor,"a one-family anchor re-read, not an arm"
 gemini_duty,"the duty factorial only, a different bank"
 gemini_duty_N,a blameless-row top-up for the duty factorial
-gemini_pro,side-by-side only: never read the families or the bicycle
 gemini_topup,a top-up adding draws to gemini_r's cells; counting it beside gemini_r would double those draws
 gemma27b_relaxed,"duplicate model: `gemma27b` is kept because it carries the excuse and bystander rows (P1_R, P1_neutral, P2_other, BYSTANDER) that this gate-refused earlier reading lacks. gemma27b has no deliberate case (I) on the bicycle, so its gate reads `I not read` rather than applying the I clause; kept instead: gemma27b"
 gpt6l_r,no N-to-C-to-P0 triple on the bicycle: roles present [none]. Not a model that declined

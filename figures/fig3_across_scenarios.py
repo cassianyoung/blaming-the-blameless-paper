@@ -21,7 +21,7 @@ arms=["gpt4o","gpt6s_s","gpt6l_s","claude","haiku_s","qwen235b","qwen80b","qwen3
 # the sampled DeepSeek readout is a check row, counted once by its log-prob readout
 # (one readout per model; review of v0.7, ruling 2026-10-18), so it is not drawn
 noff=14
-scen=[("bicycle216","Bicycle"),("ladder","Ladder"),("prawns_home","Prawns, home"),("prawns_restaurant","Prawns, restaurant"),("scaffolding","Scaffolding"),("cheque","Cheque")]
+scen=[("bicycle","Bicycle"),("ladder","Ladder"),("prawns_home","Prawns, home"),("prawns_restaurant","Prawns, restaurant"),("scaffolding","Scaffolding"),("cheque","Cheque")]
 c0="#C0392B"; c0r="#2E7D32"; c1="#555555"
 def pos(r,k):
     v=r.get(k+"_pos","")

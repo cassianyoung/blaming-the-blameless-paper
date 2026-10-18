@@ -16,7 +16,7 @@ R=list(csv.DictReader([l for l in open(DATA+"fig8_frame_by_scenario.csv",encodin
 fam=["mistral","gemma27","llama31","falcon3","olmo2","qwen3","gemma9","yi34b"]
 nm={"llama31":"Llama 3.1 8B","qwen3":"Qwen3 8B","mistral":"Mistral 7B","olmo2":"OLMo 2 7B","falcon3":"Falcon3 7B",
     "gemma9":"Gemma 2 9B","gemma27":"Gemma 2 27B","yi34b":"Yi 1.5 34B"}
-scen=[("bicycle216","Bicycle"),("ladder","Ladder"),("prawns_home","Prawns, home"),
+scen=[("bicycle","Bicycle"),("ladder","Ladder"),("prawns_home","Prawns, home"),
       ("prawns_restaurant","Prawns, restaurant"),("scaffolding","Scaffolding"),("cheque","Cheque")]
 D={(r["family"],r["scenario"]):r for r in R}
 # THE CHAT GATE IS READ FROM THE EXPORT, never recomputed here. If a C - N condition is

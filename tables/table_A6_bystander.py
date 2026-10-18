@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Table A.6: base models and the bystander, per family and scenario.
+"""Table A.6: base models and the bystander, per family and scenario, as one grid.
 
 Panel A reads data/A6_bystander_long.csv (base rows): the careful subject's position minus
 the bystander's, in the model's noise bands, per scenario; the number of scenarios
@@ -9,6 +9,9 @@ careful subject's bicycle position, then the two smaller Yi base models.
 Panel B reads the same file for each version's mean positions over nine families and
 six scenarios, and data/A6_within_family.csv for the changes and the number of
 model-scenario pairs lowered by more than one pooled band.
+
+Writes tables/out/table_A6_bystander.csv: panel A's header and rows, its summary line,
+panel B's title, header and rows, in the manuscript's order.
 """
 import os
 import statistics as st
@@ -48,13 +51,15 @@ def main():
     clo = sum(1 for r in outside if r["clears_2_bands"] == "true")
     summary = (f"Nine families: {cl} of {len(nine)} model–scenario pairs clear two "
                f"bands; {clo} of {len(outside)} outside the two scenarios marked †.")
-    print(write_table("table_A6A_bystander", header, out, [summary]))
+    out.append([summary])
+    out.append(["B. Within each family: what post-training removes (worksheet, nine "
+                "families × six scenarios)"])
 
     wf = read_csv("A6_within_family.csv")
     hb = ["Version", "Bystander, mean position", "Careful subject, mean position",
           "Change in bystander", "Change in careful subject",
           "Bystander lowered beyond one band", "Careful subject lowered beyond one band"]
-    rows_b = []
+    rows_b = [hb]
     for version, label, comp in (("base", "Pretrained base", None),
                                  ("adapter", "Study adapter", "adapter"),
                                  ("instruct", "Developer's release",
@@ -64,7 +69,7 @@ def main():
         mb = st.mean(num(r["BYST_pos"]) for r in rr)
         mp = st.mean(num(r["P0_pos"]) for r in rr)
         if comp is None:
-            rows_b.append([label, f2(mb), f2(mp), "—", "—", "—", "—"])
+            rows_b.append([label, f2(mb), f2(mp), "–", "–", "–", "–"])
             continue
         ww = [r for r in wf if r["comparison"].endswith(comp)]
         rows_b.append([label, f2(mb), f2(mp),
@@ -72,7 +77,7 @@ def main():
                        signed(st.mean(num(r["d_P0_pos"]) for r in ww)),
                        f"{sum(1 for r in ww if num(r['d_BYST_bands']) < -1)} of {len(ww)}",
                        f"{sum(1 for r in ww if num(r['d_P0_bands']) < -1)} of {len(ww)}"])
-    print(write_table("table_A6B_within_family", hb, rows_b))
+    print(write_table("table_A6_bystander", header, out + rows_b))
 
 
 if __name__ == "__main__":

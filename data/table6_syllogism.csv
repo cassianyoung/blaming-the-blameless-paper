@@ -1,0 +1,17 @@
+# Paper Table 6. Database sha256: 691397926c97eafd7440556b172b947c9880d5d41647d7fd49faf9e7a7697e6f
+# Built by scripts/build_table6_syllogism.py from analyse_practical_syllogism over this database's cells; columns as Table A.10 (tables/B11_syllogism.csv). Values unrounded.
+model,arm,counted,universal,particular,particular_of,not_drawn,not_drawn_of,blames_anyway,direct_median,one_answer_median,direct_cells_gt010,one_answer_cells_gt010,cells,universal_of
+Qwen3-Next-80B,qwen80b,1,0.9999999801895576,6,6,6,6,1.0,0.8177431696999999,0.0,6,2,6,
+grok-4.3,grok43_s,1,1.0,2,6,2,2,1.0,0.7162698412499999,0.03272727272727273,6,1,6,
+Mistral-Small-24B,mistral24b,1,0.9980686279777364,2,5,2,2,1.0,0.5333575555,0.0,5,0,5,
+DeepSeek-V4.1 (log-prob),deepseek,1,0.9999992185745671,3,5,3,3,1.0,0.5003672859,0.0,5,0,5,
+DeepSeek-V4.1 (sampled) (check; not counted),deepseek_s,0,1.0,3,6,3,3,1.0,0.49803149604999997,0.0,6,0,6,
+Llama-3.3-70B,llama70b,1,0.9999999541260438,6,6,6,6,1.0,0.48064601715,0.0,6,0,6,
+Claude Haiku 4.5,haiku_s,1,1.0,6,6,6,6,1.0,0.41428571430000005,0.0,6,0,6,
+Claude Sonnet 5,claude,1,1.0,6,6,6,6,1.0,0.26785714285,0.0,6,0,6,
+Kimi-K3,kimi,1,0.9984791470367652,5,5,5,5,1.0,0.2467804245,0.0,5,0,5,
+GPT-4o,gpt4o,1,0.999986501060404,6,6,5,6,0.8333333333333334,0.25906116665,0.007575757575757577,5,0,6,
+Gemma-3-27B,gemma27b,1,0.9999999999998499,5,6,4,5,0.8,0.44424871774999997,0.30952380952380953,5,6,6,
+gpt-6-sol,gpt6s_s,1,1.0,6,6,2,6,0.3333333333333333,0.0090909091,0.0,2,0,6,
+gpt-6-luna,gpt6l_s,1,1.0,6,6,0,6,0.0,0.0,0.0,0,0,6,
+All models,pooled,1,12,59,69,47,59,0.7966101694915254,0.3333333333,0.0,57,9,69,12
