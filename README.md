@@ -60,7 +60,7 @@ script writes `figures/out/FigureN_<name>` as PNG, PDF and SVG.
 | Table A.2 | `tables/table_A2_deployed_bicycle.py` | `A2_deployed_bicycle.csv` |
 | Table A.3 | `tables/table_A3_frames.py` | `A3_frames_bicycle.csv`, `A3_frames_summary.csv` |
 | Table A.4 | `tables/table_A4_chef_home.py` | `A4_chef_home.csv`, `A4_chef_home_cmp3_probabilities.csv` |
-| Table A.5 | `tables/table_A5_across_scenarios.py` | `A5_across_scenarios_wide.csv` |
+| Table A.5 | `tables/table_A5_across_scenarios.py` | Panel A `A5_across_scenarios_wide.csv`; Panel B `A5_variants.csv` |
 | Table A.6 | `tables/table_A6_bystander.py` | `A6_bystander_long.csv`, `A6_within_family.csv` |
 | Table A.7 | `tables/table_A7_yi.py` | `A7_yi_long.csv` |
 | Table A.8 | `tables/table_A8_judgement.py` | `A8_judgement_long.csv` |
@@ -105,7 +105,7 @@ Every CSV in `data/` carries, in its first comment line, the sha256 of the resul
 database it was exported from:
 
 ```
-691397926c97eafd7440556b172b947c9880d5d41647d7fd49faf9e7a7697e6f
+237a8a711cac2ef6ddde7c94ba500ebe0ecef19da7371bb694c3822f1eb6efdb
 ```
 
 `paper_numbers.csv` carries the same sha in its first line.

@@ -1,4 +1,4 @@
--- Figure 1. Database sha256: 691397926c97eafd7440556b172b947c9880d5d41647d7fd49faf9e7a7697e6f
+-- Figure 1. Database sha256: 237a8a711cac2ef6ddde7c94ba500ebe0ecef19da7371bb694c3822f1eb6efdb
 
 -- PANEL A
 

@@ -1,15 +1,18 @@
 # Acceptance: due-care-eval reproduces the paper
 
-**Checked against database build `691397926c97eafd7440556b172b947c9880d5d41647d7fd49faf9e7a7697e6f`**,
+**Checked against database build `237a8a711cac2ef6ddde7c94ba500ebe0ecef19da7371bb694c3822f1eb6efdb`**,
 the build `../data/` comes from (`../reference/paper_values.json` records the sha it was
 exported from). Both acceptance runs were first checked against build `2c1c3c76ab96ab36…`,
-then against `1344b8ca…`, `f54aa992…` and `851c599b…`. Between `851c599b…` and this build
+then against `1344b8ca…`, `f54aa992…`, `851c599b…` and `69139792…`. Between `851c599b…` and this build
 one value the comparison reads changed: Llama-3.3-70B's prawns stated gap is now the full
 text side-by-side prompt's (due-care-eval v1.1), which the 10 October logs did not read, so
 it was read afresh (section 1). Every other compared value is unchanged, and the local
 comparison's table is identical against both builds. The earlier rebuilds changed how the
 per-scenario table stores worksheet cells (every ordering, not the last one read) and the
 registry of paper numbers; no position, band or gate the comparison reads moved.
+Between `69139792…` and this build only the registry changed (Table A.5's Panel B
+figures added): the reference is identical apart from its sha, and both comparison
+reports below are byte-identical against either build.
 
 due-care-eval is accepted when it reproduces the paper's values on local weights to the
 printed precision, and on an API model within that arm's draw band. `../compare.py` makes

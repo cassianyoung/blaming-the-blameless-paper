@@ -1,4 +1,4 @@
-# Appendix A.9. Database sha256: 691397926c97eafd7440556b172b947c9880d5d41647d7fd49faf9e7a7697e6f
+# Appendix A.9. Database sha256: 237a8a711cac2ef6ddde7c94ba500ebe0ecef19da7371bb694c3822f1eb6efdb
 # Built by scripts/build_b10_duty_by_model.py from the duty_fig7 and duty_signal_to_noise_arm views. Values unrounded.
 arm,model_label,reasoning,fig6_rank,pair_id,pair_label,panel_order,stated_gap,stated_gap_pro_first,stated_gap_priv_first,order_spread,separate_gap,share,share_reason,told_gap,told_run,told_withheld,told_class,told_reason,floor_used,counted
 qwen235b,qwen/qwen3-235b-a22b-2507,off,1,prawns,prawns (chef against home cook),1,,,,,1.8279110999999988,,"comparison unread: comparison unread: UNREAD_PROVIDER_UNAVAILABLE: banked provider unavailable (GMICloud rate-limited upstream; last probe 2026-10-17 17:13 BST); closed by ruling 2026-10-17, no other provider substituted",,,,,unread: no value returned: draw 1 attempt 1: provider returned an error,0.3,1

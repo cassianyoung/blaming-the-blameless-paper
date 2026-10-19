@@ -1,0 +1,36 @@
+# Appendix A.5, Panel B. Database sha256: 237a8a711cac2ef6ddde7c94ba500ebe0ecef19da7371bb694c3822f1eb6efdb
+# Built by scripts/build_b5_variants.py from tables/A5_across_scenarios_long.csv.
+row_type,model,readout,reasoning,counted,n_gate,P0_median,P1_median,P1_R_median,P1_neutral_median,P2_median,P2_other_median,P1_in_band_k,P1_in_band_n,P1_R_in_band_k,P1_R_in_band_n,P1_below_neutral_k,P1_above_neutral_k,P1_neutral_pair_n,P2_other_below_k,P2_other_above_k,P2_other_pair_n,neutral_shift_median,neutral_up,neutral_down,neutral_unchanged,neutral_n,not_read,figure,value,definition
+model,gpt4o,log-prob,off,1,6,0.2590611667,0.000184073,0.00356763165,0.2887642594,0.045779048,0.0143008685,6,6,6,6,6,0,6,6,0,6,0.01136911545,4,2,0,6,,,,
+model,gpt6s_s,sampled,off,1,6,0.0090909091,0,0,0.03,0,0,6,6,6,6,3,0,6,0,0,6,0,2,2,2,6,,,,
+model,gpt6l_s,sampled,off,1,6,0,0,0,0.03616852145,0,0,6,6,6,6,4,0,6,0,0,6,0.00675675675,3,1,2,6,,,,
+model,claude,sampled,off,1,6,0.2678571429,0.1071428571,0.1339285715,0.2845238095,0.1533957846,0.1428571429,3,6,2,6,6,0,6,2,0,6,-0.00625,2,3,1,6,,,,
+model,haiku_s,sampled,off,1,6,0.4142857143,0.02857142855,0.2116071428,0.4780821918,0.3285714285,0.2729941291,4,6,1,6,6,0,6,5,0,6,0.0494292237,4,1,1,6,,,,
+model,qwen235b,log-prob,off,1,6,0.5847994341,0.3329538949,0.3805418065,0.5158740816,0.419649639,0.3912165288,0,6,0,6,6,0,6,3,3,6,0.0272681888,4,2,0,6,,,,
+model,qwen80b,log-prob,off,1,6,0.8177431697,0.2016373686,0.1964123305,0.7957156693,0.4520126806,0.3218570175,0,6,0,6,6,0,6,6,0,6,-0.0134571913,2,4,0,6,,,,
+model,qwen30b,log-prob,off,1,5,0.7895837508,0.1566079843,0.048887656,0.7852669086,0.7435566217,0.4822812797,2,5,4,5,5,0,5,5,0,5,0.002728955,3,2,0,5,,,,
+model,deepseek,log-prob,off,1,5,0.5003672859,-0.0052782205,0.0017677174,0.4529158719,0.1600538957,0.1663367336,5,5,4,5,5,0,5,2,3,5,-0.0182690213,1,4,0,5,,,,
+model,deepseek_s,sampled,off,0,6,0.498031496,0,0,0.5502136752,0.3323622047,0.1441025641,6,6,5,6,6,0,6,4,2,6,-0.04809286895,3,3,0,6,,,,
+model,gemma27b,log-prob,off,1,6,0.4442487177,0.0555425775,0.0738906479,0.3154512074,0.1700012349,0.136369648,3,6,3,6,6,0,6,6,0,6,-0.0009080199,3,3,0,6,,,,
+model,llama70b,log-prob,off,1,6,0.4806460171,1.3125e-07,2.3125e-07,0.4832660078,0.2731274149,0.2257437146,5,6,6,6,6,0,6,6,0,6,0.04398500425,4,2,0,6,,,,
+model,mistral24b,log-prob,off,1,5,0.5333575555,0.0679594064,0.1605636498,0.4913972331,0.3545678003,0.3757996702,3,5,0,5,5,0,5,2,3,5,-0.0128044433,2,3,0,5,,,,
+model,grok43_s,sampled,off,1,6,0.7162698412,0.2759433962,0.1297619048,0.619232189,0.5947784116,0.5367294204,0,6,1,6,6,0,6,5,1,6,-0.0642857143,2,4,0,6,,,,
+model,kimi,log-prob,off,1,5,0.2467804245,0.0069097756,0.0216667292,0.2299171743,0.1029326345,0.0773165529,5,5,5,5,5,0,5,3,2,5,-0.0133522638,1,4,0,5,,,,
+model,gpt6s_r,sampled,on,1,6,0,0,0,0,0,0,6,6,6,6,1,0,6,0,0,6,0,1,0,5,6,,,,
+model,gpt6l_r,sampled,on,1,6,0,0,0,0.00625,0,0,6,6,6,6,3,0,6,0,0,6,0,2,1,3,6,,,,
+model,haiku_r,sampled,on,1,6,0.2628997868,0.08745007355,0.1239872069,0.298933902,0.2148672223,0.1460554371,3,6,2,6,6,0,6,5,1,6,0.0548048048,5,1,0,6,,,,
+model,deepseek_r_mt8192,sampled,on,1,6,0,0,0,0,0,0,6,6,6,6,0,0,6,0,0,6,0,0,0,6,6,,,,
+model,gemini_r,sampled,on,1,6,0,0,0,0,0,0,6,6,5,5,2,0,5,0,0,5,0,2,0,3,5,"bicycle: P1_R, P1_neutral, P2_other not read (withdrawn (deployed_bicycle_rivals): the reasoning-detector defect)",,,
+model,gemini_pro,sampled,on,1,6,0,0,0,0,0,0,6,6,6,6,0,0,6,0,0,6,0,0,0,6,6,,,,
+model,grok43_r,sampled,on,1,6,0,0,0,0.011627907,0,0,6,6,6,6,3,0,6,0,0,6,0,1,0,5,6,,,,
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,p1_band_every,11 of 21,"models with P1 within 0.10 of blameless on every gate-passing scenario read; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,p1r_band_every,11 of 21,"models with P1-R within 0.10 of blameless on every gate-passing scenario read; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,both_band_every,10 of 21,"models with both P1 and P1-R within 0.10 on every gate-passing scenario read; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,p1_p1r_median_abs,0.004 (n = 121),"median over readings of |P1 - P1-R|, positions; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,neutral_shift_median,0.00 (n = 121),"median over readings of (P1-neutral - P0), positions; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,neutral_up_down,"48 up, 39 down, 34 unchanged, of 121","sign of (P1-neutral - P0) over readings; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,p1_below_neutral_every,13 of 21,"models with P1 below P1-neutral on every gate-passing scenario read with both, and above it on none; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,p1_above_neutral_cells,0 of 121,"readings with P1 above P1-neutral; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,p2_other_below_every,5 of 21,"models with P2-other below P2 on every gate-passing scenario read with both; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,p2_other_cells,"56 lower, 13 higher, 52 tied, of 121","P2-other against P2 over readings; counted readouts, gate-passing scenarios"
+summary,,,,,,,,,,,,,,,,,,,,,,,,,,,,p2_other_tied_at_zero,47 of 52,"of the tied readings, those with both at 0.00 exactly; counted readouts, gate-passing scenarios"
