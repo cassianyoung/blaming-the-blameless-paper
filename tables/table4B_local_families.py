@@ -12,7 +12,8 @@ checkpoint names are labels (ROWS below); what was read comes from the data:
                                    passing the chat gate, of six;
   data/A3_frames_excluded.csv      a release whose chat frame cannot be scored ("not
                                    readable").
-A family with no release, or no chat reading, prints "None", as the manuscript does. The
+A family with no developer release prints "—" for it and "not read" for the chat frame
+(Cassian, 2026-10-19, for v0_16; v0_15 printed "None" in both). The
 superscripts are the manuscript's footnote markers, kept as text.
 """
 import os
@@ -63,14 +64,16 @@ def main():
                 name = "adapters"
             names.append(name + (amark if x == "adapter" else ""))
         f = fams[0]
-        if release is None or f not in chat and f not in unreadable:
-            c = "None"
+        if release is None:
+            c = "not read"
+        elif f not in chat and f not in unreadable:
+            sys.exit(f"REFUSING: {label} has a release but no chat reading or exclusion")
         elif f in unreadable:
             assert f not in chat, f
             c = "not readable" + cmark
         else:
             c = f"release ({chat[f]})" + cmark
-        out.append([label, base, release or "None", ", ".join(names), c])
+        out.append([label, base, release or "—", ", ".join(names), c])
     assert {f for _, fams, *_ in ROWS for f in fams} == set(read), sorted(read)
     print(write_table("table4B_local_families", HEADER, out))
 
