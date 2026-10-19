@@ -19,19 +19,19 @@
 | llama70b duty 1 separate_gap | 0.0033 | 0.0041 | 0.0008 | 0.424 | draw band | yes |
 | llama70b duty 1 stated_condition_gap | 2.7905 | 2.8487 | 0.0582 | 0.424 | draw band | yes |
 | llama70b duty 1 neutral_baseline | 0.0782 | 0.0724 | -0.0058 | 0.424 | draw band | yes |
-| llama70b duty 1 floor_used | 0.5749 | 0.3000 | - | - | not comparable on a partial read | - |
+| llama70b duty 1 floor_used | 0.7724 | 0.3000 | - | - | not comparable on a partial read | - |
 | llama70b duty 1 signal_to_noise | 0.0000 | 0.0000 | - | - | not comparable on a partial read | - |
 | llama70b duty 1 stated_condition_vs_stated | ABOVE | ABOVE | - | - | not comparable on a partial read | - |
-| llama70b duty prawns gap_pro_first | 1.0000 | 1.0000 | 0.0000 | 0.424 | draw band | yes |
-| llama70b duty prawns gap_priv_first | 3.0000 | 3.0000 | 0.0000 | 0.424 | draw band | yes |
-| llama70b duty prawns stated_gap | 2.0000 | 2.0000 | 0.0000 | 0.424 | draw band | yes |
+| llama70b duty prawns gap_pro_first | 0.0000 | 0.0000 | 0.0000 | 0.424 | draw band | yes |
+| llama70b duty prawns gap_priv_first | 1.4000 | 1.4000 | 0.0000 | 0.424 | draw band | yes |
+| llama70b duty prawns stated_gap | 0.7000 | 0.7000 | 0.0000 | 0.424 | draw band | yes |
 | llama70b duty prawns separate_gap | 0.4015 | 0.3894 | -0.0121 | 0.424 | draw band | yes |
 | llama70b duty prawns stated_condition_gap | 3.0716 | 3.0911 | 0.0195 | 0.424 | draw band | yes |
-| llama70b duty prawns neutral_baseline | - | - | - | 0.424 | draw band | - |
-| llama70b duty prawns floor_used | 0.5749 | 0.3000 | - | - | not comparable on a partial read | - |
-| llama70b duty prawns signal_to_noise | 3.4790 | 6.6667 | - | - | not comparable on a partial read | - |
+| llama70b duty prawns neutral_baseline | 0.6458 | - | - | 0.424 | draw band | - |
+| llama70b duty prawns floor_used | 0.7724 | 0.3000 | - | - | not comparable on a partial read | - |
+| llama70b duty prawns signal_to_noise | 0.9063 | 2.3333 | - | - | not comparable on a partial read | - |
 | llama70b duty prawns stated_condition_vs_stated | ABOVE | ABOVE | - | - | not comparable on a partial read | - |
 
 24 of 24 checked values within their rule; 0 discrepancies
 
-Logs: `2026-10-10T13-51-17-00-00_excuse_epo2hwaogkQ8Yo9zJi4H4E.eval` sha256 `7dc115442b366201f8e5f0d522ef1b2b5a32e76ea403020dffc8659ffcc1042d`, `2026-10-10T13-52-16-00-00_duty_6iRztepcbUryKxUsMnQ4dT.eval` sha256 `6c802dcc2196d58a516a3edd2937bd51f2149f0e6995bd464df6f9f339155c67`
+Logs: `2026-10-10T13-51-17-00-00_excuse_epo2hwaogkQ8Yo9zJi4H4E.eval` sha256 `7dc115442b366201f8e5f0d522ef1b2b5a32e76ea403020dffc8659ffcc1042d`, `2026-10-10T13-52-16-00-00_duty_6iRztepcbUryKxUsMnQ4dT.eval` sha256 `6c802dcc2196d58a516a3edd2937bd51f2149f0e6995bd464df6f9f339155c67`, `2026-10-19T10-27-51-00-00_duty_dyiPiGzGxBVKUKNtZDzNw5.eval` sha256 `df42d903b16fb83fd49a0b5fc2ff420e19b4f16695dd6235e27a9cbbd449d845`

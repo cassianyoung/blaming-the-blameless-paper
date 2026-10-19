@@ -1,13 +1,15 @@
 # Acceptance: due-care-eval reproduces the paper
 
-**Checked against database build `1344b8cafadfd20ea77669c91fcc8a23a4131a6bd4f7035b6dff84f33e939868`**; the current build, `f54aa992a770d20781a5b06aba05250e678485f807f07e0d571572f96599b2fc`, differs from it only in two view definitions (the share and the remedy floor), neither of which any comparison here reads. Built from `851c599ba656280971dede42e2ca67e3d5def98e3ed39fcc6273045f9dcfaec3`, which adds only rows (artefacts, cells and paper_numbers from runs 230–234) that no acceptance comparison reads; checked.
-(`../reference/paper_values.json` records the sha it was exported from). Both acceptance
-runs were first checked against build `2c1c3c76ab96ab36…`. The rebuilds since changed
-how the per-scenario table stores worksheet cells (every ordering, not the last one read)
-and the registry of paper numbers (one value corrected to the banked reading, four
-entries the text does not print retired, six counts added); no position, band or gate
-the comparison reads moved, and both comparisons give the same result against every
-build.
+**Checked against database build `691397926c97eafd7440556b172b947c9880d5d41647d7fd49faf9e7a7697e6f`**,
+the build `../data/` comes from (`../reference/paper_values.json` records the sha it was
+exported from). Both acceptance runs were first checked against build `2c1c3c76ab96ab36…`,
+then against `1344b8ca…`, `f54aa992…` and `851c599b…`. Between `851c599b…` and this build
+one value the comparison reads changed: Llama-3.3-70B's prawns stated gap is now the full
+text side-by-side prompt's (due-care-eval v1.1), which the 10 October logs did not read, so
+it was read afresh (section 1). Every other compared value is unchanged, and the local
+comparison's table is identical against both builds. The earlier rebuilds changed how the
+per-scenario table stores worksheet cells (every ordering, not the last one read) and the
+registry of paper numbers; no position, band or gate the comparison reads moved.
 
 due-care-eval is accepted when it reproduces the paper's values on local weights to the
 printed precision, and on an API model within that arm's draw band. `../compare.py` makes
@@ -21,8 +23,11 @@ it with log-probabilities.
 
 **Read:** the excuse test on the bicycle (36 cells, 10 draws each, 360 calls) and the
 duty test on two pairs (prawns, and electrical work with its convention and three neutral
-sentences; 18 cells, 180 calls). Every call was served by the provider the paper used.
-Cost about US$0.05.
+sentences; 18 cells, 180 calls), on 10 October 2026. Then, on 19 October 2026 with
+due-care-eval v1.1-rc2 (commit `b6a2043`), the prawns pair's full-text side-by-side prompt in
+both orders (`-T pairs=prawns -T conditions=joint_full`; 2 cells, 10 draws each, 20
+calls, none void), which v1.1 makes the stated gap's source. Every call was served by the
+provider the paper used. Cost about US$0.05 and US$0.002.
 
 **Result: 24 of 24 comparable values within their rule; no discrepancies.**
 Full table: [`api_comparison.md`](api_comparison.md).
@@ -32,7 +37,7 @@ Full table: [`api_comparison.md`](api_comparison.md).
 | bicycle: target case position (P0) | 0.25 | 0.25 | 0.04 |
 | bicycle: gate | PASSED | PASSED | |
 | bicycle: prevention on the target case, P(yes) | 0.00 | 0.00 | 0.10 |
-| prawns: stated gap (two-order mean) | 2.00 | 2.00 | 0.42 |
+| prawns: stated gap, full-text prompt (two-order mean) | 0.70 | 0.70 | 0.42 |
 | prawns: separate gap | 0.40 | 0.39 | 0.42 |
 | prawns: gap with the convention stated | 3.07 | 3.09 | 0.42 |
 | electrical: stated gap | 0.00 | 0.00 | 0.42 |
@@ -55,8 +60,10 @@ three are reported in the table and not compared.
   sha256 `7dc115442b366201f8e5f0d522ef1b2b5a32e76ea403020dffc8659ffcc1042d`
 * `2026-10-10T13-52-16-00-00_duty_6iRztepcbUryKxUsMnQ4dT.eval`
   sha256 `6c802dcc2196d58a516a3edd2937bd51f2149f0e6995bd464df6f9f339155c67`
+* `2026-10-19T10-27-51-00-00_duty_dyiPiGzGxBVKUKNtZDzNw5.eval` (the full-text prompt)
+  sha256 `df42d903b16fb83fd49a0b5fc2ff420e19b4f16695dd6235e27a9cbbd449d845`
 
-These two logs name the task and model `duecare/excuse`, `duecare/duty` and
+The two 10 October logs name the task and model `duecare/excuse`, `duecare/duty` and
 `duecare/llama70b`: the eval package's name when they were taken. The code they ran is
 due-care-eval's, under its final name `due_care`; the logs are kept unaltered because their
 hashes are registered above.

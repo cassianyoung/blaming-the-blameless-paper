@@ -99,7 +99,9 @@ pre-registrations, as the pilots the remedy predictions were registered after; n
 ## What has been re-read
 
 `acceptance/ACCEPTANCE.md` records two acceptance runs. The first is one API model
-(Llama-3.3-70B) on the bicycle and two duty pairs: 24 of 24 values within their draw band.
+(Llama-3.3-70B) on the bicycle and two duty pairs, with the prawns pair's full-text
+side-by-side prompt read again through due-care-eval v1.1-rc2: 24 of 24 values within their
+draw band.
 The second is five local readings (Gemma 2 9B base on the worksheet, Gemma-2-9B-it on
 chat, Llama 3.1 8B base on the worksheet, and Llama-3.1-8B-Instruct on both frames): 378
 of 378 values equal at two decimals. The adapters were not part of either run.
