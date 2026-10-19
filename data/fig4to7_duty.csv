@@ -1,4 +1,4 @@
-# Figures 4 to 7, the duty test across six conventions. Database sha256: 59efbe42c520d0f49798817096c155b545c7c290e083324fc349ab37aa8a6ec9
+# Figures 4 to 7, the duty test across six conventions. Database sha256: 356f079a59309d0d5bd2897ae7494dd98f23313aa5794995adc6ce9190a21061
 # Built by scripts/build_fig7.py
 arm,model_label,reasoning,reasoning_source,group_order,row_order,pair_id,pair_label,panel_order,stated_gap_pro_first,stated_gap_priv_first,stated_gap,order_spread,exact_zero_flag,sep_pro,sep_priv,separate_gap,headroom_above_pro,stated_condition_pro,stated_condition_priv,stated_condition_gap,stated_condition_run,stated_condition_status,stated_condition_reason,stated_condition_vs_stated,floor_draw,floor_sentence,floor_used,floor_used_source,convention_stated,verdict,verdict_tie_broken,low_resolution,share,status,missing_reason
 claude,anthropic/claude-sonnet-5,off,reasoning_configured on the wire,1,1,prawns,prawns (chef against home cook),1,2.2,2,2.1,0.2,0,8,7,1,1,7,6,1,duty_prawns_convention,read,,WITHIN,0.3,1.1534,1.1534,"sentence floor (all_reported pair set), floored at 0.30",1,NOT APPLIED,1,1,0.4762,read,

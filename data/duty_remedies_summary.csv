@@ -1,4 +1,4 @@
-# Database sha256: 59efbe42c520d0f49798817096c155b545c7c290e083324fc349ab37aa8a6ec9
+# Database sha256: 356f079a59309d0d5bd2897ae7494dd98f23313aa5794995adc6ce9190a21061
 # Built by scripts/build_duty_exports.py
 arm,n_cells,n_stated,n_comparand,n_at,n_over,n_under,n_within_floor,n_no_class,n_low_resolution,n_professional_rises,sentence_floor,sentence_floor_robust,floors_diverge,n_recovery_defined
 claude,12,6,6,6,0,0,6,0,12,0,1.1534,1.1659,0,8
