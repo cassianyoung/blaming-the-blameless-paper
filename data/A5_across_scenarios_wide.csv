@@ -1,4 +1,4 @@
-# Appendix A.5. Database sha256: 70ff118005cfa0e9aef3ddb9d93cc8b2d9fbe380f5a207b5c563746552a9fd2b
+# Appendix A.5. Database sha256: 618135db3e8a8c0a0c25246da9e5e9896b40edcaf5238dc5a6915d1fef8f9a30
 # Built by scripts/build_b5_across_scenarios.py from the arms in figures/fig2_panelB.csv.
 model,readout,reasoning,bicycle_P0,bicycle_P1,bicycle_gate,ladder_P0,ladder_P1,ladder_gate,prawns_home_P0,prawns_home_P1,prawns_home_gate,prawns_restaurant_P0,prawns_restaurant_P1,prawns_restaurant_gate,scaffolding_P0,scaffolding_P1,scaffolding_gate,cheque_P0,cheque_P1,cheque_gate,counted
 claude,sampled,off,0.3333333333,0.1666666667,PASSED,0.1639344262,0.0,PASSED,0.2857142857,0.1,PASSED,0.25,0.0,PASSED,0.2857142857,0.1142857143,PASSED,0.125,0.1625,PASSED,1

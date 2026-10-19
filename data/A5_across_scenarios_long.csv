@@ -1,4 +1,4 @@
-# Appendix A.5. Database sha256: 70ff118005cfa0e9aef3ddb9d93cc8b2d9fbe380f5a207b5c563746552a9fd2b
+# Appendix A.5. Database sha256: 618135db3e8a8c0a0c25246da9e5e9896b40edcaf5238dc5a6915d1fef8f9a30
 # Built by scripts/build_b5_across_scenarios.py from the arms in figures/fig2_panelB.csv.
 model,bicycle_artefact_arm,scenario_artefact_arm,scenario,readout,reasoning,N,C,P0_pos,P1_pos,P1_R_pos,P1_neutral_pos,P2_pos,P2_other_pos,BYSTANDER_pos,gate,gate_failing_clause,reasoning_share,anchor_from_all_draws,absent_value_reason,role_sources,artefact_sha,counted
 claude,claude,claude,bicycle,sampled,off,0.0,6.0,0.3333333333,0.1666666667,0.1666666667,0.2833333333,0.1666666667,0.1666666667,0.0,PASSED,,,,,BYSTANDER=deployed_bicycle_rivals; C=deployed_bicycle_ladder; I=deployed_bicycle_ladder; N=deployed_bicycle_ladder; P0=deployed_bicycle_ladder; P1=deployed_bicycle_ladder; P1_R=deployed_bicycle_rivals; P1_neutral=deployed_bicycle_rivals; P2=deployed_bicycle_ladder; P2_other=deployed_bicycle_rivals,36006f2e824f1c1b;415747fdf5dc43b9,1

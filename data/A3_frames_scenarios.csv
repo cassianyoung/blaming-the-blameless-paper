@@ -1,4 +1,4 @@
-# Database sha256: 70ff118005cfa0e9aef3ddb9d93cc8b2d9fbe380f5a207b5c563746552a9fd2b
+# Database sha256: 618135db3e8a8c0a0c25246da9e5e9896b40edcaf5238dc5a6915d1fef8f9a30
 # Built by scripts/build_frame_table.py
 family,scenarios_chat_gate_pass,mean_unsigned_delta_pos_all,mean_unsigned_delta_pos_gated,mean_floor_shift_digits,median_rho,largest_abs_delta_pos,largest_abs_delta_scenario,off_scale_scenarios,scale_inverted_scenarios,mean_unsigned_delta_pos_on_scale,mean_unsigned_delta_pos_ex_ladder,mean_unsigned_delta_pos_ex_ladder_on_scale,cells_dropped_from_the_combined_mean,ladder_chat_delta_pos_reported_not_used
 llama31,0 of 6,0.3574,,1.8597,0.8571,0.6419,cheque,,,0.3574,0.3604,0.3604,ladder (chat anchor inverts on 4 of 8 releases),0.3426

@@ -1,4 +1,4 @@
-# Database sha256: 70ff118005cfa0e9aef3ddb9d93cc8b2d9fbe380f5a207b5c563746552a9fd2b
+# Database sha256: 618135db3e8a8c0a0c25246da9e5e9896b40edcaf5238dc5a6915d1fef8f9a30
 # Built by scripts/build_frame_table.py
 family,ws_N,chat_N,floor_shift_digits,ws_P0_pos,chat_P0_pos,delta_pos,spearman_rho_ws_vs_chat,chat_N_mass_0_3,chat_answer_mass,chat_I,chat_gate,chat_gate_failing_clause,chat_gate_rule,ws_gate,ws_gate_rule,off_scale,load_seconds_shared,sha_worksheet,sha_chat
 llama31,1.3368,3.9982,2.6614,0.6293679966,0.6869194437,0.0575514472,0.8929,0.4905,0.9998,8.4226,FAILED,mass(0-3) 0.4905 < 0.80,"mass(0-3) >= 0.8 AND answer mass >= 0.7 AND I >= 7.0; N mean reported, never thresholded",LICENSED,"(C-N) >= 3.0 bands AND answer mass >= 0.7; mass(0-3) reported, not thresholded; P0-N never tiers",,116.1,78305e33fd05da63,0b6c494986bf52da
