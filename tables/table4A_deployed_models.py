@@ -8,8 +8,9 @@ of one family read alike, share a row; ROWS below). Reads:
   data/A2_deployed_bicycle.csv       the draws per cell of each arm's bicycle reading.
 Readout (draws) lists each readout with its draws per cell; where a row's arms differ, the
 values are joined with " / " in arm order (reasoning off first). Reasoning arms is "off",
-"on only" or "off & on". Excuse gate is the scenarios passed of six, joined with " / "
-where the row's arms differ. The superscripts are the manuscript's footnote markers, kept
+"on only" or "off & on". Scenarios passing the gate (of 6) is the count of the six
+scenarios each arm passes, joined with " / " where the row's arms differ (as the manuscript
+prints it from v0_15: "6", "5 / 6"). The superscripts are the manuscript's footnote markers, kept
 as text.
 """
 import os
@@ -40,7 +41,8 @@ ROWS = [
     ("Mistral", "Mistral-Small-24B", [("mistral24b", "mistral24b")], "", ""),
     ("Moonshot", "Kimi-K3", [("kimi", "kimi")], "", ""),
 ]
-HEADER = ["Developer", "Model", "Readout (draws)", "Reasoning arms", "Excuse gate¹"]
+HEADER = ["Developer", "Model", "Readout (draws)", "Reasoning arms",
+          "Scenarios passing the gate (of 6)¹"]
 
 
 def joined(values):
@@ -63,7 +65,7 @@ def main():
         rs = {b5[arm]["reasoning"] for arm, _ in arms}
         reasoning = {frozenset({"off"}): "off", frozenset({"on"}): "on only"}.get(
             frozenset(rs), "off & on") + rmark
-        gate = joined(f"{sum(b5[arm][s + '_gate'] == 'PASSED' for s in SCENARIOS)} of 6"
+        gate = joined(str(sum(b5[arm][s + "_gate"] == "PASSED" for s in SCENARIOS))
                       for arm, _ in arms) + gmark
         out.append([dev, label, readout, reasoning, gate])
     print(write_table("table4A_deployed_models", HEADER, out))
