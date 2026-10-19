@@ -1,0 +1,3264 @@
+{
+ "arm": "haiku_r",
+ "run": 237,
+ "group": "H8",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "Anthropic"
+ ],
+ "models_served": [
+  "anthropic/claude-haiku-4.5"
+ ],
+ "calls": 350,
+ "spent_usd": 0.7240300000000001,
+ "cells": {
+  "v11|haiku_r|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 949,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1170,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1235,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1178,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 948,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1241,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1042,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1542,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 920,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1326,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1565,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1714,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1564,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1355,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1516,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1392,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1480,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1239,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1284,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1499,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1274,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1697,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1218,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1720,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1430,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1417,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1392,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1344,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1432,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1474,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1903,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1635,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1720,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1638,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1490,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1643,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1946,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1637,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2064,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1768,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1901,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1617,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2236,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1516,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1902,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1953,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1860,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1498,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1925,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1741,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|A|A|p1": {
+   "key": "A|p1",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 978,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1075,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1376,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1368,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1252,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1453,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1282,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1156,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1236,
+     "answer": "yes"
+    },
+    {
+     "text": "No.",
+     "reasoned": true,
+     "reasoning_text_len": 1812,
+     "answer": "no"
+    }
+   ],
+   "prompt16": "bb25268c0381ed6a",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p1|PRO": {
+   "key": "R|p1|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 2095,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1858,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1874,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 2039,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 2158,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1786,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1886,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1780,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1696,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 2104,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "3f0c2ba0ab40390a",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p1|PRIV": {
+   "key": "R|p1|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1466,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1514,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1783,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1439,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1792,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1861,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1760,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1846,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1942,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1768,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "ef7a3df0ff8d6dd9",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p1|PRO": {
+   "key": "B|p1|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1787,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2133,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1771,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1887,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1893,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1993,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1621,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1754,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1994,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1692,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "8ec923c811146030",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p1|PRIV": {
+   "key": "B|p1|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1705,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 2460,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2020,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1815,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1989,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1847,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1969,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2156,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2074,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1837,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "24d5ba6fb9f87a09",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|A|A|p3": {
+   "key": "A|p3",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1363,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1255,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1325,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1104,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1163,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1138,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1196,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1522,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1368,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1149,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "7bbc9c8ba5eae044",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p3|PRO": {
+   "key": "R|p3|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1638,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1890,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1725,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1579,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1716,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1530,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1787,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1604,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1678,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1946,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "ed2374c0b6bb81b2",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p3|PRIV": {
+   "key": "R|p3|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 1808,
+     "digit": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 1722,
+     "digit": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1748,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1665,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1882,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1583,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1939,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1732,
+     "digit": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 1846,
+     "digit": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1936,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "4fdaa83ae5416a0e",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p3|PRO": {
+   "key": "B|p3|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1968,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2001,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1788,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1978,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1918,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1932,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1816,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2112,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1490,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1657,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "1cf0b0abee9882e0",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p3|PRIV": {
+   "key": "B|p3|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1500,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1789,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1887,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1728,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1656,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 2218,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1673,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1916,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1759,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 1676,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    }
+   ],
+   "prompt16": "54ead0fee130aa93",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|A|A|p4": {
+   "key": "A|p4",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1519,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1092,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1376,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1512,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1211,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1370,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1036,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 948,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1451,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1269,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "ed490821867589ff",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p4|PRO": {
+   "key": "R|p4|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1635,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1755,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1584,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1780,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1902,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1576,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1548,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1678,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1814,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1657,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "8e31995ee1ef1757",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p4|PRIV": {
+   "key": "R|p4|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1545,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1486,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1468,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1611,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1657,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1422,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1612,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1567,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1768,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1604,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "a78cc33c7e16cfb3",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p4|PRO": {
+   "key": "B|p4|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1631,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1804,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1804,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2000,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1889,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1857,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1681,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1836,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1751,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1670,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "7e110fe5439ff2b8",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p4|PRIV": {
+   "key": "B|p4|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1655,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1717,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1787,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1710,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2093,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2100,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1823,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1682,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1699,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1868,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    }
+   ],
+   "prompt16": "278ca4ea51776a2d",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|A|A|p5": {
+   "key": "A|p5",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1464,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1227,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1478,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1580,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1232,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1508,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1105,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1230,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1335,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 959,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "6449e277f5b94c9d",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p5|PRO": {
+   "key": "R|p5|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1702,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1513,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1494,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1668,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1417,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1570,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1449,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1535,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1399,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1730,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "e2d0058c5b2f7e5d",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p5|PRIV": {
+   "key": "R|p5|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1394,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1641,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1440,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1413,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1519,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1604,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1757,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1707,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1467,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1719,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "f6bd764168ed80fc",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p5|PRO": {
+   "key": "B|p5|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1766,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1954,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1550,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1508,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1777,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1773,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1531,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1802,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2072,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1911,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "68711dea4d8fe34e",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p5|PRIV": {
+   "key": "B|p5|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2091,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2173,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1595,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2245,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1805,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1779,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1718,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 2044,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1704,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1503,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "f7f984babdbf654a",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|A|A|p7": {
+   "key": "A|p7",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1178,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 953,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1562,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 964,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1259,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 983,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1128,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1094,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1164,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1394,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "fd74ad9416e3e49c",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p7|PRO": {
+   "key": "R|p7|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1449,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1496,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1598,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1395,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1311,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1622,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1582,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1415,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1695,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1696,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "5435b5fcd6d50a95",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|R|R|p7|PRIV": {
+   "key": "R|p7|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1629,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1527,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1507,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1650,
+     "digit": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 1888,
+     "digit": 6.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 2081,
+     "digit": 8.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 1458,
+     "digit": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1655,
+     "digit": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 1650,
+     "digit": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1557,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "b4b3fd734447d8cd",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p7|PRO": {
+   "key": "B|p7|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1565,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1638,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1643,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1414,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1361,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1325,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1674,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1498,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1563,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1593,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "1829f2b913bf0f9c",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|B|B|p7|PRIV": {
+   "key": "B|p7|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1921,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1773,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1649,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1444,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1975,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1954,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 2064,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1648,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 1829,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 1585,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    }
+   ],
+   "prompt16": "6774acc49f27cef6",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|G|G|G1": {
+   "key": "G|G1",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "More.",
+     "reasoned": true,
+     "reasoning_text_len": 1392,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1104,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1604,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1309,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1215,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1429,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1153,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1255,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1357,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1199,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "2c63464ab4bbf540",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|G|G|G1_AP": {
+   "key": "G|G1_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1165,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1246,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 1255,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1539,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 894,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1417,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1587,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1281,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1526,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 1524,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "8fc7fecd742ba24e",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|G|G|G2": {
+   "key": "G|G2",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 1014,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 743,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 990,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 923,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 735,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 921,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 950,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 786,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1003,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 932,
+     "parsed": "yes"
+    }
+   ],
+   "prompt16": "2f5552e0f5f5ca7d",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|G|G|G3_PA": {
+   "key": "G|G3_PA",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 1747,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 1546,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 1454,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 1392,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 1890,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 1512,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 1666,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 1696,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 2168,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 1700,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    }
+   ],
+   "prompt16": "0e8ef4821412d5e5",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|haiku_r|G|G|G3_AP": {
+   "key": "G|G3_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 1797,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=7",
+     "reasoned": true,
+     "reasoning_text_len": 1498,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=7\n\nThe professional bears greater responsibility due to their duty of care, training expectations, and the client's reliance on their competence, despite both making the identical mistake with identical results.",
+     "reasoned": true,
+     "reasoning_text_len": 1831,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 1591,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 1266,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 1474,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 1607,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=7",
+     "reasoned": true,
+     "reasoning_text_len": 1418,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 1670,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 1754,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    }
+   ],
+   "prompt16": "e9407e6b00e2ac11",
+   "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "max_tokens": 4096,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  }
+ }
+}

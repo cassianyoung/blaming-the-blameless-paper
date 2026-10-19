@@ -1,0 +1,5834 @@
+{
+ "arm": "gpt6s_r",
+ "run": 237,
+ "group": "H8",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "OpenAI"
+ ],
+ "models_served": [
+  "openai/gpt-6-sol"
+ ],
+ "calls": 700,
+ "spent_usd": 0.8544399999999998,
+ "cells": {
+  "v11|gpt6s_r|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 471,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 554,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 571,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 511,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 988,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 530,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 501,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 470,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 545,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 475,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 487,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 555,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 452,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 385,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 427,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 471,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 428,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 432,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 418,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 430,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 425,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 417,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 369,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 417,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 442,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 353,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 413,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 424,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 440,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 448,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 447,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 534,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 417,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 431,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 479,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 520,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 415,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 421,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 430,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 420,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 413,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 505,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 448,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 497,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 445,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 406,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 498,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 442,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|A|A|p1": {
+   "key": "A|p1",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 556,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 519,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1074,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 568,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 506,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 596,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1055,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 547,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1008,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 634,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 537,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 543,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "bb25268c0381ed6a",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p1|PRO": {
+   "key": "R|p1|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 440,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 493,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 479,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 407,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 430,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 400,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 451,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 432,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 446,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "3f0c2ba0ab40390a",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p1|PRIV": {
+   "key": "R|p1|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 426,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 415,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 403,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 452,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 387,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 462,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 465,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 416,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 392,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 440,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "ef7a3df0ff8d6dd9",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p1|PRO": {
+   "key": "B|p1|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 589,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1023,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 531,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 486,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1063,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 525,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1090,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 526,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 521,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "8ec923c811146030",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p1|PRIV": {
+   "key": "B|p1|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 545,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1076,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 406,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 431,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 503,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 599,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 392,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 434,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1732,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 408,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 475,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "24d5ba6fb9f87a09",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|A|A|p3": {
+   "key": "A|p3",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 516,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1137,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1735,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 568,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1005,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 494,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 513,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1127,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 978,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1071,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1125,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 532,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "7bbc9c8ba5eae044",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p3|PRO": {
+   "key": "R|p3|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 418,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 450,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 463,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 427,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "ed2374c0b6bb81b2",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p3|PRIV": {
+   "key": "R|p3|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 463,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 421,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 397,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 433,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 494,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 448,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "4fdaa83ae5416a0e",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p3|PRO": {
+   "key": "B|p3|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 546,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 469,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 516,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 513,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 491,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 515,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 456,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 455,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 528,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 487,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 526,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "1cf0b0abee9882e0",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p3|PRIV": {
+   "key": "B|p3|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 469,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 513,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 492,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 473,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 485,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 500,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 506,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 505,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 563,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 520,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "54ead0fee130aa93",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|A|A|p4": {
+   "key": "A|p4",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 497,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 520,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 557,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 533,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 520,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 542,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 547,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 528,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 538,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "ed490821867589ff",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p4|PRO": {
+   "key": "R|p4|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 439,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 439,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 415,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 482,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 448,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 442,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 442,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 414,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "8e31995ee1ef1757",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p4|PRIV": {
+   "key": "R|p4|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 397,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 405,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 425,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 413,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 440,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 397,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 504,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "a78cc33c7e16cfb3",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p4|PRO": {
+   "key": "B|p4|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 542,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 491,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 512,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 446,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 468,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 559,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 484,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 452,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 576,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 585,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 502,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 582,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "7e110fe5439ff2b8",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p4|PRIV": {
+   "key": "B|p4|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 481,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 675,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 523,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 510,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 511,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 522,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 483,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 500,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 595,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 586,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 523,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 512,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "278ca4ea51776a2d",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|A|A|p5": {
+   "key": "A|p5",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 452,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 396,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 377,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 531,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 447,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 513,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 471,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 505,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 963,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 488,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 473,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 490,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 499,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 482,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "6449e277f5b94c9d",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p5|PRO": {
+   "key": "R|p5|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 447,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 439,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 393,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 446,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 417,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 457,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 448,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 456,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 420,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 408,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 415,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 434,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 448,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 424,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 450,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "e2d0058c5b2f7e5d",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p5|PRIV": {
+   "key": "R|p5|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 413,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 450,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 399,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 388,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 432,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 424,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 468,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 430,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 415,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 469,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 429,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 396,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 427,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 389,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "f6bd764168ed80fc",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p5|PRO": {
+   "key": "B|p5|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 977,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1047,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 571,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 609,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1039,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 631,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 535,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1599,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 533,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 531,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1048,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 973,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "68711dea4d8fe34e",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p5|PRIV": {
+   "key": "B|p5|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1092,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 535,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 601,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 608,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 517,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1073,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 447,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 563,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 516,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1592,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "f7f984babdbf654a",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|A|A|p7": {
+   "key": "A|p7",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 484,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 438,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1104,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 543,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 505,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 555,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1042,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 553,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1020,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 492,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 473,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "fd74ad9416e3e49c",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p7|PRO": {
+   "key": "R|p7|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 383,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 395,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 446,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 389,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 424,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 363,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "5435b5fcd6d50a95",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|R|R|p7|PRIV": {
+   "key": "R|p7|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 432,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 410,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 389,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 427,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 352,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "b4b3fd734447d8cd",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p7|PRO": {
+   "key": "B|p7|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 412,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 435,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 491,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 424,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 476,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 452,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 470,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 468,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "1829f2b913bf0f9c",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|B|B|p7|PRIV": {
+   "key": "B|p7|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 537,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 543,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 561,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 528,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 469,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 485,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 469,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "6774acc49f27cef6",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|G|G|G1": {
+   "key": "G|G1",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 465,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 429,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 473,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 451,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 485,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "2c63464ab4bbf540",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|G|G|G1_AP": {
+   "key": "G|G1_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 470,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 455,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 485,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 423,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 471,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 497,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "8fc7fecd742ba24e",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|G|G|G2": {
+   "key": "G|G2",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 435,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 483,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 497,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 470,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 567,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 457,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 517,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 492,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 476,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 465,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 535,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 533,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 479,
+     "parsed": "yes"
+    }
+   ],
+   "prompt16": "2f5552e0f5f5ca7d",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|G|G|G3_PA": {
+   "key": "G|G3_PA",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 418,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 451,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 433,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 504,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 403,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 469,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=7",
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 499,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 405,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 479,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 433,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=7",
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 445,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=7",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 442,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned": true,
+     "reasoning_text_len": 536,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    }
+   ],
+   "prompt16": "0e8ef4821412d5e5",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gpt6s_r|G|G|G3_AP": {
+   "key": "G|G3_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 491,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 577,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=7 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 522,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 532,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 403,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=7 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 450,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 415,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 455,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 402,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 542,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 452,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=7 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 459,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 456,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=7 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 481,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 7
+     }
+    }
+   ],
+   "prompt16": "e9407e6b00e2ac11",
+   "settings": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  }
+ }
+}

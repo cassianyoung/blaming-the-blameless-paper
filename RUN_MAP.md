@@ -48,3 +48,4 @@ to earlier work outside this paper.
 | Adapter weights | The LoRA adapters, on the Hugging Face Hub | `adapters/adapters.json and adapters/README.md` | 137, 145, 201, 205, 216, 217 |
 | Data behind the tables and figures | Every value the tables and figures print, with the queries that produced it | `data` | all reported runs |
 | Replication | Each reading the eval can re-read, the model table, and the comparison with the paper's values | `replication` | 214, 215, 216, 217, 220, 221, 223, 224, 225, 227, 228, 229 |
+| Later readings | The readings the eval does not run: frozen prompts with their hash check against the study's calls, reader and analysis code, every call as logged | `replication/later_readings` | 230, 231, 232, 233, 233G, 233S, 233T, 234, 237 |

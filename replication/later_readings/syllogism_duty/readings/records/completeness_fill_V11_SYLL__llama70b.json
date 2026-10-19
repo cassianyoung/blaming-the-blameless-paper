@@ -1,0 +1,507 @@
+{
+ "arm": "llama70b",
+ "run": 237,
+ "group": "H7",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "CoreWeave"
+ ],
+ "models_served": [
+  "meta-llama/llama-3.3-70b-instruct"
+ ],
+ "calls": 50,
+ "spent_usd": 0.005481200000000001,
+ "cells": {
+  "v11|llama70b|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7310586121225426,
+     "mass": 0.9999618238265289,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7772998944555657,
+     "mass": 1.0000292437309974,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7772998944555657,
+     "mass": 1.0000292437309974,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7772998944555657,
+     "mass": 1.0000292437309974,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7772998944555657,
+     "mass": 1.0000292437309974,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7772998944555657,
+     "mass": 1.0000292437309974,
+     "answer": "yes"
+    },
+    {
+     "text": "No",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7310586121225426,
+     "mass": 0.9999618238265289,
+     "answer": "no"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7772998944555657,
+     "mass": 1.0000292437309974,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7772998944555657,
+     "mass": 1.0000292437309974,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.7772998944555657,
+     "mass": 1.0000292437309974,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "coreweave",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|llama70b|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999842
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "coreweave",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|llama70b|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.679179
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.731059
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "coreweave",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|llama70b|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "coreweave",
+    "max_tokens": 32,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|llama70b|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "coreweave",
+    "max_tokens": 32,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  }
+ }
+}

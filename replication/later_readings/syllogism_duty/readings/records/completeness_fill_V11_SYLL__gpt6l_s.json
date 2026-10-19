@@ -1,0 +1,487 @@
+{
+ "arm": "gpt6l_s",
+ "run": 237,
+ "group": "H7",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "OpenAI"
+ ],
+ "models_served": [
+  "openai/gpt-6-luna"
+ ],
+ "calls": 50,
+ "spent_usd": 0.0008699999999999996,
+ "cells": {
+  "v11|gpt6l_s|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "No",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "no"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "No",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "no"
+    },
+    {
+     "text": "No",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "no"
+    },
+    {
+     "text": "No",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "no"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "max_tokens": 1024,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gpt6l_s|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "max_tokens": 1024,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gpt6l_s|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "max_tokens": 1024,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gpt6l_s|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "max_tokens": 1024,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gpt6l_s|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "max_tokens": 1024,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  }
+ }
+}

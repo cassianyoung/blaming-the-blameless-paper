@@ -1,0 +1,4094 @@
+{
+ "arm": "gemini_pro",
+ "run": 237,
+ "group": "H8",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "Google"
+ ],
+ "models_served": [
+  "google/gemini-3.1-pro-preview"
+ ],
+ "calls": 470,
+ "spent_usd": 3.187788,
+ "cells": {
+  "v11|gemini_pro|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 397,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 550,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 485,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 598,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 278,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 581,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 284,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 278,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 625,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 348,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 157,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 537,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 566,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 308,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 490,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 612,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 413,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 299,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 185,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 208,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 451,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 309,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 540,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 244,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 294,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 500,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 282,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 282,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 296,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 246,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 864,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 852,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 677,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 561,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 748,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 541,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 720,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 788,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 756,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 609,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 507,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 509,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 830,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 628,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 810,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 594,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 598,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1258,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 539,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 822,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|A|A|p1": {
+   "key": "A|p1",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 312,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 693,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 706,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 750,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 634,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 585,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 579,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 345,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 665,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 654,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "bb25268c0381ed6a",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p1|PRO": {
+   "key": "R|p1|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 790,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 806,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 939,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 906,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 878,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1217,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 868,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1425,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 606,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 854,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "3f0c2ba0ab40390a",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p1|PRIV": {
+   "key": "R|p1|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 625,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 536,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 674,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 526,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 616,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 590,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 411,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 605,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 334,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "ef7a3df0ff8d6dd9",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p1|PRO": {
+   "key": "B|p1|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 872,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 528,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 557,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 846,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 604,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 574,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 615,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 847,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 707,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 813,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "8ec923c811146030",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p1|PRIV": {
+   "key": "B|p1|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 605,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1507,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2110,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1040,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2382,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2396,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1120,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1309,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 959,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1246,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "24d5ba6fb9f87a09",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|A|A|p3": {
+   "key": "A|p3",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 552,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 354,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 735,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 618,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 264,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 354,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 373,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 374,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "7bbc9c8ba5eae044",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p3|PRO": {
+   "key": "R|p3|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1056,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1078,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 568,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1189,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 966,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1152,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 558,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1467,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 943,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "ed2374c0b6bb81b2",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p3|PRIV": {
+   "key": "R|p3|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 371,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 233,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 257,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 662,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 259,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 361,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 204,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 275,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 287,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 661,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "4fdaa83ae5416a0e",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p3|PRO": {
+   "key": "B|p3|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1124,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1595,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 542,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 559,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 597,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1056,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 521,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 524,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 924,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 830,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "1cf0b0abee9882e0",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p3|PRIV": {
+   "key": "B|p3|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 637,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 828,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 1333,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 917,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 325,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 517,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 369,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 1306,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 214,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 831,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    }
+   ],
+   "prompt16": "54ead0fee130aa93",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|A|A|p4": {
+   "key": "A|p4",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 543,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 665,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 644,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 309,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 274,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 274,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 370,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 544,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 613,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 283,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "ed490821867589ff",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p4|PRO": {
+   "key": "R|p4|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 908,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 499,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 840,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 855,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 893,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 543,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 604,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1121,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 835,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "8e31995ee1ef1757",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p4|PRIV": {
+   "key": "R|p4|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1124,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 315,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 266,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 490,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 916,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 304,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 476,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 941,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 323,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1114,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "a78cc33c7e16cfb3",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p4|PRO": {
+   "key": "B|p4|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 308,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 587,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 497,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 631,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 708,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 614,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 595,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 942,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 459,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 901,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "7e110fe5439ff2b8",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p4|PRIV": {
+   "key": "B|p4|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 893,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 614,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 650,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 694,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 524,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 586,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 519,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 952,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 896,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 964,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "278ca4ea51776a2d",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|A|A|p5": {
+   "key": "A|p5",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 260,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 574,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 721,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 266,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 600,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes.",
+     "reasoned": true,
+     "reasoning_text_len": 549,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 624,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "6449e277f5b94c9d",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p5|PRO": {
+   "key": "R|p5|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 388,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 546,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 229,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 241,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 235,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 288,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 185,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 249,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "e2d0058c5b2f7e5d",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p5|PRIV": {
+   "key": "R|p5|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 684,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 499,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 268,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 603,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 576,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 315,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 299,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 594,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 539,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "f6bd764168ed80fc",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p5|PRO": {
+   "key": "B|p5|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1342,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1105,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1087,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1798,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2333,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1284,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1256,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1774,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional\nPRINCIPLE=yes\nBLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1993,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 894,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "68711dea4d8fe34e",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p5|PRIV": {
+   "key": "B|p5|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2143,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 3810,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1368,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1084,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1215,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1959,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2194,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2889,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1509,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1899,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "f7f984babdbf654a",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|A|A|p7": {
+   "key": "A|p7",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 335,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 335,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 335,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 335,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 224,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 291,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 315,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 312,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "fd74ad9416e3e49c",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p7|PRO": {
+   "key": "R|p7|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 630,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 878,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 995,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 786,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 677,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 574,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 584,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1131,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 839,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 505,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "5435b5fcd6d50a95",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|R|R|p7|PRIV": {
+   "key": "R|p7|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 522,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 201,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 510,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 209,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 260,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 329,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 244,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 676,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 245,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "b4b3fd734447d8cd",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p7|PRO": {
+   "key": "B|p7|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 954,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 386,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 307,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 589,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 283,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 262,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 501,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 650,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "1829f2b913bf0f9c",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|B|B|p7|PRIV": {
+   "key": "B|p7|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 933,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 331,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 760,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 309,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 574,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 534,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 626,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 319,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 606,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 983,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    }
+   ],
+   "prompt16": "6774acc49f27cef6",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|G|G|G1": {
+   "key": "G|G1",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 340,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 325,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 331,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 302,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 323,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 359,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 321,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 275,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 284,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 285,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "2c63464ab4bbf540",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|G|G|G1_AP": {
+   "key": "G|G1_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 388,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 300,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 335,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 328,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 324,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 300,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 306,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 372,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 311,
+     "parsed": "more"
+    },
+    {
+     "text": "More",
+     "reasoned": true,
+     "reasoning_text_len": 324,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "8fc7fecd742ba24e",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|G|G|G2": {
+   "key": "G|G2",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 414,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 297,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 323,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 342,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 266,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 336,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 323,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 301,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 323,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 336,
+     "parsed": "yes"
+    }
+   ],
+   "prompt16": "2f5552e0f5f5ca7d",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|G|G|G3_PA": {
+   "key": "G|G3_PA",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 916,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 655,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 638,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 542,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 606,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 1033,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 809,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 535,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 864,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 673,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    }
+   ],
+   "prompt16": "0e8ef4821412d5e5",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|G|G|G3_AP": {
+   "key": "G|G3_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 608,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 651,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 769,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 1338,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 548,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 556,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=7 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 644,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 917,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 558,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 908,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    }
+   ],
+   "prompt16": "e9407e6b00e2ac11",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 3330,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 199,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 157,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 306,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 185,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 311,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 483,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 286,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 330,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 278,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 307,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 208,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 584,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 320,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 256,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 347,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 248,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 279,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 518,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p1|PRO": {
+   "key": "R|p1|PRO",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 923,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1166,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1123,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1325,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 805,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1147,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 903,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1055,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1052,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1304,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "3f0c2ba0ab40390a",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p1|PRIV": {
+   "key": "R|p1|PRIV",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 528,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 653,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 679,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 571,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 660,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 393,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 457,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 523,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 508,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 647,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "ef7a3df0ff8d6dd9",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p3|PRO": {
+   "key": "R|p3|PRO",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1396,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 877,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 918,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1149,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 870,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 666,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 896,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1136,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1038,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 483,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "ed2374c0b6bb81b2",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p3|PRIV": {
+   "key": "R|p3|PRIV",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 546,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 673,
+     "digit": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 587,
+     "digit": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 646,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 290,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 546,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 666,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 320,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 262,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 290,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "4fdaa83ae5416a0e",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p4|PRO": {
+   "key": "R|p4|PRO",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 841,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1214,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1085,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 901,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 651,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 693,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 488,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 800,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 539,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 843,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "8e31995ee1ef1757",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p4|PRIV": {
+   "key": "R|p4|PRIV",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 243,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 432,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 973,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 830,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 916,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1076,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 852,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 645,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 915,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 261,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "a78cc33c7e16cfb3",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p5|PRO": {
+   "key": "R|p5|PRO",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 192,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 216,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 210,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 185,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 541,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 615,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 520,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 578,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 260,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 241,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "e2d0058c5b2f7e5d",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p5|PRIV": {
+   "key": "R|p5|PRIV",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 237,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 390,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 518,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 590,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 368,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 270,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 588,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 617,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 598,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 465,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "f6bd764168ed80fc",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p7|PRO": {
+   "key": "R|p7|PRO",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 862,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 525,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 887,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1061,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 873,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1334,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 602,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 889,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 739,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 941,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "5435b5fcd6d50a95",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|gemini_pro|T230|R|p7|PRIV": {
+   "key": "R|p7|PRIV",
+   "kind": "T230",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 320,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 517,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 578,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 286,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 639,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 294,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 291,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 244,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 488,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 250,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "b4b3fd734447d8cd",
+   "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  }
+ }
+}

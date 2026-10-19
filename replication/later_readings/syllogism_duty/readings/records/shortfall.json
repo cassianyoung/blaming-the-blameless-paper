@@ -1,0 +1,534 @@
+{
+ "T_shortfall": {
+  "all": {
+   "cells": 52,
+   "missing": 0,
+   "falls_short": 29
+  },
+  "excluded_floor_above_stated": [
+   "deepseek",
+   "deepseek_s",
+   "gpt6l_s"
+  ],
+  "restricted": {
+   "cells": 40,
+   "missing": 0,
+   "falls_short": 27
+  },
+  "per_cell": {
+   "claude|1": {
+    "stated_gap": 2.5,
+    "separate_gap": 1.0,
+    "shortfall": 1.5,
+    "wording_floor": 1.0226078340313174,
+    "draw_floor": 0.3,
+    "floor": 1.0657048288443767,
+    "falls_short": true
+   },
+   "claude|3": {
+    "stated_gap": 3.3,
+    "separate_gap": 1.0,
+    "shortfall": 2.3,
+    "wording_floor": 1.0226078340313174,
+    "draw_floor": 0.3,
+    "floor": 1.0657048288443767,
+    "falls_short": true
+   },
+   "claude|4": {
+    "stated_gap": 2.3000000000000003,
+    "separate_gap": 0.2999999999999998,
+    "shortfall": 2.0000000000000004,
+    "wording_floor": 1.0226078340313174,
+    "draw_floor": 0.3,
+    "floor": 1.0657048288443767,
+    "falls_short": true
+   },
+   "claude|7": {
+    "stated_gap": 1.5499999999999998,
+    "separate_gap": 1.0,
+    "shortfall": 0.5499999999999998,
+    "wording_floor": 1.0226078340313174,
+    "draw_floor": 0.3,
+    "floor": 1.0657048288443767,
+    "falls_short": false
+   },
+   "deepseek|1": {
+    "stated_gap": 1.6500000000000004,
+    "separate_gap": -0.15355779999999974,
+    "shortfall": 1.8035578,
+    "wording_floor": 2.0381439465564153,
+    "draw_floor": 0.3,
+    "floor": 2.0601045475617394,
+    "falls_short": false
+   },
+   "deepseek|3": {
+    "stated_gap": 2.9,
+    "separate_gap": 0.48337140000000023,
+    "shortfall": 2.4166285999999997,
+    "wording_floor": 2.0381439465564153,
+    "draw_floor": 0.3,
+    "floor": 2.0601045475617394,
+    "falls_short": true
+   },
+   "deepseek|4": {
+    "stated_gap": 2.2999999999999994,
+    "separate_gap": 1.3902190999999995,
+    "shortfall": 0.9097808999999999,
+    "wording_floor": 2.0381439465564153,
+    "draw_floor": 0.3,
+    "floor": 2.0601045475617394,
+    "falls_short": false
+   },
+   "deepseek|7": {
+    "stated_gap": 1.0000000000000004,
+    "separate_gap": 1.0754686000000007,
+    "shortfall": -0.07546860000000022,
+    "wording_floor": 2.0381439465564153,
+    "draw_floor": 0.3,
+    "floor": 2.0601045475617394,
+    "falls_short": false
+   },
+   "deepseek_s|1": {
+    "stated_gap": 1.4499999999999997,
+    "separate_gap": -0.5,
+    "shortfall": 1.9499999999999997,
+    "wording_floor": 2.2102137593957334,
+    "draw_floor": 0.5812041140788856,
+    "floor": 2.285354039190524,
+    "falls_short": false
+   },
+   "deepseek_s|3": {
+    "stated_gap": 2.4,
+    "separate_gap": 0.7999999999999998,
+    "shortfall": 1.6,
+    "wording_floor": 2.2102137593957334,
+    "draw_floor": 0.5812041140788856,
+    "floor": 2.285354039190524,
+    "falls_short": false
+   },
+   "deepseek_s|4": {
+    "stated_gap": 2.1999999999999993,
+    "separate_gap": 1.2000000000000002,
+    "shortfall": 0.9999999999999991,
+    "wording_floor": 2.2102137593957334,
+    "draw_floor": 0.5812041140788856,
+    "floor": 2.285354039190524,
+    "falls_short": false
+   },
+   "deepseek_s|7": {
+    "stated_gap": 1.15,
+    "separate_gap": 1.6000000000000005,
+    "shortfall": -0.4500000000000006,
+    "wording_floor": 2.2102137593957334,
+    "draw_floor": 0.5812041140788856,
+    "floor": 2.285354039190524,
+    "falls_short": false
+   },
+   "gemma27b|1": {
+    "stated_gap": 2.0,
+    "separate_gap": 0.0007892000000015997,
+    "shortfall": 1.9992107999999984,
+    "wording_floor": 1.2475261336598131,
+    "draw_floor": 0.3,
+    "floor": 1.2830905868894067,
+    "falls_short": true
+   },
+   "gemma27b|3": {
+    "stated_gap": 4.0,
+    "separate_gap": 1.9995277999999992,
+    "shortfall": 2.000472200000001,
+    "wording_floor": 1.2475261336598131,
+    "draw_floor": 0.3,
+    "floor": 1.2830905868894067,
+    "falls_short": true
+   },
+   "gemma27b|4": {
+    "stated_gap": 2.9499999999999997,
+    "separate_gap": 1.886375600000001,
+    "shortfall": 1.0636243999999988,
+    "wording_floor": 1.2475261336598131,
+    "draw_floor": 0.3,
+    "floor": 1.2830905868894067,
+    "falls_short": false
+   },
+   "gemma27b|7": {
+    "stated_gap": 1.5,
+    "separate_gap": 0.8847472000000014,
+    "shortfall": 0.6152527999999986,
+    "wording_floor": 1.2475261336598131,
+    "draw_floor": 0.3,
+    "floor": 1.2830905868894067,
+    "falls_short": false
+   },
+   "gpt4o|1": {
+    "stated_gap": 2.9,
+    "separate_gap": 0.5410886000000001,
+    "shortfall": 2.3589113999999998,
+    "wording_floor": 0.8134700877916462,
+    "draw_floor": 0.3,
+    "floor": 0.8670257111134297,
+    "falls_short": true
+   },
+   "gpt4o|3": {
+    "stated_gap": 3.4,
+    "separate_gap": 1.3538095000000006,
+    "shortfall": 2.0461904999999994,
+    "wording_floor": 0.8134700877916462,
+    "draw_floor": 0.3,
+    "floor": 0.8670257111134297,
+    "falls_short": true
+   },
+   "gpt4o|4": {
+    "stated_gap": 3.8000000000000003,
+    "separate_gap": 0.8091821000000001,
+    "shortfall": 2.9908179,
+    "wording_floor": 0.8134700877916462,
+    "draw_floor": 0.3,
+    "floor": 0.8670257111134297,
+    "falls_short": true
+   },
+   "gpt4o|7": {
+    "stated_gap": 1.4999999999999996,
+    "separate_gap": 0.42573939999999943,
+    "shortfall": 1.0742606000000001,
+    "wording_floor": 0.8134700877916462,
+    "draw_floor": 0.3,
+    "floor": 0.8670257111134297,
+    "falls_short": true
+   },
+   "gpt6l_s|1": {
+    "stated_gap": 2.0000000000000004,
+    "separate_gap": -0.3000000000000007,
+    "shortfall": 2.300000000000001,
+    "wording_floor": 1.8856212698559947,
+    "draw_floor": 0.9946186315479025,
+    "floor": 2.1318615798300686,
+    "falls_short": true
+   },
+   "gpt6l_s|3": {
+    "stated_gap": 3.1500000000000004,
+    "separate_gap": 1.7000000000000002,
+    "shortfall": 1.4500000000000002,
+    "wording_floor": 1.8856212698559947,
+    "draw_floor": 0.9946186315479025,
+    "floor": 2.1318615798300686,
+    "falls_short": false
+   },
+   "gpt6l_s|4": {
+    "stated_gap": 1.35,
+    "separate_gap": 1.5,
+    "shortfall": -0.1499999999999999,
+    "wording_floor": 1.8856212698559947,
+    "draw_floor": 0.9946186315479025,
+    "floor": 2.1318615798300686,
+    "falls_short": false
+   },
+   "gpt6l_s|7": {
+    "stated_gap": 0.6999999999999997,
+    "separate_gap": 1.2999999999999998,
+    "shortfall": -0.6000000000000001,
+    "wording_floor": 1.8856212698559947,
+    "draw_floor": 0.9946186315479025,
+    "floor": 2.1318615798300686,
+    "falls_short": false
+   },
+   "gpt6s_s|1": {
+    "stated_gap": 1.35,
+    "separate_gap": 1.0,
+    "shortfall": 0.3500000000000001,
+    "wording_floor": 0.9799551463658366,
+    "draw_floor": 0.9946186315479025,
+    "floor": 1.3962730073703746,
+    "falls_short": false
+   },
+   "gpt6s_s|3": {
+    "stated_gap": 2.0,
+    "separate_gap": 1.4000000000000004,
+    "shortfall": 0.5999999999999996,
+    "wording_floor": 0.9799551463658366,
+    "draw_floor": 0.9946186315479025,
+    "floor": 1.3962730073703746,
+    "falls_short": false
+   },
+   "gpt6s_s|4": {
+    "stated_gap": 0.6000000000000001,
+    "separate_gap": 1.0,
+    "shortfall": -0.3999999999999999,
+    "wording_floor": 0.9799551463658366,
+    "draw_floor": 0.9946186315479025,
+    "floor": 1.3962730073703746,
+    "falls_short": false
+   },
+   "gpt6s_s|7": {
+    "stated_gap": 1.6999999999999993,
+    "separate_gap": 0.0,
+    "shortfall": 1.6999999999999993,
+    "wording_floor": 0.9799551463658366,
+    "draw_floor": 0.9946186315479025,
+    "floor": 1.3962730073703746,
+    "falls_short": true
+   },
+   "grok43_s|1": {
+    "stated_gap": 1.35,
+    "separate_gap": 0.10000000000000053,
+    "shortfall": 1.2499999999999996,
+    "wording_floor": 1.374502528189745,
+    "draw_floor": 1.8960849723106352,
+    "floor": 2.341878609625662,
+    "falls_short": false
+   },
+   "grok43_s|3": {
+    "stated_gap": 2.4999999999999996,
+    "separate_gap": 1.0999999999999996,
+    "shortfall": 1.4,
+    "wording_floor": 1.374502528189745,
+    "draw_floor": 1.8960849723106352,
+    "floor": 2.341878609625662,
+    "falls_short": false
+   },
+   "grok43_s|4": {
+    "stated_gap": 1.8000000000000003,
+    "separate_gap": 0.9000000000000004,
+    "shortfall": 0.8999999999999999,
+    "wording_floor": 1.374502528189745,
+    "draw_floor": 1.8960849723106352,
+    "floor": 2.341878609625662,
+    "falls_short": false
+   },
+   "grok43_s|7": {
+    "stated_gap": 0.08333333333333304,
+    "separate_gap": 0.7000000000000002,
+    "shortfall": -0.6166666666666671,
+    "wording_floor": 1.374502528189745,
+    "draw_floor": 1.8960849723106352,
+    "floor": 2.341878609625662,
+    "falls_short": false
+   },
+   "haiku_s|1": {
+    "stated_gap": 2.5500000000000003,
+    "separate_gap": 0.7999999999999998,
+    "shortfall": 1.7500000000000004,
+    "wording_floor": 0.5544333884446555,
+    "draw_floor": 0.7327058679230629,
+    "floor": 0.9188331029687117,
+    "falls_short": true
+   },
+   "haiku_s|3": {
+    "stated_gap": 3.75,
+    "separate_gap": 0.9000000000000004,
+    "shortfall": 2.8499999999999996,
+    "wording_floor": 0.5544333884446555,
+    "draw_floor": 0.7327058679230629,
+    "floor": 0.9188331029687117,
+    "falls_short": true
+   },
+   "haiku_s|4": {
+    "stated_gap": 2.5,
+    "separate_gap": 0.0,
+    "shortfall": 2.5,
+    "wording_floor": 0.5544333884446555,
+    "draw_floor": 0.7327058679230629,
+    "floor": 0.9188331029687117,
+    "falls_short": true
+   },
+   "haiku_s|7": {
+    "stated_gap": 2.8499999999999996,
+    "separate_gap": 0.0,
+    "shortfall": 2.8499999999999996,
+    "wording_floor": 0.5544333884446555,
+    "draw_floor": 0.7327058679230629,
+    "floor": 0.9188331029687117,
+    "falls_short": true
+   },
+   "kimi|1": {
+    "stated_gap": 2.45,
+    "separate_gap": 0.3119636000000021,
+    "shortfall": 2.138036399999998,
+    "wording_floor": 0.6914459780382881,
+    "draw_floor": 0.3,
+    "floor": 0.753722455911541,
+    "falls_short": true
+   },
+   "kimi|3": {
+    "stated_gap": 2.5500000000000003,
+    "separate_gap": 1.4033281999999998,
+    "shortfall": 1.1466718000000005,
+    "wording_floor": 0.6914459780382881,
+    "draw_floor": 0.3,
+    "floor": 0.753722455911541,
+    "falls_short": true
+   },
+   "kimi|4": {
+    "stated_gap": 1.6999999999999993,
+    "separate_gap": 1.2125315999999993,
+    "shortfall": 0.4874684,
+    "wording_floor": 0.6914459780382881,
+    "draw_floor": 0.3,
+    "floor": 0.753722455911541,
+    "falls_short": false
+   },
+   "kimi|7": {
+    "stated_gap": 2.95,
+    "separate_gap": 0.25504380000000015,
+    "shortfall": 2.6949562,
+    "wording_floor": 0.6914459780382881,
+    "draw_floor": 0.3,
+    "floor": 0.753722455911541,
+    "falls_short": true
+   },
+   "llama70b|1": {
+    "stated_gap": 0.0,
+    "separate_gap": 0.0020289000000008883,
+    "shortfall": -0.0020289000000008883,
+    "wording_floor": 0.5748790766664361,
+    "draw_floor": 0.3,
+    "floor": 0.6484488821710268,
+    "falls_short": false
+   },
+   "llama70b|3": {
+    "stated_gap": 3.0,
+    "separate_gap": 0.9982500000000005,
+    "shortfall": 2.0017499999999995,
+    "wording_floor": 0.5748790766664361,
+    "draw_floor": 0.3,
+    "floor": 0.6484488821710268,
+    "falls_short": true
+   },
+   "llama70b|4": {
+    "stated_gap": 2.0,
+    "separate_gap": 7.20000000065113e-06,
+    "shortfall": 1.9999927999999993,
+    "wording_floor": 0.5748790766664361,
+    "draw_floor": 0.3,
+    "floor": 0.6484488821710268,
+    "falls_short": true
+   },
+   "llama70b|7": {
+    "stated_gap": 1.5,
+    "separate_gap": 0.7046933000000006,
+    "shortfall": 0.7953066999999994,
+    "wording_floor": 0.5748790766664361,
+    "draw_floor": 0.3,
+    "floor": 0.6484488821710268,
+    "falls_short": true
+   },
+   "mistral24b|1": {
+    "stated_gap": 1.8499999999999996,
+    "separate_gap": -0.007873399999999364,
+    "shortfall": 1.857873399999999,
+    "wording_floor": 0.44913773126997003,
+    "draw_floor": 0.3,
+    "floor": 0.540115452149201,
+    "falls_short": true
+   },
+   "mistral24b|3": {
+    "stated_gap": 4.1,
+    "separate_gap": 1.0577067000000007,
+    "shortfall": 3.042293299999999,
+    "wording_floor": 0.44913773126997003,
+    "draw_floor": 0.3,
+    "floor": 0.540115452149201,
+    "falls_short": true
+   },
+   "mistral24b|4": {
+    "stated_gap": 2.3000000000000003,
+    "separate_gap": 0.5903600999999998,
+    "shortfall": 1.7096399000000004,
+    "wording_floor": 0.44913773126997003,
+    "draw_floor": 0.3,
+    "floor": 0.540115452149201,
+    "falls_short": true
+   },
+   "mistral24b|7": {
+    "stated_gap": 0.9499999999999997,
+    "separate_gap": 0.06496859999999938,
+    "shortfall": 0.8850314000000004,
+    "wording_floor": 0.44913773126997003,
+    "draw_floor": 0.3,
+    "floor": 0.540115452149201,
+    "falls_short": true
+   },
+   "qwen80b|1": {
+    "stated_gap": 2.15,
+    "separate_gap": 0.7897979999999993,
+    "shortfall": 1.3602020000000006,
+    "wording_floor": 0.8354894724204143,
+    "draw_floor": 0.8856579282829451,
+    "floor": 1.2175518980543625,
+    "falls_short": true
+   },
+   "qwen80b|3": {
+    "stated_gap": 5.1499999999999995,
+    "separate_gap": 0.8664129999999997,
+    "shortfall": 4.283587,
+    "wording_floor": 0.8354894724204143,
+    "draw_floor": 0.8856579282829451,
+    "floor": 1.2175518980543625,
+    "falls_short": true
+   },
+   "qwen80b|4": {
+    "stated_gap": 2.2,
+    "separate_gap": 1.2411650000000005,
+    "shortfall": 0.9588349999999997,
+    "wording_floor": 0.8354894724204143,
+    "draw_floor": 0.8856579282829451,
+    "floor": 1.2175518980543625,
+    "falls_short": false
+   },
+   "qwen80b|7": {
+    "stated_gap": 1.65,
+    "separate_gap": 0.163945,
+    "shortfall": 1.486055,
+    "wording_floor": 0.8354894724204143,
+    "draw_floor": 0.8856579282829451,
+    "floor": 1.2175518980543625,
+    "falls_short": true
+   }
+  }
+ },
+ "registered": [
+  [
+   "syllogism_duty Amendment T non-driving cells whose shortfall exceeds sqrt(wording^2 + draw^2) floor",
+   "29 of 52"
+  ],
+  [
+   "syllogism_duty Amendment T arms excluded, wording floor above own median stated slack",
+   "deepseek, deepseek_s, gpt6l_s"
+  ],
+  [
+   "syllogism_duty Amendment T excluding those arms, cells whose shortfall exceeds the floor",
+   "27 of 40"
+  ]
+ ],
+ "draw_floor_frozen": {
+  "claude": 0.3,
+  "deepseek": 0.3,
+  "deepseek_s": 0.5812041140788856,
+  "gemma27b": 0.3,
+  "gpt4o": 0.3,
+  "gpt6l_s": 0.9946186315479025,
+  "gpt6s_s": 0.9946186315479025,
+  "grok43_s": 1.8960849723106352,
+  "haiku_s": 0.7327058679230629,
+  "kimi": 0.3,
+  "llama70b": 0.3,
+  "mistral24b": 0.3,
+  "qwen80b": 0.8856579282829451
+ },
+ "inputs": {
+  "records/syllogism_duty_READ__claude.json": "0224986988d7cfc0a91a374c3f8f18b481f677861dab7aea8886a039af9ede20",
+  "records/syllogism_duty_READ__deepseek.json": "e56d8a8ec47020e39918955dfd9530d229c0aeebf14b0747b5fead1fc53c0d2a",
+  "records/syllogism_duty_READ__deepseek_s.json": "e4c90546546fe466033e5e8e569be4bfaf1b33752369b0520041941cebc97c93",
+  "records/syllogism_duty_READ__gemma27b.json": "179d518c02951b60eff7aaf8ab62ddbb07b12de0cfef4ad8fa26a51be4006897",
+  "records/syllogism_duty_READ__gpt4o.json": "7fe66325a5c216de3a6729aa8d6f4ec2e147f98657327109b9eeb3101149c7f6",
+  "records/syllogism_duty_READ__gpt6l_s.json": "1e205236917ce33124886c8860c50950c6434b1bd9e04d12f38d8ee6fd53620e",
+  "records/syllogism_duty_READ__gpt6s_s.json": "206a7ba97fd14bca12f0566e56e53e9a08fc06e800bd8da7cde481157ac007c3",
+  "records/syllogism_duty_READ__grok43_s.json": "dd139127ab30e221588f4d4358db1ebe9d6fb6d708b8275793a20b4d6bd3e93b",
+  "records/syllogism_duty_READ__haiku_s.json": "2d5f6df355980030f9853aa3fa4846c0dda2236e60c1c443b4dbb0f6c741b0d3",
+  "records/syllogism_duty_READ__kimi.json": "91554daaf673edf0a037211be5ce0bb0ea55ba9a3798d45336337073dd1dc844",
+  "records/syllogism_duty_READ__llama70b.json": "85623d359cad2870dd05f85e9da03779396d9bc4832fce435aa02753af17f594",
+  "records/syllogism_duty_READ__mistral24b.json": "8b50b929d44f2b13e45f786b4808e4c78ad3a168128722841caf85c3c98be687",
+  "records/syllogism_duty_READ__qwen80b.json": "4e46b1a29faeca9a38ba2e847dd6cf05e542c4d68f5e5411ebfa5952d6f632cb"
+ },
+ "rule": "records/PREREG_syllogism_duty_SYLLOGISM_DUTY.md, Amendment T (banked 2026-10-13 19:40 BST, commit d0811e70, before this was computed)"
+}

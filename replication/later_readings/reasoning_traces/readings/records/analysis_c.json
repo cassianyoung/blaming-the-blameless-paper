@@ -1,0 +1,654 @@
+{
+ "amendment": 4,
+ "codes_stopped": {
+  "R": {
+   "full": {
+    "ac1": 0.6251626898047723,
+    "yes_primary": 29,
+    "yes_second": 20
+   },
+   "summary": {
+    "ac1": 0.6224957760077239,
+    "yes_primary": 40,
+    "yes_second": 17
+   },
+   "gemini alone": {
+    "ac1": 0.6528301886792452,
+    "yes_primary": 13,
+    "yes_second": 9
+   }
+  },
+  "S": {
+   "full": {
+    "ac1": 0.5739644970414202,
+    "yes_primary": 20,
+    "yes_second": 8
+   },
+   "summary": {
+    "ac1": 0.9584097859327217,
+    "yes_primary": 5,
+    "yes_second": 1
+   },
+   "gemini alone": {
+    "ac1": 0.8966292134831458,
+    "yes_primary": 3,
+    "yes_second": 1
+   }
+  }
+ },
+ "C_agreement": {
+  "full": {
+   "ac1": 0.9547169811320756,
+   "raw_agreement": 0.9583333333333334,
+   "yes_primary": 2,
+   "yes_second": 2
+  },
+  "summary": {
+   "ac1": 1.0,
+   "raw_agreement": 1.0,
+   "yes_primary": 0,
+   "yes_second": 0
+  },
+  "gemini alone": {
+   "ac1": 1.0,
+   "raw_agreement": 1.0,
+   "yes_primary": 0,
+   "yes_second": 0
+  }
+ },
+ "floor": 0.7,
+ "analysis": {
+  "full": {
+   "private": {
+    "draws": 120,
+    "no_trace": 0,
+    "uncoded": 0,
+    "coded": 120,
+    "C": 6,
+    "share_C": 0.05
+   },
+   "professional": {
+    "draws": 120,
+    "no_trace": 0,
+    "uncoded": 0,
+    "coded": 120,
+    "C": 5,
+    "share_C": 0.041666666666666664
+   },
+   "score_split": {
+    "n_C": 6,
+    "n_not_C": 114,
+    "mean_C": 7.0,
+    "mean_not_C": 7.578947368421052,
+    "difference": -0.5789473684210522
+   },
+   "per_arm": {
+    "deepseek_r": {
+     "private": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 1,
+      "share_C": 0.016666666666666666
+     },
+     "professional": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "score_split": {
+      "n_C": 1,
+      "n_not_C": 59,
+      "mean_C": 8.0,
+      "mean_not_C": 8.11864406779661,
+      "difference": -0.11864406779661074
+     }
+    },
+    "haiku_r": {
+     "private": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 5,
+      "share_C": 0.08333333333333333
+     },
+     "professional": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 5,
+      "share_C": 0.08333333333333333
+     },
+     "score_split": {
+      "n_C": 5,
+      "n_not_C": 55,
+      "mean_C": 6.8,
+      "mean_not_C": 7.0,
+      "difference": -0.20000000000000018
+     }
+    }
+   },
+   "per_pair": {
+    "prawns": {
+     "private": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "1": {
+     "private": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 2,
+      "share_C": 0.1
+     },
+     "professional": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 1,
+      "share_C": 0.05
+     }
+    },
+    "3": {
+     "private": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 1,
+      "share_C": 0.05
+     },
+     "professional": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "4": {
+     "private": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 1,
+      "share_C": 0.05
+     }
+    },
+    "5": {
+     "private": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 2,
+      "share_C": 0.1
+     }
+    },
+    "7": {
+     "private": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 3,
+      "share_C": 0.15
+     },
+     "professional": {
+      "draws": 20,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 20,
+      "C": 1,
+      "share_C": 0.05
+     }
+    }
+   },
+   "prediction_1_C_under_one_fifth": true,
+   "prediction_3_lower_when_C": true
+  },
+  "summary": {
+   "private": {
+    "draws": 300,
+    "no_trace": 40,
+    "uncoded": 0,
+    "coded": 260,
+    "C": 1,
+    "share_C": 0.0038461538461538464
+   },
+   "professional": {
+    "draws": 300,
+    "no_trace": 52,
+    "uncoded": 0,
+    "coded": 248,
+    "C": 0,
+    "share_C": 0.0
+   },
+   "score_split": {
+    "n_C": 1,
+    "n_not_C": 259,
+    "mean_C": 7.0,
+    "mean_not_C": 7.505791505791506,
+    "difference": -0.5057915057915059
+   },
+   "per_arm": {
+    "grok43_r": {
+     "private": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "score_split": {
+      "n_C": 0,
+      "n_not_C": 60,
+      "mean_C": null,
+      "mean_not_C": 7.183333333333334,
+      "difference": null
+     }
+    },
+    "gemini_r": {
+     "private": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "score_split": {
+      "n_C": 0,
+      "n_not_C": 60,
+      "mean_C": null,
+      "mean_not_C": 7.633333333333334,
+      "difference": null
+     }
+    },
+    "gpt6l_r": {
+     "private": {
+      "draws": 60,
+      "no_trace": 6,
+      "uncoded": 0,
+      "coded": 54,
+      "C": 1,
+      "share_C": 0.018518518518518517
+     },
+     "professional": {
+      "draws": 60,
+      "no_trace": 8,
+      "uncoded": 0,
+      "coded": 52,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "score_split": {
+      "n_C": 1,
+      "n_not_C": 53,
+      "mean_C": 7.0,
+      "mean_not_C": 7.245283018867925,
+      "difference": -0.2452830188679247
+     }
+    },
+    "gpt6s_r": {
+     "private": {
+      "draws": 120,
+      "no_trace": 34,
+      "uncoded": 0,
+      "coded": 86,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 120,
+      "no_trace": 44,
+      "uncoded": 0,
+      "coded": 76,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "score_split": {
+      "n_C": 0,
+      "n_not_C": 86,
+      "mean_C": null,
+      "mean_not_C": 7.8023255813953485,
+      "difference": null
+     }
+    }
+   },
+   "per_pair": {
+    "prawns": {
+     "private": {
+      "draws": 50,
+      "no_trace": 2,
+      "uncoded": 0,
+      "coded": 48,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 50,
+      "no_trace": 1,
+      "uncoded": 0,
+      "coded": 49,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "1": {
+     "private": {
+      "draws": 50,
+      "no_trace": 6,
+      "uncoded": 0,
+      "coded": 44,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 50,
+      "no_trace": 11,
+      "uncoded": 0,
+      "coded": 39,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "3": {
+     "private": {
+      "draws": 50,
+      "no_trace": 9,
+      "uncoded": 0,
+      "coded": 41,
+      "C": 1,
+      "share_C": 0.024390243902439025
+     },
+     "professional": {
+      "draws": 50,
+      "no_trace": 9,
+      "uncoded": 0,
+      "coded": 41,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "4": {
+     "private": {
+      "draws": 50,
+      "no_trace": 9,
+      "uncoded": 0,
+      "coded": 41,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 50,
+      "no_trace": 10,
+      "uncoded": 0,
+      "coded": 40,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "5": {
+     "private": {
+      "draws": 50,
+      "no_trace": 2,
+      "uncoded": 0,
+      "coded": 48,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 50,
+      "no_trace": 3,
+      "uncoded": 0,
+      "coded": 47,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "7": {
+     "private": {
+      "draws": 50,
+      "no_trace": 12,
+      "uncoded": 0,
+      "coded": 38,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 50,
+      "no_trace": 18,
+      "uncoded": 0,
+      "coded": 32,
+      "C": 0,
+      "share_C": 0.0
+     }
+    }
+   },
+   "prediction_1_C_under_one_fifth": true,
+   "prediction_3_lower_when_C": true
+  },
+  "gemini alone": {
+   "private": {
+    "draws": 60,
+    "no_trace": 0,
+    "uncoded": 0,
+    "coded": 60,
+    "C": 0,
+    "share_C": 0.0
+   },
+   "professional": {
+    "draws": 60,
+    "no_trace": 0,
+    "uncoded": 0,
+    "coded": 60,
+    "C": 0,
+    "share_C": 0.0
+   },
+   "score_split": {
+    "n_C": 0,
+    "n_not_C": 60,
+    "mean_C": null,
+    "mean_not_C": 7.633333333333334,
+    "difference": null
+   },
+   "per_arm": {
+    "gemini_r": {
+     "private": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 60,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 60,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "score_split": {
+      "n_C": 0,
+      "n_not_C": 60,
+      "mean_C": null,
+      "mean_not_C": 7.633333333333334,
+      "difference": null
+     }
+    }
+   },
+   "per_pair": {
+    "prawns": {
+     "private": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "1": {
+     "private": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "3": {
+     "private": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "4": {
+     "private": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "5": {
+     "private": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     }
+    },
+    "7": {
+     "private": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     },
+     "professional": {
+      "draws": 10,
+      "no_trace": 0,
+      "uncoded": 0,
+      "coded": 10,
+      "C": 0,
+      "share_C": 0.0
+     }
+    }
+   },
+   "prediction_1_C_under_one_fifth": true,
+   "prediction_3_lower_when_C": null
+  }
+ }
+}

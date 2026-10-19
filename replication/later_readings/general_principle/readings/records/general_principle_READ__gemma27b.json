@@ -1,0 +1,476 @@
+{
+ "run": "233G",
+ "arm": "gemma27b",
+ "model": "google/gemma-3-27b-it",
+ "provider_requested": "Parasail",
+ "provider_banked": "Parasail",
+ "readout": "sampled",
+ "logprobs_on_G2": true,
+ "max_tokens": 32,
+ "top_k": 20,
+ "frames": "records/general_principle_FRAMES_v2.json",
+ "frames_sha256": "342ec134f524a27963e1be5fcf5f74d7a27f749e3ce97df393f6c7c108cc6df3",
+ "arm_cap_usd": 0.02,
+ "prereg": "records/PREREG_general_principle_GENERAL.md",
+ "G": {
+  "G1": {
+   "key": "G1",
+   "n_asked": 10,
+   "prompt_sha256": "2c63464ab4bbf540205ebd8bc37d8c94d43450c058b8b5520fbf089613345a07",
+   "draws": [
+    {
+     "text": "\nmore\n\n\n\n",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore\n\n\n\n",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore\n",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore\n\n\n\n",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    }
+   ],
+   "counts": {
+    "more": 10,
+    "less": 0,
+    "equally": 0,
+    "unparsed": 0
+   },
+   "affirms": true
+  },
+  "G1_AP": {
+   "key": "G1_AP",
+   "n_asked": 10,
+   "prompt_sha256": "8fc7fecd742ba24e3aae26e40826e25cf03fd1bb8d73ff4efc70f670307b5ee4",
+   "draws": [
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "\nmore",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    }
+   ],
+   "counts": {
+    "more": 10,
+    "less": 0,
+    "equally": 0,
+    "unparsed": 0
+   },
+   "affirms": true
+  },
+  "G2": {
+   "key": "G2",
+   "n_asked": 10,
+   "prompt_sha256": "2f5552e0f5f5ca7ddb5b7495e3c3f96abe0474f00c348faa7cd473ebae4f7346",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.\n",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": null,
+     "yn_mass": 0
+    }
+   ],
+   "counts": {
+    "yes": 10,
+    "no": 0,
+    "unparsed": 0
+   },
+   "affirms": true,
+   "mean_p_yes": null,
+   "mean_yn_mass": 0,
+   "held_p233_rule": false
+  },
+  "G3_PA": {
+   "key": "G3_PA",
+   "n_asked": 10,
+   "prompt_sha256": "0e8ef4821412d5e58f1573b682d28af37e3b8c04122df03bf0ac7d14317469aa",
+   "draws": [
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nPROFESSIONAL=7 AMATEUR=3",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    }
+   ],
+   "n_parsed": 10,
+   "gate": "PASSED",
+   "professional": [
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+   ],
+   "amateur": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "gap": 4,
+   "unparsed_texts": []
+  },
+  "G3_AP": {
+   "key": "G3_AP",
+   "n_asked": 10,
+   "prompt_sha256": "e9407e6b00e2ac11df105910462c5e879a0a7cd8be910875f49044bd252fd4d8",
+   "draws": [
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7\n",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7\n",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7\n",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7\n",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7\n",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7\n",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7\n",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    },
+    {
+     "text": "\nAMATEUR=3 PROFESSIONAL=7\n",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 3
+     }
+    }
+   ],
+   "n_parsed": 10,
+   "gate": "PASSED",
+   "professional": [
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+   ],
+   "amateur": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "gap": 4,
+   "unparsed_texts": []
+  }
+ },
+ "provider_served": [
+  "Parasail"
+ ],
+ "served_model": [
+  "google/gemma-3-27b-it"
+ ],
+ "served_model_constant": true,
+ "temperature": [
+  1.0
+ ],
+ "empty_responses_retried": [],
+ "status": "READ",
+ "calls": 50,
+ "spent_usd": 0.00038710999999999997,
+ "elapsed_s": 30.0
+}

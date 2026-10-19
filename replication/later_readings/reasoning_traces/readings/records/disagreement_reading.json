@@ -1,0 +1,453 @@
+{
+ "run": "230",
+ "what": "one reader's classification of every R and S disagreement between the primary (Qwen3-235B) and second (Kimi-K3) coder on the 20% sample. No code was changed; this is a diagnosis, not a third coding.",
+ "reader": "Claude (the session assistant), unblinded to both coders' codes, one pass; not validated by a second reader",
+ "date": "2026-10-12",
+ "disagreeing_traces": 46,
+ "code_disagreements": 48,
+ "counts": {
+  "full|R|guide ambiguous": 6,
+  "full|R|second coder under-reads": 3,
+  "full|S|guide ambiguous": 7,
+  "full|S|primary over-reads": 4,
+  "full|S|second coder under-reads": 1,
+  "summary|R|guide ambiguous": 1,
+  "summary|R|primary over-reads": 19,
+  "summary|R|second coder under-reads": 3,
+  "summary|S|primary over-reads": 4
+ },
+ "rows": [
+  {
+   "n": 1,
+   "label": "reasoning_traces|deepseek_r|sep|1|PRO|d6",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 2,
+   "label": "reasoning_traces|deepseek_r|sep|3|PRO|d2",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role raises the expectation, no comparison stated (between worked examples 8 and 11)"
+  },
+  {
+   "n": 3,
+   "label": "reasoning_traces|deepseek_r|sep|5|PRO|d3",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role named as the source of an ordinary duty of care"
+  },
+  {
+   "n": 4,
+   "label": "reasoning_traces|deepseek_r|sep|5|PRO|d7",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role named as the source of an ordinary duty of care"
+  },
+  {
+   "n": 5,
+   "label": "reasoning_traces|deepseek_r|sep|5|PRO|d9",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role named as the source of an ordinary duty of care"
+  },
+  {
+   "n": 5,
+   "label": "reasoning_traces|deepseek_r|sep|5|PRO|d9",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 6,
+   "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d1",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "second coder under-reads (primary's reading fits the guide)"
+  },
+  {
+   "n": 7,
+   "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d4",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "second coder under-reads (primary's reading fits the guide)"
+  },
+  {
+   "n": 8,
+   "label": "reasoning_traces|deepseek_r|sep|7|PRO|d9",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role raises the expectation, no comparison stated (between worked examples 8 and 11)"
+  },
+  {
+   "n": 9,
+   "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d5",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 10,
+   "label": "reasoning_traces|gemini_r|sep|1|PRO|d2",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 11,
+   "label": "reasoning_traces|gemini_r|sep|1|PRO|d9",
+   "stratum": "summary",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 12,
+   "label": "reasoning_traces|gemini_r|sep|3|PRIV|d3",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "second coder under-reads (primary's reading fits the guide)"
+  },
+  {
+   "n": 13,
+   "label": "reasoning_traces|gemini_r|sep|4|PRO|d3",
+   "stratum": "summary",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 14,
+   "label": "reasoning_traces|gemini_r|sep|5|PRIV|d1",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "second coder under-reads (primary's reading fits the guide)"
+  },
+  {
+   "n": 15,
+   "label": "reasoning_traces|gemini_r|sep|7|PRO|d5",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 16,
+   "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d7",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 17,
+   "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d7",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 18,
+   "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d1",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 19,
+   "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d3",
+   "stratum": "summary",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 20,
+   "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d9",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 21,
+   "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d10",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 22,
+   "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d6",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 23,
+   "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d9",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 24,
+   "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d17",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 25,
+   "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d19",
+   "stratum": "summary",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 26,
+   "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d8",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 27,
+   "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d12",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "second coder under-reads (primary's reading fits the guide)"
+  },
+  {
+   "n": 28,
+   "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d16",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 29,
+   "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d5",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 30,
+   "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d14",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 31,
+   "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d13",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 32,
+   "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d19",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 33,
+   "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d12",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 34,
+   "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d13",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 35,
+   "label": "reasoning_traces|grok43_r|sep|3|PRIV|d5",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role named as the source of an ordinary duty of care"
+  },
+  {
+   "n": 36,
+   "label": "reasoning_traces|grok43_r|sep|5|PRO|d8",
+   "stratum": "summary",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 37,
+   "label": "reasoning_traces|haiku_r|sep|1|PRO|d7",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role raises the expectation, no comparison stated (between worked examples 8 and 11)"
+  },
+  {
+   "n": 38,
+   "label": "reasoning_traces|haiku_r|sep|3|PRIV|d4",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role named as the source of an ordinary duty of care"
+  },
+  {
+   "n": 38,
+   "label": "reasoning_traces|haiku_r|sep|3|PRIV|d4",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "primary over-reads (second coder's reading fits the guide)"
+  },
+  {
+   "n": 39,
+   "label": "reasoning_traces|haiku_r|sep|3|PRIV|d6",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "second coder under-reads (primary's reading fits the guide)"
+  },
+  {
+   "n": 40,
+   "label": "reasoning_traces|haiku_r|sep|3|PRO|d6",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role raises the expectation, no comparison stated (between worked examples 8 and 11)"
+  },
+  {
+   "n": 41,
+   "label": "reasoning_traces|haiku_r|sep|4|PRO|d3",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role raises the expectation, no comparison stated (between worked examples 8 and 11)"
+  },
+  {
+   "n": 42,
+   "label": "reasoning_traces|haiku_r|sep|4|PRO|d5",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role raises the expectation, no comparison stated (between worked examples 8 and 11)"
+  },
+  {
+   "n": 43,
+   "label": "reasoning_traces|haiku_r|sep|7|PRIV|d9",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "second coder under-reads (primary's reading fits the guide)"
+  },
+  {
+   "n": 44,
+   "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d3",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role named as the source of an ordinary duty of care"
+  },
+  {
+   "n": 45,
+   "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d7",
+   "stratum": "full",
+   "code": "R",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role named as the source of an ordinary duty of care"
+  },
+  {
+   "n": 46,
+   "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d10",
+   "stratum": "full",
+   "code": "S",
+   "primary": "yes",
+   "second": "no",
+   "reading": "guide ambiguous: role raises the expectation, no comparison stated (between worked examples 8 and 11)"
+  }
+ ]
+}

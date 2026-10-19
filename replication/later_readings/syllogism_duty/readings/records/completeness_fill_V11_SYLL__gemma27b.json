@@ -1,0 +1,507 @@
+{
+ "arm": "gemma27b",
+ "run": 237,
+ "group": "H7",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "Parasail"
+ ],
+ "models_served": [
+  "google/gemma-3-27b-it"
+ ],
+ "calls": 50,
+ "spent_usd": 0.0004284100000000002,
+ "cells": {
+  "v11|gemma27b|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9999999999705993,
+     "mass": 1.0000000000512248,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "google/gemma-3-27b-it",
+    "provider": "Parasail",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gemma27b|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999999
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.999999
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "google/gemma-3-27b-it",
+    "provider": "Parasail",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gemma27b|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.989011
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "google/gemma-3-27b-it",
+    "provider": "Parasail",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gemma27b|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "\nROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "google/gemma-3-27b-it",
+    "provider": "Parasail",
+    "max_tokens": 32,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gemma27b|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7\n\n\n\n",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "\nROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "google/gemma-3-27b-it",
+    "provider": "Parasail",
+    "max_tokens": 32,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  }
+ }
+}

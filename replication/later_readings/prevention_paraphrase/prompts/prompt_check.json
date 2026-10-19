@@ -1,0 +1,154 @@
+{
+ "hash": "sha256 of json.dumps(messages), first 16 hex digits, as the study's harness logs it in each call's prompt_sha256_16",
+ "frozen_or_built_prompts": 35,
+ "prompts_sent": 35,
+ "prompts_never_sent": [],
+ "calls": 4750,
+ "calls_matching_a_prompt": 4750,
+ "calls_matching_no_prompt": {},
+ "coder_calls_matching_their_rebuilt_prompt": null,
+ "coder_calls_not_matching": null,
+ "built_prompts_matching_the_banked_duty_test_calls": null,
+ "per_prompt": {
+  "frames.json: bicycle|C|CARELESS": {
+   "prompt_sha256_16": "225713ff9be2f009",
+   "calls": 150
+  },
+  "frames.json: bicycle|C|DIFF": {
+   "prompt_sha256_16": "e490396fe1437aa2",
+   "calls": 150
+  },
+  "frames.json: bicycle|C|FELL": {
+   "prompt_sha256_16": "e304f07919e91331",
+   "calls": 150
+  },
+  "frames.json: bicycle|C|NEGL": {
+   "prompt_sha256_16": "8a68dc9b341306bc",
+   "calls": 150
+  },
+  "frames.json: bicycle|C|REASONABLE": {
+   "prompt_sha256_16": "311496b5e18f8bfd",
+   "calls": 150
+  },
+  "frames.json: bicycle|P0|CARELESS": {
+   "prompt_sha256_16": "b8d139096a0b91e4",
+   "calls": 150
+  },
+  "frames.json: bicycle|P0|DIFF": {
+   "prompt_sha256_16": "e9ed0b4cb8e2c4b3",
+   "calls": 150
+  },
+  "frames.json: bicycle|P0|FELL": {
+   "prompt_sha256_16": "3e246b569dfb703b",
+   "calls": 150
+  },
+  "frames.json: bicycle|P0|NEGL": {
+   "prompt_sha256_16": "5df13d2c04e1606d",
+   "calls": 150
+  },
+  "frames.json: bicycle|P0|REASONABLE": {
+   "prompt_sha256_16": "0d0f5d866ebcbb9b",
+   "calls": 150
+  },
+  "frames.json: cheque|P0|CARELESS": {
+   "prompt_sha256_16": "1e904378916adaba",
+   "calls": 130
+  },
+  "frames.json: cheque|P0|DIFF": {
+   "prompt_sha256_16": "40601dd8385afe24",
+   "calls": 130
+  },
+  "frames.json: cheque|P0|FELL": {
+   "prompt_sha256_16": "078036bb9a835938",
+   "calls": 130
+  },
+  "frames.json: cheque|P0|NEGL": {
+   "prompt_sha256_16": "6c9715c03b1639b7",
+   "calls": 130
+  },
+  "frames.json: cheque|P0|REASONABLE": {
+   "prompt_sha256_16": "71b10baffd6193a0",
+   "calls": 130
+  },
+  "frames.json: ladder|P0|CARELESS": {
+   "prompt_sha256_16": "4e75f04b55c45565",
+   "calls": 130
+  },
+  "frames.json: ladder|P0|DIFF": {
+   "prompt_sha256_16": "35326acb59e316a2",
+   "calls": 130
+  },
+  "frames.json: ladder|P0|FELL": {
+   "prompt_sha256_16": "55dbc14af00dc32a",
+   "calls": 130
+  },
+  "frames.json: ladder|P0|NEGL": {
+   "prompt_sha256_16": "c5d0782941b8f672",
+   "calls": 130
+  },
+  "frames.json: ladder|P0|REASONABLE": {
+   "prompt_sha256_16": "cfe6d2a7f3e1da7f",
+   "calls": 130
+  },
+  "frames.json: prawns_home|P0|CARELESS": {
+   "prompt_sha256_16": "8b57e4be12813b62",
+   "calls": 130
+  },
+  "frames.json: prawns_home|P0|DIFF": {
+   "prompt_sha256_16": "549447b6c744e713",
+   "calls": 130
+  },
+  "frames.json: prawns_home|P0|FELL": {
+   "prompt_sha256_16": "a4f9fd2d259fd855",
+   "calls": 130
+  },
+  "frames.json: prawns_home|P0|NEGL": {
+   "prompt_sha256_16": "ef9d79a8b57b9eef",
+   "calls": 130
+  },
+  "frames.json: prawns_home|P0|REASONABLE": {
+   "prompt_sha256_16": "fb751d3358f1e33a",
+   "calls": 130
+  },
+  "frames.json: prawns_restaurant|P0|CARELESS": {
+   "prompt_sha256_16": "ccf93eb5bb920480",
+   "calls": 130
+  },
+  "frames.json: prawns_restaurant|P0|DIFF": {
+   "prompt_sha256_16": "b4731c17ad3a2a2c",
+   "calls": 130
+  },
+  "frames.json: prawns_restaurant|P0|FELL": {
+   "prompt_sha256_16": "274305e74ba4f1e8",
+   "calls": 130
+  },
+  "frames.json: prawns_restaurant|P0|NEGL": {
+   "prompt_sha256_16": "2a177118286267a1",
+   "calls": 130
+  },
+  "frames.json: prawns_restaurant|P0|REASONABLE": {
+   "prompt_sha256_16": "c24ab23c75fc8ed8",
+   "calls": 130
+  },
+  "frames.json: scaffolding|P0|CARELESS": {
+   "prompt_sha256_16": "6f8ab7e5a0788ead",
+   "calls": 130
+  },
+  "frames.json: scaffolding|P0|DIFF": {
+   "prompt_sha256_16": "a7d45f994081556a",
+   "calls": 130
+  },
+  "frames.json: scaffolding|P0|FELL": {
+   "prompt_sha256_16": "7e99f88f176356ea",
+   "calls": 130
+  },
+  "frames.json: scaffolding|P0|NEGL": {
+   "prompt_sha256_16": "186d63147c0cba6b",
+   "calls": 130
+  },
+  "frames.json: scaffolding|P0|REASONABLE": {
+   "prompt_sha256_16": "8d4d10c2aacc3644",
+   "calls": 130
+  }
+ }
+}

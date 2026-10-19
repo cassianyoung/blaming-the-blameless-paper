@@ -1,0 +1,476 @@
+{
+ "run": "233G",
+ "arm": "gpt4o",
+ "model": "openai/gpt-4o",
+ "provider_requested": "openai",
+ "provider_banked": "OpenAI",
+ "readout": "sampled",
+ "logprobs_on_G2": true,
+ "max_tokens": 32,
+ "top_k": 20,
+ "frames": "records/general_principle_FRAMES_v2.json",
+ "frames_sha256": "342ec134f524a27963e1be5fcf5f74d7a27f749e3ce97df393f6c7c108cc6df3",
+ "arm_cap_usd": 0.034,
+ "prereg": "records/PREREG_general_principle_GENERAL.md",
+ "G": {
+  "G1": {
+   "key": "G1",
+   "n_asked": 10,
+   "prompt_sha256": "2c63464ab4bbf540205ebd8bc37d8c94d43450c058b8b5520fbf089613345a07",
+   "draws": [
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    }
+   ],
+   "counts": {
+    "more": 10,
+    "less": 0,
+    "equally": 0,
+    "unparsed": 0
+   },
+   "affirms": true
+  },
+  "G1_AP": {
+   "key": "G1_AP",
+   "n_asked": 10,
+   "prompt_sha256": "8fc7fecd742ba24e3aae26e40826e25cf03fd1bb8d73ff4efc70f670307b5ee4",
+   "draws": [
+    {
+     "text": "More",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    },
+    {
+     "text": "More.",
+     "reasoned_despite_off": false,
+     "answer": "more"
+    }
+   ],
+   "counts": {
+    "more": 10,
+    "less": 0,
+    "equally": 0,
+    "unparsed": 0
+   },
+   "affirms": true
+  },
+  "G2": {
+   "key": "G2",
+   "n_asked": 10,
+   "prompt_sha256": "2f5552e0f5f5ca7ddb5b7495e3c3f96abe0474f00c348faa7cd473ebae4f7346",
+   "draws": [
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    },
+    {
+     "text": "Yes.",
+     "reasoned_despite_off": false,
+     "answer": "yes",
+     "p_yes": 0.9999999778405108,
+     "yn_mass": 1.0000000243281018
+    }
+   ],
+   "counts": {
+    "yes": 10,
+    "no": 0,
+    "unparsed": 0
+   },
+   "affirms": true,
+   "mean_p_yes": 0.9999999778405108,
+   "mean_yn_mass": 1.0000000243281018,
+   "held_p233_rule": true
+  },
+  "G3_PA": {
+   "key": "G3_PA",
+   "n_asked": 10,
+   "prompt_sha256": "0e8ef4821412d5e58f1573b682d28af37e3b8c04122df03bf0ac7d14317469aa",
+   "draws": [
+    {
+     "text": "PROFESSIONAL=9 AMATEUR=6",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=9 AMATEUR=5",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=9 AMATEUR=5",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=4",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=6",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=4",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    }
+   ],
+   "n_parsed": 10,
+   "gate": "PASSED",
+   "professional": [
+    9,
+    8,
+    9,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "amateur": [
+    6,
+    5,
+    5,
+    5,
+    4,
+    5,
+    6,
+    5,
+    5,
+    4
+   ],
+   "gap": 3.3,
+   "unparsed_texts": []
+  },
+  "G3_AP": {
+   "key": "G3_AP",
+   "n_asked": 10,
+   "prompt_sha256": "e9407e6b00e2ac11df105910462c5e879a0a7cd8be910875f49044bd252fd4d8",
+   "draws": [
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=7",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=7",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=6",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 6,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=7",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned_despite_off": false,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    }
+   ],
+   "n_parsed": 10,
+   "gate": "PASSED",
+   "professional": [
+    8,
+    8,
+    7,
+    8,
+    7,
+    6,
+    8,
+    7,
+    8,
+    8
+   ],
+   "amateur": [
+    5,
+    6,
+    5,
+    6,
+    5,
+    4,
+    5,
+    5,
+    6,
+    6
+   ],
+   "gap": 2.2,
+   "unparsed_texts": []
+  }
+ },
+ "provider_served": [
+  "OpenAI"
+ ],
+ "served_model": [
+  "openai/gpt-4o"
+ ],
+ "served_model_constant": true,
+ "temperature": [
+  1.0
+ ],
+ "empty_responses_retried": [],
+ "status": "READ",
+ "calls": 50,
+ "spent_usd": 0.01530500000000001,
+ "elapsed_s": 33.1
+}

@@ -1,0 +1,408 @@
+{
+ "run": "234",
+ "rule": "records/RULE_ONE_READOUT_PER_MODEL.md",
+ "check_readouts_left_out": [
+  "deepseek_s"
+ ],
+ "banked_from": [
+  "records/result.json"
+ ],
+ "note": "registered = the recount under the rule; banked = the value in the banked file it replaces, location for location",
+ "registered": [
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: median",
+   "-0.036"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: 95% CI",
+   "[-0.100, +0.024]"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: median",
+   "-0.098"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: 95% CI",
+   "[-0.181, -0.043]"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P1 verdict",
+   "FAILS"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: median",
+   "+0.027"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: 95% CI",
+   "[-0.032, +0.060]"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: median",
+   "-0.011"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: 95% CI",
+   "[-0.099, +0.045]"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: median",
+   "-0.056"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: 95% CI",
+   "[-0.183, -0.015]"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: median",
+   "-0.143"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: 95% CI",
+   "[-0.334, -0.066]"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: median",
+   "-0.056"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: 95% CI",
+   "[-0.106, -0.028]"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P2 gender effect (interval excludes zero)",
+   "yes"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: median",
+   "-0.047"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: 95% CI",
+   "[-0.145, +0.032]"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: median",
+   "-0.066"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: 95% CI",
+   "[-0.121, -0.018]"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: median",
+   "-0.017"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: 95% CI",
+   "[-0.227, +0.309]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: median",
+   "-0.006"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: 95% CI",
+   "[-0.311, +0.450]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: median",
+   "+0.026"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: 95% CI",
+   "[-0.219, +0.252]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: median",
+   "+0.395"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: 95% CI",
+   "[+0.310, +0.538]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: median",
+   "+0.375"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: 95% CI",
+   "[+0.118, +0.898]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: arms",
+   "12"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: median",
+   "+0.441"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: 95% CI",
+   "[+0.150, +0.800]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: arms",
+   "12"
+  ],
+  [
+   "subject_identity arms read",
+   "12 of 12"
+  ],
+  [
+   "subject_identity scenario or duty exclusions",
+   "0"
+  ]
+ ],
+ "banked": [
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: median",
+   "-0.017"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: 95% CI",
+   "[-0.087, +0.033]"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: median",
+   "-0.080"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: 95% CI",
+   "[-0.158, -0.038]"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 verdict",
+   "FAILS"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: median",
+   "+0.032"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: 95% CI",
+   "[-0.005, +0.067]"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: median",
+   "+0.000"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: 95% CI",
+   "[-0.047, +0.058]"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: median",
+   "-0.041"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: 95% CI",
+   "[-0.145, +0.000]"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: median",
+   "-0.143"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: 95% CI",
+   "[-0.280, -0.057]"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: median",
+   "-0.053"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: 95% CI",
+   "[-0.080, -0.025]"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P2 gender effect (interval excludes zero)",
+   "yes"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: median",
+   "-0.034"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: 95% CI",
+   "[-0.130, +0.025]"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: median",
+   "-0.056"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: 95% CI",
+   "[-0.106, -0.009]"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: median",
+   "-0.042"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: 95% CI",
+   "[-0.254, +0.081]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: median",
+   "-0.016"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: 95% CI",
+   "[-0.423, +0.400]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: median",
+   "+0.025"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: 95% CI",
+   "[-0.300, +0.203]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: median",
+   "+0.400"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: 95% CI",
+   "[+0.320, +0.577]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: median",
+   "+0.401"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: 95% CI",
+   "[+0.200, +0.897]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: median",
+   "+0.427"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: 95% CI",
+   "[+0.300, +0.800]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: arms",
+   "13"
+  ],
+  [
+   "subject_identity arms read",
+   "13 of 13"
+  ],
+  [
+   "subject_identity scenario or duty exclusions",
+   "0"
+  ]
+ ],
+ "changed": 45
+}

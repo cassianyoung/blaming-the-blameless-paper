@@ -1,0 +1,274 @@
+{
+ "amendment": 4,
+ "code": "C",
+ "traces": 30,
+ "agree": 27,
+ "disagreements": [
+  {
+   "item": 11,
+   "label": "reasoning_traces|haiku_r|sep|1|PRIV|d7",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "yes",
+   "why": "borderline: 'may not have been qualified' is his status; no qualified person's conduct is invoked"
+  },
+  {
+   "item": 16,
+   "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d6",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "yes",
+   "why": "'if he is not professional' is status only"
+  },
+  {
+   "item": 21,
+   "label": "reasoning_traces|haiku_r|sep|1|PRO|d6",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "yes",
+   "why": ""
+  }
+ ],
+ "rows": [
+  {
+   "item": 1,
+   "label": "reasoning_traces|grok43_r|sep|7|PRIV|d4",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 2,
+   "label": "reasoning_traces|grok43_r|sep|3|PRO|d4",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 3,
+   "label": "reasoning_traces|deepseek_r|sep|4|PRO|d4",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 4,
+   "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d17",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 5,
+   "label": "reasoning_traces|deepseek_r|sep|4|PRO|d3",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 6,
+   "label": "reasoning_traces|haiku_r|sep|4|PRO|d1",
+   "stratum": "full",
+   "hand": "yes",
+   "primary": "yes",
+   "why": "'Professional childminders have a higher duty of care than casual babysitters': a private carer named"
+  },
+  {
+   "item": 7,
+   "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d8",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 8,
+   "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d6",
+   "stratum": "summary",
+   "hand": "yes",
+   "primary": "yes",
+   "why": "borderline: invokes the landlords' yearly servicing requirement and sets the case apart as an informal guest, so ties the standard to the other role"
+  },
+  {
+   "item": 9,
+   "label": "reasoning_traces|grok43_r|sep|4|PRO|d2",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 10,
+   "label": "reasoning_traces|grok43_r|sep|5|PRIV|d7",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 11,
+   "label": "reasoning_traces|haiku_r|sep|1|PRIV|d7",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "yes",
+   "why": "borderline: 'may not have been qualified' is his status; no qualified person's conduct is invoked"
+  },
+  {
+   "item": 12,
+   "label": "reasoning_traces|grok43_r|sep|7|PRO|d3",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 13,
+   "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d1",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 14,
+   "label": "reasoning_traces|grok43_r|sep|7|PRO|d2",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 15,
+   "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d3",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "no",
+   "why": "'maybe not professional' is status only"
+  },
+  {
+   "item": 16,
+   "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d6",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "yes",
+   "why": "'if he is not professional' is status only"
+  },
+  {
+   "item": 17,
+   "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d11",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 18,
+   "label": "reasoning_traces|haiku_r|sep|1|PRIV|d4",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 19,
+   "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d1",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 20,
+   "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d6",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 21,
+   "label": "reasoning_traces|haiku_r|sep|1|PRO|d6",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "yes",
+   "why": ""
+  },
+  {
+   "item": 22,
+   "label": "reasoning_traces|haiku_r|sep|5|PRO|d6",
+   "stratum": "full",
+   "hand": "yes",
+   "primary": "yes",
+   "why": "'a higher duty of care than a regular driver'"
+  },
+  {
+   "item": 23,
+   "label": "reasoning_traces|haiku_r|sep|3|PRIV|d3",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "no",
+   "why": "borderline: 'Landlords/property owners have duty' applies the duty to him; no contrast drawn"
+  },
+  {
+   "item": 24,
+   "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d9",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 25,
+   "label": "reasoning_traces|haiku_r|sep|7|PRIV|d10",
+   "stratum": "full",
+   "hand": "yes",
+   "primary": "yes",
+   "why": "'professionals always check this'"
+  },
+  {
+   "item": 26,
+   "label": "reasoning_traces|haiku_r|sep|7|PRO|d2",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 27,
+   "label": "reasoning_traces|haiku_r|sep|7|PRO|d7",
+   "stratum": "full",
+   "hand": "yes",
+   "primary": "yes",
+   "why": "'a higher standard of care than a non-professional'"
+  },
+  {
+   "item": 28,
+   "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d20",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 29,
+   "label": "reasoning_traces|deepseek_r|sep|4|PRO|d8",
+   "stratum": "full",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  },
+  {
+   "item": 30,
+   "label": "reasoning_traces|gemini_r|sep|5|PRIV|d2",
+   "stratum": "summary",
+   "hand": "no",
+   "primary": "no",
+   "why": ""
+  }
+ ]
+}

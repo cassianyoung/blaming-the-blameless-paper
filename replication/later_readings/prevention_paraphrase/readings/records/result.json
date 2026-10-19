@@ -1,0 +1,2576 @@
+{
+ "inputs": {
+  "tables/B8_judgement_long.csv": "0c7600518c22ee97a5c111da6e4d48b3316f3ef326ef547735ac87415294a66f",
+  "results/results.sqlite": "237dca7bb85eee29ace147a3e71ca84ee4703eb917f627da51e71043fc9d7869",
+  "records/prevention_paraphrase_READ__claude.json": "8606ade2e5ffc207396213d4e27da5c0272abdb0beb2001692eda2378c89992d",
+  "records/prevention_paraphrase_READ__deepseek.json": "fd1be228216e9d25f130c992d850850418b15adec26041fcf682ec4ced4311d2",
+  "records/prevention_paraphrase_READ__deepseek_s.json": "d9031b44a0dd3e4f681f0e36348ab7cb9ada0d487d299b0014634d2a52e226df",
+  "records/prevention_paraphrase_READ__gemma27b.json": "d94f5cd3c7c79209ab55fe50ce5a35c13d1959ea8d4a38bd64e748ccde6592bf",
+  "records/prevention_paraphrase_READ__gpt4o.json": "735b9e1f4a348ed18d04d5d4914556f49ec30ac2772fe7b93101db815d9da90e",
+  "records/prevention_paraphrase_READ__gpt6l_s.json": "d513041daa9817900d45b09a7dd4af3d38065fba48b835ea2ae22279e70e5a2d",
+  "records/prevention_paraphrase_READ__gpt6s_s.json": "5977fe4f31b66ab189f1019f2f69df3bf655202124426bf73f0a144befca4c88",
+  "records/prevention_paraphrase_READ__grok43_s.json": "a2aa8b1d29650f5528495f2ac74fa83e4470d1e9cb21fbbdd33b32c848294511",
+  "records/prevention_paraphrase_READ__haiku_s.json": "5a99fbab8f568a702b26e4ab0aeb55a0dd8e237764986b2e2429ea7e221d05f3",
+  "records/prevention_paraphrase_READ__kimi.json": "fe8965350e42934cded003eedd0725f1bfe72803e266092f96c0047674dc8edf",
+  "records/prevention_paraphrase_READ__llama70b.json": "cc468039c98b70c32c8bff0603e8cca39458c1d5d6943aa4f174e46a789791f4",
+  "records/prevention_paraphrase_READ__mistral24b.json": "a35600a86f842d86928f30644f5eca0c1374c633f45b1bf495be4b68471e0f56",
+  "records/prevention_paraphrase_READ__qwen235b.json": "7c3934abc0164481738a1a456b20bb1b856cf6808c1f36525c3cd3975acba7ee",
+  "records/prevention_paraphrase_READ__qwen30b.json": "1417f92127e0117d5572db1833d2acd1d86ed51b0c4d782c6065ff8bd050e3ba",
+  "records/prevention_paraphrase_READ__qwen80b.json": "d3aedc73dad52fb08244f79551285c8aea1953b671c6bcab313b65d4c1a0b23b"
+ },
+ "arm_status": {
+  "claude": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "Anthropic"
+   ],
+   "served_model": [
+    "anthropic/claude-sonnet-5"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.11980000000000016,
+   "calls": 450
+  },
+  "deepseek": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "Sail Research"
+   ],
+   "served_model": [
+    "deepseek/deepseek-v4.1-flash"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0006008800000000004,
+   "calls": 350
+  },
+  "deepseek_s": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "Sail Research"
+   ],
+   "served_model": [
+    "deepseek/deepseek-v4.1-flash"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0007358300000000025,
+   "calls": 450
+  },
+  "gemma27b": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "Parasail"
+   ],
+   "served_model": [
+    "google/gemma-3-27b-it"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0015078999999999995,
+   "calls": 350
+  },
+  "gpt4o": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "OpenAI"
+   ],
+   "served_model": [
+    "openai/gpt-4o"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.07532500000000009,
+   "calls": 350
+  },
+  "gpt6l_s": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "OpenAI"
+   ],
+   "served_model": [
+    "openai/gpt-6-luna"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0037130000000000015,
+   "calls": 350
+  },
+  "gpt6s_s": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "OpenAI"
+   ],
+   "served_model": [
+    "openai/gpt-6-sol"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.07426000000000008,
+   "calls": 350
+  },
+  "grok43_s": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "xAI"
+   ],
+   "served_model": [
+    "x-ai/grok-4.3"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.05330399999999993,
+   "calls": 350
+  },
+  "haiku_s": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "Anthropic"
+   ],
+   "served_model": [
+    "anthropic/claude-haiku-4.5"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.037045,
+   "calls": 350
+  },
+  "kimi": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "Sail Research"
+   ],
+   "served_model": [
+    "moonshotai/kimi-k3"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.017313420000000038,
+   "calls": 350
+  },
+  "llama70b": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "CoreWeave"
+   ],
+   "served_model": [
+    "meta-llama/llama-3.3-70b-instruct"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.02675279999999993,
+   "calls": 350
+  },
+  "mistral24b": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "Parasail"
+   ],
+   "served_model": [
+    "mistralai/mistral-small-3.2-24b-instruct"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0016216200000000007,
+   "calls": 350
+  },
+  "qwen235b": {
+   "status": "UNREAD",
+   "reason": "provider GMICloud still failing at the deadline: OpenRouter call failed after 6: HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-235b-a22b-2507 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"GMICloud\",\"is_byok\":false,\"provider_error_code\":\"rate_limit_exceeded\",\"limit_source\":\"upstream_provider_shared_pool\",\"remedy",
+   "provider_served": null,
+   "served_model": null,
+   "served_model_constant": null,
+   "temperature": null,
+   "spent_usd": 0.0,
+   "calls": 0
+  },
+  "qwen30b": {
+   "status": "UNREAD",
+   "reason": "provider StreamLake still failing at the deadline: OpenRouter call failed after 6: HTTP 404: {\"error\":{\"message\":\"No endpoints found for qwen/qwen3-30b-a3b-instruct-2507. Every candidate endpoint was removed during routing: Filter by Fallback removed dekallm, siliconflow/fp8, nebius/fp8.\",\"code\":404,\"metadata\":{\"routing_funnel\":[{\"step\":\"Initial Endpoints\",\"endpoint_count\":3},{\"step\":\"Filter by Fallback\",\"endpoint_count\":0}],\"failed_routing_step\":\"Filter by Fallback\"}},\"user_id\":\"user_2bO",
+   "provider_served": null,
+   "served_model": null,
+   "served_model_constant": null,
+   "temperature": null,
+   "spent_usd": 0.0,
+   "calls": 0
+  },
+  "qwen80b": {
+   "status": "READ",
+   "reason": null,
+   "provider_served": [
+    "Parasail"
+   ],
+   "served_model": [
+    "qwen/qwen3-next-80b-a3b-instruct"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0033480000000000003,
+   "calls": 350
+  }
+ },
+ "population": {
+  "n": 75,
+  "excluded_banked_gate": [
+   [
+    "deepseek",
+    "cheque",
+    "banked gate"
+   ],
+   [
+    "kimi",
+    "cheque",
+    "banked gate"
+   ],
+   [
+    "mistral24b",
+    "cheque",
+    "banked gate"
+   ]
+  ]
+ },
+ "gate_failures": [],
+ "negl_unparsed": {},
+ "negl_vs_reasonable_mass_logprob": {
+  "deepseek": {
+   "NEGL": 1.0000134935885554,
+   "REASONABLE": 1.0000308785992407
+  },
+  "gemma27b": {
+   "NEGL": 1.0000036205759217,
+   "REASONABLE": 1.000003683829109
+  },
+  "gpt4o": {
+   "NEGL": 0.9999982649623219,
+   "REASONABLE": 1.0000122676409873
+  },
+  "kimi": {
+   "NEGL": 0.9926210919626861,
+   "REASONABLE": 0.9931953591314296
+  },
+  "llama70b": {
+   "NEGL": 0.9999871009905417,
+   "REASONABLE": 1.0000090485339792
+  },
+  "mistral24b": {
+   "NEGL": 0.9999683370839832,
+   "REASONABLE": 0.9999795082090458
+  },
+  "qwen80b": {
+   "NEGL": 1.0000141559711786,
+   "REASONABLE": 0.9999988432396252
+  }
+ },
+ "P231_1": {
+  "FELL": {
+   "AC1": 0.40248962655601667,
+   "raw_agreement": 0.6527777777777778,
+   "n": 72,
+   "n_models": 13,
+   "ties_excluded": [
+    [
+     "deepseek_s",
+     "prawns_restaurant"
+    ],
+    [
+     "deepseek_s",
+     "cheque"
+    ],
+    [
+     "grok43_s",
+     "prawns_restaurant"
+    ]
+   ],
+   "AC1_model_bootstrap_95": [
+    0.06173305644704539,
+    0.7061382310294828
+   ],
+   "bootstrap_dropped": 0,
+   "mean_abs_diff_p_yes": 0.31640044071202217,
+   "n_mad": 75,
+   "yes_rate_modal": 0.4583333333333333,
+   "reasonable_yes_rate_modal": 0.1388888888888889,
+   "PASS": false
+  },
+  "DIFF": {
+   "AC1": 0.171105435972273,
+   "raw_agreement": 0.5492957746478874,
+   "n": 71,
+   "n_models": 13,
+   "ties_excluded": [
+    [
+     "deepseek_s",
+     "prawns_restaurant"
+    ],
+    [
+     "deepseek_s",
+     "cheque"
+    ],
+    [
+     "grok43_s",
+     "ladder"
+    ],
+    [
+     "grok43_s",
+     "prawns_restaurant"
+    ]
+   ],
+   "AC1_model_bootstrap_95": [
+    -0.2453305351521512,
+    0.5657149244495897
+   ],
+   "bootstrap_dropped": 0,
+   "mean_abs_diff_p_yes": 0.4545647773168579,
+   "n_mad": 75,
+   "yes_rate_modal": 0.5774647887323944,
+   "reasonable_yes_rate_modal": 0.1267605633802817,
+   "PASS": false
+  }
+ },
+ "P231_2": {
+  "n_cells": 75,
+  "n_models": 13,
+  "a_with_reasonable": {
+   "pooled": {
+    "r_NEGL": 0.3237973386753049,
+    "r_CARELESS": 0.11662204267619264,
+    "diff": 0.20717529599911227,
+    "boot95": [
+     0.02479486353580457,
+     0.3912588342411541
+    ],
+    "boot_dropped": 0,
+    "spearman_NEGL": 0.5368567052405187,
+    "spearman_CARELESS": 0.4597185806584591
+   },
+   "within_model": {
+    "median_r_NEGL": 0.25984825699495956,
+    "median_r_CARELESS": -0.1323926316897905,
+    "diff": 0.39224088868475004,
+    "boot95": [
+     -0.13244153849461976,
+     0.5443164311643476
+    ],
+    "boot_dropped": 22,
+    "n_models_NEGL": 5,
+    "n_models_CARELESS": 6,
+    "models_NEGL": [
+     "deepseek",
+     "deepseek_s",
+     "grok43_s",
+     "llama70b",
+     "mistral24b"
+    ],
+    "models_CARELESS": [
+     "deepseek",
+     "deepseek_s",
+     "gemma27b",
+     "grok43_s",
+     "llama70b",
+     "mistral24b"
+    ],
+    "excluded_NEGL": [
+     "claude",
+     "gemma27b",
+     "gpt4o",
+     "gpt6l_s",
+     "gpt6s_s",
+     "haiku_s",
+     "kimi",
+     "qwen80b"
+    ],
+    "excluded_CARELESS": [
+     "claude",
+     "gpt4o",
+     "gpt6l_s",
+     "gpt6s_s",
+     "haiku_s",
+     "kimi",
+     "qwen80b"
+    ]
+   },
+   "sign_disagreement": false
+  },
+  "b_with_blame_pos": {
+   "pooled": {
+    "r_NEGL": 0.5505586058622494,
+    "r_CARELESS": 0.5895258445752267,
+    "diff": -0.03896723871297736,
+    "boot95": [
+     -0.16212768185687038,
+     0.15303875849592213
+    ],
+    "boot_dropped": 0,
+    "spearman_NEGL": 0.6471903300350901,
+    "spearman_CARELESS": 0.6579109499063709
+   },
+   "within_model": {
+    "median_r_NEGL": 0.4939445075866366,
+    "median_r_CARELESS": 0.22241358714850457,
+    "diff": 0.27153092043813204,
+    "boot95": [
+     -0.0467313966197801,
+     0.6335019779272238
+    ],
+    "boot_dropped": 22,
+    "n_models_NEGL": 5,
+    "n_models_CARELESS": 6,
+    "models_NEGL": [
+     "deepseek",
+     "deepseek_s",
+     "grok43_s",
+     "llama70b",
+     "mistral24b"
+    ],
+    "models_CARELESS": [
+     "deepseek",
+     "deepseek_s",
+     "gemma27b",
+     "grok43_s",
+     "llama70b",
+     "mistral24b"
+    ],
+    "excluded_NEGL": [
+     "claude",
+     "gemma27b",
+     "gpt4o",
+     "gpt6l_s",
+     "gpt6s_s",
+     "haiku_s",
+     "kimi",
+     "qwen80b"
+    ],
+    "excluded_CARELESS": [
+     "claude",
+     "gpt4o",
+     "gpt6l_s",
+     "gpt6s_s",
+     "haiku_s",
+     "kimi",
+     "qwen80b"
+    ]
+   },
+   "sign_disagreement": true
+  },
+  "PASS": false,
+  "yes_rates": {
+   "NEGL": [
+    25,
+    75
+   ],
+   "CARELESS": [
+    22,
+    75
+   ],
+   "REASONABLE": [
+    10,
+    75
+   ],
+   "CARELESS_banked": [
+    30,
+    81
+   ]
+  },
+  "reasonable_vs_careless_pooled_r": 0.11662204267619264,
+  "blame_vs_careless_pooled_r": 0.5895258445752267,
+  "blame_vs_reasonable_pooled_r": 0.4663076886533411
+ },
+ "C_case": {
+  "FELL": {
+   "pass": 13,
+   "of": 13,
+   "fails": [],
+   "unread_arms": [
+    "qwen235b",
+    "qwen30b"
+   ],
+   "FLAG_unable_to_say_yes": false,
+   "p_yes": {
+    "claude": 1.0,
+    "deepseek": 0.9999251535066178,
+    "deepseek_s": 1.0,
+    "gemma27b": 0.9999999999993815,
+    "gpt4o": 0.9999978790036096,
+    "gpt6l_s": 1.0,
+    "gpt6s_s": 1.0,
+    "grok43_s": 1.0,
+    "haiku_s": 1.0,
+    "kimi": 0.9971996268401898,
+    "llama70b": 0.9999999995826072,
+    "mistral24b": 0.9998204417223394,
+    "qwen80b": 0.9999999936512002
+   }
+  },
+  "DIFF": {
+   "pass": 13,
+   "of": 13,
+   "fails": [],
+   "unread_arms": [
+    "qwen235b",
+    "qwen30b"
+   ],
+   "FLAG_unable_to_say_yes": false,
+   "p_yes": {
+    "claude": 1.0,
+    "deepseek": 0.9999999865596055,
+    "deepseek_s": 1.0,
+    "gemma27b": 0.9999999999997756,
+    "gpt4o": 0.999991657576443,
+    "gpt6l_s": 1.0,
+    "gpt6s_s": 1.0,
+    "grok43_s": 1.0,
+    "haiku_s": 1.0,
+    "kimi": 0.9959313451903422,
+    "llama70b": 0.9999999977362062,
+    "mistral24b": 0.9999485207681463,
+    "qwen80b": 0.9999999973534265
+   }
+  },
+  "NEGL": {
+   "pass": 13,
+   "of": 13,
+   "fails": [],
+   "unread_arms": [
+    "qwen235b",
+    "qwen30b"
+   ],
+   "FLAG_unable_to_say_yes": false,
+   "p_yes": {
+    "claude": 1.0,
+    "deepseek": 0.9999832981479141,
+    "deepseek_s": 1.0,
+    "gemma27b": 0.9999999999995184,
+    "gpt4o": 0.9998916235046953,
+    "gpt6l_s": 1.0,
+    "gpt6s_s": 0.8,
+    "grok43_s": 1.0,
+    "haiku_s": 1.0,
+    "kimi": 0.9859390558139057,
+    "llama70b": 0.9999999900245796,
+    "mistral24b": 0.999512021467089,
+    "qwen80b": 0.9999999586006293
+   }
+  },
+  "REASONABLE": {
+   "pass": 13,
+   "of": 13,
+   "fails": [],
+   "unread_arms": [
+    "qwen235b",
+    "qwen30b"
+   ],
+   "FLAG_unable_to_say_yes": false,
+   "p_yes": {
+    "claude": 1.0,
+    "deepseek": 0.9999863001333138,
+    "deepseek_s": 1.0,
+    "gemma27b": 0.9999999999984946,
+    "gpt4o": 0.9999689925013374,
+    "gpt6l_s": 1.0,
+    "gpt6s_s": 1.0,
+    "grok43_s": 1.0,
+    "haiku_s": 1.0,
+    "kimi": 0.9902945901323101,
+    "llama70b": 0.9999999959954429,
+    "mistral24b": 0.9999416939086372,
+    "qwen80b": 0.9999997617631121
+   }
+  },
+  "CARELESS": {
+   "pass": 13,
+   "of": 13,
+   "fails": [],
+   "unread_arms": [
+    "qwen235b",
+    "qwen30b"
+   ],
+   "FLAG_unable_to_say_yes": false,
+   "p_yes": {
+    "claude": 1.0,
+    "deepseek": 0.9999969402527905,
+    "deepseek_s": 1.0,
+    "gemma27b": 0.9999999999999177,
+    "gpt4o": 0.9999912489540493,
+    "gpt6l_s": 1.0,
+    "gpt6s_s": 1.0,
+    "grok43_s": 1.0,
+    "haiku_s": 1.0,
+    "kimi": 0.9890154610696418,
+    "llama70b": 0.9999999984035881,
+    "mistral24b": 0.9997449484373091,
+    "qwen80b": 0.9999999928058672
+   }
+  }
+ },
+ "drift": {
+  "REASONABLE": {
+   "cells": [
+    {
+     "arm": "claude",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "claude",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.1824255367691947,
+     "banked": 0.1824255367691947,
+     "diff": 0.0,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.9626731249865396,
+     "banked": 0.962673,
+     "diff": 1.249865395624994e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.14804722131079176,
+     "banked": 0.148047,
+     "diff": 2.213107917481416e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.5000000465536177,
+     "banked": 0.5,
+     "diff": 4.655361773853173e-08,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.11920298569953959,
+     "banked": 0.119203,
+     "diff": -1.4300460413063654e-08,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.5000000231044119,
+     "banked": 0.5,
+     "diff": 2.3104411939200986e-08,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999863001333138,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.25,
+     "banked": 0.25,
+     "diff": 0.0,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 1.0,
+     "banked": 1.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.3,
+     "banked": 0.2,
+     "diff": 0.09999999999999998,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.5,
+     "banked": 0.5,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.3,
+     "diff": -0.3,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.5,
+     "banked": 0.5,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 2.110329984966893e-06,
+     "banked": 2.160328094793547e-06,
+     "diff": -4.999810982665394e-08,
+     "source": "deployed_bicycle_rivals"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.9998872747394312,
+     "banked": 0.999257,
+     "diff": 0.0006302747394312247,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 7.721989821350099e-07,
+     "banked": 0.0,
+     "diff": 7.721989821350099e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 4.62700895923481e-08,
+     "banked": 0.0,
+     "diff": 4.62700895923481e-08,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 2.313398900649325e-08,
+     "banked": 0.0,
+     "diff": 2.313398900649325e-08,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 5.9095581441828615e-08,
+     "banked": 0.0,
+     "diff": 5.9095581441828615e-08,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999999999984946,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0008308865515299112,
+     "banked": 0.0008305496425828876,
+     "diff": 3.3690894702363694e-07,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.00043279896437079446,
+     "banked": 0.000753,
+     "diff": -0.0003202010356292055,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.011718857381908173,
+     "banked": 0.010019,
+     "diff": 0.0016998573819081726,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.006883988334044688,
+     "banked": 0.006932,
+     "diff": -4.801166595531144e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0033117287607419823,
+     "banked": 0.003011,
+     "diff": 0.00030072876074198254,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.0002685869017215475,
+     "banked": 0.000248,
+     "diff": 2.0586901721547483e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999689925013374,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked)"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked)"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.7,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked)"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.7,
+     "banked": 0.7,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.6,
+     "banked": 0.7,
+     "diff": -0.09999999999999998,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.5,
+     "banked": 0.6,
+     "diff": -0.09999999999999998,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.4,
+     "banked": 0.3,
+     "diff": 0.10000000000000003,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.1,
+     "banked": 0.1,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked)"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.01590359639357632,
+     "banked": 0.01590359639357632,
+     "diff": 0.0,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.020330184225886175,
+     "banked": 0.02033,
+     "diff": 1.8422588617464375e-07,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.03307696953879955,
+     "banked": 0.033077,
+     "diff": -3.046120045091527e-08,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.017981815348453386,
+     "banked": 0.017774,
+     "diff": 0.00020781534845338429,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.009707132199178254,
+     "banked": 0.009707,
+     "diff": 1.3219917825366134e-07,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.004608553200231768,
+     "banked": 0.004609,
+     "diff": -4.4679976823197576e-07,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9902945901323101,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 3.912223955507348e-05,
+     "banked": 4.4615151189987185e-05,
+     "diff": -5.492911634913705e-06,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0010402827573638253,
+     "banked": 0.000851,
+     "diff": 0.00018928275736382534,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.0006939820784844915,
+     "banked": 0.000541,
+     "diff": 0.00015298207848449144,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.00012066549539170881,
+     "banked": 9.6e-05,
+     "diff": 2.466549539170881e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 7.484632662662316e-05,
+     "banked": 7.3e-05,
+     "diff": 1.846326626623164e-06,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.43179527406427914,
+     "banked": 0.377541,
+     "diff": 0.05425427406427913,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999999959954429,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.9914195900755413,
+     "banked": 0.9914195848920585,
+     "diff": 5.183482754134161e-09,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.7310637487482063,
+     "banked": 0.731064,
+     "diff": -2.5125179370366624e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.839571383417889,
+     "banked": 0.817584,
+     "diff": 0.021987383417888973,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.2452028411938484,
+     "banked": 0.242946,
+     "diff": 0.002256841193848391,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.24757025696752388,
+     "banked": 0.252336,
+     "diff": -0.004765743032476122,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.9699111920885499,
+     "banked": 0.966898,
+     "diff": 0.0030131920885498875,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999416939086372,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0025426324112597493,
+     "banked": 0.002472626187149251,
+     "diff": 7.000622411049845e-05,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 9.610254587436642e-05,
+     "banked": 7e-05,
+     "diff": 2.6102545874366422e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 2.2603242755022213e-06,
+     "banked": 3e-06,
+     "diff": -7.396757244977787e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.00043055742250390115,
+     "banked": 0.000412,
+     "diff": 1.855742250390116e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0011695115609188476,
+     "banked": 0.000614,
+     "diff": 0.0005555115609188477,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.000166333296741075,
+     "banked": 0.000261,
+     "diff": -9.4666703258925e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999997617631121,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    }
+   ],
+   "per_arm": {
+    "claude": {
+     "n": 6,
+     "median_abs": 0.0,
+     "max_abs": 0.0,
+     "modal_flips": 0
+    },
+    "deepseek": {
+     "n": 6,
+     "median_abs": 3.482901483886636e-08,
+     "max_abs": 2.213107917481416e-07,
+     "modal_flips": 2
+    },
+    "deepseek_s": {
+     "n": 6,
+     "median_abs": 0.0,
+     "max_abs": 0.3,
+     "modal_flips": 0
+    },
+    "gemma27b": {
+     "n": 6,
+     "median_abs": 5.4546845634241276e-08,
+     "max_abs": 0.0006302747394312247,
+     "modal_flips": 0
+    },
+    "gpt4o": {
+     "n": 6,
+     "median_abs": 0.000174370213348647,
+     "max_abs": 0.0016998573819081726,
+     "modal_flips": 0
+    },
+    "gpt6l_s": {
+     "n": 5,
+     "median_abs": 0.0,
+     "max_abs": 0.0,
+     "modal_flips": 0
+    },
+    "gpt6s_s": {
+     "n": 5,
+     "median_abs": 0.0,
+     "max_abs": 0.0,
+     "modal_flips": 0
+    },
+    "grok43_s": {
+     "n": 5,
+     "median_abs": 0.09999999999999998,
+     "max_abs": 0.10000000000000003,
+     "modal_flips": 1
+    },
+    "haiku_s": {
+     "n": 5,
+     "median_abs": 0.0,
+     "max_abs": 0.0,
+     "modal_flips": 0
+    },
+    "kimi": {
+     "n": 6,
+     "median_abs": 1.5821253221415255e-07,
+     "max_abs": 0.00020781534845338429,
+     "modal_flips": 0
+    },
+    "llama70b": {
+     "n": 6,
+     "median_abs": 8.882378693810013e-05,
+     "max_abs": 0.05425427406427913,
+     "modal_flips": 0
+    },
+    "mistral24b": {
+     "n": 6,
+     "median_abs": 0.0026350166411991394,
+     "max_abs": 0.021987383417888973,
+     "modal_flips": 0
+    },
+    "qwen80b": {
+     "n": 6,
+     "median_abs": 4.8054384992432436e-05,
+     "max_abs": 0.0005555115609188477,
+     "modal_flips": 0
+    }
+   }
+  },
+  "CARELESS": {
+   "cells": [
+    {
+     "arm": "claude",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "claude",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "claude",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.11920296759541184,
+     "banked": 0.11920296759541185,
+     "diff": -1.3877787807814457e-17,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.011420378366694772,
+     "banked": 0.010987,
+     "diff": 0.00043337836669477166,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.6224594236362027,
+     "banked": 0.622459,
+     "diff": 4.2363620267327207e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.5621766412778313,
+     "banked": 0.562177,
+     "diff": -3.5872216874732743e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 1.8925147351028903e-05,
+     "banked": 1.9e-05,
+     "diff": -7.485264897109795e-08,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.182425846092868,
+     "banked": 0.182426,
+     "diff": -1.5390713201113293e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999969402527905,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.1,
+     "banked": 0.0,
+     "diff": 0.1,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.6,
+     "banked": 0.4,
+     "diff": 0.19999999999999996,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.6,
+     "banked": 0.6,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.1,
+     "banked": 0.1,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "deepseek_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0020187839211078425,
+     "banked": 0.0017918643032297048,
+     "diff": 0.00022691961787813767,
+     "source": "deployed_bicycle_rivals"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.19107711356545676,
+     "banked": 0.055147,
+     "diff": 0.13593011356545676,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.9999999966017321,
+     "banked": 1.0,
+     "diff": -3.3982678893096363e-09,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.9999999907625504,
+     "banked": 1.0,
+     "diff": -9.237449583032742e-09,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 9.007121821252991e-10,
+     "banked": 0.0,
+     "diff": 9.007121821252991e-10,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.9999999988368976,
+     "banked": 1.0,
+     "diff": -1.1631023921765404e-09,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gemma27b",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999999999999177,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 3.2956469414609906e-05,
+     "banked": 0.0001703085577549455,
+     "diff": -0.0001373520883403356,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 9.440159343098052e-05,
+     "banked": 2.5e-05,
+     "diff": 6.940159343098053e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.7452591017442779,
+     "banked": 0.701169,
+     "diff": 0.044090101744277854,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.0943484960651148,
+     "banked": 0.153018,
+     "diff": -0.05866950393488518,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 3.4152673181287875e-05,
+     "banked": 5.4e-05,
+     "diff": -1.9847326818712123e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 7.187894190624124e-05,
+     "banked": 5.2e-05,
+     "diff": 1.9878941906241244e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt4o",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999912489540493,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked)"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6l_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked)"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "gpt6s_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.4,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked)"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.2,
+     "diff": -0.2,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.9,
+     "banked": 1.0,
+     "diff": -0.09999999999999998,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.6,
+     "banked": 0.9,
+     "diff": -0.30000000000000004,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.4,
+     "banked": 0.4,
+     "diff": 0.0,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "grok43_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked)"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 1.0,
+     "banked": 1.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 1.0,
+     "banked": 1.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0,
+     "banked": 0.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 1.0,
+     "banked": 1.0,
+     "diff": 0.0,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "haiku_s",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 1.0,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.014061916070651409,
+     "banked": 0.014062570731252663,
+     "diff": -6.546606012534928e-07,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.012429934239910482,
+     "banked": 0.01243,
+     "diff": -6.576008951784951e-08,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.1329923166217521,
+     "banked": 0.119216,
+     "diff": 0.013776316621752091,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.04741750605914779,
+     "banked": 0.04742,
+     "diff": -2.4939408522078876e-06,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.010985423289464918,
+     "banked": 0.010985,
+     "diff": 4.232894649184443e-07,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.008575953175833834,
+     "banked": 0.008576,
+     "diff": -4.682416616594298e-08,
+     "source": "B.8 deployed_added_models"
+    },
+    {
+     "arm": "kimi",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9890154610696418,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 5.8291265587399764e-05,
+     "banked": 7.153523501116947e-05,
+     "diff": -1.3243969423769708e-05,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.00019442884807030134,
+     "banked": 0.000181,
+     "diff": 1.342884807030133e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.7922163798289128,
+     "banked": 0.735683,
+     "diff": 0.05653337982891282,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.008577485940911246,
+     "banked": 0.008389,
+     "diff": 0.00018848594091124514,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 1.670142183077397e-05,
+     "banked": 1.3e-05,
+     "diff": 3.701421830773971e-06,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.01602491944996517,
+     "banked": 0.010987,
+     "diff": 0.005037919449965171,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "llama70b",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999999984035881,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.8317548690906713,
+     "banked": 0.8317548421406388,
+     "diff": 2.695003253894157e-08,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.04208924973025482,
+     "banked": 0.042089,
+     "diff": 2.4973025481572764e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.9254325958676184,
+     "banked": 0.928943,
+     "diff": -0.0035104041323815727,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.6791835994947164,
+     "banked": 0.66784,
+     "diff": 0.011343599494716416,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 0.0060782775586098,
+     "banked": 0.007411,
+     "diff": -0.0013327224413902002,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.9626730177030527,
+     "banked": 0.962673,
+     "diff": 1.7703052690443144e-08,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "mistral24b",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9997449484373091,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "bicycle",
+     "role": "P0",
+     "new": 0.6224593729565147,
+     "banked": 0.544382770061488,
+     "diff": 0.0780766028950266,
+     "source": "deployed_bicycle_ladder"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "ladder",
+     "role": "P0",
+     "new": 0.9820120253022928,
+     "banked": 0.979068,
+     "diff": 0.002944025302292763,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "prawns_home",
+     "role": "P0",
+     "new": 0.9967375719972155,
+     "banked": 0.996648,
+     "diff": 8.957199721548736e-05,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "prawns_restaurant",
+     "role": "P0",
+     "new": 0.9999417087380963,
+     "banked": 0.999942,
+     "diff": -2.9126190370654115e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "scaffolding",
+     "role": "P0",
+     "new": 5.657232141340132e-07,
+     "banked": 0.0,
+     "diff": 5.657232141340132e-07,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "cheque",
+     "role": "P0",
+     "new": 0.6041852009588424,
+     "banked": 0.585532,
+     "diff": 0.018653200958842375,
+     "source": "B.8 deployed_scenarios"
+    },
+    {
+     "arm": "qwen80b",
+     "scenario": "bicycle",
+     "role": "C",
+     "new": 0.9999999928058672,
+     "banked": null,
+     "diff": null,
+     "source": "no comparand (never banked on the bicycle C case)"
+    }
+   ],
+   "per_arm": {
+    "claude": {
+     "n": 6,
+     "median_abs": 0.0,
+     "max_abs": 0.0,
+     "modal_flips": 0
+    },
+    "deepseek": {
+     "n": 6,
+     "median_abs": 2.563146503792302e-07,
+     "max_abs": 0.00043337836669477166,
+     "modal_flips": 0
+    },
+    "deepseek_s": {
+     "n": 6,
+     "median_abs": 0.0,
+     "max_abs": 0.19999999999999996,
+     "modal_flips": 1
+    },
+    "gemma27b": {
+     "n": 6,
+     "median_abs": 6.317858736171189e-09,
+     "max_abs": 0.13593011356545676,
+     "modal_flips": 0
+    },
+    "gpt4o": {
+     "n": 6,
+     "median_abs": 0.00010337684088565805,
+     "max_abs": 0.05866950393488518,
+     "modal_flips": 0
+    },
+    "gpt6l_s": {
+     "n": 5,
+     "median_abs": 0.0,
+     "max_abs": 0.0,
+     "modal_flips": 0
+    },
+    "gpt6s_s": {
+     "n": 5,
+     "median_abs": 0.0,
+     "max_abs": 0.0,
+     "modal_flips": 0
+    },
+    "grok43_s": {
+     "n": 5,
+     "median_abs": 0.09999999999999998,
+     "max_abs": 0.30000000000000004,
+     "modal_flips": 0
+    },
+    "haiku_s": {
+     "n": 5,
+     "median_abs": 0.0,
+     "max_abs": 0.0,
+     "modal_flips": 0
+    },
+    "kimi": {
+     "n": 6,
+     "median_abs": 5.389750330859686e-07,
+     "max_abs": 0.013776316621752091,
+     "modal_flips": 0
+    },
+    "llama70b": {
+     "n": 6,
+     "median_abs": 0.00010095739449077323,
+     "max_abs": 0.05653337982891282,
+     "modal_flips": 0
+    },
+    "mistral24b": {
+     "n": 6,
+     "median_abs": 0.0006664860858225079,
+     "max_abs": 0.011343599494716416,
+     "modal_flips": 0
+    },
+    "qwen80b": {
+     "n": 6,
+     "median_abs": 0.0015167986497541253,
+     "max_abs": 0.0780766028950266,
+     "modal_flips": 0
+    }
+   }
+  }
+ },
+ "decision": {
+  "P231_1": "FELL_FAIL",
+  "P231_2": "FAIL"
+ },
+ "cost_usd": 0.4153274500000002,
+ "database_sha256_comparanda": "237dca7bb85eee29ace147a3e71ca84ee4703eb917f627da51e71043fc9d7869",
+ "registered": [
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1, FELL against Reasonable (modal, target case)",
+   "0.4025"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 raw agreement, FELL against Reasonable",
+   "0.6528 over 72 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1 model-bootstrap 95%, FELL",
+   "[0.0617, 0.7061]"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 mean |P(yes) difference|, FELL against Reasonable",
+   "0.3164 over 75 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 verdict, FELL",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1, DIFF against Reasonable (modal, target case)",
+   "0.1711"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 raw agreement, DIFF against Reasonable",
+   "0.5493 over 71 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1 model-bootstrap 95%, DIFF",
+   "[-0.2453, 0.5657]"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 mean |P(yes) difference|, DIFF against Reasonable",
+   "0.4546 over 75 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 verdict, DIFF",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled r, Negligent with Reasonable",
+   "0.3238"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled r, Careless with Reasonable",
+   "0.1166"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled Negligent minus Careless, 95% model bootstrap",
+   "0.2072 [0.0248, 0.3913] over 75 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) within-model median r, Negligent minus Careless, 95%",
+   "0.2598 - -0.1324 = 0.3922 [-0.1324, 0.5443], models 5 (Negligent) and 6 (Careless)"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled r, Negligent with blame position",
+   "0.5506"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled r, Careless with blame position",
+   "0.5895"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled Negligent minus Careless, 95% model bootstrap",
+   "-0.0390 [-0.1621, 0.1530] over 75 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) within-model median r, Negligent minus Careless, 95%",
+   "0.4939 - 0.2224 = 0.2715 [-0.0467, 0.6335], models 5 (Negligent) and 6 (Careless)"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2 verdict (pooled decides)",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: yes-rate, Negligent, target case",
+   "25 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: yes-rate, Careless re-read, target case",
+   "22 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, Reasonable with Careless (replaces the banked 0.07)",
+   "0.1166 over 75 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, blame position with Careless",
+   "0.5895"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, blame position with Reasonable",
+   "0.4663"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, FELL, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, DIFF, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, NEGL, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, REASONABLE, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, CARELESS, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ]
+ ]
+}

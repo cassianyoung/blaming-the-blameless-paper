@@ -1,0 +1,202 @@
+{
+ "_meta": {
+  "run": "232",
+  "built_from_commit": "ffa5c2b26c50a176d20ac91db92b696a471fb923",
+  "inputs": {
+   "records/excuse_bank.jsonl": "546dc93105fadf743385be513d6bb4895dcde8a16835c8da6be9b12dda59cdcb",
+   "data/families_bank/moral__families__v1.jsonl": "cb77f3cb50528b089e978f8cec1069baf293f41d803d7a5e8ad00afd136918e6",
+   "records/frames.json": "ea34a1b8d0eed2c923b28e7a9df366bc11a543843c61d6a51ca0e2794ebeaa83",
+   "records/frames.json": "5a74f7867103f93749054d2c215f2bf865f782f158ae1f2b7c2a85572c864aea"
+  },
+  "prompt_sha_construction": "sha256(json.dumps(messages)), as or_harness logs it",
+  "n_prompts": 19
+ },
+ "texts": {
+  "principle": {
+   "body": "Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented? Answer yes or no.",
+   "body_sha256": "9d92eb82f95e7a8fd073858ca0b214b05d1f9e0cc775f57905b4d4076f3b1457",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "provenance": "practical_syllogism instruction §1, verbatim"
+  },
+  "B_form": {
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "form": "PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "stems": {
+    "PREVENT": "Could Alaric reasonably have prevented this?",
+    "PRINCIPLE": "Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?",
+    "BLAME": "How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?"
+   },
+   "provenance": "PREVENT and BLAME from frames.json, PRINCIPLE from the instruction; each without its own answer instruction"
+  }
+ },
+ "prompts": {
+  "A|principle": {
+   "condition": "A",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented? Answer yes or no.",
+   "prompt_sha256": "d3b4dbf850fe277b2c65420e92c7f76b7d374f7eb509153f2321b460e58332c6"
+  },
+  "B|bicycle|P0": {
+   "condition": "B",
+   "scenario": "bicycle",
+   "role": "P0",
+   "row_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "01a4d100dfca669b3eac77ba1515a5d50b481911809efcb5ab9cc1393dc38c4b"
+  },
+  "B|bicycle|N": {
+   "condition": "B",
+   "scenario": "bicycle",
+   "role": "N",
+   "row_text_sha256": "97fc7da0e56fa9a20c66815e8209f04dae8aac0f941556c1a129cdeefef38dd4",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "dd36fe7fda289638ccaa52bc860a8db4e78c741a82d67215d9cb43205ae3a33e"
+  },
+  "B|bicycle|C": {
+   "condition": "B",
+   "scenario": "bicycle",
+   "role": "C",
+   "row_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "7b6d4e06f31a8ad207696a3cc3c4725ad9e151acfe6a7e832f18af65056fd8eb"
+  },
+  "B|ladder|P0": {
+   "condition": "B",
+   "scenario": "ladder",
+   "role": "P0",
+   "row_text_sha256": "7e18e95af812ebadfb4c063f5d66ff918f71a936edf03b43cf330d08715cd0b3",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "36a64b97ce5dcf96d00c53e3582ed91341824a557b64b6b1a8ea7a447138e5a0"
+  },
+  "B|ladder|N": {
+   "condition": "B",
+   "scenario": "ladder",
+   "role": "N",
+   "row_text_sha256": "0b1f2521fd7dcd7f23042423a66f52df14250a5b4fb5c929a4c3056a098b0ee6",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric checked every rung of his ladder before lending it to his neighbour. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "f466aae62795fc9c996e99cc8156127669465946e36340f9e12e7dd2bad04f58"
+  },
+  "B|ladder|C": {
+   "condition": "B",
+   "scenario": "ladder",
+   "role": "C",
+   "row_text_sha256": "6ff26566d1c6a77a6f155293a595370590abeeccf52c5bfe85cca388d38829d6",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric lent his ladder to his neighbour without looking it over. One of the rungs was cracked. The neighbour fell and broke his wrist.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "22cf1e5057fc2e0dfe7df9450a07481fc2f15339fc434bfa203e73b6c9b00af7"
+  },
+  "B|prawns_home|P0": {
+   "condition": "B",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "row_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "abb2413bd4592db957312b72552f6a9e1ebd6555454388d49f696049a68266ec"
+  },
+  "B|prawns_home|N": {
+   "condition": "B",
+   "scenario": "prawns_home",
+   "role": "N",
+   "row_text_sha256": "5a2e625bb91ebaf089e93a14150e4961972ff955122db18a993f7712b21b401e",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "53f53473e7c2ae7cf74cece43b0c24dc60a8898256884ab1c6e9237590ae2823"
+  },
+  "B|prawns_home|C": {
+   "condition": "B",
+   "scenario": "prawns_home",
+   "role": "C",
+   "row_text_sha256": "a2f6f90299df77adf0c560c43a46cd01c902e03a2cd91ef56af6dbadbf9a3553",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "fd1496513a665ce48c3ab9c3556372a6a6d106de9918e7d42ba0605ccb226437"
+  },
+  "B|prawns_restaurant|P0": {
+   "condition": "B",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "row_text_sha256": "2218f1a06182dd56a416bdfeedd354568af89a724e6e1af505c16844dd6b9f30",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "8c2118cb2033221850f7c767e620c08791d48fe6b8c00dde16fecb1f092df9d3"
+  },
+  "B|prawns_restaurant|N": {
+   "condition": "B",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "row_text_sha256": "620de0f44762f848b174a743efc133fc56ebfe7b6cd7bad562e61c5ef983eea7",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "3b07d012d3175ef5c890eac251c4ea1958375d93e8ec862fd40b6eab06a8d5fd"
+  },
+  "B|prawns_restaurant|C": {
+   "condition": "B",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "row_text_sha256": "48b4172ee45977d9c989e3b021b4060ae993c96ed202e3c45bf9c1b75211b81a",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "52c78d95ad60ece3b8e8980bba69b247ad9c40c169c927597d5b1a0498d73460"
+  },
+  "B|scaffolding|P0": {
+   "condition": "B",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "row_text_sha256": "f7e761ceae8bb931bb371dfc0fbd496eabd9ad5acd3cd196e2f3b122e84ac510",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "e43c419ca683261d04c28a42724c2fc48f26bbe0ac8106016554e1a67a777032"
+  },
+  "B|scaffolding|N": {
+   "condition": "B",
+   "scenario": "scaffolding",
+   "role": "N",
+   "row_text_sha256": "f5ccef424d6654d5b143155094205620347c39c679adec6a405c6b6e7550d09b",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "87e3784d834e16b97cc23d63537f11b3967b7431c3d7550189462d46caebd283"
+  },
+  "B|scaffolding|C": {
+   "condition": "B",
+   "scenario": "scaffolding",
+   "role": "C",
+   "row_text_sha256": "60e5b513ddad559d12efd662a14c87532fcb31a2836fcf865c3443467f95dfad",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a builder. He finished the scaffolding without checking the couplers. One coupler was cracked. A board gave way and a man fell.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "7f467da723d3e66ae28901fc1fd6e714ede3df9482cfa8d93dcf1c2e6fe0e7fe"
+  },
+  "B|cheque|P0": {
+   "condition": "B",
+   "scenario": "cheque",
+   "role": "P0",
+   "row_text_sha256": "e99ae447522d83096ad266cb8c60b9c0a69c9c3a7cfee221d0df57ec277d878f",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "b1de5a984994e4c50a65717d58ae18d0b303d82c2f6b04621b7adf8b221d8b84"
+  },
+  "B|cheque|N": {
+   "condition": "B",
+   "scenario": "cheque",
+   "role": "N",
+   "row_text_sha256": "eecf99c651d82f5af3343ad4c9f88c58358b50f653eefc1ceda62ffdcd81cdce",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "541f50245e2fc0ca67fdedfc6d76fb23d9dfa6d99d32a9218105eafb70af5fad"
+  },
+  "B|cheque|C": {
+   "condition": "B",
+   "scenario": "cheque",
+   "role": "C",
+   "row_text_sha256": "193dd8168a87a76749380eb95a2116b86d452e397da9fcebe6c6fee63a3fa909",
+   "system": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric wrote a cheque to the plumber without checking his balance. There was not enough in the account. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>.",
+   "prompt_sha256": "9e10551c9eba91c1ac6c3345de4b8dc3de35f5cdcd8ad54f39e7f64de104862c"
+  }
+ }
+}

@@ -1,0 +1,2051 @@
+{
+ "run": "234",
+ "arm": "grok43_s",
+ "frames": "records/frames.json",
+ "frames_sha256": "68e2a42c27641322f4b112d9daf90cade17399bbee4a3d932eadb891ffd0c6a0",
+ "arm_cap_usd": 0.048,
+ "prereg": "records/PREREG_subject_identity_SUBJECT.md",
+ "wire": {
+  "bicycle": {
+   "endpoint": "/chat/completions",
+   "max_tokens": 8,
+   "mode": "chat",
+   "model": "x-ai/grok-4.3",
+   "provider_asked": "xai",
+   "provider_served": "xAI",
+   "reasoning_on_the_wire": {
+    "enabled": false
+   },
+   "temperature": 1.0,
+   "top_k": null,
+   "want_logprobs": false
+  },
+  "prawns": {
+   "endpoint": "/chat/completions",
+   "max_tokens": 1024,
+   "mode": "chat",
+   "model": "x-ai/grok-4.3",
+   "provider_asked": "xai",
+   "provider_served": "xAI",
+   "reasoning_on_the_wire": {
+    "enabled": false
+   },
+   "temperature": 1.0,
+   "top_k": null,
+   "want_logprobs": false
+  }
+ },
+ "draws": {
+  "bicycle": 10,
+  "prawns": 10
+ },
+ "cells": {
+  "bicycle|N|Alaric": {
+   "scenario": "bicycle",
+   "role": "N",
+   "subject": "Alaric",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 0.0,
+   "sd": 0.0,
+   "values": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mass_0_3": 1.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "b75b2b926936d101",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    }
+   ]
+  },
+  "bicycle|N|John": {
+   "scenario": "bicycle",
+   "role": "N",
+   "subject": "John",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 0.0,
+   "sd": 0.0,
+   "values": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mass_0_3": 1.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "4276fc0e9a3bbc1d",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    }
+   ]
+  },
+  "bicycle|N|Jane": {
+   "scenario": "bicycle",
+   "role": "N",
+   "subject": "Jane",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 0.0,
+   "sd": 0.0,
+   "values": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mass_0_3": 1.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "5f10fffd84992069",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    }
+   ]
+  },
+  "bicycle|C|John": {
+   "scenario": "bicycle",
+   "role": "C",
+   "subject": "John",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 5.1,
+   "sd": 1.044030650891055,
+   "values": [
+    4.0,
+    7.0,
+    6.0,
+    5.0,
+    5.0,
+    4.0,
+    4.0,
+    6.0,
+    4.0,
+    6.0
+   ],
+   "mass_0_3": 0.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "b808518120a8f0bb",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    }
+   ]
+  },
+  "bicycle|C|Jane": {
+   "scenario": "bicycle",
+   "role": "C",
+   "subject": "Jane",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 4.6,
+   "sd": 1.019803902718557,
+   "values": [
+    6.0,
+    6.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    4.0
+   ],
+   "mass_0_3": 0.1,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "bd5571db555f6bea",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    }
+   ]
+  },
+  "bicycle|C|Alaric": {
+   "scenario": "bicycle",
+   "role": "C",
+   "subject": "Alaric",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 4.6,
+   "sd": 0.4898979485566356,
+   "values": [
+    4.0,
+    5.0,
+    5.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "mass_0_3": 0.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "5ccca4a665f65942",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    }
+   ]
+  },
+  "bicycle|P0|Jane": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "subject": "Jane",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 3.7,
+   "sd": 0.9,
+   "values": [
+    2.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    5.0,
+    4.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "mass_0_3": 0.4,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "3e94f1cf3529c394",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "2",
+     "reasoned_despite_off": false,
+     "ev": 2.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    }
+   ]
+  },
+  "bicycle|P0|Alaric": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "subject": "Alaric",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 3.8,
+   "sd": 0.8717797887081347,
+   "values": [
+    3.0,
+    6.0,
+    3.0,
+    4.0,
+    3.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0
+   ],
+   "mass_0_3": 0.4,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "f285537a272731ac",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    }
+   ]
+  },
+  "bicycle|P0|John": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "subject": "John",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 3.9,
+   "sd": 0.7,
+   "values": [
+    4.0,
+    3.0,
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    4.0,
+    3.0,
+    3.0,
+    4.0
+   ],
+   "mass_0_3": 0.3,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "147de8a626a9dacb",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 8,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    }
+   ]
+  },
+  "prawns_home|N|Alaric": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "subject": "Alaric",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 0.5,
+   "sd": 0.8062257748298549,
+   "values": [
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0
+   ],
+   "mass_0_3": 1.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "d77bad9f9a3ac160",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "2",
+     "reasoned_despite_off": false,
+     "ev": 2.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "1",
+     "reasoned_despite_off": false,
+     "ev": 1.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "2",
+     "reasoned_despite_off": false,
+     "ev": 2.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    }
+   ]
+  },
+  "prawns_home|N|John": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "subject": "John",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 0.3,
+   "sd": 0.6403124237432849,
+   "values": [
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "mass_0_3": 1.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "4c3a66a790d382a8",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "2",
+     "reasoned_despite_off": false,
+     "ev": 2.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "1",
+     "reasoned_despite_off": false,
+     "ev": 1.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    }
+   ]
+  },
+  "prawns_home|N|Jane": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "subject": "Jane",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 0.4,
+   "sd": 0.6633249580710799,
+   "values": [
+    1.0,
+    0.0,
+    2.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mass_0_3": 1.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "440e95f4aec57934",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "1",
+     "reasoned_despite_off": false,
+     "ev": 1.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "2",
+     "reasoned_despite_off": false,
+     "ev": 2.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "1",
+     "reasoned_despite_off": false,
+     "ev": 1.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    }
+   ]
+  },
+  "prawns_home|C|John": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "subject": "John",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 6.3,
+   "sd": 0.7810249675906654,
+   "values": [
+    5.0,
+    7.0,
+    6.0,
+    7.0,
+    5.0,
+    7.0,
+    7.0,
+    7.0,
+    6.0,
+    6.0
+   ],
+   "mass_0_3": 0.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "faba530865818b27",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    }
+   ]
+  },
+  "prawns_home|C|Jane": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "subject": "Jane",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 5.3,
+   "sd": 1.4177446878757824,
+   "values": [
+    6.0,
+    3.0,
+    4.0,
+    6.0,
+    3.0,
+    6.0,
+    6.0,
+    7.0,
+    5.0,
+    7.0
+   ],
+   "mass_0_3": 0.2,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "2941933158cda0b1",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    }
+   ]
+  },
+  "prawns_home|C|Alaric": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "subject": "Alaric",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 5.7,
+   "sd": 1.004987562112089,
+   "values": [
+    5.0,
+    5.0,
+    4.0,
+    7.0,
+    7.0,
+    5.0,
+    6.0,
+    7.0,
+    5.0,
+    6.0
+   ],
+   "mass_0_3": 0.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "da5c9afef4008060",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    }
+   ]
+  },
+  "prawns_home|P0|Jane": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "subject": "Jane",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 3.4,
+   "sd": 1.8,
+   "values": [
+    4.0,
+    0.0,
+    5.0,
+    5.0,
+    5.0,
+    4.0,
+    3.0,
+    4.0,
+    4.0,
+    0.0
+   ],
+   "mass_0_3": 0.3,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "e7fa9fa14a80bb3c",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    }
+   ]
+  },
+  "prawns_home|P0|Alaric": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "subject": "Alaric",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 5.7,
+   "sd": 0.9,
+   "values": [
+    5.0,
+    6.0,
+    6.0,
+    5.0,
+    6.0,
+    5.0,
+    6.0,
+    8.0,
+    5.0,
+    5.0
+   ],
+   "mass_0_3": 0.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "4e843f01d2227c4f",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "8",
+     "reasoned_despite_off": false,
+     "ev": 8.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    }
+   ]
+  },
+  "prawns_home|P0|John": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "subject": "John",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 4.2,
+   "sd": 2.039607805437114,
+   "values": [
+    7.0,
+    3.0,
+    4.0,
+    5.0,
+    5.0,
+    5.0,
+    4.0,
+    7.0,
+    2.0,
+    0.0
+   ],
+   "mass_0_3": 0.3,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "d0a1a0f71b569c4f",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "3",
+     "reasoned_despite_off": false,
+     "ev": 3.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "2",
+     "reasoned_despite_off": false,
+     "ev": 2.0
+    },
+    {
+     "text": "0",
+     "reasoned_despite_off": false,
+     "ev": 0.0
+    }
+   ]
+  },
+  "prawns_restaurant|C|Alaric": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "subject": "Alaric",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 6.1,
+   "sd": 1.1357816691600546,
+   "values": [
+    4.0,
+    7.0,
+    8.0,
+    6.0,
+    5.0,
+    6.0,
+    6.0,
+    5.0,
+    7.0,
+    7.0
+   ],
+   "mass_0_3": 0.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned_despite_off": false,
+     "ev": 8.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    }
+   ]
+  },
+  "prawns_restaurant|C|John": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "subject": "John",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 6.5,
+   "sd": 0.8062257748298549,
+   "values": [
+    6.0,
+    6.0,
+    6.0,
+    7.0,
+    5.0,
+    7.0,
+    7.0,
+    6.0,
+    7.0,
+    8.0
+   ],
+   "mass_0_3": 0.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "8a78521f455dc10f",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned_despite_off": false,
+     "ev": 8.0
+    }
+   ]
+  },
+  "prawns_restaurant|C|Jane": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "subject": "Jane",
+   "readout": "sampled digit",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 6.1,
+   "sd": 1.044030650891055,
+   "values": [
+    7.0,
+    7.0,
+    6.0,
+    5.0,
+    5.0,
+    7.0,
+    7.0,
+    6.0,
+    4.0,
+    7.0
+   ],
+   "mass_0_3": 0.0,
+   "answer_mass": 1.0,
+   "answer_mass_rule": "parse rate",
+   "raw_digit_mass": null,
+   "n_reasoned_despite_off": 0,
+   "prompt_sha256_16": "420c1e73a7987542",
+   "wire": {
+    "endpoint": "/chat/completions",
+    "max_tokens": 1024,
+    "mode": "chat",
+    "model": "x-ai/grok-4.3",
+    "provider_asked": "xai",
+    "provider_served": "xAI",
+    "reasoning_on_the_wire": {
+     "enabled": false
+    },
+    "temperature": 1.0,
+    "top_k": null,
+    "want_logprobs": false
+   },
+   "draws": [
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "5",
+     "reasoned_despite_off": false,
+     "ev": 5.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned_despite_off": false,
+     "ev": 6.0
+    },
+    {
+     "text": "4",
+     "reasoned_despite_off": false,
+     "ev": 4.0
+    },
+    {
+     "text": "7",
+     "reasoned_despite_off": false,
+     "ev": 7.0
+    }
+   ]
+  }
+ },
+ "provider_served": [
+  "xAI"
+ ],
+ "served_model": [
+  "x-ai/grok-4.3"
+ ],
+ "served_model_constant": true,
+ "empty_responses_retried": [],
+ "status": "READ",
+ "calls": 210,
+ "spent_usd": 0.030835599999999998,
+ "elapsed_s": 306.7
+}

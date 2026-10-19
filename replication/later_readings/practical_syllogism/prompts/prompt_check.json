@@ -1,0 +1,90 @@
+{
+ "hash": "sha256 of json.dumps(messages), first 16 hex digits, as the study's harness logs it in each call's prompt_sha256_16",
+ "frozen_or_built_prompts": 19,
+ "prompts_sent": 19,
+ "prompts_never_sent": [],
+ "calls": 2470,
+ "calls_matching_a_prompt": 2470,
+ "calls_matching_no_prompt": {},
+ "coder_calls_matching_their_rebuilt_prompt": null,
+ "coder_calls_not_matching": null,
+ "built_prompts_matching_the_banked_duty_test_calls": null,
+ "per_prompt": {
+  "frames.json: A|principle": {
+   "prompt_sha256_16": "d3b4dbf850fe277b",
+   "calls": 130
+  },
+  "frames.json: B|bicycle|C": {
+   "prompt_sha256_16": "7b6d4e06f31a8ad2",
+   "calls": 130
+  },
+  "frames.json: B|bicycle|N": {
+   "prompt_sha256_16": "dd36fe7fda289638",
+   "calls": 130
+  },
+  "frames.json: B|bicycle|P0": {
+   "prompt_sha256_16": "01a4d100dfca669b",
+   "calls": 130
+  },
+  "frames.json: B|cheque|C": {
+   "prompt_sha256_16": "9e10551c9eba91c1",
+   "calls": 130
+  },
+  "frames.json: B|cheque|N": {
+   "prompt_sha256_16": "541f50245e2fc0ca",
+   "calls": 130
+  },
+  "frames.json: B|cheque|P0": {
+   "prompt_sha256_16": "b1de5a984994e4c5",
+   "calls": 130
+  },
+  "frames.json: B|ladder|C": {
+   "prompt_sha256_16": "22cf1e5057fc2e0d",
+   "calls": 130
+  },
+  "frames.json: B|ladder|N": {
+   "prompt_sha256_16": "f466aae62795fc9c",
+   "calls": 130
+  },
+  "frames.json: B|ladder|P0": {
+   "prompt_sha256_16": "36a64b97ce5dcf96",
+   "calls": 130
+  },
+  "frames.json: B|prawns_home|C": {
+   "prompt_sha256_16": "fd1496513a665ce4",
+   "calls": 130
+  },
+  "frames.json: B|prawns_home|N": {
+   "prompt_sha256_16": "53f53473e7c2ae7c",
+   "calls": 130
+  },
+  "frames.json: B|prawns_home|P0": {
+   "prompt_sha256_16": "abb2413bd4592db9",
+   "calls": 130
+  },
+  "frames.json: B|prawns_restaurant|C": {
+   "prompt_sha256_16": "52c78d95ad60ece3",
+   "calls": 130
+  },
+  "frames.json: B|prawns_restaurant|N": {
+   "prompt_sha256_16": "3b07d012d3175ef5",
+   "calls": 130
+  },
+  "frames.json: B|prawns_restaurant|P0": {
+   "prompt_sha256_16": "8c2118cb20332218",
+   "calls": 130
+  },
+  "frames.json: B|scaffolding|C": {
+   "prompt_sha256_16": "7f467da723d3e66a",
+   "calls": 130
+  },
+  "frames.json: B|scaffolding|N": {
+   "prompt_sha256_16": "87e3784d834e16b9",
+   "calls": 130
+  },
+  "frames.json: B|scaffolding|P0": {
+   "prompt_sha256_16": "e43c419ca683261d",
+   "calls": 130
+  }
+ }
+}

@@ -1,7 +1,8 @@
 # Pre-registrations
 
 The pre-registrations and amendments behind the excuse test, the duty pairs, the
-remedies and the adapter controls. Each was committed before the readings it governs;
+remedies, the adapter controls and the later readings (whose prompts, code and calls are in
+`../replication/later_readings/`). Each was committed before the readings it governs;
 each amendment states whether it was made before or after the cells it affects landed.
 
 The texts are as banked. They are edited only to remove internal file paths and process
@@ -26,6 +27,13 @@ paper calls the same person the subject. No prediction, rule or number has been 
 | `excuse_neutral_row_flag_amendment.json` | Post-hoc amendment, declared as one, to the excuse test's neutral-row check: the neutral row exists to rule out the sentence-count rival (P1_neutral above P1), not to be inert; its movement against P0 is reported, gating nothing. |
 | `adapter_corpus_controls.md` | Controls for whether the instruction-tuning corpus behind a LoRA adapter, rather than seed or language, moves the careful subject's reading on the worksheet frame: seed replication, a language control and an ablation, with the rise rule and its two amendments (§8, §9). |
 | `adapter_corpus_controls_bands_amendment.md` | Amendment fixing which construction the rise rule's "bands" means (the pooled band, C), with the reason and its effect on every arm. |
+| `reasoning_traces.md` | The reasoning traces: the six reasoning models' duty-test separate cases re-read with their reasoning kept, and coded by two model coders for whether the reasoning raises the professional comparison; the coding guide and its rules. |
+| `prevention_paraphrase.md` | The prevention and carelessness questions re-read in their original wording (the syllogism's particular premise), and rewordings of the prevention question, which are not reported because they measured the verdict, not the fact. |
+| `practical_syllogism.md` | The practical syllogism on the excuse test: the universal premise asked with no case, against the particular premise and the verdict, each from its own call; and fact, rule and verdict asked in one answer. |
+| `syllogism_duty.md` | The duty test's syllogism: the role and the principle per named pair, the same-session bare re-read, and the one-answer prompt; with the split and shortfall amendments. |
+| `general_principle.md` | The convention asked in the abstract, with no trade named, in both orders. |
+| `subject_identity.md` | The excuse and duty cases re-read with the subject named Alaric, John or Jane. |
+| `completeness_fill_amendment.md` | The completeness fill: the readings added for due-care-eval v1.1, the prawns pair read under the duty syllogism (pooled with it), and the reasoning stratum (read on the reasoning models, reported separately). |
 
 ## Bank file names
 

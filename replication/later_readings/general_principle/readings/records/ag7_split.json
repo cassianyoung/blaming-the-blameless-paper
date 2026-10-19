@@ -1,0 +1,339 @@
+{
+ "AG7_split": {
+  "all": {
+   "cells": 52,
+   "clears": 16,
+   "zero_or_negative": 7,
+   "positive_within_floor": 29
+  },
+  "excluded_floor_above_stated": [
+   "deepseek",
+   "deepseek_s",
+   "gpt6l_s"
+  ],
+  "restricted": {
+   "cells": 40,
+   "clears": 16,
+   "zero_or_negative": 4,
+   "positive_within_floor": 20
+  }
+ },
+ "per_cell": {
+  "claude|1": {
+   "R_gap": 1.0,
+   "floor_used": 1.0226078340313174,
+   "clears": false
+  },
+  "claude|3": {
+   "R_gap": 1.0,
+   "floor_used": 1.0226078340313174,
+   "clears": false
+  },
+  "claude|4": {
+   "R_gap": 0.2999999999999998,
+   "floor_used": 1.0226078340313174,
+   "clears": false
+  },
+  "claude|7": {
+   "R_gap": 1.0,
+   "floor_used": 1.0226078340313174,
+   "clears": false
+  },
+  "deepseek|1": {
+   "R_gap": -0.15355779999999974,
+   "floor_used": 2.0381439465564153,
+   "clears": false
+  },
+  "deepseek|3": {
+   "R_gap": 0.48337140000000023,
+   "floor_used": 2.0381439465564153,
+   "clears": false
+  },
+  "deepseek|4": {
+   "R_gap": 1.3902190999999995,
+   "floor_used": 2.0381439465564153,
+   "clears": false
+  },
+  "deepseek|7": {
+   "R_gap": 1.0754686000000007,
+   "floor_used": 2.0381439465564153,
+   "clears": false
+  },
+  "deepseek_s|1": {
+   "R_gap": -0.5,
+   "floor_used": 2.2102137593957334,
+   "clears": false
+  },
+  "deepseek_s|3": {
+   "R_gap": 0.7999999999999998,
+   "floor_used": 2.2102137593957334,
+   "clears": false
+  },
+  "deepseek_s|4": {
+   "R_gap": 1.2000000000000002,
+   "floor_used": 2.2102137593957334,
+   "clears": false
+  },
+  "deepseek_s|7": {
+   "R_gap": 1.6000000000000005,
+   "floor_used": 2.2102137593957334,
+   "clears": false
+  },
+  "gemma27b|1": {
+   "R_gap": 0.0007892000000015997,
+   "floor_used": 1.2475261336598131,
+   "clears": false
+  },
+  "gemma27b|3": {
+   "R_gap": 1.9995277999999992,
+   "floor_used": 1.2475261336598131,
+   "clears": true
+  },
+  "gemma27b|4": {
+   "R_gap": 1.886375600000001,
+   "floor_used": 1.2475261336598131,
+   "clears": true
+  },
+  "gemma27b|7": {
+   "R_gap": 0.8847472000000014,
+   "floor_used": 1.2475261336598131,
+   "clears": false
+  },
+  "gpt4o|1": {
+   "R_gap": 0.5410886000000001,
+   "floor_used": 0.8134700877916462,
+   "clears": false
+  },
+  "gpt4o|3": {
+   "R_gap": 1.3538095000000006,
+   "floor_used": 0.8134700877916462,
+   "clears": true
+  },
+  "gpt4o|4": {
+   "R_gap": 0.8091821000000001,
+   "floor_used": 0.8134700877916462,
+   "clears": false
+  },
+  "gpt4o|7": {
+   "R_gap": 0.42573939999999943,
+   "floor_used": 0.8134700877916462,
+   "clears": false
+  },
+  "gpt6l_s|1": {
+   "R_gap": -0.3000000000000007,
+   "floor_used": 1.8856212698559947,
+   "clears": false
+  },
+  "gpt6l_s|3": {
+   "R_gap": 1.7000000000000002,
+   "floor_used": 1.8856212698559947,
+   "clears": false
+  },
+  "gpt6l_s|4": {
+   "R_gap": 1.5,
+   "floor_used": 1.8856212698559947,
+   "clears": false
+  },
+  "gpt6l_s|7": {
+   "R_gap": 1.2999999999999998,
+   "floor_used": 1.8856212698559947,
+   "clears": false
+  },
+  "gpt6s_s|1": {
+   "R_gap": 1.0,
+   "floor_used": 0.9799551463658366,
+   "clears": true
+  },
+  "gpt6s_s|3": {
+   "R_gap": 1.4000000000000004,
+   "floor_used": 0.9799551463658366,
+   "clears": true
+  },
+  "gpt6s_s|4": {
+   "R_gap": 1.0,
+   "floor_used": 0.9799551463658366,
+   "clears": true
+  },
+  "gpt6s_s|7": {
+   "R_gap": 0.0,
+   "floor_used": 0.9799551463658366,
+   "clears": false
+  },
+  "grok43_s|1": {
+   "R_gap": 0.10000000000000053,
+   "floor_used": 1.374502528189745,
+   "clears": false
+  },
+  "grok43_s|3": {
+   "R_gap": 1.0999999999999996,
+   "floor_used": 1.374502528189745,
+   "clears": false
+  },
+  "grok43_s|4": {
+   "R_gap": 0.9000000000000004,
+   "floor_used": 1.374502528189745,
+   "clears": false
+  },
+  "grok43_s|7": {
+   "R_gap": 0.7000000000000002,
+   "floor_used": 1.374502528189745,
+   "clears": false
+  },
+  "haiku_s|1": {
+   "R_gap": 0.7999999999999998,
+   "floor_used": 0.5544333884446555,
+   "clears": true
+  },
+  "haiku_s|3": {
+   "R_gap": 0.9000000000000004,
+   "floor_used": 0.5544333884446555,
+   "clears": true
+  },
+  "haiku_s|4": {
+   "R_gap": 0.0,
+   "floor_used": 0.5544333884446555,
+   "clears": false
+  },
+  "haiku_s|7": {
+   "R_gap": 0.0,
+   "floor_used": 0.5544333884446555,
+   "clears": false
+  },
+  "kimi|1": {
+   "R_gap": 0.3119636000000021,
+   "floor_used": 0.6914459780382881,
+   "clears": false
+  },
+  "kimi|3": {
+   "R_gap": 1.4033281999999998,
+   "floor_used": 0.6914459780382881,
+   "clears": true
+  },
+  "kimi|4": {
+   "R_gap": 1.2125315999999993,
+   "floor_used": 0.6914459780382881,
+   "clears": true
+  },
+  "kimi|7": {
+   "R_gap": 0.25504380000000015,
+   "floor_used": 0.6914459780382881,
+   "clears": false
+  },
+  "llama70b|1": {
+   "R_gap": 0.0020289000000008883,
+   "floor_used": 0.5748790766664361,
+   "clears": false
+  },
+  "llama70b|3": {
+   "R_gap": 0.9982500000000005,
+   "floor_used": 0.5748790766664361,
+   "clears": true
+  },
+  "llama70b|4": {
+   "R_gap": 7.20000000065113e-06,
+   "floor_used": 0.5748790766664361,
+   "clears": false
+  },
+  "llama70b|7": {
+   "R_gap": 0.7046933000000006,
+   "floor_used": 0.5748790766664361,
+   "clears": true
+  },
+  "mistral24b|1": {
+   "R_gap": -0.007873399999999364,
+   "floor_used": 0.44913773126997003,
+   "clears": false
+  },
+  "mistral24b|3": {
+   "R_gap": 1.0577067000000007,
+   "floor_used": 0.44913773126997003,
+   "clears": true
+  },
+  "mistral24b|4": {
+   "R_gap": 0.5903600999999998,
+   "floor_used": 0.44913773126997003,
+   "clears": true
+  },
+  "mistral24b|7": {
+   "R_gap": 0.06496859999999938,
+   "floor_used": 0.44913773126997003,
+   "clears": false
+  },
+  "qwen80b|1": {
+   "R_gap": 0.7897979999999993,
+   "floor_used": 0.8354894724204143,
+   "clears": false
+  },
+  "qwen80b|3": {
+   "R_gap": 0.8664129999999997,
+   "floor_used": 0.8354894724204143,
+   "clears": true
+  },
+  "qwen80b|4": {
+   "R_gap": 1.2411650000000005,
+   "floor_used": 0.8354894724204143,
+   "clears": true
+  },
+  "qwen80b|7": {
+   "R_gap": 0.163945,
+   "floor_used": 0.8354894724204143,
+   "clears": false
+  }
+ },
+ "registered": [
+  [
+   "general_principle AG.7 split non-driving cells with a bare gap of zero or below",
+   "7 of 52"
+  ],
+  [
+   "general_principle AG.7 split non-driving cells with a positive bare gap within the wording floor",
+   "29 of 52"
+  ],
+  [
+   "general_principle AG.7 split arms excluded, wording floor above own median stated slack",
+   "deepseek, deepseek_s, gpt6l_s"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells clearing the wording floor",
+   "16 of 40"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells with a bare gap of zero or below",
+   "4 of 40"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells with a positive bare gap within the wording floor",
+   "20 of 40"
+  ]
+ ],
+ "inputs": {
+  "records/general_principle_READ__claude.json": "d9d56ec4432d373314a1aa9b4a1b72bdd979b02ca33015bf4d3ad4f27e1441c2",
+  "records/general_principle_READ__deepseek.json": "2866eeb910ee9d8ac41a76663e3f7e9d246bc004f1440542abe5d885278cd79d",
+  "records/general_principle_READ__deepseek_s.json": "b228e122aa96505b92b7e94ac0b0731bea54c5a7bb2040059dac2390049811f5",
+  "records/general_principle_READ__gemma27b.json": "1b11521bef11283154d3336151fcf29466e10aabec0d72527901d7eb3d62a63b",
+  "records/general_principle_READ__gpt4o.json": "9fc2d8bb4b91a5bf46c69f58426374eae1334a42e9138b2275f875d80c2125a3",
+  "records/general_principle_READ__gpt6l_s.json": "8a752fb7f2cb52fb1d384a899dd31c8b7dcb7d64347b474c2f1d48c2250b65d8",
+  "records/general_principle_READ__gpt6s_s.json": "8d02cac7978a26f8f632787658ca368d6fad01b6dc0806254191394e7c7217df",
+  "records/general_principle_READ__grok43_s.json": "7dbfcc190fecc115bb668ac63f5c5425e28f9d1370dc6f82f23e63b4bad888fc",
+  "records/general_principle_READ__haiku_s.json": "161a58a3a8521355e665365d75300b5f82b26d0d9f34d9ef3559b7c6980eb74b",
+  "records/general_principle_READ__kimi.json": "7cf33a618381d3561be4784c79a8344366075b3e3da5c2f9031b2a2b62ff426c",
+  "records/general_principle_READ__llama70b.json": "a5d9041949e0f07fdad374e1aecfdcf477415807b1aee9311c3eb4d5316cb33e",
+  "records/general_principle_READ__mistral24b.json": "4b8cff3d4ac95641d7b57c9cf27965e152ef74dae6de06496c09cb471c36cb81",
+  "records/general_principle_READ__qwen80b.json": "a25a582500e400cba80946ae38ac78de153491f1c6e127e1404c04c9af4b23d1",
+  "records/syllogism_duty_READ__claude.json": "0224986988d7cfc0a91a374c3f8f18b481f677861dab7aea8886a039af9ede20",
+  "records/syllogism_duty_READ__deepseek.json": "e56d8a8ec47020e39918955dfd9530d229c0aeebf14b0747b5fead1fc53c0d2a",
+  "records/syllogism_duty_READ__deepseek_s.json": "e4c90546546fe466033e5e8e569be4bfaf1b33752369b0520041941cebc97c93",
+  "records/syllogism_duty_READ__gemma27b.json": "179d518c02951b60eff7aaf8ab62ddbb07b12de0cfef4ad8fa26a51be4006897",
+  "records/syllogism_duty_READ__gpt4o.json": "7fe66325a5c216de3a6729aa8d6f4ec2e147f98657327109b9eeb3101149c7f6",
+  "records/syllogism_duty_READ__gpt6l_s.json": "1e205236917ce33124886c8860c50950c6434b1bd9e04d12f38d8ee6fd53620e",
+  "records/syllogism_duty_READ__gpt6s_s.json": "206a7ba97fd14bca12f0566e56e53e9a08fc06e800bd8da7cde481157ac007c3",
+  "records/syllogism_duty_READ__grok43_s.json": "dd139127ab30e221588f4d4358db1ebe9d6fb6d708b8275793a20b4d6bd3e93b",
+  "records/syllogism_duty_READ__haiku_s.json": "2d5f6df355980030f9853aa3fa4846c0dda2236e60c1c443b4dbb0f6c741b0d3",
+  "records/syllogism_duty_READ__kimi.json": "91554daaf673edf0a037211be5ce0bb0ea55ba9a3798d45336337073dd1dc844",
+  "records/syllogism_duty_READ__llama70b.json": "85623d359cad2870dd05f85e9da03779396d9bc4832fce435aa02753af17f594",
+  "records/syllogism_duty_READ__mistral24b.json": "8b50b929d44f2b13e45f786b4808e4c78ad3a168128722841caf85c3c98be687",
+  "records/syllogism_duty_READ__qwen80b.json": "4e46b1a29faeca9a38ba2e847dd6cf05e542c4d68f5e5411ebfa5952d6f632cb"
+ },
+ "status": "not pre-registered: asked for on 2026-10-13, after the reads",
+ "rule": "zero or below: bare gap (PRO minus PRIV, same session) <= 0 at 9 decimals; within floor: above 0 and not above floor_used; arms excluded where median_floor_used > median_stated_gap (pairs 1 3 4 7), both from records/general_principle_FRAMES_v2.json"
+}

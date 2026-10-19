@@ -1,0 +1,2036 @@
+{
+ "run": "230",
+ "arm": "haiku_r",
+ "prereg": "records/PREREG_reasoning_traces_TRACES.md",
+ "harness_keeps_text": true,
+ "log": "runs/reasoning_traces/logs/haiku_r/read.jsonl",
+ "draws_per_cell": 10,
+ "ts": "2026-10-12T15:30:54Z",
+ "served_models": [
+  "anthropic/claude-haiku-4.5"
+ ],
+ "served_providers": [
+  "Anthropic"
+ ],
+ "cells": {
+  "prawns|pro": {
+   "pair": "prawns",
+   "leg": "pro",
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_added_models/logs/or_haiku_r.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.5,
+   "banked_mean": 7.7,
+   "drift": -0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d1",
+     "ts": "2026-10-12T15:30:59Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1720,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d2",
+     "ts": "2026-10-12T15:31:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1601,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d3",
+     "ts": "2026-10-12T15:31:08Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1486,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d4",
+     "ts": "2026-10-12T15:31:13Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1551,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d5",
+     "ts": "2026-10-12T15:31:17Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1703,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d6",
+     "ts": "2026-10-12T15:31:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1731,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d7",
+     "ts": "2026-10-12T15:31:28Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1761,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d8",
+     "ts": "2026-10-12T15:31:32Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1678,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d9",
+     "ts": "2026-10-12T15:31:37Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1661,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRO|d10",
+     "ts": "2026-10-12T15:31:42Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1670,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "prawns|priv": {
+   "pair": "prawns",
+   "leg": "priv",
+   "prompt_sha256_16": "da5c9afef4008060",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_added_models/logs/or_haiku_r.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.1,
+   "banked_mean": 7.1,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d1",
+     "ts": "2026-10-12T15:31:46Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1407,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d2",
+     "ts": "2026-10-12T15:31:51Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1438,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d3",
+     "ts": "2026-10-12T15:31:55Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1318,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d4",
+     "ts": "2026-10-12T15:32:00Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1468,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d5",
+     "ts": "2026-10-12T15:32:05Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1744,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d6",
+     "ts": "2026-10-12T15:32:09Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1303,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d7",
+     "ts": "2026-10-12T15:32:14Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1319,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d8",
+     "ts": "2026-10-12T15:32:18Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1458,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d9",
+     "ts": "2026-10-12T15:32:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1535,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|prawns|PRIV|d10",
+     "ts": "2026-10-12T15:32:28Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1369,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "1|pro": {
+   "pair": "1",
+   "leg": "pro",
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_haiku_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.0,
+   "banked_mean": 7.8,
+   "drift": 0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d1",
+     "ts": "2026-10-12T15:32:33Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 2040,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d2",
+     "ts": "2026-10-12T15:32:39Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1940,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d3",
+     "ts": "2026-10-12T15:32:44Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1746,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d4",
+     "ts": "2026-10-12T15:32:49Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1800,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d5",
+     "ts": "2026-10-12T15:32:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1764,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d6",
+     "ts": "2026-10-12T15:32:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1829,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d7",
+     "ts": "2026-10-12T15:33:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1699,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d8",
+     "ts": "2026-10-12T15:33:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 2047,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d9",
+     "ts": "2026-10-12T15:33:14Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1703,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|1|PRO|d10",
+     "ts": "2026-10-12T15:33:19Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1798,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "1|priv": {
+   "pair": "1",
+   "leg": "priv",
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_haiku_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.2,
+   "banked_mean": 7.1,
+   "drift": 0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d1",
+     "ts": "2026-10-12T15:33:24Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1798,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d2",
+     "ts": "2026-10-12T15:33:31Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 2161,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d3",
+     "ts": "2026-10-12T15:33:36Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1744,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d4",
+     "ts": "2026-10-12T15:33:41Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1842,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d5",
+     "ts": "2026-10-12T15:33:47Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1922,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d6",
+     "ts": "2026-10-12T15:33:51Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1604,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d7",
+     "ts": "2026-10-12T15:33:57Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1983,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d8",
+     "ts": "2026-10-12T15:34:02Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1930,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d9",
+     "ts": "2026-10-12T15:34:07Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1432,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|1|PRIV|d10",
+     "ts": "2026-10-12T15:34:12Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1690,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "3|pro": {
+   "pair": "3",
+   "leg": "pro",
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_haiku_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.3,
+   "banked_mean": 7.5,
+   "drift": -0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d1",
+     "ts": "2026-10-12T15:34:16Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1603,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d2",
+     "ts": "2026-10-12T15:34:21Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1735,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d3",
+     "ts": "2026-10-12T15:34:25Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1840,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d4",
+     "ts": "2026-10-12T15:34:30Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1576,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d5",
+     "ts": "2026-10-12T15:34:37Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 2399,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d6",
+     "ts": "2026-10-12T15:34:42Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1679,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d7",
+     "ts": "2026-10-12T15:34:47Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1791,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d8",
+     "ts": "2026-10-12T15:34:51Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1565,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d9",
+     "ts": "2026-10-12T15:34:56Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1513,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|3|PRO|d10",
+     "ts": "2026-10-12T15:35:00Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1601,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "3|priv": {
+   "pair": "3",
+   "leg": "priv",
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_haiku_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 6.8,
+   "banked_mean": 6.8,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d1",
+     "ts": "2026-10-12T15:35:05Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1727,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d2",
+     "ts": "2026-10-12T15:35:11Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1862,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d3",
+     "ts": "2026-10-12T15:35:16Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1673,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d4",
+     "ts": "2026-10-12T15:35:21Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1686,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d5",
+     "ts": "2026-10-12T15:35:27Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1912,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d6",
+     "ts": "2026-10-12T15:35:31Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 1606,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d7",
+     "ts": "2026-10-12T15:35:37Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1812,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d8",
+     "ts": "2026-10-12T15:35:42Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1689,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d9",
+     "ts": "2026-10-12T15:35:48Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 1922,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|3|PRIV|d10",
+     "ts": "2026-10-12T15:35:53Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1733,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "4|pro": {
+   "pair": "4",
+   "leg": "pro",
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_haiku_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.2,
+   "banked_mean": 7.1,
+   "drift": 0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d1",
+     "ts": "2026-10-12T15:35:58Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1823,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d2",
+     "ts": "2026-10-12T15:36:03Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1523,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d3",
+     "ts": "2026-10-12T15:36:08Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1734,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d4",
+     "ts": "2026-10-12T15:36:13Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1726,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d5",
+     "ts": "2026-10-12T15:36:18Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1581,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d6",
+     "ts": "2026-10-12T15:36:22Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1491,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d7",
+     "ts": "2026-10-12T15:36:27Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1740,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d8",
+     "ts": "2026-10-12T15:36:32Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1593,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d9",
+     "ts": "2026-10-12T15:36:36Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1645,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|4|PRO|d10",
+     "ts": "2026-10-12T15:36:41Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1550,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "4|priv": {
+   "pair": "4",
+   "leg": "priv",
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_haiku_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 6.9,
+   "banked_mean": 6.8,
+   "drift": 0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d1",
+     "ts": "2026-10-12T15:36:46Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 1592,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d2",
+     "ts": "2026-10-12T15:36:51Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1754,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d3",
+     "ts": "2026-10-12T15:36:55Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1383,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d4",
+     "ts": "2026-10-12T15:37:00Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1611,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d5",
+     "ts": "2026-10-12T15:37:05Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1418,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d6",
+     "ts": "2026-10-12T15:37:10Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1613,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d7",
+     "ts": "2026-10-12T15:37:15Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1754,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d8",
+     "ts": "2026-10-12T15:37:20Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1402,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d9",
+     "ts": "2026-10-12T15:37:24Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1381,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|4|PRIV|d10",
+     "ts": "2026-10-12T15:37:29Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1550,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "5|pro": {
+   "pair": "5",
+   "leg": "pro",
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_haiku_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.3,
+   "banked_mean": 7.3,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d1",
+     "ts": "2026-10-12T15:37:33Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1432,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d2",
+     "ts": "2026-10-12T15:37:37Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1610,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d3",
+     "ts": "2026-10-12T15:37:42Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1580,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d4",
+     "ts": "2026-10-12T15:37:46Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1611,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d5",
+     "ts": "2026-10-12T15:37:50Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1563,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d6",
+     "ts": "2026-10-12T15:37:55Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1585,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d7",
+     "ts": "2026-10-12T15:37:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1578,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d8",
+     "ts": "2026-10-12T15:38:04Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1664,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d9",
+     "ts": "2026-10-12T15:38:08Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1662,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|5|PRO|d10",
+     "ts": "2026-10-12T15:38:13Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1571,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "5|priv": {
+   "pair": "5",
+   "leg": "priv",
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_haiku_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.1,
+   "banked_mean": 7.2,
+   "drift": -0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d1",
+     "ts": "2026-10-12T15:38:17Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1350,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d2",
+     "ts": "2026-10-12T15:38:21Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1466,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d3",
+     "ts": "2026-10-12T15:38:26Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1391,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d4",
+     "ts": "2026-10-12T15:38:31Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1777,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d5",
+     "ts": "2026-10-12T15:38:36Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1495,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d6",
+     "ts": "2026-10-12T15:38:40Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1603,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d7",
+     "ts": "2026-10-12T15:38:45Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1482,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d8",
+     "ts": "2026-10-12T15:38:50Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1505,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d9",
+     "ts": "2026-10-12T15:38:54Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1445,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|5|PRIV|d10",
+     "ts": "2026-10-12T15:38:59Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1751,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "7|pro": {
+   "pair": "7",
+   "leg": "pro",
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_A/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.1,
+   "banked_mean": 7.0,
+   "drift": 0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d1",
+     "ts": "2026-10-12T15:39:03Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1414,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d2",
+     "ts": "2026-10-12T15:39:07Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1417,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d3",
+     "ts": "2026-10-12T15:39:12Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1400,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d4",
+     "ts": "2026-10-12T15:39:16Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1505,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d5",
+     "ts": "2026-10-12T15:39:21Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1735,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d6",
+     "ts": "2026-10-12T15:39:25Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1362,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d7",
+     "ts": "2026-10-12T15:39:29Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1461,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d8",
+     "ts": "2026-10-12T15:39:33Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1421,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d9",
+     "ts": "2026-10-12T15:39:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1587,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|7|PRO|d10",
+     "ts": "2026-10-12T15:39:42Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1424,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  },
+  "7|priv": {
+   "pair": "7",
+   "leg": "priv",
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "wire": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_A/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 6.8,
+   "banked_mean": 6.8,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d1",
+     "ts": "2026-10-12T15:39:47Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1821,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d2",
+     "ts": "2026-10-12T15:39:52Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1664,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d3",
+     "ts": "2026-10-12T15:39:57Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1593,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d4",
+     "ts": "2026-10-12T15:40:01Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1409,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d5",
+     "ts": "2026-10-12T15:40:05Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 1466,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d6",
+     "ts": "2026-10-12T15:40:10Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 1679,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d7",
+     "ts": "2026-10-12T15:40:16Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1816,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d8",
+     "ts": "2026-10-12T15:40:20Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1517,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d9",
+     "ts": "2026-10-12T15:40:26Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1754,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|haiku_r|sep|7|PRIV|d10",
+     "ts": "2026-10-12T15:40:30Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1579,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "anthropic/claude-haiku-4.5",
+     "provider_served": "Anthropic"
+    }
+   ],
+   "errors": []
+  }
+ },
+ "served_constant": true,
+ "calls_so_far": 120,
+ "spent_so_far_usd": 0.254375
+}

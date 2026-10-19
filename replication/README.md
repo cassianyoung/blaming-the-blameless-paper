@@ -14,6 +14,7 @@ readings with the values the paper reports.
 | `compare.py` | compares Inspect logs with `reference/paper_values.json` |
 | `test_roster.py` | checks the model table, and that the eval still renders the prompts the study sent |
 | `acceptance/` | the acceptance runs: one API model and five local readings re-read and compared, with their logs and checksums |
+| `later_readings/` | the readings the eval does not run (the reasoning traces, the practical syllogism and its premises, the duty syllogism, the general principle, the subject's name, the reasoning stratum): each with its frozen prompts checked against the study's calls, its code, and every call it made |
 
 ## Install
 

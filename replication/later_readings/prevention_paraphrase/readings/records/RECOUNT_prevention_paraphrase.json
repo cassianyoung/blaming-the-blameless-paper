@@ -1,0 +1,248 @@
+{
+ "run": "231",
+ "rule": "records/RULE_ONE_READOUT_PER_MODEL.md",
+ "check_readouts_left_out": [
+  "deepseek_s"
+ ],
+ "banked_from": [
+  "records/result.json"
+ ],
+ "note": "registered = the recount under the rule; banked = the value in the banked file it replaces, location for location",
+ "registered": [
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1, FELL against Reasonable (modal, target case)",
+   "0.4584"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 raw agreement, FELL against Reasonable",
+   "0.6765 over 68 cells, 12 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1 model-bootstrap 95%, FELL",
+   "[0.1210, 0.7529]"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 mean |P(yes) difference|, FELL against Reasonable",
+   "0.2990 over 69 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 verdict, FELL",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1, DIFF against Reasonable (modal, target case)",
+   "0.1846"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 raw agreement, DIFF against Reasonable",
+   "0.5522 over 67 cells, 12 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1 model-bootstrap 95%, DIFF",
+   "[-0.2488, 0.6011]"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 mean |P(yes) difference|, DIFF against Reasonable",
+   "0.4600 over 69 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 verdict, DIFF",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled r, Negligent with Reasonable",
+   "0.3180"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled r, Careless with Reasonable",
+   "0.1427"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled Negligent minus Careless, 95% model bootstrap",
+   "0.1754 [-0.0145, 0.3897] over 69 cells, 12 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) within-model median r, Negligent minus Careless, 95%",
+   "0.2705 - -0.1823 = 0.4528 [-0.1324, 0.5937], models 4 (Negligent) and 5 (Careless)"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled r, Negligent with blame position",
+   "0.5658"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled r, Careless with blame position",
+   "0.6244"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled Negligent minus Careless, 95% model bootstrap",
+   "-0.0585 [-0.1764, 0.1429] over 69 cells, 12 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) within-model median r, Negligent minus Careless, 95%",
+   "0.5531 - 0.4661 = 0.0869 [-0.1204, 0.6335], models 4 (Negligent) and 5 (Careless)"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2 verdict (pooled decides)",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: yes-rate, Negligent, target case",
+   "23 of 69"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: yes-rate, Careless re-read, target case",
+   "20 of 69"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, Reasonable with Careless (replaces the banked 0.07)",
+   "0.1427 over 69 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, blame position with Careless",
+   "0.6244"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, blame position with Reasonable",
+   "0.4453"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, FELL, arms with P(yes) >= 0.5 on the bicycle C",
+   "12 of 12"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, DIFF, arms with P(yes) >= 0.5 on the bicycle C",
+   "12 of 12"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, NEGL, arms with P(yes) >= 0.5 on the bicycle C",
+   "12 of 12"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, REASONABLE, arms with P(yes) >= 0.5 on the bicycle C",
+   "12 of 12"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, CARELESS, arms with P(yes) >= 0.5 on the bicycle C",
+   "12 of 12"
+  ]
+ ],
+ "banked": [
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1, FELL against Reasonable (modal, target case)",
+   "0.4025"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 raw agreement, FELL against Reasonable",
+   "0.6528 over 72 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1 model-bootstrap 95%, FELL",
+   "[0.0617, 0.7061]"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 mean |P(yes) difference|, FELL against Reasonable",
+   "0.3164 over 75 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 verdict, FELL",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1, DIFF against Reasonable (modal, target case)",
+   "0.1711"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 raw agreement, DIFF against Reasonable",
+   "0.5493 over 71 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 AC1 model-bootstrap 95%, DIFF",
+   "[-0.2453, 0.5657]"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 mean |P(yes) difference|, DIFF against Reasonable",
+   "0.4546 over 75 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P1 verdict, DIFF",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled r, Negligent with Reasonable",
+   "0.3238"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled r, Careless with Reasonable",
+   "0.1166"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) pooled Negligent minus Careless, 95% model bootstrap",
+   "0.2072 [0.0248, 0.3913] over 75 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(a) within-model median r, Negligent minus Careless, 95%",
+   "0.2598 - -0.1324 = 0.3922 [-0.1324, 0.5443], models 5 (Negligent) and 6 (Careless)"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled r, Negligent with blame position",
+   "0.5506"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled r, Careless with blame position",
+   "0.5895"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) pooled Negligent minus Careless, 95% model bootstrap",
+   "-0.0390 [-0.1621, 0.1530] over 75 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2(b) within-model median r, Negligent minus Careless, 95%",
+   "0.4939 - 0.2224 = 0.2715 [-0.0467, 0.6335], models 5 (Negligent) and 6 (Careless)"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: prevention_paraphrase.P2 verdict (pooled decides)",
+   "FAIL"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: yes-rate, Negligent, target case",
+   "25 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: yes-rate, Careless re-read, target case",
+   "22 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, Reasonable with Careless (replaces the banked 0.07)",
+   "0.1166 over 75 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, blame position with Careless",
+   "0.5895"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: pooled r, blame position with Reasonable",
+   "0.4663"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, FELL, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, DIFF, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, NEGL, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, REASONABLE, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: prevention_paraphrase: C-case check, CARELESS, arms with P(yes) >= 0.5 on the bicycle C",
+   "13 of 13"
+  ]
+ ],
+ "changed": 26
+}

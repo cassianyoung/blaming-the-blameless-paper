@@ -1,0 +1,477 @@
+{
+ "A": {
+  "1": {
+   "answer_mass": 1.0,
+   "gate": "PASSED",
+   "n_asked": 6,
+   "n_yes": 6,
+   "p_yes": 1.0,
+   "principle_held": true,
+   "prompt_sha256_16": "bb25268c0381ed6a",
+   "share_reasoned": 1.0
+  },
+  "3": {
+   "answer_mass": 1.0,
+   "gate": "PASSED",
+   "n_asked": 5,
+   "n_yes": 2,
+   "p_yes": 0.4,
+   "principle_held": false,
+   "prompt_sha256_16": "7bbc9c8ba5eae044",
+   "share_reasoned": 1.0
+  },
+  "4": {
+   "answer_mass": 1.0,
+   "gate": "PASSED",
+   "n_asked": 6,
+   "n_yes": 6,
+   "p_yes": 1.0,
+   "principle_held": true,
+   "prompt_sha256_16": "ed490821867589ff",
+   "share_reasoned": 1.0
+  },
+  "5": {
+   "answer_mass": 1.0,
+   "gate": "PASSED",
+   "n_asked": 5,
+   "n_yes": 1,
+   "p_yes": 0.2,
+   "principle_held": false,
+   "prompt_sha256_16": "6449e277f5b94c9d",
+   "share_reasoned": 1.0
+  },
+  "7": {
+   "answer_mass": 1.0,
+   "gate": "PASSED",
+   "n_asked": 5,
+   "n_yes": 5,
+   "p_yes": 1.0,
+   "principle_held": true,
+   "prompt_sha256_16": "fd74ad9416e3e49c",
+   "share_reasoned": 1.0
+  },
+  "prawns": {
+   "answer_mass": 1.0,
+   "gate": "PASSED",
+   "n_asked": 6,
+   "n_yes": 6,
+   "p_yes": 1.0,
+   "principle_held": true,
+   "prompt_sha256_16": "37ad821db33b3836",
+   "share_reasoned": 1.0
+  }
+ },
+ "B": {
+  "5|PRIV": {
+   "blame_mean": 7.4,
+   "blame_values": [
+    7,
+    7,
+    8,
+    8,
+    7
+   ],
+   "expected_role": "private",
+   "gate_parse": "PASSED",
+   "n_asked": 5,
+   "n_parsed": 5,
+   "n_principle_yes": 3,
+   "n_role_correct": 5,
+   "prompt_sha256": "f7f984babdbf654a",
+   "share_reasoned": 1.0
+  },
+  "7|PRO": {
+   "blame_mean": 7,
+   "blame_values": [
+    7,
+    7,
+    7,
+    7,
+    7
+   ],
+   "expected_role": "professional",
+   "gate_parse": "PASSED",
+   "n_asked": 5,
+   "n_parsed": 5,
+   "n_principle_yes": 5,
+   "n_role_correct": 5,
+   "prompt_sha256": "1829f2b913bf0f9c",
+   "share_reasoned": 1.0
+  },
+  "prawns|PRO": {
+   "blame_mean": 8,
+   "blame_values": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "expected_role": "professional",
+   "gate_parse": "PASSED",
+   "n_asked": 7,
+   "n_parsed": 7,
+   "n_principle_yes": 7,
+   "n_role_correct": 7,
+   "prompt_sha256": "3ff7e8a69ec039f8",
+   "share_reasoned": 1.0
+  }
+ },
+ "G": {
+  "G1": {
+   "affirms": true,
+   "counts": {
+    "equally": 0,
+    "less": 0,
+    "more": 5,
+    "unparsed": 0
+   },
+   "key": "G1",
+   "n_asked": 5,
+   "prompt_sha256": "2c63464ab4bbf540",
+   "share_reasoned": 1.0
+  },
+  "G1_AP": {
+   "affirms": true,
+   "counts": {
+    "equally": 0,
+    "less": 0,
+    "more": 8,
+    "unparsed": 0
+   },
+   "key": "G1_AP",
+   "n_asked": 8,
+   "prompt_sha256": "8fc7fecd742ba24e",
+   "share_reasoned": 1.0
+  },
+  "G2": {
+   "affirms": true,
+   "counts": {
+    "no": 0,
+    "unparsed": 0,
+    "yes": 8
+   },
+   "key": "G2",
+   "n_asked": 8,
+   "prompt_sha256": "2f5552e0f5f5ca7d",
+   "share_reasoned": 1.0
+  },
+  "G3_AP": {
+   "amateur": [
+    5,
+    4,
+    5,
+    5,
+    4,
+    4,
+    5
+   ],
+   "gap": 2.2857142857142856,
+   "gate": "PASSED",
+   "key": "G3_AP",
+   "n_asked": 7,
+   "n_parsed": 7,
+   "professional": [
+    7,
+    7,
+    7,
+    7,
+    6,
+    7,
+    7
+   ],
+   "prompt_sha256": "e9407e6b00e2ac11",
+   "share_reasoned": 1.0
+  },
+  "G3_PA": {
+   "amateur": [
+    5,
+    4,
+    4,
+    5,
+    4,
+    4,
+    4,
+    3
+   ],
+   "gap": 2.5,
+   "gate": "PASSED",
+   "key": "G3_PA",
+   "n_asked": 8,
+   "n_parsed": 8,
+   "professional": [
+    7,
+    7,
+    7,
+    7,
+    6,
+    6,
+    7,
+    6
+   ],
+   "prompt_sha256": "0e8ef4821412d5e5",
+   "share_reasoned": 1.0
+  }
+ },
+ "R": {
+  "1|PRIV": {
+   "mean": 7.888888888888889,
+   "n_asked": 9,
+   "n_parsed": 9,
+   "n_void": 0,
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "share_reasoned": 1.0,
+   "values": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    7.0,
+    8.0,
+    8.0,
+    8.0
+   ]
+  },
+  "1|PRO": {
+   "mean": 8.11111111111111,
+   "n_asked": 9,
+   "n_parsed": 9,
+   "n_void": 0,
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "share_reasoned": 1.0,
+   "values": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    9.0
+   ]
+  },
+  "3|PRIV": {
+   "mean": 6.666666666666667,
+   "n_asked": 9,
+   "n_parsed": 9,
+   "n_void": 0,
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "share_reasoned": 1.0,
+   "values": [
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    6.0,
+    6.0,
+    6.0,
+    7.0,
+    7.0
+   ]
+  },
+  "3|PRO": {
+   "mean": 8.0,
+   "n_asked": 8,
+   "n_parsed": 8,
+   "n_void": 0,
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "share_reasoned": 1.0,
+   "values": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0
+   ]
+  },
+  "4|PRIV": {
+   "mean": 6.666666666666667,
+   "n_asked": 9,
+   "n_parsed": 9,
+   "n_void": 0,
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "share_reasoned": 1.0,
+   "values": [
+    6.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    6.0,
+    6.0,
+    7.0,
+    7.0
+   ]
+  },
+  "4|PRO": {
+   "mean": 7.777777777777778,
+   "n_asked": 9,
+   "n_parsed": 9,
+   "n_void": 0,
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "share_reasoned": 1.0,
+   "values": [
+    8.0,
+    8.0,
+    7.0,
+    8.0,
+    7.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0
+   ]
+  },
+  "5|PRIV": {
+   "mean": 7.0,
+   "n_asked": 9,
+   "n_parsed": 9,
+   "n_void": 0,
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "share_reasoned": 1.0,
+   "values": [
+    7.0,
+    7.0,
+    7.0,
+    6.0,
+    7.0,
+    7.0,
+    8.0,
+    7.0,
+    7.0
+   ]
+  },
+  "5|PRO": {
+   "mean": 8.0,
+   "n_asked": 9,
+   "n_parsed": 9,
+   "n_void": 0,
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "share_reasoned": 1.0,
+   "values": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0
+   ]
+  },
+  "7|PRIV": {
+   "mean": 7.142857142857143,
+   "n_asked": 7,
+   "n_parsed": 7,
+   "n_void": 0,
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "share_reasoned": 1.0,
+   "values": [
+    7.0,
+    7.0,
+    8.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ]
+  },
+  "7|PRO": {
+   "mean": 8.0,
+   "n_asked": 8,
+   "n_parsed": 8,
+   "n_void": 0,
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "share_reasoned": 1.0,
+   "values": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0
+   ]
+  },
+  "prawns|PRIV": {
+   "mean": 7.7,
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "prompt_sha256_16": "da5c9afef4008060",
+   "share_reasoned": 1.0,
+   "values": [
+    8.0,
+    7.0,
+    7.0,
+    8.0,
+    8.0,
+    8.0,
+    7.0,
+    8.0,
+    8.0,
+    8.0
+   ]
+  },
+  "prawns|PRO": {
+   "mean": 8.0,
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "share_reasoned": 1.0,
+   "values": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0
+   ]
+  }
+ },
+ "T230": {},
+ "amendment": "records/completeness_fill_amendment_20261017.md",
+ "arm": "gpt6l_r",
+ "calls": 350,
+ "group": "H8",
+ "provider_served": [
+  "OpenAI"
+ ],
+ "readout": "reasoning draws only (ruled 2026-10-17, per \u00a73.4); a cell with fewer than 5 reasoning draws is not reported",
+ "readout_A": "reasoning",
+ "run": "reasoning_stratum",
+ "reasoning_traces_traces": "Gemini 3.1 Pro's reasoning_traces trace re-read: read, not coded (ruled 2026-10-17); no figure",
+ "served_model": [
+  "openai/gpt-6-luna"
+ ],
+ "served_model_constant": true,
+ "source": {
+  "records/syll_cells_ro.json": "24bf777aece498933c1049d038fbed1a9050ccc7deb25f11b984d2b2687a6d61"
+ },
+ "spent_usd": 0.03129300000000001,
+ "stratum": "H8, separate, never pooled",
+ "wire_AB": {
+  "max_tokens": 8192,
+  "model": "openai/gpt-6-luna",
+  "provider": "openai",
+  "readout": "reasoning",
+  "reasoning": "vendor_default",
+  "temperature": 1.0,
+  "want_logprobs": false,
+  "wire_sha": "5ea4eb97a167b272993fe9cae4278d49"
+ }
+}

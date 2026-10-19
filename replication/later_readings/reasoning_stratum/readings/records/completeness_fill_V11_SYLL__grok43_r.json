@@ -1,0 +1,3194 @@
+{
+ "arm": "grok43_r",
+ "run": 237,
+ "group": "H8",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "xAI"
+ ],
+ "models_served": [
+  "x-ai/grok-4.3"
+ ],
+ "calls": 350,
+ "spent_usd": 0.5262171499999995,
+ "cells": {
+  "v11|grok43_r|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 312,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 381,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 308,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 339,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 405,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 250,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 397,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 354,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 223,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 440,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 161,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 302,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 189,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 227,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 171,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 368,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 216,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 228,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 196,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 196,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 214,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 182,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 248,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 203,
+     "digit": 7.0
+    },
+    {
+     "text": "5",
+     "reasoned": true,
+     "reasoning_text_len": 186,
+     "digit": 5.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 220,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 301,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 233,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 355,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 240,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 378,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 417,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 583,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 263,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 542,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 451,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 446,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 326,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 410,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 323,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 416,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 568,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 407,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 515,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 521,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 724,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 494,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 387,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 502,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 465,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|A|A|p1": {
+   "key": "A|p1",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 231,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 534,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 322,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 335,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 301,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 306,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 251,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 328,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 335,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 310,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "bb25268c0381ed6a",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p1|PRO": {
+   "key": "R|p1|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 210,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 254,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 296,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 160,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 388,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 162,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 315,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 260,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 137,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "3f0c2ba0ab40390a",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p1|PRIV": {
+   "key": "R|p1|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 284,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 401,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 473,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 367,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 243,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 303,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 576,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 272,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 285,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 337,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "ef7a3df0ff8d6dd9",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p1|PRO": {
+   "key": "B|p1|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 310,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 334,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 742,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 553,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 699,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 365,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 459,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 931,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 537,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "8ec923c811146030",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p1|PRIV": {
+   "key": "B|p1|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 511,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 670,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 742,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 493,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 306,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 705,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 547,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 879,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 345,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "24d5ba6fb9f87a09",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|A|A|p3": {
+   "key": "A|p3",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 729,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 277,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 183,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 520,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 517,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 296,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 651,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 273,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 768,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 255,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "7bbc9c8ba5eae044",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p3|PRO": {
+   "key": "R|p3|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 247,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 355,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 324,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 231,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 283,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 383,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 360,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 544,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "ed2374c0b6bb81b2",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p3|PRIV": {
+   "key": "R|p3|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 214,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 416,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 259,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 252,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 351,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 217,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 316,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 205,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 315,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "4fdaa83ae5416a0e",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p3|PRO": {
+   "key": "B|p3|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 298,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 470,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 723,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 448,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 514,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 476,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "1cf0b0abee9882e0",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p3|PRIV": {
+   "key": "B|p3|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 758,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 677,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 550,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 594,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 679,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 595,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 624,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1025,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 661,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 658,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "54ead0fee130aa93",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|A|A|p4": {
+   "key": "A|p4",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 280,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 603,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 263,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 503,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 361,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 285,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 310,
+     "answer": "yes"
+    },
+    {
+     "text": "",
+     "reasoned": true,
+     "reasoning_text_len": 20,
+     "answer": null
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 400,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 672,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "ed490821867589ff",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p4|PRO": {
+   "key": "R|p4|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 267,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 234,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 220,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 386,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 237,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 223,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 322,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 187,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 130,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 290,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "8e31995ee1ef1757",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p4|PRIV": {
+   "key": "R|p4|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "5",
+     "reasoned": true,
+     "reasoning_text_len": 366,
+     "digit": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 308,
+     "digit": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 380,
+     "digit": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 319,
+     "digit": 6.0
+    },
+    {
+     "text": "5",
+     "reasoned": true,
+     "reasoning_text_len": 308,
+     "digit": 5.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 225,
+     "digit": 6.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 227,
+     "digit": 7.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 321,
+     "digit": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 289,
+     "digit": 6.0
+    },
+    {
+     "text": "6",
+     "reasoned": true,
+     "reasoning_text_len": 324,
+     "digit": 6.0
+    }
+   ],
+   "prompt16": "a78cc33c7e16cfb3",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p4|PRO": {
+   "key": "B|p4|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 403,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 431,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 560,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 889,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 336,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 1007,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 608,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 645,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 847,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 622,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "7e110fe5439ff2b8",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p4|PRIV": {
+   "key": "B|p4|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=3",
+     "reasoned": true,
+     "reasoning_text_len": 430,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 3
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=4",
+     "reasoned": true,
+     "reasoning_text_len": 513,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 4
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=4",
+     "reasoned": true,
+     "reasoning_text_len": 563,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 4
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 587,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=4",
+     "reasoned": true,
+     "reasoning_text_len": 649,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 4
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=4",
+     "reasoned": true,
+     "reasoning_text_len": 522,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 4
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 658,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=4",
+     "reasoned": true,
+     "reasoning_text_len": 812,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 4
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=4",
+     "reasoned": true,
+     "reasoning_text_len": 571,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 4
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 653,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    }
+   ],
+   "prompt16": "278ca4ea51776a2d",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|A|A|p5": {
+   "key": "A|p5",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "No",
+     "reasoned": true,
+     "reasoning_text_len": 193,
+     "answer": "no"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 492,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 675,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 479,
+     "answer": "yes"
+    },
+    {
+     "text": "No",
+     "reasoned": true,
+     "reasoning_text_len": 484,
+     "answer": "no"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 630,
+     "answer": "yes"
+    },
+    {
+     "text": "No",
+     "reasoned": true,
+     "reasoning_text_len": 332,
+     "answer": "no"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 676,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "6449e277f5b94c9d",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p5|PRO": {
+   "key": "R|p5|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 332,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 288,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 237,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 245,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 405,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 334,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 219,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 331,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 133,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 263,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "e2d0058c5b2f7e5d",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p5|PRIV": {
+   "key": "R|p5|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 322,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 300,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 326,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 213,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 329,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 313,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 198,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 270,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 279,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "f6bd764168ed80fc",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p5|PRO": {
+   "key": "B|p5|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 571,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 622,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 304,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 285,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 418,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 320,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 688,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 463,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 313,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 490,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "68711dea4d8fe34e",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p5|PRIV": {
+   "key": "B|p5|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 752,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 894,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 513,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 504,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 410,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 516,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 594,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 704,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 646,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "f7f984babdbf654a",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|A|A|p7": {
+   "key": "A|p7",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 295,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 576,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 219,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 306,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 228,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 283,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 343,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 507,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 251,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 285,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "fd74ad9416e3e49c",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p7|PRO": {
+   "key": "R|p7|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 400,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 239,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 161,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 253,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 216,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 271,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 396,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 203,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 181,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 273,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "5435b5fcd6d50a95",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|R|R|p7|PRIV": {
+   "key": "R|p7|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 153,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 387,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 217,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 243,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 309,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 258,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 223,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 210,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 420,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 343,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "b4b3fd734447d8cd",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p7|PRO": {
+   "key": "B|p7|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 591,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 510,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 502,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 275,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 393,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 630,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 522,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 347,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 627,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "1829f2b913bf0f9c",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|B|B|p7|PRIV": {
+   "key": "B|p7|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 295,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 512,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 324,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 317,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 759,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 579,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 379,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 793,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 481,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "6774acc49f27cef6",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|G|G|G1": {
+   "key": "G|G1",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 186,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 194,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 223,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 198,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 182,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 276,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 175,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 287,
+     "parsed": "more"
+    },
+    {
+     "text": "equally",
+     "reasoned": true,
+     "reasoning_text_len": 432,
+     "parsed": "equally"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 264,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "2c63464ab4bbf540",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|G|G|G1_AP": {
+   "key": "G|G1_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 196,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 238,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 74,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 360,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 224,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 247,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 176,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 332,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 340,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 123,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "8fc7fecd742ba24e",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|G|G|G2": {
+   "key": "G|G2",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 239,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 242,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 207,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 334,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 210,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 295,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 117,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 297,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 177,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 207,
+     "parsed": "yes"
+    }
+   ],
+   "prompt16": "2f5552e0f5f5ca7d",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|G|G|G3_PA": {
+   "key": "G|G3_PA",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 692,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=9 AMATEUR=9",
+     "reasoned": true,
+     "reasoning_text_len": 500,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 9
+     }
+    },
+    {
+     "text": "PROFESSIONAL=9 AMATEUR=9",
+     "reasoned": true,
+     "reasoning_text_len": 434,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 9
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=7",
+     "reasoned": true,
+     "reasoning_text_len": 369,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=7",
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "PROFESSIONAL=9 AMATEUR=9",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 9
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=7",
+     "reasoned": true,
+     "reasoning_text_len": 677,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=8",
+     "reasoned": true,
+     "reasoning_text_len": 634,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 8
+     }
+    },
+    {
+     "text": "PROFESSIONAL=9 AMATEUR=9",
+     "reasoned": true,
+     "reasoning_text_len": 515,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 9
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=8",
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 8
+     }
+    }
+   ],
+   "prompt16": "0e8ef4821412d5e5",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  },
+  "v11|grok43_r|G|G|G3_AP": {
+   "key": "G|G3_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "AMATEUR=9 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 230,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 9
+     }
+    },
+    {
+     "text": "AMATEUR=4 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "AMATEUR=7 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 859,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "AMATEUR=9 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 362,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 9
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 520,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=8 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 375,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 8
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 670,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=7 PROFESSIONAL=7",
+     "reasoned": true,
+     "reasoning_text_len": 339,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 7
+     }
+    },
+    {
+     "text": "AMATEUR=9 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 890,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 9
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 792,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    }
+   ],
+   "prompt16": "e9407e6b00e2ac11",
+   "settings": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": null
+   }
+  }
+ }
+}

@@ -1,0 +1,330 @@
+{
+ "run": "233G",
+ "rule": "records/RULE_ONE_READOUT_PER_MODEL.md",
+ "check_readouts_left_out": [
+  "deepseek_s"
+ ],
+ "banked_from": [
+  "records/result.json",
+  "records/ag7_split.json",
+  "records/shortfall.json"
+ ],
+ "note": "registered = the recount under the rule; banked = the value in the banked file it replaces, location for location",
+ "registered": [
+  [
+   "general_principle arms read",
+   "12 of 12"
+  ],
+  [
+   "general_principle PG.1 arms answering more on 9 of 10 in both orders",
+   "11 of 12"
+  ],
+  [
+   "general_principle PG.1 result",
+   "PASS"
+  ],
+  [
+   "general_principle PG.1 arms answering more on 9 of 10, first order only",
+   "11 of 12"
+  ],
+  [
+   "general_principle G1 less answers, both orders",
+   "0"
+  ],
+  [
+   "general_principle PG.2 arms answering yes on 9 of 10",
+   "12 of 12"
+  ],
+  [
+   "general_principle PG.2 result",
+   "PASS"
+  ],
+  [
+   "general_principle PG.2 log-prob arms holding under syllogism_duty.P1's rule",
+   "6 of 6"
+  ],
+  [
+   "general_principle PG.3 arms with a positive general gap",
+   "12 of 12"
+  ],
+  [
+   "general_principle PG.3 result",
+   "PASS"
+  ],
+  [
+   "general_principle PG.3 median general gap [95% CI]",
+   "2.62 [1.45, 3.05]"
+  ],
+  [
+   "general_principle PG.3 median stated slack, pairs 1 3 4 7 [95% CI]",
+   "2.12 [1.71, 2.49]"
+  ],
+  [
+   "general_principle PG.3 median general minus stated [95% CI]",
+   "0.10 [-0.39, 0.77]"
+  ],
+  [
+   "general_principle AG.6 arms affirming in general but not on every named pair",
+   "6 of 12"
+  ],
+  [
+   "general_principle AG.6 arms affirming on every named pair",
+   "5 of 12"
+  ],
+  [
+   "general_principle AG.6 arms affirming on every named pair but not in general",
+   "0 of 12"
+  ],
+  [
+   "general_principle AG.7 non-driving cells whose same-session bare gap clears the wording floor",
+   "16 of 48"
+  ],
+  [
+   "general_principle PG.3 general gap claude",
+   "2.25"
+  ],
+  [
+   "general_principle PG.3 general gap deepseek",
+   "1.75"
+  ],
+  [
+   "general_principle PG.3 general gap deepseek_s",
+   "1.30"
+  ],
+  [
+   "general_principle PG.3 general gap gemma27b",
+   "4.00"
+  ],
+  [
+   "general_principle PG.3 general gap gpt4o",
+   "2.75"
+  ],
+  [
+   "general_principle PG.3 general gap gpt6l_s",
+   "0.70"
+  ],
+  [
+   "general_principle PG.3 general gap gpt6s_s",
+   "1.15"
+  ],
+  [
+   "general_principle PG.3 general gap grok43_s",
+   "0.65"
+  ],
+  [
+   "general_principle PG.3 general gap haiku_s",
+   "3.25"
+  ],
+  [
+   "general_principle PG.3 general gap kimi",
+   "2.85"
+  ],
+  [
+   "general_principle PG.3 general gap llama70b",
+   "2.75"
+  ],
+  [
+   "general_principle PG.3 general gap mistral24b",
+   "2.50"
+  ],
+  [
+   "general_principle PG.3 general gap qwen80b",
+   "4.30"
+  ],
+  [
+   "general_principle AG.7 split non-driving cells with a bare gap of zero or below",
+   "6 of 48"
+  ],
+  [
+   "general_principle AG.7 split non-driving cells with a positive bare gap within the wording floor",
+   "26 of 48"
+  ],
+  [
+   "general_principle AG.7 split arms excluded, wording floor above own median stated slack",
+   "deepseek, gpt6l_s"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells clearing the wording floor",
+   "16 of 40"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells with a bare gap of zero or below",
+   "4 of 40"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells with a positive bare gap within the wording floor",
+   "20 of 40"
+  ],
+  [
+   "syllogism_duty Amendment T non-driving cells whose shortfall exceeds sqrt(wording^2 + draw^2) floor",
+   "29 of 48"
+  ],
+  [
+   "syllogism_duty Amendment T arms excluded, wording floor above own median stated slack",
+   "deepseek, gpt6l_s"
+  ],
+  [
+   "syllogism_duty Amendment T excluding those arms, cells whose shortfall exceeds the floor",
+   "27 of 40"
+  ]
+ ],
+ "banked": [
+  [
+   "general_principle arms read",
+   "13 of 13"
+  ],
+  [
+   "general_principle PG.1 arms answering more on 9 of 10 in both orders",
+   "12 of 13"
+  ],
+  [
+   "general_principle PG.1 result",
+   "PASS"
+  ],
+  [
+   "general_principle PG.1 arms answering more on 9 of 10, first order only",
+   "12 of 13"
+  ],
+  [
+   "general_principle G1 less answers, both orders",
+   "0"
+  ],
+  [
+   "general_principle PG.2 arms answering yes on 9 of 10",
+   "13 of 13"
+  ],
+  [
+   "general_principle PG.2 result",
+   "PASS"
+  ],
+  [
+   "general_principle PG.2 log-prob arms holding under syllogism_duty.P1's rule",
+   "6 of 6"
+  ],
+  [
+   "general_principle PG.3 arms with a positive general gap",
+   "13 of 13"
+  ],
+  [
+   "general_principle PG.3 result",
+   "PASS"
+  ],
+  [
+   "general_principle PG.3 median general gap [95% CI]",
+   "2.50 [1.30, 2.85]"
+  ],
+  [
+   "general_principle PG.3 median stated slack, pairs 1 3 4 7 [95% CI]",
+   "2.08 [1.75, 2.47]"
+  ],
+  [
+   "general_principle PG.3 median general minus stated [95% CI]",
+   "-0.15 [-0.40, 0.55]"
+  ],
+  [
+   "general_principle AG.6 arms affirming in general but not on every named pair",
+   "6 of 13"
+  ],
+  [
+   "general_principle AG.6 arms affirming on every named pair",
+   "6 of 13"
+  ],
+  [
+   "general_principle AG.6 arms affirming on every named pair but not in general",
+   "0 of 13"
+  ],
+  [
+   "general_principle AG.7 non-driving cells whose same-session bare gap clears the wording floor",
+   "16 of 52"
+  ],
+  [
+   "general_principle PG.3 general gap claude",
+   "2.25"
+  ],
+  [
+   "general_principle PG.3 general gap deepseek",
+   "1.75"
+  ],
+  [
+   "general_principle PG.3 general gap deepseek_s",
+   "1.30"
+  ],
+  [
+   "general_principle PG.3 general gap gemma27b",
+   "4.00"
+  ],
+  [
+   "general_principle PG.3 general gap gpt4o",
+   "2.75"
+  ],
+  [
+   "general_principle PG.3 general gap gpt6l_s",
+   "0.70"
+  ],
+  [
+   "general_principle PG.3 general gap gpt6s_s",
+   "1.15"
+  ],
+  [
+   "general_principle PG.3 general gap grok43_s",
+   "0.65"
+  ],
+  [
+   "general_principle PG.3 general gap haiku_s",
+   "3.25"
+  ],
+  [
+   "general_principle PG.3 general gap kimi",
+   "2.85"
+  ],
+  [
+   "general_principle PG.3 general gap llama70b",
+   "2.75"
+  ],
+  [
+   "general_principle PG.3 general gap mistral24b",
+   "2.50"
+  ],
+  [
+   "general_principle PG.3 general gap qwen80b",
+   "4.30"
+  ],
+  [
+   "general_principle AG.7 split non-driving cells with a bare gap of zero or below",
+   "7 of 52"
+  ],
+  [
+   "general_principle AG.7 split non-driving cells with a positive bare gap within the wording floor",
+   "29 of 52"
+  ],
+  [
+   "general_principle AG.7 split arms excluded, wording floor above own median stated slack",
+   "deepseek, deepseek_s, gpt6l_s"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells clearing the wording floor",
+   "16 of 40"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells with a bare gap of zero or below",
+   "4 of 40"
+  ],
+  [
+   "general_principle AG.7 split excluding those arms, cells with a positive bare gap within the wording floor",
+   "20 of 40"
+  ],
+  [
+   "syllogism_duty Amendment T non-driving cells whose shortfall exceeds sqrt(wording^2 + draw^2) floor",
+   "29 of 52"
+  ],
+  [
+   "syllogism_duty Amendment T arms excluded, wording floor above own median stated slack",
+   "deepseek, deepseek_s, gpt6l_s"
+  ],
+  [
+   "syllogism_duty Amendment T excluding those arms, cells whose shortfall exceeds the floor",
+   "27 of 40"
+  ]
+ ],
+ "changed": 17
+}

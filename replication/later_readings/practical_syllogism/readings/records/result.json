@@ -1,0 +1,2818 @@
+{
+ "arm_status": {
+  "claude": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "Anthropic"
+   ],
+   "served_model": [
+    "anthropic/claude-sonnet-5"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.14581000000000024,
+   "calls": 190
+  },
+  "deepseek": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "Sail Research"
+   ],
+   "served_model": [
+    "deepseek/deepseek-v4.1-flash"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0011219160000000014,
+   "calls": 190
+  },
+  "deepseek_s": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "Sail Research"
+   ],
+   "served_model": [
+    "deepseek/deepseek-v4.1-flash"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0010791360000000016,
+   "calls": 190
+  },
+  "gemma27b": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "Parasail"
+   ],
+   "served_model": [
+    "google/gemma-3-27b-it"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0026229799999999965,
+   "calls": 190
+  },
+  "gpt4o": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "OpenAI"
+   ],
+   "served_model": [
+    "openai/gpt-4o"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.09957499999999993,
+   "calls": 190
+  },
+  "gpt6l_s": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "OpenAI"
+   ],
+   "served_model": [
+    "openai/gpt-6-luna"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.004525000000000006,
+   "calls": 190
+  },
+  "gpt6s_s": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "OpenAI"
+   ],
+   "served_model": [
+    "openai/gpt-6-sol"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0905,
+   "calls": 190
+  },
+  "grok43_s": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "xAI"
+   ],
+   "served_model": [
+    "x-ai/grok-4.3"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.0468937,
+   "calls": 190
+  },
+  "haiku_s": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "Anthropic"
+   ],
+   "served_model": [
+    "anthropic/claude-haiku-4.5"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.04898000000000012,
+   "calls": 190
+  },
+  "kimi": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "Sail Research"
+   ],
+   "served_model": [
+    "moonshotai/kimi-k3"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.05684231999999997,
+   "calls": 190
+  },
+  "llama70b": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "CoreWeave"
+   ],
+   "served_model": [
+    "meta-llama/llama-3.3-70b-instruct"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.025673600000000005,
+   "calls": 190
+  },
+  "mistral24b": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "Parasail"
+   ],
+   "served_model": [
+    "mistralai/mistral-small-3.2-24b-instruct"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.00277014,
+   "calls": 190
+  },
+  "qwen80b": {
+   "status": "READ",
+   "unread_reason": null,
+   "provider_served": [
+    "Parasail"
+   ],
+   "served_model": [
+    "qwen/qwen3-next-80b-a3b-instruct"
+   ],
+   "served_model_constant": true,
+   "temperature": [
+    1.0
+   ],
+   "spent_usd": 0.005728000000000009,
+   "calls": 190
+  }
+ },
+ "P232_1": {
+  "per_arm": {
+   "claude": {
+    "readout": "sampled",
+    "p_yes": 0.0,
+    "answer_mass": 1.0,
+    "n_no": 10,
+    "gate": "PASSED",
+    "held": true
+   },
+   "deepseek": {
+    "readout": "logprob",
+    "p_yes": 7.814254328742391e-07,
+    "answer_mass": 1.0000008049396234,
+    "n_no": null,
+    "gate": "PASSED",
+    "held": true,
+    "sampled_tokens": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ]
+   },
+   "deepseek_s": {
+    "readout": "sampled",
+    "p_yes": 0.0,
+    "answer_mass": 1.0,
+    "n_no": 10,
+    "gate": "PASSED",
+    "held": true
+   },
+   "gemma27b": {
+    "readout": "logprob",
+    "p_yes": 1.5015123475602992e-13,
+    "answer_mass": 1.000000000157195,
+    "n_no": null,
+    "gate": "PASSED",
+    "held": true,
+    "sampled_tokens": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ]
+   },
+   "gpt4o": {
+    "readout": "logprob",
+    "p_yes": 1.3498939595999777e-05,
+    "answer_mass": 1.0000135015481677,
+    "n_no": null,
+    "gate": "PASSED",
+    "held": true,
+    "sampled_tokens": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ]
+   },
+   "gpt6l_s": {
+    "readout": "sampled",
+    "p_yes": 0.0,
+    "answer_mass": 1.0,
+    "n_no": 10,
+    "gate": "PASSED",
+    "held": true
+   },
+   "gpt6s_s": {
+    "readout": "sampled",
+    "p_yes": 0.0,
+    "answer_mass": 1.0,
+    "n_no": 10,
+    "gate": "PASSED",
+    "held": true
+   },
+   "grok43_s": {
+    "readout": "sampled",
+    "p_yes": 0.0,
+    "answer_mass": 1.0,
+    "n_no": 10,
+    "gate": "PASSED",
+    "held": true
+   },
+   "haiku_s": {
+    "readout": "sampled",
+    "p_yes": 0.0,
+    "answer_mass": 1.0,
+    "n_no": 10,
+    "gate": "PASSED",
+    "held": true
+   },
+   "kimi": {
+    "readout": "logprob",
+    "p_yes": 0.0015208529632348027,
+    "answer_mass": 0.9962358760505039,
+    "n_no": null,
+    "gate": "PASSED",
+    "held": true,
+    "sampled_tokens": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ]
+   },
+   "llama70b": {
+    "readout": "logprob",
+    "p_yes": 4.58739561380741e-08,
+    "answer_mass": 1.000000049310856,
+    "n_no": null,
+    "gate": "PASSED",
+    "held": true,
+    "sampled_tokens": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ]
+   },
+   "mistral24b": {
+    "readout": "logprob",
+    "p_yes": 0.0019313720222635185,
+    "answer_mass": 0.9999446071288192,
+    "n_no": null,
+    "gate": "PASSED",
+    "held": true,
+    "sampled_tokens": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ]
+   },
+   "qwen80b": {
+    "readout": "logprob",
+    "p_yes": 1.9810442365208064e-08,
+    "answer_mass": 1.0000000298760978,
+    "n_no": null,
+    "gate": "PASSED",
+    "held": true,
+    "sampled_tokens": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ]
+   }
+  },
+  "n_held": 13,
+  "n_arms": 13,
+  "not_held": [],
+  "PASS": true
+ },
+ "P232_2": {
+  "pooled": {
+   "n_cells": 75,
+   "n_premises_held": 62,
+   "n_fact_held": 62,
+   "a": {
+    "all_three": 24,
+    "of_all": 75,
+    "share_all": 0.32,
+    "conditional": 24,
+    "of_premises": 62,
+    "share_conditional": 0.3870967741935484
+   },
+   "b": {
+    "all_three": 50,
+    "of_all": 75,
+    "share_all": 0.6666666666666666,
+    "conditional": 50,
+    "of_premises": 62,
+    "share_conditional": 0.8064516129032258
+   },
+   "b_three_band": {
+    "all_three": 33,
+    "of_all": 75,
+    "share_all": 0.44,
+    "conditional": 33,
+    "of_premises": 62,
+    "share_conditional": 0.532258064516129
+   },
+   "a_and_b": {
+    "n": 23,
+    "of_premises": 62,
+    "share_conditional": 0.3709677419354839
+   },
+   "a_or_b": {
+    "n": 51,
+    "of_premises": 62,
+    "share_conditional": 0.8225806451612904
+   }
+  },
+  "per_arm": {
+   "claude": {
+    "n_cells": 6,
+    "n_premises_held": 6,
+    "n_fact_held": 6,
+    "a": {
+     "all_three": 0,
+     "of_all": 6,
+     "share_all": 0.0,
+     "conditional": 0,
+     "of_premises": 6,
+     "share_conditional": 0.0
+    },
+    "b": {
+     "all_three": 6,
+     "of_all": 6,
+     "share_all": 1.0,
+     "conditional": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 1,
+     "of_all": 6,
+     "share_all": 0.16666666666666666,
+     "conditional": 1,
+     "of_premises": 6,
+     "share_conditional": 0.16666666666666666
+    },
+    "a_and_b": {
+     "n": 0,
+     "of_premises": 6,
+     "share_conditional": 0.0
+    },
+    "a_or_b": {
+     "n": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    }
+   },
+   "deepseek": {
+    "n_cells": 5,
+    "n_premises_held": 3,
+    "n_fact_held": 3,
+    "a": {
+     "all_three": 3,
+     "of_all": 5,
+     "share_all": 0.6,
+     "conditional": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    },
+    "b": {
+     "all_three": 3,
+     "of_all": 5,
+     "share_all": 0.6,
+     "conditional": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 3,
+     "of_all": 5,
+     "share_all": 0.6,
+     "conditional": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    },
+    "a_and_b": {
+     "n": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    },
+    "a_or_b": {
+     "n": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    }
+   },
+   "deepseek_s": {
+    "n_cells": 6,
+    "n_premises_held": 3,
+    "n_fact_held": 3,
+    "a": {
+     "all_three": 3,
+     "of_all": 6,
+     "share_all": 0.5,
+     "conditional": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    },
+    "b": {
+     "all_three": 3,
+     "of_all": 6,
+     "share_all": 0.5,
+     "conditional": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 3,
+     "of_all": 6,
+     "share_all": 0.5,
+     "conditional": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    },
+    "a_and_b": {
+     "n": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    },
+    "a_or_b": {
+     "n": 3,
+     "of_premises": 3,
+     "share_conditional": 1.0
+    }
+   },
+   "gemma27b": {
+    "n_cells": 6,
+    "n_premises_held": 5,
+    "n_fact_held": 5,
+    "a": {
+     "all_three": 4,
+     "of_all": 6,
+     "share_all": 0.6666666666666666,
+     "conditional": 4,
+     "of_premises": 5,
+     "share_conditional": 0.8
+    },
+    "b": {
+     "all_three": 4,
+     "of_all": 6,
+     "share_all": 0.6666666666666666,
+     "conditional": 4,
+     "of_premises": 5,
+     "share_conditional": 0.8
+    },
+    "b_three_band": {
+     "all_three": 3,
+     "of_all": 6,
+     "share_all": 0.5,
+     "conditional": 3,
+     "of_premises": 5,
+     "share_conditional": 0.6
+    },
+    "a_and_b": {
+     "n": 3,
+     "of_premises": 5,
+     "share_conditional": 0.6
+    },
+    "a_or_b": {
+     "n": 5,
+     "of_premises": 5,
+     "share_conditional": 1.0
+    }
+   },
+   "gpt4o": {
+    "n_cells": 6,
+    "n_premises_held": 6,
+    "n_fact_held": 6,
+    "a": {
+     "all_three": 3,
+     "of_all": 6,
+     "share_all": 0.5,
+     "conditional": 3,
+     "of_premises": 6,
+     "share_conditional": 0.5
+    },
+    "b": {
+     "all_three": 5,
+     "of_all": 6,
+     "share_all": 0.8333333333333334,
+     "conditional": 5,
+     "of_premises": 6,
+     "share_conditional": 0.8333333333333334
+    },
+    "b_three_band": {
+     "all_three": 3,
+     "of_all": 6,
+     "share_all": 0.5,
+     "conditional": 3,
+     "of_premises": 6,
+     "share_conditional": 0.5
+    },
+    "a_and_b": {
+     "n": 3,
+     "of_premises": 6,
+     "share_conditional": 0.5
+    },
+    "a_or_b": {
+     "n": 5,
+     "of_premises": 6,
+     "share_conditional": 0.8333333333333334
+    }
+   },
+   "gpt6l_s": {
+    "n_cells": 6,
+    "n_premises_held": 6,
+    "n_fact_held": 6,
+    "a": {
+     "all_three": 0,
+     "of_all": 6,
+     "share_all": 0.0,
+     "conditional": 0,
+     "of_premises": 6,
+     "share_conditional": 0.0
+    },
+    "b": {
+     "all_three": 0,
+     "of_all": 6,
+     "share_all": 0.0,
+     "conditional": 0,
+     "of_premises": 6,
+     "share_conditional": 0.0
+    },
+    "b_three_band": {
+     "all_three": 0,
+     "of_all": 6,
+     "share_all": 0.0,
+     "conditional": 0,
+     "of_premises": 6,
+     "share_conditional": 0.0
+    },
+    "a_and_b": {
+     "n": 0,
+     "of_premises": 6,
+     "share_conditional": 0.0
+    },
+    "a_or_b": {
+     "n": 0,
+     "of_premises": 6,
+     "share_conditional": 0.0
+    }
+   },
+   "gpt6s_s": {
+    "n_cells": 6,
+    "n_premises_held": 6,
+    "n_fact_held": 6,
+    "a": {
+     "all_three": 1,
+     "of_all": 6,
+     "share_all": 0.16666666666666666,
+     "conditional": 1,
+     "of_premises": 6,
+     "share_conditional": 0.16666666666666666
+    },
+    "b": {
+     "all_three": 2,
+     "of_all": 6,
+     "share_all": 0.3333333333333333,
+     "conditional": 2,
+     "of_premises": 6,
+     "share_conditional": 0.3333333333333333
+    },
+    "b_three_band": {
+     "all_three": 0,
+     "of_all": 6,
+     "share_all": 0.0,
+     "conditional": 0,
+     "of_premises": 6,
+     "share_conditional": 0.0
+    },
+    "a_and_b": {
+     "n": 1,
+     "of_premises": 6,
+     "share_conditional": 0.16666666666666666
+    },
+    "a_or_b": {
+     "n": 2,
+     "of_premises": 6,
+     "share_conditional": 0.3333333333333333
+    }
+   },
+   "grok43_s": {
+    "n_cells": 6,
+    "n_premises_held": 2,
+    "n_fact_held": 2,
+    "a": {
+     "all_three": 0,
+     "of_all": 6,
+     "share_all": 0.0,
+     "conditional": 0,
+     "of_premises": 2,
+     "share_conditional": 0.0
+    },
+    "b": {
+     "all_three": 2,
+     "of_all": 6,
+     "share_all": 0.3333333333333333,
+     "conditional": 2,
+     "of_premises": 2,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 2,
+     "of_all": 6,
+     "share_all": 0.3333333333333333,
+     "conditional": 2,
+     "of_premises": 2,
+     "share_conditional": 1.0
+    },
+    "a_and_b": {
+     "n": 0,
+     "of_premises": 2,
+     "share_conditional": 0.0
+    },
+    "a_or_b": {
+     "n": 2,
+     "of_premises": 2,
+     "share_conditional": 1.0
+    }
+   },
+   "haiku_s": {
+    "n_cells": 6,
+    "n_premises_held": 6,
+    "n_fact_held": 6,
+    "a": {
+     "all_three": 2,
+     "of_all": 6,
+     "share_all": 0.3333333333333333,
+     "conditional": 2,
+     "of_premises": 6,
+     "share_conditional": 0.3333333333333333
+    },
+    "b": {
+     "all_three": 6,
+     "of_all": 6,
+     "share_all": 1.0,
+     "conditional": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 5,
+     "of_all": 6,
+     "share_all": 0.8333333333333334,
+     "conditional": 5,
+     "of_premises": 6,
+     "share_conditional": 0.8333333333333334
+    },
+    "a_and_b": {
+     "n": 2,
+     "of_premises": 6,
+     "share_conditional": 0.3333333333333333
+    },
+    "a_or_b": {
+     "n": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    }
+   },
+   "kimi": {
+    "n_cells": 5,
+    "n_premises_held": 5,
+    "n_fact_held": 5,
+    "a": {
+     "all_three": 0,
+     "of_all": 5,
+     "share_all": 0.0,
+     "conditional": 0,
+     "of_premises": 5,
+     "share_conditional": 0.0
+    },
+    "b": {
+     "all_three": 5,
+     "of_all": 5,
+     "share_all": 1.0,
+     "conditional": 5,
+     "of_premises": 5,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 2,
+     "of_all": 5,
+     "share_all": 0.4,
+     "conditional": 2,
+     "of_premises": 5,
+     "share_conditional": 0.4
+    },
+    "a_and_b": {
+     "n": 0,
+     "of_premises": 5,
+     "share_conditional": 0.0
+    },
+    "a_or_b": {
+     "n": 5,
+     "of_premises": 5,
+     "share_conditional": 1.0
+    }
+   },
+   "llama70b": {
+    "n_cells": 6,
+    "n_premises_held": 6,
+    "n_fact_held": 6,
+    "a": {
+     "all_three": 3,
+     "of_all": 6,
+     "share_all": 0.5,
+     "conditional": 3,
+     "of_premises": 6,
+     "share_conditional": 0.5
+    },
+    "b": {
+     "all_three": 6,
+     "of_all": 6,
+     "share_all": 1.0,
+     "conditional": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 4,
+     "of_all": 6,
+     "share_all": 0.6666666666666666,
+     "conditional": 4,
+     "of_premises": 6,
+     "share_conditional": 0.6666666666666666
+    },
+    "a_and_b": {
+     "n": 3,
+     "of_premises": 6,
+     "share_conditional": 0.5
+    },
+    "a_or_b": {
+     "n": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    }
+   },
+   "mistral24b": {
+    "n_cells": 5,
+    "n_premises_held": 2,
+    "n_fact_held": 2,
+    "a": {
+     "all_three": 1,
+     "of_all": 5,
+     "share_all": 0.2,
+     "conditional": 1,
+     "of_premises": 2,
+     "share_conditional": 0.5
+    },
+    "b": {
+     "all_three": 2,
+     "of_all": 5,
+     "share_all": 0.4,
+     "conditional": 2,
+     "of_premises": 2,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 1,
+     "of_all": 5,
+     "share_all": 0.2,
+     "conditional": 1,
+     "of_premises": 2,
+     "share_conditional": 0.5
+    },
+    "a_and_b": {
+     "n": 1,
+     "of_premises": 2,
+     "share_conditional": 0.5
+    },
+    "a_or_b": {
+     "n": 2,
+     "of_premises": 2,
+     "share_conditional": 1.0
+    }
+   },
+   "qwen80b": {
+    "n_cells": 6,
+    "n_premises_held": 6,
+    "n_fact_held": 6,
+    "a": {
+     "all_three": 4,
+     "of_all": 6,
+     "share_all": 0.6666666666666666,
+     "conditional": 4,
+     "of_premises": 6,
+     "share_conditional": 0.6666666666666666
+    },
+    "b": {
+     "all_three": 6,
+     "of_all": 6,
+     "share_all": 1.0,
+     "conditional": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    },
+    "b_three_band": {
+     "all_three": 6,
+     "of_all": 6,
+     "share_all": 1.0,
+     "conditional": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    },
+    "a_and_b": {
+     "n": 4,
+     "of_premises": 6,
+     "share_conditional": 0.6666666666666666
+    },
+    "a_or_b": {
+     "n": 6,
+     "of_premises": 6,
+     "share_conditional": 1.0
+    }
+   }
+  },
+  "n_models": 13,
+  "cells": [
+   {
+    "arm": "claude",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.3333333333,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "claude",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.1639344262,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "claude",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.2857142857,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "claude",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.25,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "claude",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.2857142857,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "claude",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.125,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.1824255367691947,
+    "fell_p_yes": 0.6224596893000509,
+    "blame_pos": 0.5003672859,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.9626731249865396,
+    "fell_p_yes": 0.777299954522939,
+    "blame_pos": 0.8690098405,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.14804722131079176,
+    "fell_p_yes": 0.9626731488986299,
+    "blame_pos": 0.6369797599,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.5000000465536177,
+    "fell_p_yes": 0.9525741432216778,
+    "blame_pos": 0.4644117204,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.11920298569953959,
+    "fell_p_yes": 0.5000001373145171,
+    "blame_pos": 0.4708518412,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.25,
+    "fell_p_yes": 0.85,
+    "blame_pos": 0.4960629921,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 1.0,
+    "fell_p_yes": 0.8,
+    "blame_pos": 0.82,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.3,
+    "fell_p_yes": 1.0,
+    "blame_pos": 0.671641791,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.5,
+    "fell_p_yes": 1.0,
+    "blame_pos": 0.4166666667,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.6,
+    "blame_pos": 0.5,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.5,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.4871794872,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 2.110329984966893e-06,
+    "fell_p_yes": 0.9999999992775452,
+    "blame_pos": 0.299531851,
+    "a": true,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.9998872747394312,
+    "fell_p_yes": 0.9999999847700205,
+    "blame_pos": 0.8794114249,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 7.721989821350099e-07,
+    "fell_p_yes": 0.9999999997545699,
+    "blame_pos": 0.7159312587,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 4.62700895923481e-08,
+    "fell_p_yes": 0.9999999995102595,
+    "blame_pos": 0.5584085177,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 2.313398900649325e-08,
+    "fell_p_yes": 0.04742587321795431,
+    "blame_pos": 0.3300889178,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 5.9095581441828615e-08,
+    "fell_p_yes": 0.9999999995762863,
+    "blame_pos": 0.0459226522,
+    "a": true,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0008308865515299112,
+    "fell_p_yes": 0.549775012564532,
+    "blame_pos": 0.1974751462,
+    "a": true,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.00043279896437079446,
+    "fell_p_yes": 0.002872033733603474,
+    "blame_pos": 0.3206471871,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.011718857381908173,
+    "fell_p_yes": 0.9994588598530176,
+    "blame_pos": 0.6012838143,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.006883988334044688,
+    "fell_p_yes": 0.9998809369621362,
+    "blame_pos": 0.6409658458,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0033117287607419823,
+    "fell_p_yes": 0.003152975033222367,
+    "blame_pos": 0.1923106459,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0002685869017215475,
+    "fell_p_yes": 0.0004918023770371313,
+    "blame_pos": 0.0076942722,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0909090909,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0181818182,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.1375,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.9,
+    "blame_pos": 0.2125,
+    "a": true,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.0,
+    "a": false,
+    "b": false,
+    "b3": false
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.7,
+    "fell_p_yes": 0.7,
+    "blame_pos": 0.7547169811,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.7,
+    "fell_p_yes": 0.8,
+    "blame_pos": 0.75,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.6,
+    "fell_p_yes": 1.0,
+    "blame_pos": 0.8372093023,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.5,
+    "fell_p_yes": 0.7,
+    "blame_pos": 0.6825396825,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.4,
+    "fell_p_yes": 0.3,
+    "blame_pos": 0.5666666667,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.1,
+    "fell_p_yes": 0.2,
+    "blame_pos": 0.6323529412,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.2,
+    "blame_pos": 0.4,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.3166666667,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 1.0,
+    "blame_pos": 0.8767123288,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 1.0,
+    "blame_pos": 0.8625,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.2739726027,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0,
+    "fell_p_yes": 0.0,
+    "blame_pos": 0.4285714286,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "kimi",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.01590359639357632,
+    "fell_p_yes": 0.010983484677331515,
+    "blame_pos": 0.3040130948,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "kimi",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.020330184225886175,
+    "fell_p_yes": 0.017984512530426166,
+    "blame_pos": 0.3588444856,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "kimi",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.03307696953879955,
+    "fell_p_yes": 0.16459455510924945,
+    "blame_pos": 0.2467804245,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "kimi",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.017981815348453386,
+    "fell_p_yes": 0.13300299952386593,
+    "blame_pos": 0.2236073818,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "kimi",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.009707132199178254,
+    "fell_p_yes": 0.012429705711271126,
+    "blame_pos": 0.2038161601,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 3.912223955507348e-05,
+    "fell_p_yes": 0.0005527789193505654,
+    "blame_pos": 0.2518435713,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0010402827573638253,
+    "fell_p_yes": 0.004990132787655709,
+    "blame_pos": 0.541001824,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0006939820784844915,
+    "fell_p_yes": 0.6451471332652019,
+    "blame_pos": 0.7213830251,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.00012066549539170881,
+    "fell_p_yes": 0.955347647724632,
+    "blame_pos": 0.4723231751,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 7.484632662662316e-05,
+    "fell_p_yes": 0.0030326724254224465,
+    "blame_pos": 0.2525783478,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.43179527406427914,
+    "fell_p_yes": 0.9998055711630298,
+    "blame_pos": 0.4889688592,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.9914195900755413,
+    "fell_p_yes": 0.8932995739583962,
+    "blame_pos": 0.5668063985,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.7310637487482063,
+    "fell_p_yes": 0.07590041853780377,
+    "blame_pos": 0.5889091642,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": false,
+    "reasonable_p_yes": 0.839571383417889,
+    "fell_p_yes": 0.9501055896157307,
+    "blame_pos": 0.5333575555,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.2452028411938484,
+    "fell_p_yes": 0.6224896732930585,
+    "blame_pos": 0.4744567766,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.24757025696752388,
+    "fell_p_yes": 0.2666832999002585,
+    "blame_pos": 0.261658024,
+    "a": false,
+    "b": true,
+    "b3": false
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "bicycle",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0025426324112597493,
+    "fell_p_yes": 0.9990889489722184,
+    "blame_pos": 0.6874059501,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "ladder",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 9.610254587436642e-05,
+    "fell_p_yes": 0.9998238724152329,
+    "blame_pos": 0.7599577377,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "prawns_home",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 2.2603242755022213e-06,
+    "fell_p_yes": 0.9999832985791537,
+    "blame_pos": 0.9815545656,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "prawns_restaurant",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.00043055742250390115,
+    "fell_p_yes": 0.999998629042865,
+    "blame_pos": 0.8755286017,
+    "a": true,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "scaffolding",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.0011695115609188476,
+    "fell_p_yes": 0.0015011830427177075,
+    "blame_pos": 0.3259856553,
+    "a": false,
+    "b": true,
+    "b3": true
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "cheque",
+    "principle": true,
+    "fact": true,
+    "reasonable_p_yes": 0.000166333296741075,
+    "fell_p_yes": 0.08874585107227974,
+    "blame_pos": 0.9273544853,
+    "a": false,
+    "b": true,
+    "b3": true
+   }
+  ]
+ },
+ "P232_3": {
+  "median_shift": -0.45468313374999997,
+  "boot95": [
+   -0.5652584895,
+   -0.2287112932452381
+  ],
+  "n_models": 13,
+  "n_cells": 75,
+  "per_arm_mean_shift": {
+   "claude": -0.2287112932452381,
+   "deepseek": -0.58832408958,
+   "deepseek_s": -0.5652584895,
+   "gemma27b": -0.08623164339920636,
+   "gpt4o": -0.3063470898676046,
+   "gpt6l_s": -0.015151515150000001,
+   "gpt6s_s": -0.06136363636666667,
+   "grok43_s": -0.6522798080003162,
+   "haiku_s": -0.5239883788628019,
+   "kimi": -0.26741230936,
+   "llama70b": -0.45468313374999997,
+   "mistral24b": -0.48503758376,
+   "qwen80b": -0.6834406897595238
+  },
+  "n_arms_shift_negative": 13,
+  "median_pos_B": 0.0,
+  "median_pos_direct": 0.4166666667,
+  "B_cells_above_band": 9,
+  "direct_cells_above_band": 63,
+  "B_cells_above_three": 3,
+  "direct_cells_above_three": 46,
+  "excluded": [
+   {
+    "arm": "deepseek",
+    "scenario": "cheque",
+    "reason": "banked direct cell excluded by the banked gate"
+   },
+   {
+    "arm": "kimi",
+    "scenario": "cheque",
+    "reason": "banked direct cell excluded by the banked gate"
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "cheque",
+    "reason": "banked direct cell excluded by the banked gate"
+   }
+  ],
+  "cells": [
+   {
+    "arm": "claude",
+    "scenario": "bicycle",
+    "pos_B": 0.07142857142857142,
+    "pos_direct": 0.3333333333,
+    "shift": -0.2619047618714285,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "claude",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.1639344262,
+    "shift": -0.1639344262,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "claude",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.2857142857,
+    "shift": -0.2857142857,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "claude",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.25,
+    "shift": -0.25,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "claude",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.2857142857,
+    "shift": -0.2857142857,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "claude",
+    "scenario": "cheque",
+    "pos_B": 0.0,
+    "pos_direct": 0.125,
+    "shift": -0.125,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.5003672859,
+    "shift": -0.5003672859,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.8690098405,
+    "shift": -0.8690098405,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.6369797599,
+    "shift": -0.6369797599,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.4644117204,
+    "shift": -0.4644117204,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.4708518412,
+    "shift": -0.4708518412,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.4960629921,
+    "shift": -0.4960629921,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.82,
+    "shift": -0.82,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.671641791,
+    "shift": -0.671641791,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.4166666667,
+    "shift": -0.4166666667,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.5,
+    "shift": -0.5,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "deepseek_s",
+    "scenario": "cheque",
+    "pos_B": 0.0,
+    "pos_direct": 0.4871794872,
+    "shift": -0.4871794872,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "bicycle",
+    "pos_B": 0.2857142857142857,
+    "pos_direct": 0.299531851,
+    "shift": -0.013817565285714317,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "ladder",
+    "pos_B": 0.3333333333333333,
+    "pos_direct": 0.8794114249,
+    "shift": -0.5460780915666668,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "prawns_home",
+    "pos_B": 0.8571428571428571,
+    "pos_direct": 0.7159312587,
+    "shift": 0.14121159844285713,
+    "B_prevent_p_yes": 1.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.25,
+    "pos_direct": 0.5584085177,
+    "shift": -0.3084085177,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "scaffolding",
+    "pos_B": 0.14285714285714285,
+    "pos_direct": 0.3300889178,
+    "shift": -0.18723177494285714,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gemma27b",
+    "scenario": "cheque",
+    "pos_B": 0.4428571428571429,
+    "pos_direct": 0.0459226522,
+    "shift": 0.3969344906571429,
+    "B_prevent_p_yes": 0.8,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "bicycle",
+    "pos_B": 0.015151515151515154,
+    "pos_direct": 0.1974751462,
+    "shift": -0.18232363104848484,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "ladder",
+    "pos_B": 0.08333333333333334,
+    "pos_direct": 0.3206471871,
+    "shift": -0.23731385376666667,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.6012838143,
+    "shift": -0.6012838143,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.023809523809523808,
+    "pos_direct": 0.6409658458,
+    "shift": -0.6171563219904762,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.1923106459,
+    "shift": -0.1923106459,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt4o",
+    "scenario": "cheque",
+    "pos_B": 0.0,
+    "pos_direct": 0.0076942722,
+    "shift": -0.0076942722,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.0909090909,
+    "shift": -0.0909090909,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.0,
+    "shift": 0.0,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.0,
+    "shift": 0.0,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.0,
+    "shift": 0.0,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.0,
+    "shift": 0.0,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6l_s",
+    "scenario": "cheque",
+    "pos_B": 0.0,
+    "pos_direct": 0.0,
+    "shift": 0.0,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.0181818182,
+    "shift": -0.0181818182,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.0,
+    "shift": 0.0,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.1375,
+    "shift": -0.1375,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.2125,
+    "shift": -0.2125,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.0,
+    "shift": 0.0,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "gpt6s_s",
+    "scenario": "cheque",
+    "pos_B": 0.0,
+    "pos_direct": 0.0,
+    "shift": 0.0,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "bicycle",
+    "pos_B": 0.0851063829787234,
+    "pos_direct": 0.7547169811,
+    "shift": -0.6696105981212765,
+    "B_prevent_p_yes": 0.7,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "ladder",
+    "pos_B": 0.045454545454545456,
+    "pos_direct": 0.75,
+    "shift": -0.7045454545454546,
+    "B_prevent_p_yes": 1.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "prawns_home",
+    "pos_B": 0.02,
+    "pos_direct": 0.8372093023,
+    "shift": -0.8172093023,
+    "B_prevent_p_yes": 0.9,
+    "B_principle_p_yes": 0.3
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.014084507042253523,
+    "pos_direct": 0.6825396825,
+    "shift": -0.6684551754577465,
+    "B_prevent_p_yes": 1.0,
+    "B_principle_p_yes": 0.3
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.5666666667,
+    "shift": -0.5666666667,
+    "B_prevent_p_yes": 0.7,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "grok43_s",
+    "scenario": "cheque",
+    "pos_B": 0.14516129032258066,
+    "pos_direct": 0.6323529412,
+    "shift": -0.48719165087741934,
+    "B_prevent_p_yes": 0.8,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.4,
+    "shift": -0.4,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.3166666667,
+    "shift": -0.3166666667,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.8767123288,
+    "shift": -0.8767123288,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.8625,
+    "shift": -0.8625,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.2739726027,
+    "shift": -0.2739726027,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "haiku_s",
+    "scenario": "cheque",
+    "pos_B": 0.014492753623188406,
+    "pos_direct": 0.4285714286,
+    "shift": -0.4140786749768116,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "kimi",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.3040130948,
+    "shift": -0.3040130948,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "kimi",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.3588444856,
+    "shift": -0.3588444856,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "kimi",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.2467804245,
+    "shift": -0.2467804245,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "kimi",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.2236073818,
+    "shift": -0.2236073818,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "kimi",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.2038161601,
+    "shift": -0.2038161601,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.2518435713,
+    "shift": -0.2518435713,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.541001824,
+    "shift": -0.541001824,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.7213830251,
+    "shift": -0.7213830251,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.4723231751,
+    "shift": -0.4723231751,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.2525783478,
+    "shift": -0.2525783478,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "llama70b",
+    "scenario": "cheque",
+    "pos_B": 0.0,
+    "pos_direct": 0.4889688592,
+    "shift": -0.4889688592,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.5668063985,
+    "shift": -0.5668063985,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.5889091642,
+    "shift": -0.5889091642,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "prawns_home",
+    "pos_B": 0.0,
+    "pos_direct": 0.5333575555,
+    "shift": -0.5333575555,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.0,
+    "pos_direct": 0.4744567766,
+    "shift": -0.4744567766,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "mistral24b",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.261658024,
+    "shift": -0.261658024,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "bicycle",
+    "pos_B": 0.0,
+    "pos_direct": 0.6874059501,
+    "shift": -0.6874059501,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "ladder",
+    "pos_B": 0.0,
+    "pos_direct": 0.7599577377,
+    "shift": -0.7599577377,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "prawns_home",
+    "pos_B": 0.2571428571428572,
+    "pos_direct": 0.9815545656,
+    "shift": -0.7244117084571429,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "prawns_restaurant",
+    "pos_B": 0.19999999999999998,
+    "pos_direct": 0.8755286017,
+    "shift": -0.6755286017000001,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "scaffolding",
+    "pos_B": 0.0,
+    "pos_direct": 0.3259856553,
+    "shift": -0.3259856553,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   },
+   {
+    "arm": "qwen80b",
+    "scenario": "cheque",
+    "pos_B": 0.0,
+    "pos_direct": 0.9273544853,
+    "shift": -0.9273544853,
+    "B_prevent_p_yes": 0.0,
+    "B_principle_p_yes": 0.0
+   }
+  ],
+  "PASS": true
+ },
+ "B_premises": {
+  "n_p0_cells": 78,
+  "prevent_modal_no": 69,
+  "principle_modal_no": 78,
+  "B_gate_parse_failures": 0,
+  "B_unparsed_draws": 0,
+  "N_prevent_not_interpretable": {
+   "claude": {
+    "bicycle": 1.0,
+    "ladder": 1.0,
+    "prawns_home": 1.0,
+    "prawns_restaurant": 1.0,
+    "scaffolding": 0.1,
+    "cheque": 1.0
+   },
+   "deepseek": {
+    "bicycle": 0.6,
+    "ladder": 0.8,
+    "prawns_home": 1.0,
+    "prawns_restaurant": 0.7,
+    "scaffolding": 0.3,
+    "cheque": 1.0
+   },
+   "deepseek_s": {
+    "bicycle": 0.7,
+    "ladder": 0.9,
+    "prawns_home": 1.0,
+    "prawns_restaurant": 0.8,
+    "scaffolding": 0.2,
+    "cheque": 0.9
+   },
+   "gemma27b": {
+    "bicycle": 1.0,
+    "ladder": 1.0,
+    "prawns_home": 1.0,
+    "prawns_restaurant": 1.0,
+    "scaffolding": 1.0,
+    "cheque": 1.0
+   },
+   "gpt4o": {
+    "bicycle": 0.0,
+    "ladder": 0.2,
+    "prawns_home": 0.0,
+    "prawns_restaurant": 0.0,
+    "scaffolding": 0.0,
+    "cheque": 0.0
+   },
+   "gpt6l_s": {
+    "bicycle": 0.5,
+    "ladder": 0.4,
+    "prawns_home": 0.2,
+    "prawns_restaurant": 0.0,
+    "scaffolding": 0.0,
+    "cheque": 0.4
+   },
+   "gpt6s_s": {
+    "bicycle": 0.0,
+    "ladder": 0.0,
+    "prawns_home": 0.0,
+    "prawns_restaurant": 0.0,
+    "scaffolding": 0.0,
+    "cheque": 0.0
+   },
+   "grok43_s": {
+    "bicycle": 0.0,
+    "ladder": 0.5,
+    "prawns_home": 0.3,
+    "prawns_restaurant": 0.0,
+    "scaffolding": 0.1,
+    "cheque": 0.0
+   },
+   "haiku_s": {
+    "bicycle": 1.0,
+    "ladder": 0.1,
+    "prawns_home": 0.6,
+    "prawns_restaurant": 1.0,
+    "scaffolding": 1.0,
+    "cheque": 0.2
+   },
+   "kimi": {
+    "bicycle": 0.3,
+    "ladder": 0.2,
+    "prawns_home": 0.4,
+    "prawns_restaurant": 0.5,
+    "scaffolding": 0.6,
+    "cheque": 0.6
+   },
+   "llama70b": {
+    "bicycle": 1.0,
+    "ladder": 0.8,
+    "prawns_home": 0.4,
+    "prawns_restaurant": 0.9,
+    "scaffolding": 0.3,
+    "cheque": 0.9
+   },
+   "mistral24b": {
+    "bicycle": 0.1,
+    "ladder": 0.2,
+    "prawns_home": 0.8,
+    "prawns_restaurant": 0.8,
+    "scaffolding": 0.1,
+    "cheque": 0.8
+   },
+   "qwen80b": {
+    "bicycle": 1.0,
+    "ladder": 1.0,
+    "prawns_home": 0.9,
+    "prawns_restaurant": 1.0,
+    "scaffolding": 1.0,
+    "cheque": 1.0
+   }
+  }
+ },
+ "cost_usd": 0.5321217920000003,
+ "inputs": {
+  "tables/B8_judgement_long.csv": "998e2c5b0467620e0a6c95bd2983379cfe5e57bd483f874e04498f0e1e56ddc1",
+  "records/prevention_paraphrase_READ__claude.json": "8606ade2e5ffc207396213d4e27da5c0272abdb0beb2001692eda2378c89992d",
+  "records/prevention_paraphrase_READ__deepseek.json": "fd1be228216e9d25f130c992d850850418b15adec26041fcf682ec4ced4311d2",
+  "records/prevention_paraphrase_READ__deepseek_s.json": "d9031b44a0dd3e4f681f0e36348ab7cb9ada0d487d299b0014634d2a52e226df",
+  "records/prevention_paraphrase_READ__gemma27b.json": "d94f5cd3c7c79209ab55fe50ce5a35c13d1959ea8d4a38bd64e748ccde6592bf",
+  "records/prevention_paraphrase_READ__gpt4o.json": "735b9e1f4a348ed18d04d5d4914556f49ec30ac2772fe7b93101db815d9da90e",
+  "records/prevention_paraphrase_READ__gpt6l_s.json": "d513041daa9817900d45b09a7dd4af3d38065fba48b835ea2ae22279e70e5a2d",
+  "records/prevention_paraphrase_READ__gpt6s_s.json": "5977fe4f31b66ab189f1019f2f69df3bf655202124426bf73f0a144befca4c88",
+  "records/prevention_paraphrase_READ__grok43_s.json": "a2aa8b1d29650f5528495f2ac74fa83e4470d1e9cb21fbbdd33b32c848294511",
+  "records/prevention_paraphrase_READ__haiku_s.json": "5a99fbab8f568a702b26e4ab0aeb55a0dd8e237764986b2e2429ea7e221d05f3",
+  "records/prevention_paraphrase_READ__kimi.json": "fe8965350e42934cded003eedd0725f1bfe72803e266092f96c0047674dc8edf",
+  "records/prevention_paraphrase_READ__llama70b.json": "cc468039c98b70c32c8bff0603e8cca39458c1d5d6943aa4f174e46a789791f4",
+  "records/prevention_paraphrase_READ__mistral24b.json": "a35600a86f842d86928f30644f5eca0c1374c633f45b1bf495be4b68471e0f56",
+  "records/prevention_paraphrase_READ__qwen235b.json": "7c3934abc0164481738a1a456b20bb1b856cf6808c1f36525c3cd3975acba7ee",
+  "records/prevention_paraphrase_READ__qwen30b.json": "1417f92127e0117d5572db1833d2acd1d86ed51b0c4d782c6065ff8bd050e3ba",
+  "records/prevention_paraphrase_READ__qwen80b.json": "d3aedc73dad52fb08244f79551285c8aea1953b671c6bcab313b65d4c1a0b23b",
+  "records/practical_syllogism_READ__claude.json": "c6f26a587199e128c5994ae36005ce6a9ce8ec4b856e749126b369d480476410",
+  "records/practical_syllogism_READ__deepseek.json": "c4eef7f4843f40c7e63b8ec52ae3e7a49178010c84d0c7df37f57f9940ea8bdb",
+  "records/practical_syllogism_READ__deepseek_s.json": "48d11f1bd7118b24470051f43b20ee7571df8bf6c1e3a5388ad1985e37e2e4f4",
+  "records/practical_syllogism_READ__gemma27b.json": "19f7a2fa7df649df3d0ce83707f8c82e350b89a7b7227d6406256304dc39ea3f",
+  "records/practical_syllogism_READ__gpt4o.json": "3bbcc43535dc0a2c413d179063a6bf15bebfe1863e999d1d744e63805542e710",
+  "records/practical_syllogism_READ__gpt6l_s.json": "e85b2496f7b48b1ecd609ad2090eb3f6956f5c41b9b36467543cc5ebc6383a50",
+  "records/practical_syllogism_READ__gpt6s_s.json": "761eea36e6ac7273f91841add3c8b93d5f83e7016fcf27978eea9a3950d0f869",
+  "records/practical_syllogism_READ__grok43_s.json": "15dc46be16dac131f1e933549ca04e27e8c37a5e51c0c0ca83752803101613fa",
+  "records/practical_syllogism_READ__haiku_s.json": "a1b05fe4078b57240f25b5f4c5fb13756e7ae26631f786bb781594cbe5749c9a",
+  "records/practical_syllogism_READ__kimi.json": "f65594c321bf24dd314c9f1d70324dbc4d61228342a9ba04eca589ba8200fd60",
+  "records/practical_syllogism_READ__llama70b.json": "b47514b712bfaf2f31ece53685319d5f51026064d0fda89894394c2315d28a1c",
+  "records/practical_syllogism_READ__mistral24b.json": "4da89aa9749fe6493b4f4510615040c0c4abd0442da4016d93978fcd4e284906",
+  "records/practical_syllogism_READ__qwen80b.json": "82dac5d0de0ee31b31fa8729bfd6e482ce419c1020f11e816f667841ba377f69"
+ },
+ "registered": [
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P1 arms holding the principle (A0.3)",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P1 verdict",
+   "PASS"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 cells with both premises held",
+   "62 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 cells with the fact held",
+   "62 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.10, conditional on both premises",
+   "50 of 62 (0.806)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.10, all three over all cells",
+   "50 of 75 (0.667)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(a) fell short modal yes, conditional on both premises",
+   "24 of 62 (0.387)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(a) fell short modal yes, all three over all cells",
+   "24 of 75 (0.320)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.30, conditional on both premises",
+   "33 of 62 (0.532)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.30, all three over all cells",
+   "33 of 75 (0.440)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 (a) and (b) both, conditional on both premises",
+   "23 of 62"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 (a) or (b), conditional on both premises",
+   "51 of 62"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 models in the population",
+   "13"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 median shift, B position minus direct, 95% model bootstrap",
+   "-0.4547 [-0.5653, -0.2287] over 75 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 verdict (remedy check only)",
+   "PASS"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 cells above the band, B against direct",
+   "9 against 63 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 median blame position, B against direct (same cells)",
+   "0.000 against 0.417 over 75 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 share of cells above 0.10, B against direct",
+   "0.120 against 0.840"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 cells above 0.30, B against direct",
+   "3 against 46 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: B premises on P0, PREVENT modal no",
+   "69 of 78"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: B premises on P0, PRINCIPLE modal no",
+   "78 of 78"
+  ]
+ ]
+}

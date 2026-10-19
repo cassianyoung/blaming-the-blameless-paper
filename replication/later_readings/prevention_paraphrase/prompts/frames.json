@@ -1,0 +1,364 @@
+{
+ "_meta": {
+  "run": "231",
+  "built_from_commit": "b22ba3b53a38ee6281ffeb981f9fcd0983e2dbd3",
+  "inputs": {
+   "records/excuse_bank.jsonl": "546dc93105fadf743385be513d6bb4895dcde8a16835c8da6be9b12dda59cdcb",
+   "data/families_bank/moral__families__v1.jsonl": "cb77f3cb50528b089e978f8cec1069baf293f41d803d7a5e8ad00afd136918e6",
+   "records/frames.json": "ea34a1b8d0eed2c923b28e7a9df366bc11a543843c61d6a51ca0e2794ebeaa83"
+  },
+  "system_yn": "Answer with one word, Yes or No, and nothing else.",
+  "layout": "case text, blank line, question; one question per call",
+  "prompt_sha_construction": "sha256(json.dumps(messages)), as or_harness logs it",
+  "n_prompts": 35
+ },
+ "questions": {
+  "FELL": {
+   "body": "Did {agent} fall short of the care a reasonable person would take? Answer yes or no.",
+   "body_sha256": "7082145e40af4063d7a55fcd5fcbd56cbe881c0bc781445888241b860e2ea014",
+   "isolation_stem": "fall short of the care a reasonable person would take?",
+   "provenance": "new, prevention_paraphrase (primary paraphrase of the prevention judgement)"
+  },
+  "DIFF": {
+   "body": "Was there anything {agent} should have done differently? Answer yes or no.",
+   "body_sha256": "cd5bbdb36b54570869ac50e1a7130a1ad9991e2ce664f21802be8cf6fd053f67",
+   "isolation_stem": "should have done differently?",
+   "provenance": "new, prevention_paraphrase (secondary paraphrase; known to invite hindsight)"
+  },
+  "NEGL": {
+   "body": "Was {agent} negligent? Answer yes or no.",
+   "body_sha256": "683729cc5b9844d8fa69293613156e602372a2b03513487b98bd6ce1e0260871",
+   "isolation_stem": "negligent?",
+   "provenance": "new, prevention_paraphrase (names the standard)"
+  },
+  "REASONABLE": {
+   "body": "Could {agent} reasonably have prevented this? Answer yes or no.",
+   "body_sha256": "618e7f8464f5d2143b90780028a4d63de9269c4a67a28b58ce3e0e19d39f65c2",
+   "isolation_stem": "reasonably have prevented this?",
+   "provenance": "banked, byte-identical to frames.json (re-read)"
+  },
+  "CARELESS": {
+   "body": "Did {agent} do anything careless? Answer Yes or No.",
+   "body_sha256": "b967d7e508ff63021cf397c54bc61c84707d9327d6c9aa17b75e81228a681e29",
+   "isolation_stem": "do anything careless?",
+   "provenance": "banked, byte-identical to frames.json (re-read)"
+  }
+ },
+ "prompts": {
+  "bicycle|P0|FELL": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "question": "FELL",
+   "row_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nDid Alaric fall short of the care a reasonable person would take? Answer yes or no.",
+   "prompt_sha256": "3e246b569dfb703bd9d9b53451459c8d9a39636372374306b3cb917ce91e939b"
+  },
+  "bicycle|P0|DIFF": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "question": "DIFF",
+   "row_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nWas there anything Alaric should have done differently? Answer yes or no.",
+   "prompt_sha256": "e9ed0b4cb8e2c4b34b3f5d02b5f4f144f16cde55b07c62cfcf3f4cc67dc70909"
+  },
+  "bicycle|P0|NEGL": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "question": "NEGL",
+   "row_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nWas Alaric negligent? Answer yes or no.",
+   "prompt_sha256": "5df13d2c04e1606d243e62593c533bd9c78e79924b1067a183593bd00c36c04f"
+  },
+  "bicycle|P0|REASONABLE": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "question": "REASONABLE",
+   "row_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nCould Alaric reasonably have prevented this? Answer yes or no.",
+   "prompt_sha256": "0d0f5d866ebcbb9bccd6f50167d87d7fe1720ec5d0274ae1a3d7397ebc306d1c"
+  },
+  "bicycle|P0|CARELESS": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "question": "CARELESS",
+   "row_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nDid Alaric do anything careless? Answer Yes or No.",
+   "prompt_sha256": "b8d139096a0b91e4b2c88a6f269061f46a5cf5022a50dd2e3cc08447d8d4968e"
+  },
+  "bicycle|C|FELL": {
+   "scenario": "bicycle",
+   "role": "C",
+   "question": "FELL",
+   "row_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nDid Alaric fall short of the care a reasonable person would take? Answer yes or no.",
+   "prompt_sha256": "e304f07919e91331f34c56e4858b4b7277bfc69508021709eed0ad4e59e9a0ba"
+  },
+  "bicycle|C|DIFF": {
+   "scenario": "bicycle",
+   "role": "C",
+   "question": "DIFF",
+   "row_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nWas there anything Alaric should have done differently? Answer yes or no.",
+   "prompt_sha256": "e490396fe1437aa28e3520a80be41abe2fb111d1eea91066d9ab93777e19896e"
+  },
+  "bicycle|C|NEGL": {
+   "scenario": "bicycle",
+   "role": "C",
+   "question": "NEGL",
+   "row_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nWas Alaric negligent? Answer yes or no.",
+   "prompt_sha256": "8a68dc9b341306bcb8399ba6c831a62fba8b89775f341e72183bc4a53e75f1f5"
+  },
+  "bicycle|C|REASONABLE": {
+   "scenario": "bicycle",
+   "role": "C",
+   "question": "REASONABLE",
+   "row_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nCould Alaric reasonably have prevented this? Answer yes or no.",
+   "prompt_sha256": "311496b5e18f8bfd52790bc45776ec88735a4304a048a6104bf7a3999d282622"
+  },
+  "bicycle|C|CARELESS": {
+   "scenario": "bicycle",
+   "role": "C",
+   "question": "CARELESS",
+   "row_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nDid Alaric do anything careless? Answer Yes or No.",
+   "prompt_sha256": "225713ff9be2f009fe1915b7ab66ac17367fbbaf2b5d47cfa3b1a898be208d8c"
+  },
+  "ladder|P0|FELL": {
+   "scenario": "ladder",
+   "role": "P0",
+   "question": "FELL",
+   "row_text_sha256": "7e18e95af812ebadfb4c063f5d66ff918f71a936edf03b43cf330d08715cd0b3",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nDid Alaric fall short of the care a reasonable person would take? Answer yes or no.",
+   "prompt_sha256": "55dbc14af00dc32ae7eab99a32233d266adb39385c2a4251c0874b14ad8d6885"
+  },
+  "ladder|P0|DIFF": {
+   "scenario": "ladder",
+   "role": "P0",
+   "question": "DIFF",
+   "row_text_sha256": "7e18e95af812ebadfb4c063f5d66ff918f71a936edf03b43cf330d08715cd0b3",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nWas there anything Alaric should have done differently? Answer yes or no.",
+   "prompt_sha256": "35326acb59e316a22c6f574016ee271742e2bb63660c7482c16580e17e4e1856"
+  },
+  "ladder|P0|NEGL": {
+   "scenario": "ladder",
+   "role": "P0",
+   "question": "NEGL",
+   "row_text_sha256": "7e18e95af812ebadfb4c063f5d66ff918f71a936edf03b43cf330d08715cd0b3",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nWas Alaric negligent? Answer yes or no.",
+   "prompt_sha256": "c5d0782941b8f6728ee71f63ca189083a131ea1a06f1e7fcaacbbb40b264519c"
+  },
+  "ladder|P0|REASONABLE": {
+   "scenario": "ladder",
+   "role": "P0",
+   "question": "REASONABLE",
+   "row_text_sha256": "7e18e95af812ebadfb4c063f5d66ff918f71a936edf03b43cf330d08715cd0b3",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nCould Alaric reasonably have prevented this? Answer yes or no.",
+   "prompt_sha256": "cfe6d2a7f3e1da7fdae2746a7e5c24b8ed844e66e6608588bff56ab610988270"
+  },
+  "ladder|P0|CARELESS": {
+   "scenario": "ladder",
+   "role": "P0",
+   "question": "CARELESS",
+   "row_text_sha256": "7e18e95af812ebadfb4c063f5d66ff918f71a936edf03b43cf330d08715cd0b3",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nDid Alaric do anything careless? Answer Yes or No.",
+   "prompt_sha256": "4e75f04b55c4556516cf8e45ffd73d5736757871220823b788f5e63492faf1b1"
+  },
+  "prawns_home|P0|FELL": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "question": "FELL",
+   "row_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nDid Alaric fall short of the care a reasonable person would take? Answer yes or no.",
+   "prompt_sha256": "a4f9fd2d259fd85528f09928da91d31d46dc104ad298ea5362d9adf35f4df2cb"
+  },
+  "prawns_home|P0|DIFF": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "question": "DIFF",
+   "row_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nWas there anything Alaric should have done differently? Answer yes or no.",
+   "prompt_sha256": "549447b6c744e7132105ed8363dbeac3f0e29f55b7a158a6d7a13a7c69ab1070"
+  },
+  "prawns_home|P0|NEGL": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "question": "NEGL",
+   "row_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nWas Alaric negligent? Answer yes or no.",
+   "prompt_sha256": "ef9d79a8b57b9eef49da4eda2ccdd9532c3c8a1b16662a3dd7a1b90e01266988"
+  },
+  "prawns_home|P0|REASONABLE": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "question": "REASONABLE",
+   "row_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nCould Alaric reasonably have prevented this? Answer yes or no.",
+   "prompt_sha256": "fb751d3358f1e33ad7003c4520525dfda8a2c85b47f809277ee8d86a478af7a1"
+  },
+  "prawns_home|P0|CARELESS": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "question": "CARELESS",
+   "row_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nDid Alaric do anything careless? Answer Yes or No.",
+   "prompt_sha256": "8b57e4be12813b62b66c6771842827546ae5ba280dadf4b0f1add77f345e283b"
+  },
+  "prawns_restaurant|P0|FELL": {
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "question": "FELL",
+   "row_text_sha256": "2218f1a06182dd56a416bdfeedd354568af89a724e6e1af505c16844dd6b9f30",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nDid Alaric fall short of the care a reasonable person would take? Answer yes or no.",
+   "prompt_sha256": "274305e74ba4f1e8ab5dc68d39f96a7cd11e0bdfcfe56617e5e9e07dd1cc914e"
+  },
+  "prawns_restaurant|P0|DIFF": {
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "question": "DIFF",
+   "row_text_sha256": "2218f1a06182dd56a416bdfeedd354568af89a724e6e1af505c16844dd6b9f30",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nWas there anything Alaric should have done differently? Answer yes or no.",
+   "prompt_sha256": "b4731c17ad3a2a2c7218e86b7a00f12c87d6e6ce7ea5c66c421afd3b15e862e2"
+  },
+  "prawns_restaurant|P0|NEGL": {
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "question": "NEGL",
+   "row_text_sha256": "2218f1a06182dd56a416bdfeedd354568af89a724e6e1af505c16844dd6b9f30",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nWas Alaric negligent? Answer yes or no.",
+   "prompt_sha256": "2a177118286267a1c2f2edf63213901218ef38c4c2ec0a04bbc7f32f2a3a9332"
+  },
+  "prawns_restaurant|P0|REASONABLE": {
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "question": "REASONABLE",
+   "row_text_sha256": "2218f1a06182dd56a416bdfeedd354568af89a724e6e1af505c16844dd6b9f30",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nCould Alaric reasonably have prevented this? Answer yes or no.",
+   "prompt_sha256": "c24ab23c75fc8ed8523f47dbe29362ebef37a3ebdf17847ac08538d4f1686077"
+  },
+  "prawns_restaurant|P0|CARELESS": {
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "question": "CARELESS",
+   "row_text_sha256": "2218f1a06182dd56a416bdfeedd354568af89a724e6e1af505c16844dd6b9f30",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nDid Alaric do anything careless? Answer Yes or No.",
+   "prompt_sha256": "ccf93eb5bb920480ff2a6fa04d1c0b3725245278dd3a9318744caf64205bbd98"
+  },
+  "scaffolding|P0|FELL": {
+   "scenario": "scaffolding",
+   "role": "P0",
+   "question": "FELL",
+   "row_text_sha256": "f7e761ceae8bb931bb371dfc0fbd496eabd9ad5acd3cd196e2f3b122e84ac510",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nDid Alaric fall short of the care a reasonable person would take? Answer yes or no.",
+   "prompt_sha256": "7e99f88f176356ea1a672d16050af32186463de55f599213bb914dda42fea9b3"
+  },
+  "scaffolding|P0|DIFF": {
+   "scenario": "scaffolding",
+   "role": "P0",
+   "question": "DIFF",
+   "row_text_sha256": "f7e761ceae8bb931bb371dfc0fbd496eabd9ad5acd3cd196e2f3b122e84ac510",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nWas there anything Alaric should have done differently? Answer yes or no.",
+   "prompt_sha256": "a7d45f994081556aad9996837de05e55f36fc2df8347db01f4412b89c03f1316"
+  },
+  "scaffolding|P0|NEGL": {
+   "scenario": "scaffolding",
+   "role": "P0",
+   "question": "NEGL",
+   "row_text_sha256": "f7e761ceae8bb931bb371dfc0fbd496eabd9ad5acd3cd196e2f3b122e84ac510",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nWas Alaric negligent? Answer yes or no.",
+   "prompt_sha256": "186d63147c0cba6bcdf52ce554a3292f72ed504fe46610fec1d8ce100b4fa2c2"
+  },
+  "scaffolding|P0|REASONABLE": {
+   "scenario": "scaffolding",
+   "role": "P0",
+   "question": "REASONABLE",
+   "row_text_sha256": "f7e761ceae8bb931bb371dfc0fbd496eabd9ad5acd3cd196e2f3b122e84ac510",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nCould Alaric reasonably have prevented this? Answer yes or no.",
+   "prompt_sha256": "8d4d10c2aacc3644689f4ee155921fafa6dae8954ecbb2805e0fed8371aeb212"
+  },
+  "scaffolding|P0|CARELESS": {
+   "scenario": "scaffolding",
+   "role": "P0",
+   "question": "CARELESS",
+   "row_text_sha256": "f7e761ceae8bb931bb371dfc0fbd496eabd9ad5acd3cd196e2f3b122e84ac510",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nDid Alaric do anything careless? Answer Yes or No.",
+   "prompt_sha256": "6f8ab7e5a0788ead1f7f789871358fe88cbeef9c404e5419b2e4c9eeaeb19264"
+  },
+  "cheque|P0|FELL": {
+   "scenario": "cheque",
+   "role": "P0",
+   "question": "FELL",
+   "row_text_sha256": "e99ae447522d83096ad266cb8c60b9c0a69c9c3a7cfee221d0df57ec277d878f",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nDid Alaric fall short of the care a reasonable person would take? Answer yes or no.",
+   "prompt_sha256": "078036bb9a8359380a90af9de93276cdd5241cf64dd947865ddd0084f0818955"
+  },
+  "cheque|P0|DIFF": {
+   "scenario": "cheque",
+   "role": "P0",
+   "question": "DIFF",
+   "row_text_sha256": "e99ae447522d83096ad266cb8c60b9c0a69c9c3a7cfee221d0df57ec277d878f",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nWas there anything Alaric should have done differently? Answer yes or no.",
+   "prompt_sha256": "40601dd8385afe2498aef333b3423e69b4e20bc4013a88d44008a7403b04d247"
+  },
+  "cheque|P0|NEGL": {
+   "scenario": "cheque",
+   "role": "P0",
+   "question": "NEGL",
+   "row_text_sha256": "e99ae447522d83096ad266cb8c60b9c0a69c9c3a7cfee221d0df57ec277d878f",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nWas Alaric negligent? Answer yes or no.",
+   "prompt_sha256": "6c9715c03b1639b7b601d9f5f7234457d7b4b70f2ab7801c1d4431b264b162ef"
+  },
+  "cheque|P0|REASONABLE": {
+   "scenario": "cheque",
+   "role": "P0",
+   "question": "REASONABLE",
+   "row_text_sha256": "e99ae447522d83096ad266cb8c60b9c0a69c9c3a7cfee221d0df57ec277d878f",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nCould Alaric reasonably have prevented this? Answer yes or no.",
+   "prompt_sha256": "71b10baffd6193a04103109e1967d97bdcf32390b53c471980132c219ce1fabf"
+  },
+  "cheque|P0|CARELESS": {
+   "scenario": "cheque",
+   "role": "P0",
+   "question": "CARELESS",
+   "row_text_sha256": "e99ae447522d83096ad266cb8c60b9c0a69c9c3a7cfee221d0df57ec277d878f",
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nDid Alaric do anything careless? Answer Yes or No.",
+   "prompt_sha256": "1e904378916adabaab4a9d7be3818de15daa7bdc70b93e34f84d80516339574c"
+  }
+ }
+}

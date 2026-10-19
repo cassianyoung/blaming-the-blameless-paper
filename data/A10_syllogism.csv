@@ -1,4 +1,4 @@
-# Appendix A.10. Database sha256: 237a8a711cac2ef6ddde7c94ba500ebe0ecef19da7371bb694c3822f1eb6efdb
+# Appendix A.10. Database sha256: 70ff118005cfa0e9aef3ddb9d93cc8b2d9fbe380f5a207b5c563746552a9fd2b
 # Built by scripts/build_b11_syllogism.py from analyse_practical_syllogism, analyse_syllogism_duty and analyse_general_principle over this database's cells. Values unrounded.
 arm,status,unread_reason,principle_readout,principle_no_share,principle_held,fact_held,fact_of,premises_held,blame_gt010,blame_gt030,one_answer_cells,one_answer_median,direct_median,one_answer_cells_gt010,direct_cells_gt010,g1_more_first,g1_more_second,g1_both_orders,g2_yes,g2_parsed,g2_yes_share,g3_general_gap,named_pairs_held,named_pairs_of,named_pairs_in_the_test,named_concrete_held,alone_zero_or_below,alone_within_floor,alone_clear,alone_cells,falls_short,falls_short_cells,structured_share,structured_class,structured_pairs,counted
 claude,READ,,sampled,1.0,1,6,6,6,6,1,6,0.0,0.26785714285,0,6,10,10,1,10,10,1.0,2.25,4,5,5,3,0,4,0,4,3,4,0.6060606060606061,more than three tenths short,5,1
@@ -14,5 +14,5 @@ kimi,READ,,logprob,0.9984791470367652,1,5,5,5,5,2,5,0.0,0.2467804245,0,5,10,10,1
 llama70b,READ,,logprob,0.9999999541260438,1,6,6,6,6,4,6,0.0,0.48064601715,0,6,10,10,1,10,10,1.0,2.75,4,5,5,4,0,3,1,4,2,4,0.7666666666666669,a tenth to three tenths short,3,1
 mistral24b,READ,,logprob,0.9980686279777364,1,2,5,2,2,1,5,0.0,0.5333575555,0,5,10,10,1,10,10,1.0,2.5,4,5,5,4,1,1,2,4,4,4,0.6180180180180183,more than three tenths short,6,1
 qwen80b,READ,,logprob,0.9999999801895576,1,6,6,6,6,6,6,0.0,0.8177431696999999,2,6,10,10,1,10,10,1.0,4.3,2,5,5,2,0,1,3,4,3,4,0.6060606060606061,more than three tenths short,5,1
-qwen235b,UNREAD,"not read in runs 232 or 233: banked provider unavailable (GMICloud, rate-limited upstream; last probe 2026-10-17; closed); no other provider tried",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-qwen30b,UNREAD,"not read in runs 232 or 233: its banked provider no longer serves the model (StreamLake, no endpoint when probed on 2026-10-13); no other provider tried",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+qwen235b,UNREAD,"not read in practical_syllogism or syllogism_duty: banked provider unavailable (GMICloud, rate-limited upstream; last probe 2026-10-17; closed); no other provider tried",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+qwen30b,UNREAD,"not read in practical_syllogism or syllogism_duty: its banked provider no longer serves the model (StreamLake, no endpoint when probed on 2026-10-13); no other provider tried",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,507 @@
+{
+ "arm": "mistral24b",
+ "run": 237,
+ "group": "H7",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "Parasail"
+ ],
+ "models_served": [
+  "mistralai/mistral-small-3.2-24b-instruct"
+ ],
+ "calls": 50,
+ "spent_usd": 0.00048415999999999986,
+ "cells": {
+  "v11|mistral24b|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "yes"
+    },
+    {
+     "text": "No",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.8933331029635078,
+     "mass": 1.000016258615134,
+     "answer": "no"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "mistralai/mistral-small-3.2-24b-instruct",
+    "provider": "Parasail",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|mistral24b|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.91136
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.911775
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "mistralai/mistral-small-3.2-24b-instruct",
+    "provider": "Parasail",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|mistral24b|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565039
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 7.565017
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "mistralai/mistral-small-3.2-24b-instruct",
+    "provider": "Parasail",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|mistral24b|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=professional\nPRINCIPLE=yes\nBLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=<professional> PRINCIPLE=<yes> BLAME=<9>",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=<professional> PRINCIPLE=<yes> BLAME=<8>",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "mistralai/mistral-small-3.2-24b-instruct",
+    "provider": "Parasail",
+    "max_tokens": 32,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|mistral24b|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=5",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "mistralai/mistral-small-3.2-24b-instruct",
+    "provider": "Parasail",
+    "max_tokens": 32,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1781 @@
+{
+ "_meta": {
+  "what": "build_v11_syllogism_frames.py : freeze the prompts and wires for the v1.1 fill's\ngroups read with working_repository's readers (completeness_fill_amendment, H7 and H8).",
+  "amendment": "records/completeness_fill_amendment_20261017.md",
+  "inputs": {
+   "records/frames.json": "ae17c72b9a38e007be560eb9deb75079c90c2c53fe3e8387ded2945a7996df97",
+   "records/general_principle_FRAMES_v2.json": "342ec134f524a27963e1be5fcf5f74d7a27f749e3ce97df393f6c7c108cc6df3",
+   "records/frames.json": "ea34a1b8d0eed2c923b28e7a9df366bc11a543843c61d6a51ca0e2794ebeaa83",
+   "data/families_bank/moral__families__v1.jsonl": "cb77f3cb50528b089e978f8cec1069baf293f41d803d7a5e8ad00afd136918e6",
+   "results/results.sqlite": "781e1e836eeb45cef95cc55686c0828f4bc35791ebbd7c71713704becdf84a6b"
+  },
+  "prompt_sha_construction": "sha256(json.dumps(messages))",
+  "cells": {
+   "H7": 65,
+   "H8_233": 210,
+   "H8_233G": 35,
+   "H8_230": 12
+  }
+ },
+ "prompts": {
+  "A|p1": {
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Under the standard of care, is a person fitting a plug to a lamp at home held to a less strict standard than a qualified electrician who does it for payment? Answer yes or no.",
+   "prompt_sha256": "bb25268c0381ed6a668b4ce2f57568b9679efb72403d1f87510a5ab544833c35",
+   "source": "records/frames.json"
+  },
+  "B|p1|PRO": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "8ec923c8111460304601a7f83fab3f00d948f79ce40fccbf30561340b2bb804a",
+   "source": "records/frames.json"
+  },
+  "B|p1|PRIV": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "24d5ba6fb9f87a09c806823afb3eacdfdd98d07c7d23f9269fa4b955ccdacbfc",
+   "source": "records/frames.json"
+  },
+  "A|p3": {
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Under the standard of care, is a person lending his own flat to a friend held to a less strict standard than a professional landlord who does it for payment? Answer yes or no.",
+   "prompt_sha256": "7bbc9c8ba5eae044140ce38ace0cb496cc2f2b7e1183daf32e8c1a5f65228c51",
+   "source": "records/frames.json"
+  },
+  "B|p3|PRO": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "1cf0b0abee9882e0904cd212bfe353e9b05f583055ff3e834d03e9b73bdd213c",
+   "source": "records/frames.json"
+  },
+  "B|p3|PRIV": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "54ead0fee130aa93e0195f943bef5552e6b22e9069b3849e514481e9d04a0b15",
+   "source": "records/frames.json"
+  },
+  "A|p4": {
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Under the standard of care, is a grandparent looking after a grandchild at home held to a less strict standard than a registered childminder who does it for payment? Answer yes or no.",
+   "prompt_sha256": "ed490821867589ffa6d813b1b387822f92db318dbfec01cd17868cb3b2e94f02",
+   "source": "records/frames.json"
+  },
+  "B|p4|PRO": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "7e110fe5439ff2b88b95dca7d711ddc0666d96f2898eaa65940d39e16df237ac",
+   "source": "records/frames.json"
+  },
+  "B|p4|PRIV": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "278ca4ea51776a2d325a680da7120b2bcce6f2ddd88633280a7e56eef6038bba",
+   "source": "records/frames.json"
+  },
+  "A|p5": {
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Under the standard of care, is a person giving a friend a lift held to a less strict standard than a taxi driver who does it for payment? Answer yes or no.",
+   "prompt_sha256": "6449e277f5b94c9d6a02aa9e4072027241af532ae297dd3d660ccf83e54b6924",
+   "source": "records/frames.json"
+  },
+  "B|p5|PRO": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "68711dea4d8fe34e37078178300e457be39a68adc7e305f53bae45062d47b13c",
+   "source": "records/frames.json"
+  },
+  "B|p5|PRIV": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "f7f984babdbf654aab2db415c23368bc0e47b9afd7eca58449d12cc69c502da6",
+   "source": "records/frames.json"
+  },
+  "A|p7": {
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Under the standard of care, is a person dyeing a friend's hair at home held to a less strict standard than a hairdresser who does it for payment? Answer yes or no.",
+   "prompt_sha256": "fd74ad9416e3e49cd5983381da8de83efa3038c36154fecd0c8fb96a76d2590b",
+   "source": "records/frames.json"
+  },
+  "B|p7|PRO": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "1829f2b913bf0f9ce369b05b9cb3972c4047790968f6e5080b8babe6858dd329",
+   "source": "records/frames.json"
+  },
+  "B|p7|PRIV": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "6774acc49f27cef623b59f64f7276053c9b5c8b9bc1491a243960eebc69e3254",
+   "source": "records/frames.json"
+  },
+  "A|pprawns": {
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "Under the standard of care, is a person serving prawns to his guests held to a less strict standard than a chef who does it for payment? Answer yes or no.",
+   "prompt_sha256": "37ad821db33b383678e36191f8102fcb6fcc36e26c584465c6e982012849bda7",
+   "source": "records/completeness_fill_amendment_20261017.md"
+  },
+  "B|pprawns|PRO": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "3ff7e8a69ec039f89c79df19065c67dc035fa429ac659a0e0645cf4daa87bbee",
+   "source": "data/families_bank/moral__families__v1.jsonl + records/frames.json texts.B"
+  },
+  "B|pprawns|PRIV": {
+   "system": "Answer in exactly the form ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else.",
+   "user": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.\n\nAnswer three questions in order. First: was Alaric acting as a professional, paid to do this, or as a private person? Second: under the standard of care, is a private person doing this held to a less strict standard than a professional who does it for payment? Third: how much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: ROLE=<professional or private> PRINCIPLE=<yes or no> BLAME=<digit>",
+   "prompt_sha256": "dca51dc28a01e728d0df45f586b34a2c1c41936bf30917bf56e7ad56eb69cc74",
+   "source": "data/families_bank/moral__families__v1.jsonl + records/frames.json texts.B"
+  },
+  "G|G1": {
+   "system": "Answer with one word, more, less or equally, and nothing else.",
+   "user": "Consider two separate incidents. In one, a professional providing a paid service makes a careless mistake. In the other, unrelated incident, an amateur doing the same thing at home makes the same careless mistake, with the same result. Is the professional more to blame, less to blame, or equally to blame? Answer with one word: more, less, or equally.",
+   "prompt_sha256": "2c63464ab4bbf540205ebd8bc37d8c94d43450c058b8b5520fbf089613345a07",
+   "source": "records/general_principle_FRAMES_v2.json"
+  },
+  "G|G1_AP": {
+   "system": "Answer with one word, less, more or equally, and nothing else.",
+   "user": "Consider two separate incidents. In one, an amateur doing something at home makes a careless mistake. In the other, unrelated incident, a professional doing the same thing as a paid service makes the same careless mistake, with the same result. Is the professional less to blame, more to blame, or equally to blame? Answer with one word: less, more, or equally.",
+   "prompt_sha256": "8fc7fecd742ba24e3aae26e40826e25cf03fd1bb8d73ff4efc70f670307b5ee4",
+   "source": "records/general_principle_FRAMES_v2.json"
+  },
+  "G|G2": {
+   "system": "Answer with one word, Yes or No, and nothing else.",
+   "user": "When two separate incidents involve the same careless mistake with the same result, one made by a professional providing a paid service and the other by an amateur doing the same thing at home, does a stricter standard apply to the professional? Answer yes or no.",
+   "prompt_sha256": "2f5552e0f5f5ca7ddb5b7495e3c3f96abe0474f00c348faa7cd473ebae4f7346",
+   "source": "records/general_principle_FRAMES_v2.json"
+  },
+  "G|G3_PA": {
+   "system": "Answer in exactly the form requested and nothing else.",
+   "user": "Consider two separate incidents. In one, a professional providing a paid service makes a careless mistake. In the other, unrelated incident, an amateur doing the same thing at home makes the same careless mistake, with the same result. How much is each to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: PROFESSIONAL=<digit> AMATEUR=<digit>",
+   "prompt_sha256": "0e8ef4821412d5e58f1573b682d28af37e3b8c04122df03bf0ac7d14317469aa",
+   "source": "records/general_principle_FRAMES_v2.json"
+  },
+  "G|G3_AP": {
+   "system": "Answer in exactly the form requested and nothing else.",
+   "user": "Consider two separate incidents. In one, an amateur doing something at home makes a careless mistake. In the other, unrelated incident, a professional doing the same thing as a paid service makes the same careless mistake, with the same result. How much is each to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer in exactly this form: AMATEUR=<digit> PROFESSIONAL=<digit>",
+   "prompt_sha256": "e9407e6b00e2ac11df105910462c5e879a0a7cd8be910875f49044bd252fd4d8",
+   "source": "records/general_principle_FRAMES_v2.json"
+  },
+  "R|pprawns|PRO": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "d9b4cabf6b14321f23f318d6f4a464ceec8de4799546abcb941239646c5f94ea",
+   "source": "records/frames.json",
+   "banked_prompt16": "d9b4cabf6b14321f"
+  },
+  "R|pprawns|PRIV": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "da5c9afef40080606e9286ab8c43388ce0087d896a589ff945059e9ed45e4609",
+   "source": "records/frames.json",
+   "banked_prompt16": "da5c9afef4008060"
+  },
+  "R|p1|PRO": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "3f0c2ba0ab40390a4287d2906a9668bba93b7d4c4206ce6708caf7fc96d14e7c",
+   "source": "records/frames.json",
+   "banked_prompt16": "3f0c2ba0ab40390a"
+  },
+  "R|p1|PRIV": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "ef7a3df0ff8d6dd9568b815191c4783e3e9dbab52bc97eeab0ad0972a3eabcf1",
+   "source": "records/frames.json",
+   "banked_prompt16": "ef7a3df0ff8d6dd9"
+  },
+  "R|p3|PRO": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "ed2374c0b6bb81b222b22f597d74cbce3709677724e844fff1278f801142d6ed",
+   "source": "records/frames.json",
+   "banked_prompt16": "ed2374c0b6bb81b2"
+  },
+  "R|p3|PRIV": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "4fdaa83ae5416a0ef25b82a6c470f5960728b4ffd0768afcfe23d86efab59705",
+   "source": "records/frames.json",
+   "banked_prompt16": "4fdaa83ae5416a0e"
+  },
+  "R|p4|PRO": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "8e31995ee1ef1757aba15bf8847c41b887b6d0b2e9dd76ef35791fbabc9bd081",
+   "source": "records/frames.json",
+   "banked_prompt16": "8e31995ee1ef1757"
+  },
+  "R|p4|PRIV": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "a78cc33c7e16cfb3e791c1a3966929bf438db164239b144f4ff0a7a5ff7f9d3b",
+   "source": "records/frames.json",
+   "banked_prompt16": "a78cc33c7e16cfb3"
+  },
+  "R|p5|PRO": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "e2d0058c5b2f7e5d1a671513d9a2093b9282945315d47b1b7da4d4a64d363559",
+   "source": "records/frames.json",
+   "banked_prompt16": "e2d0058c5b2f7e5d"
+  },
+  "R|p5|PRIV": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "f6bd764168ed80fc1c180d95e41840c4df896c06cb59cf4546321e566fdd2047",
+   "source": "records/frames.json",
+   "banked_prompt16": "f6bd764168ed80fc"
+  },
+  "R|p7|PRO": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "5435b5fcd6d50a95ff11a4d6a94f45e2ed1867f148a1a6ff891530619a9a4733",
+   "source": "records/frames.json",
+   "banked_prompt16": "5435b5fcd6d50a95"
+  },
+  "R|p7|PRIV": {
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "b4b3fd734447d8cdb213e7af5d01f80615cc23f73e60550242692ef805e5481c",
+   "source": "records/frames.json",
+   "banked_prompt16": "b4b3fd734447d8cd"
+  }
+ },
+ "arms": {
+  "claude": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "anthropic/claude-sonnet-5",
+    "provider": "anthropic",
+    "provider_served": "Anthropic",
+    "readout": "sampled",
+    "max_tokens": 256,
+    "top_k": null,
+    "max_tokens_B": 256,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 256,
+     "model": "anthropic/claude-sonnet-5",
+     "provider": "anthropic",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 256,
+     "model": "anthropic/claude-sonnet-5",
+     "provider": "anthropic",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "deepseek": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "provider_served": "Sail Research",
+    "readout": "logprob",
+    "max_tokens": 1,
+    "top_k": 20,
+    "max_tokens_B": 32,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    }
+   }
+  },
+  "deepseek_s": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "provider_served": "Sail Research",
+    "readout": "sampled",
+    "max_tokens": 256,
+    "top_k": null,
+    "max_tokens_B": 256,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 256,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 256,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "gemma27b": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "google/gemma-3-27b-it",
+    "provider": "Parasail",
+    "provider_served": "Parasail",
+    "readout": "logprob",
+    "max_tokens": 1,
+    "top_k": 20,
+    "max_tokens_B": 32,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1,
+     "model": "google/gemma-3-27b-it",
+     "provider": "Parasail",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1,
+     "model": "google/gemma-3-27b-it",
+     "provider": "Parasail",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    }
+   }
+  },
+  "gpt4o": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "openai/gpt-4o",
+    "provider": "openai",
+    "provider_served": "OpenAI",
+    "readout": "logprob",
+    "max_tokens": 1,
+    "top_k": 20,
+    "max_tokens_B": 32,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1,
+     "model": "openai/gpt-4o",
+     "provider": "openai",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1,
+     "model": "openai/gpt-4o",
+     "provider": "openai",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    }
+   }
+  },
+  "gpt6l_s": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "provider_served": "OpenAI",
+    "readout": "sampled",
+    "max_tokens": 1024,
+    "top_k": null,
+    "max_tokens_B": 1024,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1024,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1024,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "gpt6s_s": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "provider_served": "OpenAI",
+    "readout": "sampled",
+    "max_tokens": 1024,
+    "top_k": null,
+    "max_tokens_B": 1024,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1024,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1024,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "grok43_s": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "provider_served": "xAI",
+    "readout": "sampled",
+    "max_tokens": 1024,
+    "top_k": null,
+    "max_tokens_B": 1024,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1024,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1024,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "haiku_s": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "provider_served": "Anthropic",
+    "readout": "sampled",
+    "max_tokens": 256,
+    "top_k": null,
+    "max_tokens_B": 256,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 256,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 256,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "kimi": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "moonshotai/kimi-k3",
+    "provider": "Sail Research",
+    "provider_served": "Sail Research",
+    "readout": "logprob",
+    "max_tokens": 1,
+    "top_k": 20,
+    "max_tokens_B": 32,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1,
+     "model": "moonshotai/kimi-k3",
+     "provider": "Sail Research",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1,
+     "model": "moonshotai/kimi-k3",
+     "provider": "Sail Research",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    }
+   }
+  },
+  "llama70b": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "coreweave",
+    "provider_served": "CoreWeave",
+    "readout": "logprob",
+    "max_tokens": 1,
+    "top_k": 20,
+    "max_tokens_B": 32,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1,
+     "model": "meta-llama/llama-3.3-70b-instruct",
+     "provider": "coreweave",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1,
+     "model": "meta-llama/llama-3.3-70b-instruct",
+     "provider": "coreweave",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    }
+   }
+  },
+  "mistral24b": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "mistralai/mistral-small-3.2-24b-instruct",
+    "provider": "Parasail",
+    "provider_served": "Parasail",
+    "readout": "logprob",
+    "max_tokens": 1,
+    "top_k": 20,
+    "max_tokens_B": 32,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1,
+     "model": "mistralai/mistral-small-3.2-24b-instruct",
+     "provider": "Parasail",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1,
+     "model": "mistralai/mistral-small-3.2-24b-instruct",
+     "provider": "Parasail",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    }
+   }
+  },
+  "qwen80b": {
+   "group": "H7",
+   "pairs": [
+    "prawns"
+   ],
+   "draws": 10,
+   "AB": {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "provider": "Parasail",
+    "provider_served": "Parasail",
+    "readout": "logprob",
+    "max_tokens": 1,
+    "top_k": 20,
+    "max_tokens_B": 32,
+    "reasoning": {
+     "enabled": false
+    }
+   },
+   "R": {
+    "R|pprawns|PRIV": {
+     "max_tokens": 1,
+     "model": "qwen/qwen3-next-80b-a3b-instruct",
+     "provider": "Parasail",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1,
+     "model": "qwen/qwen3-next-80b-a3b-instruct",
+     "provider": "Parasail",
+     "reasoning": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    }
+   }
+  },
+  "deepseek_r": {
+   "group": "H8",
+   "pairs": [
+    "prawns",
+    "1",
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "draws": 10,
+   "AB": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "readout": "reasoning",
+    "wire_sha": "a10c45145a4ebb01e6a85285c2f6204d"
+   },
+   "R": {
+    "R|p1|PRIV": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p1|PRO": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRIV": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRO": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRIV": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRO": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRIV": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRO": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRIV": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRO": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRIV": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 8192,
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider": "Sail Research",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "gemini_r": {
+   "group": "H8",
+   "pairs": [
+    "prawns",
+    "1",
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "draws": 10,
+   "AB": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": "vendor_default",
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "readout": "reasoning",
+    "wire_sha": "96df04a4b08d4bbd2dd5d04834cdaaeb"
+   },
+   "R": {
+    "R|p1|PRIV": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p1|PRO": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRIV": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRO": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRIV": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRO": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRIV": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRO": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRIV": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRO": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRIV": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 1024,
+     "model": "google/gemini-3.8-flash",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "gpt6l_r": {
+   "group": "H8",
+   "pairs": [
+    "prawns",
+    "1",
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "draws": 10,
+   "AB": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": "vendor_default",
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "readout": "reasoning",
+    "wire_sha": "5ea4eb97a167b272993fe9cae4278d49"
+   },
+   "R": {
+    "R|p1|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p1|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-luna",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "gpt6s_r": {
+   "group": "H8",
+   "pairs": [
+    "prawns",
+    "1",
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "draws": 20,
+   "AB": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": "vendor_default",
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "readout": "reasoning",
+    "wire_sha": "27d7cc47a9e0467e897994bcb31f3681"
+   },
+   "R": {
+    "R|p1|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p1|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRIV": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 8192,
+     "model": "openai/gpt-6-sol",
+     "provider": "openai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "grok43_r": {
+   "group": "H8",
+   "pairs": [
+    "prawns",
+    "1",
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "draws": 10,
+   "AB": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": "vendor_default",
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "readout": "reasoning",
+    "wire_sha": "895854e3795618ae4886a8deeb01c4f3"
+   },
+   "R": {
+    "R|p1|PRIV": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p1|PRO": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRIV": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRO": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRIV": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRO": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRIV": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRO": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRIV": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRO": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRIV": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 8192,
+     "model": "x-ai/grok-4.3",
+     "provider": "xai",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "haiku_r": {
+   "group": "H8",
+   "pairs": [
+    "prawns",
+    "1",
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "draws": 10,
+   "AB": {
+    "max_tokens": 4096,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Anthropic",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "readout": "reasoning",
+    "wire_sha": "abff1886605dc6754e2ef352379c9762"
+   },
+   "R": {
+    "R|p1|PRIV": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p1|PRO": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRIV": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRO": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRIV": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRO": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRIV": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRO": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRIV": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRO": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRIV": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 4096,
+     "model": "anthropic/claude-haiku-4.5",
+     "provider": "Anthropic",
+     "reasoning": {
+      "effort": "low"
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  },
+  "gemini_pro": {
+   "group": "H8",
+   "pairs": [
+    "prawns",
+    "1",
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "draws": 10,
+   "AB": {
+    "max_tokens": 8192,
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-vertex",
+    "reasoning": "vendor_default",
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "readout": "sampled",
+    "wire_sha": "94f0bcfaa46e2539228727327fda0d10"
+   },
+   "R": {
+    "R|p1|PRIV": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p1|PRO": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRIV": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p3|PRO": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRIV": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p4|PRO": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRIV": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p5|PRO": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRIV": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|p7|PRO": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRIV": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "R|pprawns|PRO": {
+     "max_tokens": 8192,
+     "model": "google/gemini-3.1-pro-preview",
+     "provider": "google-vertex",
+     "reasoning": null,
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    }
+   }
+  }
+ }
+}

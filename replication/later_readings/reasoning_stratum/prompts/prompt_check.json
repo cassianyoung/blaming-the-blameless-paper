@@ -1,0 +1,154 @@
+{
+ "hash": "sha256 of json.dumps(messages), first 16 hex digits, as the study's harness logs it in each call's prompt_sha256_16",
+ "frozen_or_built_prompts": 35,
+ "prompts_sent": 35,
+ "prompts_never_sent": [],
+ "calls": 2920,
+ "calls_matching_a_prompt": 2920,
+ "calls_matching_no_prompt": {},
+ "coder_calls_matching_their_rebuilt_prompt": null,
+ "coder_calls_not_matching": null,
+ "built_prompts_matching_the_banked_duty_test_calls": null,
+ "per_prompt": {
+  "v11_frames.json: A|p1": {
+   "prompt_sha256_16": "bb25268c0381ed6a",
+   "calls": 80
+  },
+  "v11_frames.json: A|p3": {
+   "prompt_sha256_16": "7bbc9c8ba5eae044",
+   "calls": 80
+  },
+  "v11_frames.json: A|p4": {
+   "prompt_sha256_16": "ed490821867589ff",
+   "calls": 80
+  },
+  "v11_frames.json: A|p5": {
+   "prompt_sha256_16": "6449e277f5b94c9d",
+   "calls": 80
+  },
+  "v11_frames.json: A|p7": {
+   "prompt_sha256_16": "fd74ad9416e3e49c",
+   "calls": 80
+  },
+  "v11_frames.json: A|pprawns": {
+   "prompt_sha256_16": "37ad821db33b3836",
+   "calls": 80
+  },
+  "v11_frames.json: B|p1|PRIV": {
+   "prompt_sha256_16": "24d5ba6fb9f87a09",
+   "calls": 80
+  },
+  "v11_frames.json: B|p1|PRO": {
+   "prompt_sha256_16": "8ec923c811146030",
+   "calls": 80
+  },
+  "v11_frames.json: B|p3|PRIV": {
+   "prompt_sha256_16": "54ead0fee130aa93",
+   "calls": 80
+  },
+  "v11_frames.json: B|p3|PRO": {
+   "prompt_sha256_16": "1cf0b0abee9882e0",
+   "calls": 80
+  },
+  "v11_frames.json: B|p4|PRIV": {
+   "prompt_sha256_16": "278ca4ea51776a2d",
+   "calls": 80
+  },
+  "v11_frames.json: B|p4|PRO": {
+   "prompt_sha256_16": "7e110fe5439ff2b8",
+   "calls": 80
+  },
+  "v11_frames.json: B|p5|PRIV": {
+   "prompt_sha256_16": "f7f984babdbf654a",
+   "calls": 80
+  },
+  "v11_frames.json: B|p5|PRO": {
+   "prompt_sha256_16": "68711dea4d8fe34e",
+   "calls": 80
+  },
+  "v11_frames.json: B|p7|PRIV": {
+   "prompt_sha256_16": "6774acc49f27cef6",
+   "calls": 80
+  },
+  "v11_frames.json: B|p7|PRO": {
+   "prompt_sha256_16": "1829f2b913bf0f9c",
+   "calls": 80
+  },
+  "v11_frames.json: B|pprawns|PRIV": {
+   "prompt_sha256_16": "dca51dc28a01e728",
+   "calls": 80
+  },
+  "v11_frames.json: B|pprawns|PRO": {
+   "prompt_sha256_16": "3ff7e8a69ec039f8",
+   "calls": 80
+  },
+  "v11_frames.json: G|G1": {
+   "prompt_sha256_16": "2c63464ab4bbf540",
+   "calls": 80
+  },
+  "v11_frames.json: G|G1_AP": {
+   "prompt_sha256_16": "8fc7fecd742ba24e",
+   "calls": 80
+  },
+  "v11_frames.json: G|G2": {
+   "prompt_sha256_16": "2f5552e0f5f5ca7d",
+   "calls": 80
+  },
+  "v11_frames.json: G|G3_AP": {
+   "prompt_sha256_16": "e9407e6b00e2ac11",
+   "calls": 80
+  },
+  "v11_frames.json: G|G3_PA": {
+   "prompt_sha256_16": "0e8ef4821412d5e5",
+   "calls": 80
+  },
+  "v11_frames.json: R|p1|PRIV": {
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "calls": 90
+  },
+  "v11_frames.json: R|p1|PRO": {
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "calls": 90
+  },
+  "v11_frames.json: R|p3|PRIV": {
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "calls": 90
+  },
+  "v11_frames.json: R|p3|PRO": {
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "calls": 90
+  },
+  "v11_frames.json: R|p4|PRIV": {
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "calls": 90
+  },
+  "v11_frames.json: R|p4|PRO": {
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "calls": 90
+  },
+  "v11_frames.json: R|p5|PRIV": {
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "calls": 90
+  },
+  "v11_frames.json: R|p5|PRO": {
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "calls": 90
+  },
+  "v11_frames.json: R|p7|PRIV": {
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "calls": 90
+  },
+  "v11_frames.json: R|p7|PRO": {
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "calls": 90
+  },
+  "v11_frames.json: R|pprawns|PRIV": {
+   "prompt_sha256_16": "da5c9afef4008060",
+   "calls": 90
+  },
+  "v11_frames.json: R|pprawns|PRO": {
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "calls": 90
+  }
+ }
+}

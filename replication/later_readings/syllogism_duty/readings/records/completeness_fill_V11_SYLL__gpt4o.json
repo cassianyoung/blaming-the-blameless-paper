@@ -1,0 +1,507 @@
+{
+ "arm": "gpt4o",
+ "run": 237,
+ "group": "H7",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "OpenAI"
+ ],
+ "models_served": [
+  "openai/gpt-4o"
+ ],
+ "calls": 50,
+ "spent_usd": 0.01872499999999999,
+ "cells": {
+  "v11|gpt4o|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9991169100723865,
+     "mass": 0.9999835194048207,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9979809358756017,
+     "mass": 1.00002117990538,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9991169100723865,
+     "mass": 0.9999835194048207,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9936118377015899,
+     "mass": 1.0000087340768153,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9991169100723865,
+     "mass": 0.9999835194048207,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9991169100723865,
+     "mass": 0.9999835194048207,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9991169100723865,
+     "mass": 0.9999835194048207,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9986329060678422,
+     "mass": 0.9999680855704932,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9977127155157192,
+     "mass": 0.9999899798253012,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "p_yes": 0.9977127155157192,
+     "mass": 0.9999899798253012,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "openai/gpt-4o",
+    "provider": "openai",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gpt4o|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.709841
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.709841
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.709841
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.709841
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.709841
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.706597
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.709841
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.709841
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.709841
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.62846
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "openai/gpt-4o",
+    "provider": "openai",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gpt4o|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    },
+    {
+     "text": "7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    },
+    {
+     "text": "9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.223817
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    },
+    {
+     "text": "8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "digit": 8.390717
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "openai/gpt-4o",
+    "provider": "openai",
+    "max_tokens": 1,
+    "temperature": 1.0,
+    "want_logprobs": true,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gpt4o|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "openai/gpt-4o",
+    "provider": "openai",
+    "max_tokens": 32,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  },
+  "v11|gpt4o|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "openai/gpt-4o",
+    "provider": "openai",
+    "max_tokens": 32,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "enabled": false
+    }
+   }
+  }
+ }
+}

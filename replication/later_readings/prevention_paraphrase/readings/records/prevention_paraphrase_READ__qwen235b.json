@@ -1,0 +1,19 @@
+{
+ "run": "231",
+ "arm": "qwen235b",
+ "model": "qwen/qwen3-235b-a22b-2507",
+ "provider_requested": "GMICloud",
+ "provider_banked": "GMICloud",
+ "readout": "logprob",
+ "max_tokens": 1,
+ "top_k": 5,
+ "frames": "records/frames.json",
+ "frames_sha256": "5a74f7867103f93749054d2c215f2bf865f782f158ae1f2b7c2a85572c864aea",
+ "prereg": "records/PREREG_prevention_paraphrase_PARAPHRASE.md",
+ "status": "UNREAD",
+ "unread_reason": "provider GMICloud still failing at the deadline: OpenRouter call failed after 6: HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-235b-a22b-2507 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"GMICloud\",\"is_byok\":false,\"provider_error_code\":\"rate_limit_exceeded\",\"limit_source\":\"upstream_provider_shared_pool\",\"remedy",
+ "cells": {},
+ "calls": 0,
+ "spent_usd": 0.0,
+ "elapsed_s": 10233.5
+}

@@ -1,0 +1,3798 @@
+{
+ "run": "230",
+ "arm": "gpt6s_r",
+ "prereg": "records/PREREG_reasoning_traces_TRACES.md",
+ "harness_keeps_text": true,
+ "log": "runs/reasoning_traces/logs/gpt6s_r/read.jsonl",
+ "draws_per_cell": 20,
+ "ts": "2026-10-12T15:30:54Z",
+ "served_models": [
+  "openai/gpt-6-sol"
+ ],
+ "served_providers": [
+  "OpenAI"
+ ],
+ "cells": {
+  "prawns|pro": {
+   "pair": "prawns",
+   "leg": "pro",
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_gpt6s_r.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 20,
+   "n_with_text": 20,
+   "mean": 8.2,
+   "banked_mean": 8.157894736842104,
+   "drift": 0.04210526315789487,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d1",
+     "ts": "2026-10-12T15:30:56Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 435,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d2",
+     "ts": "2026-10-12T15:30:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 440,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d3",
+     "ts": "2026-10-12T15:31:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d4",
+     "ts": "2026-10-12T15:31:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 434,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d5",
+     "ts": "2026-10-12T15:31:06Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 430,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d6",
+     "ts": "2026-10-12T15:31:10Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d7",
+     "ts": "2026-10-12T15:31:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 484,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d8",
+     "ts": "2026-10-12T15:31:14Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d9",
+     "ts": "2026-10-12T15:31:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 451,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d10",
+     "ts": "2026-10-12T15:31:19Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 428,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d11",
+     "ts": "2026-10-12T15:31:22Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 403,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d12",
+     "ts": "2026-10-12T15:31:25Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 490,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d13",
+     "ts": "2026-10-12T15:31:27Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 395,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d14",
+     "ts": "2026-10-12T15:31:29Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 426,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d15",
+     "ts": "2026-10-12T15:31:32Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 414,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d16",
+     "ts": "2026-10-12T15:31:35Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 438,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d17",
+     "ts": "2026-10-12T15:31:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 445,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d18",
+     "ts": "2026-10-12T15:31:41Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 406,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d19",
+     "ts": "2026-10-12T15:31:43Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRO|d20",
+     "ts": "2026-10-12T15:31:46Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "prawns|priv": {
+   "pair": "prawns",
+   "leg": "priv",
+   "prompt_sha256_16": "da5c9afef4008060",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_gpt6s_r.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 18,
+   "n_with_text": 18,
+   "mean": 7.7,
+   "banked_mean": 7.888888888888889,
+   "drift": -0.1888888888888891,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d1",
+     "ts": "2026-10-12T15:31:49Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 407,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d2",
+     "ts": "2026-10-12T15:31:52Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 429,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d3",
+     "ts": "2026-10-12T15:31:55Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 398,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d4",
+     "ts": "2026-10-12T15:31:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d5",
+     "ts": "2026-10-12T15:32:02Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d6",
+     "ts": "2026-10-12T15:32:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d7",
+     "ts": "2026-10-12T15:32:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 462,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d8",
+     "ts": "2026-10-12T15:32:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 412,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d9",
+     "ts": "2026-10-12T15:32:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 385,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d10",
+     "ts": "2026-10-12T15:32:15Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 397,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d11",
+     "ts": "2026-10-12T15:32:18Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 411,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d12",
+     "ts": "2026-10-12T15:32:21Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 402,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d13",
+     "ts": "2026-10-12T15:32:24Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 483,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d14",
+     "ts": "2026-10-12T15:32:26Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d15",
+     "ts": "2026-10-12T15:32:30Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 398,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d16",
+     "ts": "2026-10-12T15:32:33Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d17",
+     "ts": "2026-10-12T15:32:36Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d18",
+     "ts": "2026-10-12T15:32:37Z",
+     "digit": 7.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d19",
+     "ts": "2026-10-12T15:32:38Z",
+     "digit": 7.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|prawns|PRIV|d20",
+     "ts": "2026-10-12T15:32:40Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "1|pro": {
+   "pair": "1",
+   "leg": "pro",
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gpt6s_r/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 14,
+   "n_with_text": 10,
+   "mean": 8.8,
+   "banked_mean": 8.65,
+   "drift": 0.15000000000000036,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d1",
+     "ts": "2026-10-12T15:32:41Z",
+     "digit": 9.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d2",
+     "ts": "2026-10-12T15:32:43Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d3",
+     "ts": "2026-10-12T15:32:44Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d4",
+     "ts": "2026-10-12T15:32:47Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 470,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d5",
+     "ts": "2026-10-12T15:32:49Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d6",
+     "ts": "2026-10-12T15:32:50Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d7",
+     "ts": "2026-10-12T15:32:52Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d8",
+     "ts": "2026-10-12T15:32:55Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 411,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d9",
+     "ts": "2026-10-12T15:32:57Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 509,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d10",
+     "ts": "2026-10-12T15:32:59Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d11",
+     "ts": "2026-10-12T15:33:01Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d12",
+     "ts": "2026-10-12T15:33:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 395,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d13",
+     "ts": "2026-10-12T15:33:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d14",
+     "ts": "2026-10-12T15:33:08Z",
+     "digit": 9.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d15",
+     "ts": "2026-10-12T15:33:13Z",
+     "digit": 9.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d16",
+     "ts": "2026-10-12T15:33:16Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 485,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d17",
+     "ts": "2026-10-12T15:33:19Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 483,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d18",
+     "ts": "2026-10-12T15:33:21Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 545,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d19",
+     "ts": "2026-10-12T15:33:24Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 518,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRO|d20",
+     "ts": "2026-10-12T15:33:25Z",
+     "digit": 9.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "1|priv": {
+   "pair": "1",
+   "leg": "priv",
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gpt6s_r/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 18,
+   "n_with_text": 15,
+   "mean": 8.0,
+   "banked_mean": 8.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d1",
+     "ts": "2026-10-12T15:33:27Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d2",
+     "ts": "2026-10-12T15:33:30Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 412,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d3",
+     "ts": "2026-10-12T15:33:33Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 420,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d4",
+     "ts": "2026-10-12T15:33:35Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d5",
+     "ts": "2026-10-12T15:33:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 440,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d6",
+     "ts": "2026-10-12T15:33:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 361,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d7",
+     "ts": "2026-10-12T15:33:44Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d8",
+     "ts": "2026-10-12T15:33:45Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d9",
+     "ts": "2026-10-12T15:33:47Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 445,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d10",
+     "ts": "2026-10-12T15:33:50Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 459,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d11",
+     "ts": "2026-10-12T15:33:52Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 400,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d12",
+     "ts": "2026-10-12T15:33:53Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d13",
+     "ts": "2026-10-12T15:33:56Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d14",
+     "ts": "2026-10-12T15:33:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d15",
+     "ts": "2026-10-12T15:34:00Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 409,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d16",
+     "ts": "2026-10-12T15:34:02Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d17",
+     "ts": "2026-10-12T15:34:05Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 408,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d18",
+     "ts": "2026-10-12T15:34:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d19",
+     "ts": "2026-10-12T15:34:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 361,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|1|PRIV|d20",
+     "ts": "2026-10-12T15:34:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 405,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "3|pro": {
+   "pair": "3",
+   "leg": "pro",
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gpt6s_r/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 19,
+   "n_with_text": 13,
+   "mean": 8.95,
+   "banked_mean": 8.75,
+   "drift": 0.1999999999999993,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d1",
+     "ts": "2026-10-12T15:34:14Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 491,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d2",
+     "ts": "2026-10-12T15:34:18Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 545,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d3",
+     "ts": "2026-10-12T15:34:20Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d4",
+     "ts": "2026-10-12T15:34:22Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d5",
+     "ts": "2026-10-12T15:34:25Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 440,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d6",
+     "ts": "2026-10-12T15:34:26Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d7",
+     "ts": "2026-10-12T15:34:27Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d8",
+     "ts": "2026-10-12T15:34:30Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 438,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d9",
+     "ts": "2026-10-12T15:34:33Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 428,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d10",
+     "ts": "2026-10-12T15:34:35Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 463,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d11",
+     "ts": "2026-10-12T15:34:37Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 456,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d12",
+     "ts": "2026-10-12T15:34:40Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d13",
+     "ts": "2026-10-12T15:34:42Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d14",
+     "ts": "2026-10-12T15:34:44Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d15",
+     "ts": "2026-10-12T15:34:46Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d16",
+     "ts": "2026-10-12T15:34:48Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 489,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d17",
+     "ts": "2026-10-12T15:34:52Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d18",
+     "ts": "2026-10-12T15:34:53Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 492,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d19",
+     "ts": "2026-10-12T15:34:56Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 389,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRO|d20",
+     "ts": "2026-10-12T15:34:58Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 456,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "3|priv": {
+   "pair": "3",
+   "leg": "priv",
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gpt6s_r/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 20,
+   "n_with_text": 13,
+   "mean": 7.2,
+   "banked_mean": 7.2,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d1",
+     "ts": "2026-10-12T15:35:01Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 403,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d2",
+     "ts": "2026-10-12T15:35:03Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d3",
+     "ts": "2026-10-12T15:35:05Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d4",
+     "ts": "2026-10-12T15:35:06Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d5",
+     "ts": "2026-10-12T15:35:09Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 432,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d6",
+     "ts": "2026-10-12T15:35:12Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d7",
+     "ts": "2026-10-12T15:35:14Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d8",
+     "ts": "2026-10-12T15:35:16Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d9",
+     "ts": "2026-10-12T15:35:18Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d10",
+     "ts": "2026-10-12T15:35:21Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d11",
+     "ts": "2026-10-12T15:35:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 400,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d12",
+     "ts": "2026-10-12T15:35:26Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d13",
+     "ts": "2026-10-12T15:35:28Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 433,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d14",
+     "ts": "2026-10-12T15:35:31Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 473,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d15",
+     "ts": "2026-10-12T15:35:33Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 398,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d16",
+     "ts": "2026-10-12T15:35:36Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 411,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d17",
+     "ts": "2026-10-12T15:35:38Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d18",
+     "ts": "2026-10-12T15:35:40Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 410,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d19",
+     "ts": "2026-10-12T15:35:43Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|3|PRIV|d20",
+     "ts": "2026-10-12T15:35:46Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "4|pro": {
+   "pair": "4",
+   "leg": "pro",
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gpt6s_r/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 17,
+   "n_with_text": 12,
+   "mean": 8.75,
+   "banked_mean": 8.7,
+   "drift": 0.05000000000000071,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d1",
+     "ts": "2026-10-12T15:35:48Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 476,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d2",
+     "ts": "2026-10-12T15:35:51Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d3",
+     "ts": "2026-10-12T15:35:52Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d4",
+     "ts": "2026-10-12T15:35:54Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d5",
+     "ts": "2026-10-12T15:35:55Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d6",
+     "ts": "2026-10-12T15:35:59Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 463,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d7",
+     "ts": "2026-10-12T15:36:02Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d8",
+     "ts": "2026-10-12T15:36:05Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 462,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d9",
+     "ts": "2026-10-12T15:36:08Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d10",
+     "ts": "2026-10-12T15:36:10Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d11",
+     "ts": "2026-10-12T15:36:11Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d12",
+     "ts": "2026-10-12T15:36:15Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 485,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d13",
+     "ts": "2026-10-12T15:36:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 417,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d14",
+     "ts": "2026-10-12T15:36:21Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 490,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d15",
+     "ts": "2026-10-12T15:36:25Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 398,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d16",
+     "ts": "2026-10-12T15:36:26Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d17",
+     "ts": "2026-10-12T15:36:29Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d18",
+     "ts": "2026-10-12T15:36:31Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 468,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d19",
+     "ts": "2026-10-12T15:36:34Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 416,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRO|d20",
+     "ts": "2026-10-12T15:36:37Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 455,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "4|priv": {
+   "pair": "4",
+   "leg": "priv",
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gpt6s_r/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 20,
+   "n_with_text": 12,
+   "mean": 7.3,
+   "banked_mean": 7.25,
+   "drift": 0.04999999999999982,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d1",
+     "ts": "2026-10-12T15:36:39Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 492,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d2",
+     "ts": "2026-10-12T15:36:42Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 402,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d3",
+     "ts": "2026-10-12T15:36:44Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 484,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d4",
+     "ts": "2026-10-12T15:36:46Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d5",
+     "ts": "2026-10-12T15:36:48Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d6",
+     "ts": "2026-10-12T15:36:52Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d7",
+     "ts": "2026-10-12T15:36:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d8",
+     "ts": "2026-10-12T15:36:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d9",
+     "ts": "2026-10-12T15:37:00Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 418,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d10",
+     "ts": "2026-10-12T15:37:03Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d11",
+     "ts": "2026-10-12T15:37:06Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 484,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d12",
+     "ts": "2026-10-12T15:37:08Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d13",
+     "ts": "2026-10-12T15:37:10Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d14",
+     "ts": "2026-10-12T15:37:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 467,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d15",
+     "ts": "2026-10-12T15:37:15Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d16",
+     "ts": "2026-10-12T15:37:17Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d17",
+     "ts": "2026-10-12T15:37:21Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d18",
+     "ts": "2026-10-12T15:37:22Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d19",
+     "ts": "2026-10-12T15:37:25Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 495,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|4|PRIV|d20",
+     "ts": "2026-10-12T15:37:29Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "5|pro": {
+   "pair": "5",
+   "leg": "pro",
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gpt6s_r/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 19,
+   "n_with_text": 18,
+   "mean": 8.8,
+   "banked_mean": 8.9,
+   "drift": -0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d1",
+     "ts": "2026-10-12T15:37:31Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 399,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d2",
+     "ts": "2026-10-12T15:37:33Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d3",
+     "ts": "2026-10-12T15:37:35Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d4",
+     "ts": "2026-10-12T15:37:38Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d5",
+     "ts": "2026-10-12T15:37:41Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d6",
+     "ts": "2026-10-12T15:37:43Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 459,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d7",
+     "ts": "2026-10-12T15:37:46Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 401,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d8",
+     "ts": "2026-10-12T15:37:49Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 427,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d9",
+     "ts": "2026-10-12T15:37:50Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d10",
+     "ts": "2026-10-12T15:37:53Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 399,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d11",
+     "ts": "2026-10-12T15:37:55Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 402,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d12",
+     "ts": "2026-10-12T15:37:58Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 368,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d13",
+     "ts": "2026-10-12T15:38:00Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 393,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d14",
+     "ts": "2026-10-12T15:38:03Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 385,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d15",
+     "ts": "2026-10-12T15:38:06Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 412,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d16",
+     "ts": "2026-10-12T15:38:08Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d17",
+     "ts": "2026-10-12T15:38:10Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d18",
+     "ts": "2026-10-12T15:38:13Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d19",
+     "ts": "2026-10-12T15:38:15Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRO|d20",
+     "ts": "2026-10-12T15:38:18Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "5|priv": {
+   "pair": "5",
+   "leg": "priv",
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gpt6s_r/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 20,
+   "n_with_text": 18,
+   "mean": 8.3,
+   "banked_mean": 8.05,
+   "drift": 0.25,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d1",
+     "ts": "2026-10-12T15:38:21Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d2",
+     "ts": "2026-10-12T15:38:24Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 417,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d3",
+     "ts": "2026-10-12T15:38:27Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 515,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d4",
+     "ts": "2026-10-12T15:38:32Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 421,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d5",
+     "ts": "2026-10-12T15:38:34Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d6",
+     "ts": "2026-10-12T15:38:37Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 416,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d7",
+     "ts": "2026-10-12T15:38:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d8",
+     "ts": "2026-10-12T15:38:42Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 429,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d9",
+     "ts": "2026-10-12T15:38:45Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 373,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d10",
+     "ts": "2026-10-12T15:38:48Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 504,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d11",
+     "ts": "2026-10-12T15:38:51Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 405,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d12",
+     "ts": "2026-10-12T15:38:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 433,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d13",
+     "ts": "2026-10-12T15:38:56Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d14",
+     "ts": "2026-10-12T15:38:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d15",
+     "ts": "2026-10-12T15:39:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d16",
+     "ts": "2026-10-12T15:39:04Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d17",
+     "ts": "2026-10-12T15:39:08Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d18",
+     "ts": "2026-10-12T15:39:11Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 450,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d19",
+     "ts": "2026-10-12T15:39:13Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|5|PRIV|d20",
+     "ts": "2026-10-12T15:39:16Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 396,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "7|pro": {
+   "pair": "7",
+   "leg": "pro",
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_B/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 10,
+   "n_with_text": 3,
+   "mean": 8.65,
+   "banked_mean": 8.7,
+   "drift": -0.049999999999998934,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d1",
+     "ts": "2026-10-12T15:39:20Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d2",
+     "ts": "2026-10-12T15:39:21Z",
+     "digit": 9.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d3",
+     "ts": "2026-10-12T15:39:22Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d4",
+     "ts": "2026-10-12T15:39:23Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d5",
+     "ts": "2026-10-12T15:39:25Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 428,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d6",
+     "ts": "2026-10-12T15:39:26Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d7",
+     "ts": "2026-10-12T15:39:28Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d8",
+     "ts": "2026-10-12T15:39:30Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d9",
+     "ts": "2026-10-12T15:39:31Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d10",
+     "ts": "2026-10-12T15:39:33Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d11",
+     "ts": "2026-10-12T15:39:35Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d12",
+     "ts": "2026-10-12T15:39:36Z",
+     "digit": 9.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d13",
+     "ts": "2026-10-12T15:39:37Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d14",
+     "ts": "2026-10-12T15:39:38Z",
+     "digit": 9.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d15",
+     "ts": "2026-10-12T15:39:40Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 399,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d16",
+     "ts": "2026-10-12T15:39:41Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d17",
+     "ts": "2026-10-12T15:39:42Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d18",
+     "ts": "2026-10-12T15:39:43Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d19",
+     "ts": "2026-10-12T15:39:45Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRO|d20",
+     "ts": "2026-10-12T15:39:47Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "7|priv": {
+   "pair": "7",
+   "leg": "priv",
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-sol",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_B/read.jsonl"
+   ],
+   "n_drawn": 20,
+   "n_parsed": 20,
+   "n_reasoned": 17,
+   "n_with_text": 10,
+   "mean": 8.1,
+   "banked_mean": 8.15,
+   "drift": -0.05000000000000071,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d1",
+     "ts": "2026-10-12T15:39:49Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d2",
+     "ts": "2026-10-12T15:39:51Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d3",
+     "ts": "2026-10-12T15:39:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 445,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d4",
+     "ts": "2026-10-12T15:39:55Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d5",
+     "ts": "2026-10-12T15:39:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d6",
+     "ts": "2026-10-12T15:39:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d7",
+     "ts": "2026-10-12T15:40:02Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d8",
+     "ts": "2026-10-12T15:40:05Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d9",
+     "ts": "2026-10-12T15:40:08Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d10",
+     "ts": "2026-10-12T15:40:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 11,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d11",
+     "ts": "2026-10-12T15:40:14Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 12,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d12",
+     "ts": "2026-10-12T15:40:15Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 13,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d13",
+     "ts": "2026-10-12T15:40:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 14,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d14",
+     "ts": "2026-10-12T15:40:19Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 411,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 15,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d15",
+     "ts": "2026-10-12T15:40:20Z",
+     "digit": 8.0,
+     "reasoned": false,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 16,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d16",
+     "ts": "2026-10-12T15:40:23Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 17,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d17",
+     "ts": "2026-10-12T15:40:25Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 376,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 18,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d18",
+     "ts": "2026-10-12T15:40:27Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 416,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 19,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d19",
+     "ts": "2026-10-12T15:40:30Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 457,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 20,
+     "label": "reasoning_traces|gpt6s_r|sep|7|PRIV|d20",
+     "ts": "2026-10-12T15:40:34Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 412,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-sol",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  }
+ },
+ "served_constant": true,
+ "calls_so_far": 240,
+ "spent_so_far_usd": 0.1649299999999999
+}

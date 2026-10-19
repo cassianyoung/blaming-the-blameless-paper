@@ -1,0 +1,1983 @@
+{
+ "run": "232",
+ "arm": "deepseek_s",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "provider_requested": "Sail Research",
+ "provider_banked": "Sail Research",
+ "readout_A": "sampled",
+ "readout_B": "sampled",
+ "max_tokens_A": 256,
+ "max_tokens_B": 256,
+ "top_k": null,
+ "frames": "records/frames.json",
+ "frames_sha256": "6fc50e644efbd2e6c56d922b6e9c76a79c5d2ae474dd468cc993ef6991d1525f",
+ "prereg": "records/PREREG_practical_syllogism_SYLLOGISM.md",
+ "A": {
+  "p_yes": 0.0,
+  "answer_mass": 1.0,
+  "gate": "PASSED",
+  "n_no": 10,
+  "n_asked": 10,
+  "principle_held": true,
+  "rule": "at least 9 of 10 parsed 'no'; unparsed counts against",
+  "prompt_sha256": "d3b4dbf850fe277b2c65420e92c7f76b7d374f7eb509153f2321b460e58332c6",
+  "draws": [
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   },
+   {
+    "text": "No",
+    "reasoned_despite_off": false,
+    "answer": "no"
+   }
+  ]
+ },
+ "B": {
+  "B|bicycle|P0": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "01a4d100dfca669b3eac77ba1515a5d50b481911809efcb5ab9cc1393dc38c4b",
+   "draws": [
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|bicycle|N": {
+   "scenario": "bicycle",
+   "role": "N",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.7,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "dd36fe7fda289638ccaa52bc860a8db4e78c741a82d67215d9cb43205ae3a33e",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|bicycle|C": {
+   "scenario": "bicycle",
+   "role": "C",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 6.8,
+   "blame_mass_0_3": 0.0,
+   "p_prevent_yes": 1.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "7b6d4e06f31a8ad207696a3cc3c4725ad9e151acfe6a7e832f18af65056fd8eb",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|ladder|P0": {
+   "scenario": "ladder",
+   "role": "P0",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "36a64b97ce5dcf96d00c53e3582ed91341824a557b64b6b1a8ea7a447138e5a0",
+   "draws": [
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|ladder|N": {
+   "scenario": "ladder",
+   "role": "N",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.9,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "f466aae62795fc9c996e99cc8156127669465946e36340f9e12e7dd2bad04f58",
+   "draws": [
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|ladder|C": {
+   "scenario": "ladder",
+   "role": "C",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 6.1,
+   "blame_mass_0_3": 0.0,
+   "p_prevent_yes": 1.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "22cf1e5057fc2e0dfe7df9450a07481fc2f15339fc434bfa203e73b6c9b00af7",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=5",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 5
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=4",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 4
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|prawns_home|P0": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "abb2413bd4592db957312b72552f6a9e1ebd6555454388d49f696049a68266ec",
+   "draws": [
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|prawns_home|N": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 1.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "53f53473e7c2ae7cf74cece43b0c24dc60a8898256884ab1c6e9237590ae2823",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|prawns_home|C": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 6.8,
+   "blame_mass_0_3": 0.0,
+   "p_prevent_yes": 1.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "fd1496513a665ce48c3ab9c3556372a6a6d106de9918e7d42ba0605ccb226437",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|prawns_restaurant|P0": {
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "8c2118cb2033221850f7c767e620c08791d48fe6b8c00dde16fecb1f092df9d3",
+   "draws": [
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|prawns_restaurant|N": {
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.8,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "3b07d012d3175ef5c890eac251c4ea1958375d93e8ec862fd40b6eab06a8d5fd",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|prawns_restaurant|C": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.5,
+   "blame_mass_0_3": 0.0,
+   "p_prevent_yes": 1.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "52c78d95ad60ece3b8e8980bba69b247ad9c40c169c927597d5b1a0498d73460",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|scaffolding|P0": {
+   "scenario": "scaffolding",
+   "role": "P0",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "e43c419ca683261d04c28a42724c2fc48f26bbe0ac8106016554e1a67a777032",
+   "draws": [
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|scaffolding|N": {
+   "scenario": "scaffolding",
+   "role": "N",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.2,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "87e3784d834e16b97cc23d63537f11b3967b7431c3d7550189462d46caebd283",
+   "draws": [
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|scaffolding|C": {
+   "scenario": "scaffolding",
+   "role": "C",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.6,
+   "blame_mass_0_3": 0.0,
+   "p_prevent_yes": 1.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "7f467da723d3e66ae28901fc1fd6e714ede3df9482cfa8d93dcf1c2e6fe0e7fe",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|cheque|P0": {
+   "scenario": "cheque",
+   "role": "P0",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "b1de5a984994e4c50a65717d58ae18d0b303d82c2f6b04621b7adf8b221d8b84",
+   "draws": [
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|cheque|N": {
+   "scenario": "cheque",
+   "role": "N",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 0,
+   "blame_mass_0_3": 1.0,
+   "p_prevent_yes": 0.9,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "541f50245e2fc0ca67fdedfc6d76fb23d9dfa6d99d32a9218105eafb70af5fad",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "no",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 0
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "B|cheque|C": {
+   "scenario": "cheque",
+   "role": "C",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.6,
+   "blame_mass_0_3": 0.0,
+   "p_prevent_yes": 1.0,
+   "p_principle_yes": 0.0,
+   "unparsed_texts": [],
+   "prompt_sha256": "9e10551c9eba91c1ac6c3345de4b8dc3de35f5cdcd8ad54f39e7f64de104862c",
+   "draws": [
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "PREVENT": "yes",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  }
+ },
+ "provider_served": [
+  "Sail Research"
+ ],
+ "served_model": [
+  "deepseek/deepseek-v4.1-flash"
+ ],
+ "served_model_constant": true,
+ "temperature": [
+  1.0
+ ],
+ "status": "READ",
+ "calls": 190,
+ "spent_usd": 0.0010791360000000016,
+ "elapsed_s": 1544.4
+}

@@ -1,0 +1,65 @@
+{
+ "hash": "sha256 of json.dumps(messages), first 16 hex digits, as the study's harness logs it in each call's prompt_sha256_16",
+ "frozen_or_built_prompts": 12,
+ "prompts_sent": 12,
+ "prompts_never_sent": [],
+ "calls": 1738,
+ "calls_matching_a_prompt": 840,
+ "calls_matching_no_prompt": {},
+ "coder_calls_matching_their_rebuilt_prompt": 898,
+ "coder_calls_not_matching": [],
+ "built_prompts_matching_the_banked_duty_test_calls": [
+  72,
+  72
+ ],
+ "per_prompt": {
+  "built_prompts.json: deepseek_r|1|priv": {
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|1|pro": {
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|3|priv": {
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|3|pro": {
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|4|priv": {
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|4|pro": {
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|5|priv": {
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|5|pro": {
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|7|priv": {
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|7|pro": {
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|prawns|priv": {
+   "prompt_sha256_16": "da5c9afef4008060",
+   "calls": 70
+  },
+  "built_prompts.json: deepseek_r|prawns|pro": {
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "calls": 70
+  }
+ }
+}

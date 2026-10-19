@@ -1,0 +1,2012 @@
+{
+ "run": "230",
+ "arm": "gemini_r",
+ "prereg": "records/PREREG_reasoning_traces_TRACES.md",
+ "harness_keeps_text": true,
+ "log": "runs/reasoning_traces/logs/gemini_r/read.jsonl",
+ "draws_per_cell": 10,
+ "ts": "2026-10-12T15:30:54Z",
+ "served_models": [
+  "google/gemini-3.8-flash"
+ ],
+ "served_providers": [
+  "Google"
+ ],
+ "cells": {
+  "prawns|pro": {
+   "pair": "prawns",
+   "leg": "pro",
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_gemini_r.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.0,
+   "banked_mean": 8.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d1",
+     "ts": "2026-10-12T15:30:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 193,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d2",
+     "ts": "2026-10-12T15:31:00Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 231,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d3",
+     "ts": "2026-10-12T15:31:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 235,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d4",
+     "ts": "2026-10-12T15:31:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 244,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d5",
+     "ts": "2026-10-12T15:31:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 304,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d6",
+     "ts": "2026-10-12T15:31:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 277,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d7",
+     "ts": "2026-10-12T15:31:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 277,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d8",
+     "ts": "2026-10-12T15:31:24Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 277,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d9",
+     "ts": "2026-10-12T15:31:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 193,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRO|d10",
+     "ts": "2026-10-12T15:31:31Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 248,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "prawns|priv": {
+   "pair": "prawns",
+   "leg": "priv",
+   "prompt_sha256_16": "da5c9afef4008060",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_gemini_r.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.0,
+   "banked_mean": 7.9,
+   "drift": 0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d1",
+     "ts": "2026-10-12T15:31:35Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 269,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d2",
+     "ts": "2026-10-12T15:31:39Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 310,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d3",
+     "ts": "2026-10-12T15:31:42Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 327,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d4",
+     "ts": "2026-10-12T15:31:45Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 277,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d5",
+     "ts": "2026-10-12T15:31:48Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 237,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d6",
+     "ts": "2026-10-12T15:31:51Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 231,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d7",
+     "ts": "2026-10-12T15:31:55Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 228,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d8",
+     "ts": "2026-10-12T15:32:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 323,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d9",
+     "ts": "2026-10-12T15:32:08Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 302,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|prawns|PRIV|d10",
+     "ts": "2026-10-12T15:32:11Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 259,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "1|pro": {
+   "pair": "1",
+   "leg": "pro",
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gemini_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.0,
+   "banked_mean": 8.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d1",
+     "ts": "2026-10-12T15:32:15Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 292,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d2",
+     "ts": "2026-10-12T15:32:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 265,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d3",
+     "ts": "2026-10-12T15:32:26Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 280,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d4",
+     "ts": "2026-10-12T15:32:31Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 577,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d5",
+     "ts": "2026-10-12T15:32:35Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 302,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d6",
+     "ts": "2026-10-12T15:32:41Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 249,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d7",
+     "ts": "2026-10-12T15:32:47Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 628,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d8",
+     "ts": "2026-10-12T15:32:52Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 568,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d9",
+     "ts": "2026-10-12T15:32:58Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 610,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|1|PRO|d10",
+     "ts": "2026-10-12T15:33:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 327,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "1|priv": {
+   "pair": "1",
+   "leg": "priv",
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gemini_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.8,
+   "banked_mean": 7.9,
+   "drift": -0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d1",
+     "ts": "2026-10-12T15:33:05Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 267,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d2",
+     "ts": "2026-10-12T15:33:10Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 653,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d3",
+     "ts": "2026-10-12T15:33:14Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 292,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d4",
+     "ts": "2026-10-12T15:33:18Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 271,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d5",
+     "ts": "2026-10-12T15:33:23Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 299,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d6",
+     "ts": "2026-10-12T15:33:26Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 410,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d7",
+     "ts": "2026-10-12T15:33:30Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 545,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d8",
+     "ts": "2026-10-12T15:33:35Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 613,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d9",
+     "ts": "2026-10-12T15:33:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 318,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|1|PRIV|d10",
+     "ts": "2026-10-12T15:33:43Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 317,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "3|pro": {
+   "pair": "3",
+   "leg": "pro",
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gemini_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.1,
+   "banked_mean": 8.7,
+   "drift": -0.5999999999999996,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d1",
+     "ts": "2026-10-12T15:33:46Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 339,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d2",
+     "ts": "2026-10-12T15:33:50Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 259,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d3",
+     "ts": "2026-10-12T15:33:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 262,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d4",
+     "ts": "2026-10-12T15:33:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d5",
+     "ts": "2026-10-12T15:34:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 734,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d6",
+     "ts": "2026-10-12T15:34:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 264,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d7",
+     "ts": "2026-10-12T15:34:11Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 325,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d8",
+     "ts": "2026-10-12T15:34:16Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 306,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d9",
+     "ts": "2026-10-12T15:34:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 302,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|3|PRO|d10",
+     "ts": "2026-10-12T15:34:25Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 356,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "3|priv": {
+   "pair": "3",
+   "leg": "priv",
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gemini_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.0,
+   "banked_mean": 7.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d1",
+     "ts": "2026-10-12T15:34:29Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 211,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d2",
+     "ts": "2026-10-12T15:34:33Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 248,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d3",
+     "ts": "2026-10-12T15:34:45Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 610,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d4",
+     "ts": "2026-10-12T15:34:48Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 234,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d5",
+     "ts": "2026-10-12T15:34:51Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 332,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d6",
+     "ts": "2026-10-12T15:34:54Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 231,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d7",
+     "ts": "2026-10-12T15:34:58Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 261,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d8",
+     "ts": "2026-10-12T15:35:03Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 288,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d9",
+     "ts": "2026-10-12T15:35:07Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 254,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|3|PRIV|d10",
+     "ts": "2026-10-12T15:35:12Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "4|pro": {
+   "pair": "4",
+   "leg": "pro",
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gemini_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.9,
+   "banked_mean": 8.9,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d1",
+     "ts": "2026-10-12T15:35:16Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 219,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d2",
+     "ts": "2026-10-12T15:35:20Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 238,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d3",
+     "ts": "2026-10-12T15:35:27Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 471,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d4",
+     "ts": "2026-10-12T15:35:30Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 303,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d5",
+     "ts": "2026-10-12T15:35:33Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 210,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d6",
+     "ts": "2026-10-12T15:35:37Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 241,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d7",
+     "ts": "2026-10-12T15:35:41Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 264,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d8",
+     "ts": "2026-10-12T15:35:44Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 241,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d9",
+     "ts": "2026-10-12T15:35:48Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 299,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|4|PRO|d10",
+     "ts": "2026-10-12T15:35:53Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 274,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "4|priv": {
+   "pair": "4",
+   "leg": "priv",
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gemini_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.0,
+   "banked_mean": 7.8,
+   "drift": 0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d1",
+     "ts": "2026-10-12T15:35:58Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 228,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d2",
+     "ts": "2026-10-12T15:36:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 225,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d3",
+     "ts": "2026-10-12T15:36:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 224,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d4",
+     "ts": "2026-10-12T15:36:08Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 227,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d5",
+     "ts": "2026-10-12T15:36:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 280,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d6",
+     "ts": "2026-10-12T15:36:14Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 249,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d7",
+     "ts": "2026-10-12T15:36:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 343,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d8",
+     "ts": "2026-10-12T15:36:21Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 260,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d9",
+     "ts": "2026-10-12T15:36:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 594,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|4|PRIV|d10",
+     "ts": "2026-10-12T15:36:31Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 231,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "5|pro": {
+   "pair": "5",
+   "leg": "pro",
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gemini_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.2,
+   "banked_mean": 8.1,
+   "drift": 0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d1",
+     "ts": "2026-10-12T15:36:35Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 294,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d2",
+     "ts": "2026-10-12T15:36:39Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 253,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d3",
+     "ts": "2026-10-12T15:36:43Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 352,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d4",
+     "ts": "2026-10-12T15:36:46Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 269,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d5",
+     "ts": "2026-10-12T15:36:50Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 251,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d6",
+     "ts": "2026-10-12T15:36:53Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 331,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d7",
+     "ts": "2026-10-12T15:36:56Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 285,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d8",
+     "ts": "2026-10-12T15:37:00Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 275,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d9",
+     "ts": "2026-10-12T15:37:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 328,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|5|PRO|d10",
+     "ts": "2026-10-12T15:37:07Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 347,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "5|priv": {
+   "pair": "5",
+   "leg": "priv",
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_gemini_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.7,
+   "banked_mean": 8.0,
+   "drift": -0.2999999999999998,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d1",
+     "ts": "2026-10-12T15:37:11Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 209,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d2",
+     "ts": "2026-10-12T15:37:15Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 343,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d3",
+     "ts": "2026-10-12T15:37:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 283,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d4",
+     "ts": "2026-10-12T15:37:25Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 224,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d5",
+     "ts": "2026-10-12T15:37:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 349,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d6",
+     "ts": "2026-10-12T15:37:33Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 266,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d7",
+     "ts": "2026-10-12T15:37:36Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 338,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d8",
+     "ts": "2026-10-12T15:37:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 262,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d9",
+     "ts": "2026-10-12T15:37:44Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 253,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|5|PRIV|d10",
+     "ts": "2026-10-12T15:37:48Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 256,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "7|pro": {
+   "pair": "7",
+   "leg": "pro",
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_C/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.8,
+   "banked_mean": 8.9,
+   "drift": -0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d1",
+     "ts": "2026-10-12T15:37:51Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 295,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d2",
+     "ts": "2026-10-12T15:37:54Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 298,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d3",
+     "ts": "2026-10-12T15:37:57Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d4",
+     "ts": "2026-10-12T15:38:00Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 234,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d5",
+     "ts": "2026-10-12T15:38:03Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 299,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d6",
+     "ts": "2026-10-12T15:38:06Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 289,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d7",
+     "ts": "2026-10-12T15:38:09Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 227,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d8",
+     "ts": "2026-10-12T15:38:13Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 307,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d9",
+     "ts": "2026-10-12T15:38:16Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 305,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|7|PRO|d10",
+     "ts": "2026-10-12T15:38:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 295,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  },
+  "7|priv": {
+   "pair": "7",
+   "leg": "priv",
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "wire": {
+    "max_tokens": 1024,
+    "model": "google/gemini-3.8-flash",
+    "provider": "google-vertex",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_C/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.3,
+   "banked_mean": 7.4,
+   "drift": -0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d1",
+     "ts": "2026-10-12T15:38:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 260,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d2",
+     "ts": "2026-10-12T15:38:28Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 252,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d3",
+     "ts": "2026-10-12T15:38:30Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 185,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d4",
+     "ts": "2026-10-12T15:38:34Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 347,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d5",
+     "ts": "2026-10-12T15:38:37Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d6",
+     "ts": "2026-10-12T15:38:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 253,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d7",
+     "ts": "2026-10-12T15:38:44Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 262,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d8",
+     "ts": "2026-10-12T15:38:48Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 243,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d9",
+     "ts": "2026-10-12T15:38:52Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 271,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gemini_r|sep|7|PRIV|d10",
+     "ts": "2026-10-12T15:38:56Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 301,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "google/gemini-3.8-flash",
+     "provider_served": "Google"
+    }
+   ],
+   "errors": []
+  }
+ },
+ "served_constant": true,
+ "calls_so_far": 120,
+ "spent_so_far_usd": 0.12967125000000002
+}

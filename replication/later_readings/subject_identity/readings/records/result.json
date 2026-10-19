@@ -1,0 +1,1471 @@
+{
+ "P234_1": {
+  "John_minus_Alaric": {
+   "median": -0.01725715197309516,
+   "ci95": [
+    -0.0873829851651034,
+    0.033333333333333354
+   ],
+   "n_arms": 13,
+   "holds": true
+  },
+  "Jane_minus_Alaric": {
+   "median": -0.07996383050051037,
+   "ci95": [
+    -0.1580691361959016,
+    -0.03805916305916306
+   ],
+   "n_arms": 13,
+   "holds": false
+  },
+  "verdict": "FAILS",
+  "per_scenario": {
+   "bicycle": {
+    "John_minus_Alaric": {
+     "median": 0.032380980105121804,
+     "ci95": [
+      -0.004633043266771331,
+      0.06666666666666671
+     ],
+     "n_arms": 13
+    },
+    "Jane_minus_Alaric": {
+     "median": 0.0,
+     "ci95": [
+      -0.04663865546218482,
+      0.05761890527945679
+     ],
+     "n_arms": 13
+    }
+   },
+   "prawns_home": {
+    "John_minus_Alaric": {
+     "median": -0.041201112782309646,
+     "ci95": [
+      -0.14491233471292786,
+      0.0
+     ],
+     "n_arms": 13
+    },
+    "Jane_minus_Alaric": {
+     "median": -0.14285714285714285,
+     "ci95": [
+      -0.2796541363012698,
+      -0.05669268391184931
+     ],
+     "n_arms": 13
+    }
+   }
+  }
+ },
+ "P234_2": {
+  "Jane_minus_John": {
+   "median": -0.05286580594679187,
+   "ci95": [
+    -0.07987012987012988,
+    -0.024988714636669795
+   ],
+   "n_arms": 13,
+   "gender_effect": true
+  },
+  "John_minus_Alaric": {
+   "median": -0.01725715197309516,
+   "ci95": [
+    -0.0873829851651034,
+    0.033333333333333354
+   ],
+   "n_arms": 13,
+   "holds": true
+  },
+  "per_scenario": {
+   "bicycle": {
+    "median": -0.03362928770158363,
+    "ci95": [
+     -0.1299575147804955,
+     0.025237925174334985
+    ],
+    "n_arms": 13
+   },
+   "prawns_home": {
+    "median": -0.05592105263157893,
+    "ci95": [
+     -0.10629030899124525,
+     -0.009031554159796451
+    ],
+    "n_arms": 13
+   }
+  }
+ },
+ "P234_3": {
+  "John_minus_Alaric": {
+   "median": -0.04241850000000014,
+   "ci95": [
+    -0.25420760000000087,
+    0.08071560000000044
+   ],
+   "n_arms": 13
+  },
+  "Jane_minus_Alaric": {
+   "median": -0.01637430000000073,
+   "ci95": [
+    -0.4226315000000005,
+    0.40000000000000036
+   ],
+   "n_arms": 13
+  },
+  "Jane_minus_John": {
+   "median": 0.025383099999999992,
+   "ci95": [
+    -0.29999999999999893,
+    0.20330250000000127
+   ],
+   "n_arms": 13
+  },
+  "separate_gap_by_subject": {
+   "Alaric": {
+    "median": 0.39999999999999947,
+    "ci95": [
+     0.3204792999999997,
+     0.5769311000000004
+    ],
+    "n_arms": 13
+   },
+   "John": {
+    "median": 0.40119490000000013,
+    "ci95": [
+     0.20000000000000018,
+     0.8968069999999999
+    ],
+    "n_arms": 13
+   },
+   "Jane": {
+    "median": 0.4265780000000001,
+    "ci95": [
+     0.3000000000000007,
+     0.7999999999999998
+    ],
+    "n_arms": 13
+   }
+  }
+ },
+ "per_arm_differences": {
+  "P234_1_John": {
+   "claude": 0.033333333333333354,
+   "deepseek": 0.0059596343621592385,
+   "deepseek_s": 0.07983730122253885,
+   "gemma27b": 0.24388350839726175,
+   "gpt4o": -0.054975115863840573,
+   "gpt6l_s": 0.09151785714285715,
+   "gpt6s_s": 0.014806642887628809,
+   "grok43_s": -0.20569053708439894,
+   "haiku_s": -0.16744047619047622,
+   "kimi": -0.01725715197309516,
+   "llama70b": -0.0873829851651034,
+   "mistral24b": -0.06473141574117408,
+   "qwen80b": -0.11318569045041577
+  },
+  "P234_1_Jane": {
+   "claude": -0.15476190476190477,
+   "deepseek": 0.07259564168506538,
+   "deepseek_s": 0.08512068894044467,
+   "gemma27b": -0.055681137899294075,
+   "gpt4o": -0.07996383050051037,
+   "gpt6l_s": 0.011647727272727271,
+   "gpt6s_s": -0.03805916305916306,
+   "grok43_s": -0.2047471162377994,
+   "haiku_s": -0.22586318738021524,
+   "kimi": -0.04747750744010214,
+   "llama70b": -0.1580691361959016,
+   "mistral24b": -0.1153241025322029,
+   "qwen80b": -0.24553534863483448
+  },
+  "P234_2_JaneMinusJohn": {
+   "claude": -0.1880952380952381,
+   "deepseek": 0.06663600732290614,
+   "deepseek_s": 0.005283387717905819,
+   "gemma27b": -0.2995646462965558,
+   "gpt4o": -0.024988714636669795,
+   "gpt6l_s": -0.07987012987012988,
+   "gpt6s_s": -0.05286580594679187,
+   "grok43_s": 0.0009434208465995408,
+   "haiku_s": -0.05842271118973902,
+   "kimi": -0.03022035546700698,
+   "llama70b": -0.0706861510307982,
+   "mistral24b": -0.050592686791028824,
+   "qwen80b": -0.1323496581844187
+  },
+  "P234_3_John": {
+   "claude": -0.2999999999999998,
+   "deepseek": -0.25420760000000087,
+   "deepseek_s": -0.3000000000000007,
+   "gemma27b": 0.008938900000000416,
+   "gpt4o": -0.13197480000000006,
+   "gpt6l_s": 1.1999999999999993,
+   "gpt6s_s": 0.6000000000000005,
+   "grok43_s": -0.1999999999999993,
+   "haiku_s": -0.5,
+   "kimi": -0.04241850000000014,
+   "llama70b": 0.5364363000000001,
+   "mistral24b": 0.08071560000000044,
+   "qwen80b": 0.019004299999999752
+  },
+  "P234_3_Jane": {
+   "claude": -1.0,
+   "deepseek": -0.05090509999999959,
+   "deepseek_s": -0.5999999999999996,
+   "gemma27b": -0.01637430000000073,
+   "gpt4o": -0.469588599999998,
+   "gpt6l_s": 1.5000000000000009,
+   "gpt6s_s": 0.5,
+   "grok43_s": 0.40000000000000036,
+   "haiku_s": -0.1999999999999993,
+   "kimi": 0.0035895000000003563,
+   "llama70b": 0.5630450000000025,
+   "mistral24b": 0.10609870000000043,
+   "qwen80b": -0.4226315000000005
+  },
+  "P234_3_JaneMinusJohn": {
+   "claude": -0.7000000000000002,
+   "deepseek": 0.20330250000000127,
+   "deepseek_s": -0.29999999999999893,
+   "gemma27b": -0.025313200000001146,
+   "gpt4o": -0.33761379999999797,
+   "gpt6l_s": 0.3000000000000016,
+   "gpt6s_s": -0.10000000000000053,
+   "grok43_s": 0.5999999999999996,
+   "haiku_s": 0.3000000000000007,
+   "kimi": 0.04600800000000049,
+   "llama70b": 0.026608700000002372,
+   "mistral24b": 0.025383099999999992,
+   "qwen80b": -0.44163580000000024
+  }
+ },
+ "arms_read": [
+  "claude",
+  "deepseek",
+  "deepseek_s",
+  "gemma27b",
+  "gpt4o",
+  "gpt6l_s",
+  "gpt6s_s",
+  "grok43_s",
+  "haiku_s",
+  "kimi",
+  "llama70b",
+  "mistral24b",
+  "qwen80b"
+ ],
+ "arms_not_read": {},
+ "exclusions": [],
+ "per_arm": {
+  "claude": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.3333333333333333,
+      "John": 0.4,
+      "Jane": 0.16666666666666666
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.0,
+      "C|John": 0.0,
+      "C|Jane": 0.0,
+      "P0|Alaric": 0.0,
+      "P0|John": 0.0,
+      "P0|Jane": 0.0
+     },
+     "d": {
+      "John": 0.06666666666666671,
+      "Jane": -0.16666666666666666,
+      "JaneMinusJohn": -0.23333333333333336
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.2857142857142857,
+      "John": 0.2857142857142857,
+      "Jane": 0.14285714285714285
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.0,
+      "C|John": 0.0,
+      "C|Jane": 0.0,
+      "P0|Alaric": 0.0,
+      "P0|John": 0.0,
+      "P0|Jane": 0.0
+     },
+     "d": {
+      "John": 0.0,
+      "Jane": -0.14285714285714285,
+      "JaneMinusJohn": -0.14285714285714285
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 1.0,
+     "John": 0.7000000000000002,
+     "Jane": 0.0
+    }
+   }
+  },
+  "deepseek": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.5307381283522251,
+      "John": 0.5838585098588532,
+      "Jane": 0.6259074047851912
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.0,
+      "C|John": 0.0,
+      "C|Jane": 0.0967216756480157,
+      "P0|Alaric": 0.05997780000000001,
+      "P0|John": 0.081361271500389,
+      "P0|Jane": 0.17690157496065434
+     },
+     "d": {
+      "John": 0.05312038150662812,
+      "Jane": 0.09516927643296613,
+      "JaneMinusJohn": 0.04204889492633801
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.6435138510100451,
+      "John": 0.6023127382277355,
+      "Jane": 0.6935358579472097
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.04927920000000006,
+      "C|John": 0.03631799999999998,
+      "C|Jane": 0.03289110000000006,
+      "P0|Alaric": 0.16300859999999978,
+      "P0|John": 0.26985840000000005,
+      "P0|Jane": 0.1347567999999999
+     },
+     "d": {
+      "John": -0.041201112782309646,
+      "Jane": 0.05002200693716463,
+      "JaneMinusJohn": 0.09122311971947428
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.5769311000000004,
+     "John": 0.3227234999999995,
+     "Jane": 0.5260260000000008
+    }
+   }
+  },
+  "deepseek_s": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.4728682170542635,
+      "John": 0.6173913043478261,
+      "Jane": 0.603448275862069
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.5894913061275798,
+      "C|John": 0.4330127018922193,
+      "C|Jane": 0.7483314773547883,
+      "P0|Alaric": 0.6689544080129826,
+      "P0|John": 0.7399324293474371,
+      "P0|Jane": 0.7416198487095663
+     },
+     "d": {
+      "John": 0.14452308729356256,
+      "Jane": 0.13058005880780543,
+      "JaneMinusJohn": -0.013943028485757125
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.6515151515151515,
+      "John": 0.6666666666666666,
+      "Jane": 0.6911764705882354
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.4898979485566356,
+      "C|John": 0.3,
+      "C|Jane": 0.4,
+      "P0|Alaric": 0.6403124237432849,
+      "P0|John": 0.8,
+      "P0|Jane": 1.1874342087037917
+     },
+     "d": {
+      "John": 0.015151515151515138,
+      "Jane": 0.0396613190730839,
+      "JaneMinusJohn": 0.024509803921568762
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 1.0,
+     "John": 0.6999999999999993,
+     "Jane": 0.40000000000000036
+    }
+   }
+  },
+  "gemma27b": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.2999041124955333,
+      "John": 0.8252820110603474,
+      "Jane": 0.332443027458481
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0012304000000000314,
+      "N|John": 0.0025144592838222783,
+      "N|Jane": 1.9200000000019203e-05,
+      "C|Alaric": 0.015564000000000178,
+      "C|John": 0.0006383370269693227,
+      "C|Jane": 4.880000000007101e-05,
+      "P0|Alaric": 0.0028556000000000024,
+      "P0|John": 0.009508844567033593,
+      "P0|Jane": 0.001146400000000014
+     },
+     "d": {
+      "John": 0.5253778985648141,
+      "Jane": 0.032538914962947696,
+      "JaneMinusJohn": -0.4928389836018664
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.7159314827337151,
+      "John": 0.6783206009634245,
+      "Jane": 0.5720302919721793
+     },
+     "cell_sd": {
+      "N|Alaric": 1.8788560349299578e-05,
+      "N|John": 4.119999999989688e-05,
+      "N|Jane": 1.2831211945838307e-05,
+      "C|Alaric": 0.008398486476146069,
+      "C|John": 0.007334999999999958,
+      "C|Jane": 1.9199999999841567e-05,
+      "P0|Alaric": 1.9595917945004503e-06,
+      "P0|John": 4.582575695596383e-07,
+      "P0|Jane": 0.0020732481182916887
+     },
+     "d": {
+      "John": -0.037610881770290594,
+      "Jane": -0.14390119076153585,
+      "JaneMinusJohn": -0.10629030899124525
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.016485100000000585,
+     "John": 0.025424000000001,
+     "Jane": 0.00011079999999985546
+    }
+   }
+  },
+  "gpt4o": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.21801911738495988,
+      "John": 0.2504000974900817,
+      "Jane": 0.27563802266441667
+     },
+     "cell_sd": {
+      "N|Alaric": 6.000000000000004e-07,
+      "N|John": 1.5836666315863323e-05,
+      "N|Jane": 1.7320508075688774e-06,
+      "C|Alaric": 0.15849789058687813,
+      "C|John": 0.043467000000000054,
+      "C|Jane": 0.08118390808651689,
+      "P0|Alaric": 0.25621351834360734,
+      "P0|John": 0.12412093312104928,
+      "P0|Jane": 0.06831863249099765
+     },
+     "d": {
+      "John": 0.032380980105121804,
+      "Jane": 0.05761890527945679,
+      "JaneMinusJohn": 0.025237925174334985
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.6498499949577031,
+      "John": 0.5075187831249002,
+      "Jane": 0.4323034286772256
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0401263386842109,
+      "N|John": 0.23310092268594734,
+      "N|Jane": 0.11059974938619888,
+      "C|Alaric": 0.03134050660024488,
+      "C|John": 0.04872947897535959,
+      "C|Jane": 0.0753623999999995,
+      "P0|Alaric": 0.4796532251884062,
+      "P0|John": 0.28814920685325507,
+      "P0|Jane": 0.3420876068129916
+     },
+     "d": {
+      "John": -0.14233121183280295,
+      "Jane": -0.21754656628047753,
+      "JaneMinusJohn": -0.07521535444767458
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.16890289999999908,
+     "John": 0.03692809999999902,
+     "Jane": -0.30068569999999895
+    }
+   }
+  },
+  "gpt6l_s": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.03125,
+      "John": 0.2142857142857143,
+      "Jane": 0.05454545454545454
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.4898979485566356,
+      "C|John": 0.6633249580710799,
+      "C|Jane": 1.02469507659596,
+      "P0|Alaric": 0.4,
+      "P0|John": 0.7483314773547883,
+      "P0|Jane": 0.458257569495584
+     },
+     "d": {
+      "John": 0.1830357142857143,
+      "Jane": 0.023295454545454543,
+      "JaneMinusJohn": -0.15974025974025977
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.0,
+      "John": 0.0,
+      "Jane": 0.0
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.5385164807134504,
+      "C|John": 0.5,
+      "C|Jane": 0.458257569495584,
+      "P0|Alaric": 0.0,
+      "P0|John": 0.0,
+      "P0|Jane": 0.0
+     },
+     "d": {
+      "John": 0.0,
+      "Jane": 0.0,
+      "JaneMinusJohn": 0.0
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.5,
+     "John": 1.6999999999999993,
+     "Jane": 2.000000000000001
+    }
+   }
+  },
+  "gpt6s_s": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.0,
+      "John": 0.020833333333333336,
+      "Jane": 0.0
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.4898979485566356,
+      "C|John": 0.4,
+      "C|Jane": 0.5385164807134504,
+      "P0|Alaric": 0.0,
+      "P0|John": 0.3,
+      "P0|Jane": 0.0
+     },
+     "d": {
+      "John": 0.020833333333333336,
+      "Jane": 0.0,
+      "JaneMinusJohn": -0.020833333333333336
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.1038961038961039,
+      "John": 0.11267605633802819,
+      "Jane": 0.02777777777777778
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.458257569495584,
+      "C|John": 0.3,
+      "C|Jane": 0.4,
+      "P0|Alaric": 0.4,
+      "P0|John": 0.4,
+      "P0|Jane": 0.4
+     },
+     "d": {
+      "John": 0.008779952441924282,
+      "Jane": -0.07611832611832613,
+      "JaneMinusJohn": -0.08489827856025041
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.2999999999999998,
+     "John": 0.9000000000000004,
+     "Jane": 0.7999999999999998
+    }
+   }
+  },
+  "grok43_s": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.8260869565217391,
+      "John": 0.7647058823529412,
+      "Jane": 0.8043478260869567
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.4898979485566356,
+      "C|John": 1.044030650891055,
+      "C|Jane": 1.019803902718557,
+      "P0|Alaric": 0.8717797887081347,
+      "P0|John": 0.7,
+      "P0|Jane": 0.9
+     },
+     "d": {
+      "John": -0.0613810741687979,
+      "Jane": -0.021739130434782483,
+      "JaneMinusJohn": 0.03964194373401542
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 1.0,
+      "John": 0.65,
+      "Jane": 0.6122448979591837
+     },
+     "cell_sd": {
+      "N|Alaric": 0.8062257748298549,
+      "N|John": 0.6403124237432849,
+      "N|Jane": 0.6633249580710799,
+      "C|Alaric": 1.004987562112089,
+      "C|John": 0.7810249675906654,
+      "C|Jane": 1.4177446878757824,
+      "P0|Alaric": 0.9,
+      "P0|John": 2.039607805437114,
+      "P0|Jane": 1.8
+     },
+     "d": {
+      "John": -0.35,
+      "Jane": -0.3877551020408163,
+      "JaneMinusJohn": -0.037755102040816335
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.39999999999999947,
+     "John": 0.20000000000000018,
+     "Jane": 0.7999999999999998
+    }
+   }
+  },
+  "haiku_s": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.41428571428571426,
+      "John": 0.42857142857142855,
+      "Jane": 0.36764705882352944
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.0,
+      "C|John": 0.0,
+      "C|Jane": 0.4,
+      "P0|Alaric": 0.3,
+      "P0|John": 0.0,
+      "P0|Jane": 0.5
+     },
+     "d": {
+      "John": 0.01428571428571429,
+      "Jane": -0.04663865546218482,
+      "JaneMinusJohn": -0.06092436974789911
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.7866666666666667,
+      "John": 0.4375,
+      "Jane": 0.3815789473684211
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.5,
+      "C|John": 0.0,
+      "C|Jane": 0.4898979485566356,
+      "P0|Alaric": 0.8306623862918074,
+      "P0|John": 0.6708203932499369,
+      "P0|Jane": 0.3
+     },
+     "d": {
+      "John": -0.34916666666666674,
+      "Jane": -0.40508771929824566,
+      "JaneMinusJohn": -0.05592105263157893
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.5,
+     "John": 0.0,
+     "Jane": 0.3000000000000007
+    }
+   }
+  },
+  "kimi": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.30562594259634784,
+      "John": 0.3009928993295765,
+      "Jane": 0.2673636116279929
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0039448062069004095,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.0,
+      "C|John": 0.0,
+      "C|Jane": 0.0,
+      "P0|Alaric": 0.02626470000000003,
+      "P0|John": 0.0,
+      "P0|Jane": 0.0
+     },
+     "d": {
+      "John": -0.004633043266771331,
+      "Jane": -0.03826233096835496,
+      "JaneMinusJohn": -0.03362928770158363
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.24505438426081183,
+      "John": 0.21517312358139284,
+      "Jane": 0.18836170034896252
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.00026520000000000086,
+      "N|Jane": 0.0015153,
+      "C|Alaric": 0.01146149999999988,
+      "C|John": 0.0,
+      "C|Jane": 0.057068999999999905,
+      "P0|Alaric": 0.0,
+      "P0|John": 0.0,
+      "P0|Jane": 0.009971100000000056
+     },
+     "d": {
+      "John": -0.029881260679418986,
+      "Jane": -0.05669268391184931,
+      "JaneMinusJohn": -0.026811423232430326
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.39057150000000007,
+     "John": 0.34815299999999993,
+     "Jane": 0.3941610000000004
+    }
+   }
+  },
+  "llama70b": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.2520296857685454,
+      "John": 0.29841265719678167,
+      "Jane": 0.33775671195127316
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 6.279999999989628e-05,
+      "C|John": 0.01393465724874512,
+      "C|Jane": 0.01962345918053175,
+      "P0|Alaric": 0.0017844549756159352,
+      "P0|John": 0.03426037990463614,
+      "P0|Jane": 0.0027287315734604973
+     },
+     "d": {
+      "John": 0.046382971428236275,
+      "Jane": 0.08572702618272776,
+      "JaneMinusJohn": 0.039344054754491486
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.7073647512903443,
+      "John": 0.4862158095319012,
+      "Jane": 0.3054994527158133
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 4.5825756949558426e-07,
+      "N|Jane": 4.898979485566355e-07,
+      "C|Alaric": 0.058501500000000206,
+      "C|John": 0.01727478146200469,
+      "C|Jane": 0.0,
+      "P0|Alaric": 0.07404186177129782,
+      "P0|John": 0.08907266044353904,
+      "P0|Jane": 0.04197913138989412
+     },
+     "d": {
+      "John": -0.22114894175844307,
+      "Jane": -0.40186529857453096,
+      "JaneMinusJohn": -0.1807163568160879
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.37914649999999916,
+     "John": 0.9155827999999993,
+     "Jane": 0.9421915000000016
+    }
+   }
+  },
+  "mistral24b": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.56788302902056,
+      "John": 0.5092532968180387,
+      "Jane": 0.41709947739577746
+     },
+     "cell_sd": {
+      "N|Alaric": 2.4191889136650736e-05,
+      "N|John": 0.00017413801279444864,
+      "N|Jane": 0.01578109904759488,
+      "C|Alaric": 0.0003678910708347652,
+      "C|John": 0.00533879999999991,
+      "C|Jane": 0.00527404977673691,
+      "P0|Alaric": 0.010338599999999998,
+      "P0|John": 0.00021641933254675077,
+      "P0|Jane": 0.005608595270653865
+     },
+     "d": {
+      "John": -0.05862973220252132,
+      "Jane": -0.15078355162478252,
+      "JaneMinusJohn": -0.0921538194222612
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.534270621702776,
+      "John": 0.4634375224229491,
+      "Jane": 0.45440596826315266
+     },
+     "cell_sd": {
+      "N|Alaric": 2.9999999997532e-07,
+      "N|John": 0.0033581280633709215,
+      "N|Jane": 0.0010915695305385297,
+      "C|Alaric": 1.3600000000124624e-05,
+      "C|John": 0.000978900000000138,
+      "C|Jane": 0.006575999999999915,
+      "P0|Alaric": 0.002011200000000013,
+      "P0|John": 0.001565594995520873,
+      "P0|Jane": 0.015740399999999967
+     },
+     "d": {
+      "John": -0.07083309927982684,
+      "Jane": -0.07986465343962329,
+      "JaneMinusJohn": -0.009031554159796451
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.3204792999999997,
+     "John": 0.40119490000000013,
+     "Jane": 0.4265780000000001
+    }
+   }
+  },
+  "qwen80b": {
+   "status": "READ",
+   "scenarios": {
+    "bicycle": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.7047810851099876,
+      "John": 0.6233220389220839,
+      "Jane": 0.49336452414158843
+     },
+     "cell_sd": {
+      "N|Alaric": 8.099999999999997e-06,
+      "N|John": 0.0,
+      "N|Jane": 0.0,
+      "C|Alaric": 0.0,
+      "C|John": 9.960000000006631e-05,
+      "C|Jane": 0.0003413036770969727,
+      "P0|Alaric": 0.01698399999999971,
+      "P0|John": 0.0,
+      "P0|Jane": 0.0
+     },
+     "d": {
+      "John": -0.08145904618790367,
+      "Jane": -0.21141656096839917,
+      "JaneMinusJohn": -0.1299575147804955
+     }
+    },
+    "prawns_home": {
+     "gate": "PASSED",
+     "reasons": [],
+     "position": {
+      "Alaric": 0.9784525315106645,
+      "John": 0.8335401967977366,
+      "Jane": 0.6987983952093947
+     },
+     "cell_sd": {
+      "N|Alaric": 0.0,
+      "N|John": 3.0000000000000004e-07,
+      "N|Jane": 6e-07,
+      "C|Alaric": 0.0,
+      "C|John": 0.0,
+      "C|Jane": 0.0,
+      "P0|Alaric": 0.0,
+      "P0|John": 0.2202714250014287,
+      "P0|Jane": 0.0
+     },
+     "d": {
+      "John": -0.14491233471292786,
+      "Jane": -0.2796541363012698,
+      "JaneMinusJohn": -0.13474180158834193
+     }
+    }
+   },
+   "duty": {
+    "gate": "PASSED",
+    "reasons": [],
+    "separate_gap": {
+     "Alaric": 0.8778027000000002,
+     "John": 0.8968069999999999,
+     "Jane": 0.45517119999999966
+    }
+   }
+  }
+ },
+ "alaric_drift_against_banked": {
+  "database_sha256": "ba801465ae349faa35ca95b4ce31357e4b16f85a641280e5985d345dfb051126",
+  "arms": {
+   "claude|bicycle": {
+    "banked": 0.3333333333333333,
+    "banked_run": "214,215",
+    "same_session": 0.3333333333333333,
+    "difference": 0.0
+   },
+   "claude|prawns_home": {
+    "banked": 0.2857142857142857,
+    "banked_run": "220",
+    "same_session": 0.2857142857142857,
+    "difference": 0.0
+   },
+   "deepseek|bicycle": {
+    "banked": 0.5003672858590961,
+    "banked_run": "214,215",
+    "same_session": 0.5307381283522251,
+    "difference": 0.030370842493129047
+   },
+   "deepseek|prawns_home": {
+    "banked": 0.6369797598908458,
+    "banked_run": "220",
+    "same_session": 0.6435138510100451,
+    "difference": 0.006534091119199337
+   },
+   "deepseek_s|bicycle": {
+    "banked": 0.49606299212598426,
+    "banked_run": "214,215",
+    "same_session": 0.4728682170542635,
+    "difference": -0.02319477507172074
+   },
+   "deepseek_s|prawns_home": {
+    "banked": 0.6716417910447761,
+    "banked_run": "220",
+    "same_session": 0.6515151515151515,
+    "difference": -0.020126639529624568
+   },
+   "gemma27b|bicycle": {
+    "banked": 0.2995318509512221,
+    "banked_run": "215",
+    "same_session": 0.2999041124955333,
+    "difference": 0.00037226154431119207
+   },
+   "gemma27b|prawns_home": {
+    "banked": 0.7159312586755231,
+    "banked_run": "220",
+    "same_session": 0.7159314827337151,
+    "difference": 2.240581919998874e-07
+   },
+   "gpt4o|bicycle": {
+    "banked": 0.19747514617779824,
+    "banked_run": "214,215",
+    "same_session": 0.21801911738495988,
+    "difference": 0.020543971207161643
+   },
+   "gpt4o|prawns_home": {
+    "banked": 0.6012838143403099,
+    "banked_run": "220",
+    "same_session": 0.6498499949577031,
+    "difference": 0.04856618061739326
+   },
+   "gpt6l_s|bicycle": {
+    "banked": 0.09090909090909091,
+    "banked_run": "220",
+    "same_session": 0.03125,
+    "difference": -0.05965909090909091
+   },
+   "gpt6l_s|prawns_home": {
+    "banked": 0.0,
+    "banked_run": "220",
+    "same_session": 0.0,
+    "difference": 0.0
+   },
+   "gpt6s_s|bicycle": {
+    "banked": 0.018181818181818184,
+    "banked_run": "220",
+    "same_session": 0.0,
+    "difference": -0.018181818181818184
+   },
+   "gpt6s_s|prawns_home": {
+    "banked": 0.1375,
+    "banked_run": "220",
+    "same_session": 0.1038961038961039,
+    "difference": -0.03360389610389611
+   },
+   "grok43_s|bicycle": {
+    "banked": 0.7547169811320755,
+    "banked_run": "220",
+    "same_session": 0.8260869565217391,
+    "difference": 0.07136997538966361
+   },
+   "grok43_s|prawns_home": {
+    "banked": 0.8372093023255813,
+    "banked_run": "220",
+    "same_session": 1.0,
+    "difference": 0.16279069767441867
+   },
+   "haiku_s|bicycle": {
+    "banked": 0.39999999999999997,
+    "banked_run": "224",
+    "same_session": 0.41428571428571426,
+    "difference": 0.01428571428571429
+   },
+   "haiku_s|prawns_home": {
+    "banked": 0.8767123287671234,
+    "banked_run": "224",
+    "same_session": 0.7866666666666667,
+    "difference": -0.09004566210045661
+   },
+   "kimi|bicycle": {
+    "banked": 0.30401309475306654,
+    "banked_run": "224",
+    "same_session": 0.30562594259634784,
+    "difference": 0.0016128478432813065
+   },
+   "kimi|prawns_home": {
+    "banked": 0.2467804244797505,
+    "banked_run": "224",
+    "same_session": 0.24505438426081183,
+    "difference": -0.001726040218938657
+   },
+   "llama70b|bicycle": {
+    "banked": 0.2518435713320086,
+    "banked_run": "214,215",
+    "same_session": 0.2520296857685454,
+    "difference": 0.0001861144365368217
+   },
+   "llama70b|prawns_home": {
+    "banked": 0.7213830250807098,
+    "banked_run": "220",
+    "same_session": 0.7073647512903443,
+    "difference": -0.014018273790365576
+   },
+   "mistral24b|bicycle": {
+    "banked": 0.5668063985365253,
+    "banked_run": "214",
+    "same_session": 0.56788302902056,
+    "difference": 0.001076630484034724
+   },
+   "mistral24b|prawns_home": {
+    "banked": 0.5333575554627914,
+    "banked_run": "220",
+    "same_session": 0.534270621702776,
+    "difference": 0.0009130662399845502
+   },
+   "qwen80b|bicycle": {
+    "banked": 0.6874059500749965,
+    "banked_run": "214,215",
+    "same_session": 0.7047810851099876,
+    "difference": 0.017375135034991107
+   },
+   "qwen80b|prawns_home": {
+    "banked": 0.9815545656001248,
+    "banked_run": "220",
+    "same_session": 0.9784525315106645,
+    "difference": -0.003102034089460304
+   }
+  },
+  "median_abs_difference": 0.014151994038039933
+ },
+ "registered": [
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: median",
+   "-0.017"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: 95% CI",
+   "[-0.087, +0.033]"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, John minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: median",
+   "-0.080"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: 95% CI",
+   "[-0.158, -0.038]"
+  ],
+  [
+   "subject_identity subject_identity.P1 position, Jane minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 verdict",
+   "FAILS"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: median",
+   "+0.032"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: 95% CI",
+   "[-0.005, +0.067]"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, John minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: median",
+   "+0.000"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: 95% CI",
+   "[-0.047, +0.058]"
+  ],
+  [
+   "subject_identity subject_identity.P1 bicycle, Jane minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: median",
+   "-0.041"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: 95% CI",
+   "[-0.145, +0.000]"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, John minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: median",
+   "-0.143"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: 95% CI",
+   "[-0.280, -0.057]"
+  ],
+  [
+   "subject_identity subject_identity.P1 prawns_home, Jane minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: median",
+   "-0.053"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: 95% CI",
+   "[-0.080, -0.025]"
+  ],
+  [
+   "subject_identity subject_identity.P2 position, Jane minus John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P2 gender effect (interval excludes zero)",
+   "yes"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: median",
+   "-0.034"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: 95% CI",
+   "[-0.130, +0.025]"
+  ],
+  [
+   "subject_identity subject_identity.P2 bicycle, Jane minus John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: median",
+   "-0.056"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: 95% CI",
+   "[-0.106, -0.009]"
+  ],
+  [
+   "subject_identity subject_identity.P2 prawns_home, Jane minus John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: median",
+   "-0.042"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: 95% CI",
+   "[-0.254, +0.081]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: median",
+   "-0.016"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: 95% CI",
+   "[-0.423, +0.400]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: median",
+   "+0.025"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: 95% CI",
+   "[-0.300, +0.203]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane minus John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: median",
+   "+0.400"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: 95% CI",
+   "[+0.320, +0.577]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Alaric: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: median",
+   "+0.401"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: 95% CI",
+   "[+0.200, +0.897]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, John: arms",
+   "13"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: median",
+   "+0.427"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: 95% CI",
+   "[+0.300, +0.800]"
+  ],
+  [
+   "subject_identity subject_identity.P3 separate gap, Jane: arms",
+   "13"
+  ],
+  [
+   "subject_identity arms read",
+   "13 of 13"
+  ],
+  [
+   "subject_identity scenario or duty exclusions",
+   "0"
+  ]
+ ],
+ "inputs": {
+  "records/subject_identity_READ__claude.json": "08302fd3a6102035432737f86658ee7135d682f47135862da4368e25d64d599b",
+  "records/subject_identity_READ__deepseek.json": "a1cf53d5d66c9457bc6c4c39acd297ff2c37c2a4a88a5344f81ebf9d11d79aed",
+  "records/subject_identity_READ__deepseek_s.json": "ac45944afb0c1453721d360395d1bb84d7ec000b77263dac7d095ea5a272722d",
+  "records/subject_identity_READ__gemma27b.json": "4dd47bf5cfbab0271bf1ad4f255b147b0560da878b1271015f053be7ddea80d7",
+  "records/subject_identity_READ__gpt4o.json": "b3fc2470ab0b63779d432bcf5d3fcff6547c32d4c3e3063f0b5d6a12bdbc6288",
+  "records/subject_identity_READ__gpt6l_s.json": "4606e42ce21770b2eddee700acb079fcf32273b51d4bb13ad22241cfca0c236b",
+  "records/subject_identity_READ__gpt6s_s.json": "5947a068ce7356b3c498ac86b0d16727a21d4363c44bf521b6ca20f6f8aa111b",
+  "records/subject_identity_READ__grok43_s.json": "7c1a1631bf875f79fee8144045725996239d16ddbc3731d5f529c70c44745442",
+  "records/subject_identity_READ__haiku_s.json": "149b77cabe9d7b74aec4203ba72e6065781993ce67a82176da620f194ce97c7c",
+  "records/subject_identity_READ__kimi.json": "7e123363e6d7d2d7fb219584d80e2869480b54293e497cfcbca629e340df34fa",
+  "records/subject_identity_READ__llama70b.json": "f2d130a5ce8ca6c8290c719c01e10ceb4cbbd0d3b7eec3a55de2a7ed13364221",
+  "records/subject_identity_READ__mistral24b.json": "f4adf85b68d5e76bd08b174fce387484f131c24033017f080542a615196028c7",
+  "records/subject_identity_READ__qwen80b.json": "5675eefcf546eaae7213e06a45021049b2056aa41d6c81b8812f5fee284ba5c6"
+ },
+ "spent_usd": 0.3108006240000002,
+ "calls": 3000
+}

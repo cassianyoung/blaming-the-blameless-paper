@@ -51,7 +51,7 @@ corroborate; it cannot carry the result alone.
 ## INSTRUMENT
 
 Gemini 3.8 Flash, provider google-vertex, REASONING readout, sampled, ten draws,
-`max_tokens` 2048. Blame frame **byte-identical to runs 215 and 220**, sha
+`max_tokens` 2048. Blame frame **byte-identical to deployed_bicycle_rivals and deployed_scenarios**, sha
 `d78642ff1ca5a8f2cc1fafa3ffe8b5cecde72c0d116d0110bb0d1a94b4ee4783`. BLAME channel only.
 
 **REASONING-ONLY RULE.** A draw counts only if it carries reasoning text. Reasoning n

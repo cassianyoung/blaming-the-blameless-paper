@@ -1,0 +1,184 @@
+{
+ "run": "232",
+ "rule": "records/RULE_ONE_READOUT_PER_MODEL.md",
+ "check_readouts_left_out": [
+  "deepseek_s"
+ ],
+ "banked_from": [
+  "records/result.json"
+ ],
+ "note": "registered = the recount under the rule; banked = the value in the banked file it replaces, location for location",
+ "registered": [
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P1 arms holding the principle (A0.3)",
+   "12 of 12"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P1 verdict",
+   "PASS"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 cells with both premises held",
+   "59 of 69"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 cells with the fact held",
+   "59 of 69"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.10, conditional on both premises",
+   "47 of 59 (0.797)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.10, all three over all cells",
+   "47 of 69 (0.681)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(a) fell short modal yes, conditional on both premises",
+   "21 of 59 (0.356)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(a) fell short modal yes, all three over all cells",
+   "21 of 69 (0.304)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.30, conditional on both premises",
+   "30 of 59 (0.508)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.30, all three over all cells",
+   "30 of 69 (0.435)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 (a) and (b) both, conditional on both premises",
+   "20 of 59"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 (a) or (b), conditional on both premises",
+   "48 of 59"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 models in the population",
+   "12"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 median shift, B position minus direct, 95% model bootstrap",
+   "-0.3805 [-0.5562, -0.1575] over 69 cells, 12 models"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 verdict (remedy check only)",
+   "PASS"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 cells above the band, B against direct",
+   "9 against 57 of 69"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 median blame position, B against direct (same cells)",
+   "0.000 against 0.333 over 69 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 share of cells above 0.10, B against direct",
+   "0.130 against 0.826"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 cells above 0.30, B against direct",
+   "3 against 40 of 69"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: B premises on P0, PREVENT modal no",
+   "63 of 72"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: B premises on P0, PRINCIPLE modal no",
+   "72 of 72"
+  ]
+ ],
+ "banked": [
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P1 arms holding the principle (A0.3)",
+   "13 of 13"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P1 verdict",
+   "PASS"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 cells with both premises held",
+   "62 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 cells with the fact held",
+   "62 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.10, conditional on both premises",
+   "50 of 62 (0.806)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.10, all three over all cells",
+   "50 of 75 (0.667)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(a) fell short modal yes, conditional on both premises",
+   "24 of 62 (0.387)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(a) fell short modal yes, all three over all cells",
+   "24 of 75 (0.320)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.30, conditional on both premises",
+   "33 of 62 (0.532)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2(b) blame position > 0.30, all three over all cells",
+   "33 of 75 (0.440)"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 (a) and (b) both, conditional on both premises",
+   "23 of 62"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 (a) or (b), conditional on both premises",
+   "51 of 62"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P2 models in the population",
+   "13"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 median shift, B position minus direct, 95% model bootstrap",
+   "-0.4547 [-0.5653, -0.2287] over 75 cells, 13 models"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 verdict (remedy check only)",
+   "PASS"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: practical_syllogism.P3 cells above the band, B against direct",
+   "9 against 63 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 median blame position, B against direct (same cells)",
+   "0.000 against 0.417 over 75 cells"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 share of cells above 0.10, B against direct",
+   "0.120 against 0.840"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: A1 cells above 0.30, B against direct",
+   "3 against 46 of 75"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: B premises on P0, PREVENT modal no",
+   "69 of 78"
+  ],
+  [
+   "S4.1.4/rebuttal: practical_syllogism: B premises on P0, PRINCIPLE modal no",
+   "78 of 78"
+  ]
+ ],
+ "changed": 19
+}

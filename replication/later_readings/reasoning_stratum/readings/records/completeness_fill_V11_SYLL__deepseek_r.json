@@ -1,0 +1,3264 @@
+{
+ "arm": "deepseek_r",
+ "run": 237,
+ "group": "H8",
+ "frames": "records/v11_frames.json",
+ "frames_sha256": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+ "providers_served": [
+  "Sail Research"
+ ],
+ "models_served": [
+  "deepseek/deepseek-v4.1-flash"
+ ],
+ "calls": 350,
+ "spent_usd": 0.09866108399999995,
+ "cells": {
+  "v11|deepseek_r|A|A|pprawns": {
+   "key": "A|pprawns",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1256,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1966,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 2659,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1923,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 740,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 779,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 581,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1646,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 850,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 465,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "37ad821db33b3836",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|pprawns|PRO": {
+   "key": "R|pprawns|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 2378,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1075,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2973,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1420,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1682,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 600,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1167,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2450,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 717,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1597,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "d9b4cabf6b14321f",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|pprawns|PRIV": {
+   "key": "R|pprawns|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1873,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1462,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1500,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 769,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1037,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1742,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 2339,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1889,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 3190,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1781,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "da5c9afef4008060",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|pprawns|PRO": {
+   "key": "B|pprawns|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 805,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1313,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 5063,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 3924,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 4441,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 3947,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 940,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2968,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2023,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 6567,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "3ff7e8a69ec039f8",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|pprawns|PRIV": {
+   "key": "B|pprawns|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2622,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 8838,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 5978,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 6242,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 4825,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 3839,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 7669,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 5615,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 4382,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 5095,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "dca51dc28a01e728",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|A|A|p1": {
+   "key": "A|p1",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1716,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 578,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 4475,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 567,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 2043,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 790,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 704,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1150,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 687,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 842,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "bb25268c0381ed6a",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p1|PRO": {
+   "key": "R|p1|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 3629,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 558,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 462,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 857,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1229,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 675,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1402,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 438,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1910,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 367,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "3f0c2ba0ab40390a",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p1|PRIV": {
+   "key": "R|p1|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2141,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 778,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 5411,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1948,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1535,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 3788,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2954,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 515,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 555,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 612,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "ef7a3df0ff8d6dd9",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p1|PRO": {
+   "key": "B|p1|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 5143,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 8815,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 8051,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 6889,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 2122,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 3601,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 9156,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1185,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 12619,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 5096,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "8ec923c811146030",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p1|PRIV": {
+   "key": "B|p1|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 13885,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 9541,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 4080,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 9210,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 11569,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 13254,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 17985,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 13299,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 23769,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 27875,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "24d5ba6fb9f87a09",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|A|A|p3": {
+   "key": "A|p3",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 308,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 307,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 206,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 220,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 213,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 216,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 323,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 389,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 442,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 210,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "7bbc9c8ba5eae044",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p3|PRO": {
+   "key": "R|p3|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1030,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 746,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2529,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 3094,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1236,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1033,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1128,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 8646,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1671,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1306,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "ed2374c0b6bb81b2",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p3|PRIV": {
+   "key": "R|p3|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 2469,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1545,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1881,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 2016,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1335,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 2152,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 4743,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1787,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1661,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1232,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "4fdaa83ae5416a0e",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p3|PRO": {
+   "key": "B|p3|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 9868,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1435,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 5393,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 2276,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1211,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 3151,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1370,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 2185,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 3908,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 3486,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "1cf0b0abee9882e0",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p3|PRIV": {
+   "key": "B|p3|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 10247,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 18891,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 13308,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 4359,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 6300,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 15304,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 5734,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 11558,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=5",
+     "reasoned": true,
+     "reasoning_text_len": 16714,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 5
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 14576,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "54ead0fee130aa93",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|A|A|p4": {
+   "key": "A|p4",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1039,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 2150,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 5217,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1433,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 2491,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 2349,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 3312,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1970,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 4161,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1311,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "ed490821867589ff",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p4|PRO": {
+   "key": "R|p4|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2169,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1392,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1154,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 796,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 942,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 839,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 833,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1120,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 5183,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 960,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "8e31995ee1ef1757",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p4|PRIV": {
+   "key": "R|p4|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1596,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1822,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 8805,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1251,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 2338,
+     "digit": 7.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 3342,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1651,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1454,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1511,
+     "digit": 7.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1870,
+     "digit": 7.0
+    }
+   ],
+   "prompt16": "a78cc33c7e16cfb3",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p4|PRO": {
+   "key": "B|p4|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 4241,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 876,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 5438,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1690,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 2952,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 5429,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 6897,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 12883,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 4302,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 6306,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "7e110fe5439ff2b8",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p4|PRIV": {
+   "key": "B|p4|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 11061,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 8142,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 3353,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2112,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 7409,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2345,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 11780,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "reasoned": true,
+     "reasoning_text_len": 7085,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 19592,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2019,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "278ca4ea51776a2d",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|A|A|p5": {
+   "key": "A|p5",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 914,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 887,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 694,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1073,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 576,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 810,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 970,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 844,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 695,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 2020,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "6449e277f5b94c9d",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p5|PRO": {
+   "key": "R|p5|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1389,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 588,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 857,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 617,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1217,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 982,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1596,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1423,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 824,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 879,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "e2d0058c5b2f7e5d",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p5|PRIV": {
+   "key": "R|p5|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1495,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1411,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2615,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1163,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 5512,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1225,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 5079,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 411,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2789,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 1306,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "f6bd764168ed80fc",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p5|PRO": {
+   "key": "B|p5|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 15498,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 31023,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 20075,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 13159,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 23806,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 31432,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 15430,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 3348,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 7787,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 1646,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    }
+   ],
+   "prompt16": "68711dea4d8fe34e",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p5|PRIV": {
+   "key": "B|p5|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 7717,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 3435,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 25207,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 3620,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 9676,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 24683,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 18421,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 16317,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 35682,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 13791,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "f7f984babdbf654a",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|A|A|p7": {
+   "key": "A|p7",
+   "kind": "A",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 683,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 869,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 393,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1085,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1080,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1019,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 697,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1012,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1313,
+     "answer": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1161,
+     "answer": "yes"
+    }
+   ],
+   "prompt16": "fd74ad9416e3e49c",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p7|PRO": {
+   "key": "R|p7|PRO",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 701,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 371,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 483,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 638,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 356,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 485,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 676,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 381,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 697,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 867,
+     "digit": 9.0
+    }
+   ],
+   "prompt16": "5435b5fcd6d50a95",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|R|R|p7|PRIV": {
+   "key": "R|p7|PRIV",
+   "kind": "R",
+   "draws": [
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1744,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1598,
+     "digit": 8.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 4046,
+     "digit": 9.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 2681,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1703,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 6718,
+     "digit": 8.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 1731,
+     "digit": 8.0
+    },
+    {
+     "text": "7",
+     "reasoned": true,
+     "reasoning_text_len": 1191,
+     "digit": 7.0
+    },
+    {
+     "text": "9",
+     "reasoned": true,
+     "reasoning_text_len": 3814,
+     "digit": 9.0
+    },
+    {
+     "text": "8",
+     "reasoned": true,
+     "reasoning_text_len": 3757,
+     "digit": 8.0
+    }
+   ],
+   "prompt16": "b4b3fd734447d8cd",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "top_k": 20,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p7|PRO": {
+   "key": "B|p7|PRO",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 2072,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1776,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1477,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1858,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1361,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 2347,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 1501,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 2520,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 2846,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "reasoned": true,
+     "reasoning_text_len": 2051,
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     }
+    }
+   ],
+   "prompt16": "1829f2b913bf0f9c",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|B|B|p7|PRIV": {
+   "key": "B|p7|PRIV",
+   "kind": "B",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 6337,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 5819,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2318,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "reasoned": true,
+     "reasoning_text_len": 4769,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 3887,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 4495,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 2719,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 5010,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 4760,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "reasoned": true,
+     "reasoning_text_len": 5486,
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     }
+    }
+   ],
+   "prompt16": "6774acc49f27cef6",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|G|G|G1": {
+   "key": "G|G1",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 540,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 322,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 268,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 302,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 392,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 291,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 479,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 297,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 396,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "2c63464ab4bbf540",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|G|G|G1_AP": {
+   "key": "G|G1_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 291,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 283,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 314,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 341,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 377,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 369,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 352,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 350,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 351,
+     "parsed": "more"
+    },
+    {
+     "text": "more",
+     "reasoned": true,
+     "reasoning_text_len": 381,
+     "parsed": "more"
+    }
+   ],
+   "prompt16": "8fc7fecd742ba24e",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|G|G|G2": {
+   "key": "G|G2",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 924,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1031,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 703,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 370,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 316,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1267,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 789,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 887,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 1204,
+     "parsed": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned": true,
+     "reasoning_text_len": 896,
+     "parsed": "yes"
+    }
+   ],
+   "prompt16": "2f5552e0f5f5ca7d",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|G|G|G3_PA": {
+   "key": "G|G3_PA",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 5073,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 23791,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=7 AMATEUR=4",
+     "reasoned": true,
+     "reasoning_text_len": 2760,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 4
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 7901,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 5977,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=9 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 15445,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 11629,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 7247,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 13686,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "PROFESSIONAL=8 AMATEUR=5",
+     "reasoned": true,
+     "reasoning_text_len": 8594,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    }
+   ],
+   "prompt16": "0e8ef4821412d5e5",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  },
+  "v11|deepseek_r|G|G|G3_AP": {
+   "key": "G|G3_AP",
+   "kind": "G",
+   "draws": [
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 7761,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=7",
+     "reasoned": true,
+     "reasoning_text_len": 9044,
+     "parsed": {
+      "PROFESSIONAL": 7,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 11216,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 9593,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 7335,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=9",
+     "reasoned": true,
+     "reasoning_text_len": 11209,
+     "parsed": {
+      "PROFESSIONAL": 9,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 7161,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=6 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 9776,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 6
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 8252,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    },
+    {
+     "text": "AMATEUR=5 PROFESSIONAL=8",
+     "reasoned": true,
+     "reasoning_text_len": 8154,
+     "parsed": {
+      "PROFESSIONAL": 8,
+      "AMATEUR": 5
+     }
+    }
+   ],
+   "prompt16": "e9407e6b00e2ac11",
+   "settings": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "want_logprobs": false,
+    "reasoning": {
+     "effort": "low"
+    }
+   }
+  }
+ }
+}

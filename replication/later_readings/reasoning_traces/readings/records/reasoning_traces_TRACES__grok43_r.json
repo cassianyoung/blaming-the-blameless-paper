@@ -1,0 +1,2132 @@
+{
+ "run": "230",
+ "arm": "grok43_r",
+ "prereg": "records/PREREG_reasoning_traces_TRACES.md",
+ "harness_keeps_text": true,
+ "log": "runs/reasoning_traces/logs/grok43_r/read.jsonl",
+ "draws_per_cell": 10,
+ "ts": "2026-10-12T15:30:54Z",
+ "served_models": [
+  "x-ai/grok-4.3"
+ ],
+ "served_providers": [
+  "xAI"
+ ],
+ "cells": {
+  "prawns|pro": {
+   "pair": "prawns",
+   "leg": "pro",
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_grok43_r.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.9,
+   "banked_mean": 7.8,
+   "drift": 0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d1",
+     "ts": "2026-10-12T15:30:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 225,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d2",
+     "ts": "2026-10-12T15:31:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 199,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d3",
+     "ts": "2026-10-12T15:31:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 197,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d4",
+     "ts": "2026-10-12T15:31:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 204,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d5",
+     "ts": "2026-10-12T15:31:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 182,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d6",
+     "ts": "2026-10-12T15:31:21Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 310,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d7",
+     "ts": "2026-10-12T15:31:26Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 298,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d8",
+     "ts": "2026-10-12T15:31:30Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 313,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d9",
+     "ts": "2026-10-12T15:31:35Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 224,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRO|d10",
+     "ts": "2026-10-12T15:31:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 263,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "prawns|priv": {
+   "pair": "prawns",
+   "leg": "priv",
+   "prompt_sha256_16": "da5c9afef4008060",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_grok43_r.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.0,
+   "banked_mean": 7.2,
+   "drift": -0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d1",
+     "ts": "2026-10-12T15:31:45Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 297,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d2",
+     "ts": "2026-10-12T15:31:49Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 317,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d3",
+     "ts": "2026-10-12T15:31:54Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 278,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d4",
+     "ts": "2026-10-12T15:31:59Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 211,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d5",
+     "ts": "2026-10-12T15:32:03Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 268,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d6",
+     "ts": "2026-10-12T15:32:08Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 200,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d7",
+     "ts": "2026-10-12T15:32:13Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 249,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d8",
+     "ts": "2026-10-12T15:32:18Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 262,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d9",
+     "ts": "2026-10-12T15:32:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 293,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|prawns|PRIV|d10",
+     "ts": "2026-10-12T15:32:29Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 228,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "1|pro": {
+   "pair": "1",
+   "leg": "pro",
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_grok43_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.0,
+   "banked_mean": 8.2,
+   "drift": -0.1999999999999993,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d1",
+     "ts": "2026-10-12T15:32:39Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 205,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d2",
+     "ts": "2026-10-12T15:32:48Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 246,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d3",
+     "ts": "2026-10-12T15:33:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 544,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d4",
+     "ts": "2026-10-12T15:33:10Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 368,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d5",
+     "ts": "2026-10-12T15:33:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 357,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d6",
+     "ts": "2026-10-12T15:33:22Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 371,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d7",
+     "ts": "2026-10-12T15:33:29Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 373,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d8",
+     "ts": "2026-10-12T15:33:35Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 403,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d9",
+     "ts": "2026-10-12T15:33:41Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 297,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|1|PRO|d10",
+     "ts": "2026-10-12T15:33:48Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 297,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "1|priv": {
+   "pair": "1",
+   "leg": "priv",
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_grok43_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.5,
+   "banked_mean": 7.6,
+   "drift": -0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d1",
+     "ts": "2026-10-12T15:33:53Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 337,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d2",
+     "ts": "2026-10-12T15:33:57Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 369,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d3",
+     "ts": "2026-10-12T15:34:02Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 325,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d4",
+     "ts": "2026-10-12T15:34:06Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 433,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d5",
+     "ts": "2026-10-12T15:34:11Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 394,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d6",
+     "ts": "2026-10-12T15:34:16Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d7",
+     "ts": "2026-10-12T15:34:22Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 260,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d8",
+     "ts": "2026-10-12T15:34:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 447,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d9",
+     "ts": "2026-10-12T15:34:33Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 239,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|1|PRIV|d10",
+     "ts": "2026-10-12T15:34:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 258,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "3|pro": {
+   "pair": "3",
+   "leg": "pro",
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_grok43_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.0,
+   "banked_mean": 8.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d1",
+     "ts": "2026-10-12T15:34:43Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 320,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d2",
+     "ts": "2026-10-12T15:34:47Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 178,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d3",
+     "ts": "2026-10-12T15:34:53Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 374,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d4",
+     "ts": "2026-10-12T15:34:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 210,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d5",
+     "ts": "2026-10-12T15:35:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 360,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d6",
+     "ts": "2026-10-12T15:35:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 110,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d7",
+     "ts": "2026-10-12T15:35:12Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 243,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d8",
+     "ts": "2026-10-12T15:35:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 334,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d9",
+     "ts": "2026-10-12T15:35:24Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 452,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|3|PRO|d10",
+     "ts": "2026-10-12T15:35:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 330,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "3|priv": {
+   "pair": "3",
+   "leg": "priv",
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_grok43_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.5,
+   "banked_mean": 7.5,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d1",
+     "ts": "2026-10-12T15:35:34Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 322,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d2",
+     "ts": "2026-10-12T15:35:38Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 195,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d3",
+     "ts": "2026-10-12T15:35:43Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 107,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d4",
+     "ts": "2026-10-12T15:35:48Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 403,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d5",
+     "ts": "2026-10-12T15:35:53Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 390,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d6",
+     "ts": "2026-10-12T15:35:59Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 392,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d7",
+     "ts": "2026-10-12T15:36:04Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d8",
+     "ts": "2026-10-12T15:36:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 328,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d9",
+     "ts": "2026-10-12T15:36:14Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 269,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|3|PRIV|d10",
+     "ts": "2026-10-12T15:36:17Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 266,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "4|pro": {
+   "pair": "4",
+   "leg": "pro",
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_grok43_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.0,
+   "banked_mean": 7.8,
+   "drift": 0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d1",
+     "ts": "2026-10-12T15:36:22Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 115,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d2",
+     "ts": "2026-10-12T15:36:26Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 168,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d3",
+     "ts": "2026-10-12T15:36:30Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 391,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d4",
+     "ts": "2026-10-12T15:36:34Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 283,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d5",
+     "ts": "2026-10-12T15:36:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 249,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d6",
+     "ts": "2026-10-12T15:36:42Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 190,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d7",
+     "ts": "2026-10-12T15:36:46Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 243,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d8",
+     "ts": "2026-10-12T15:36:49Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 182,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d9",
+     "ts": "2026-10-12T15:36:53Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 349,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|4|PRO|d10",
+     "ts": "2026-10-12T15:36:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 222,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "4|priv": {
+   "pair": "4",
+   "leg": "priv",
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_grok43_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 5.6,
+   "banked_mean": 5.6,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d1",
+     "ts": "2026-10-12T15:37:02Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 214,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d2",
+     "ts": "2026-10-12T15:37:07Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 262,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d3",
+     "ts": "2026-10-12T15:37:12Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 197,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d4",
+     "ts": "2026-10-12T15:37:19Z",
+     "digit": 4.0,
+     "reasoned": true,
+     "reasoning_text_len": 328,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d5",
+     "ts": "2026-10-12T15:37:23Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 224,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d6",
+     "ts": "2026-10-12T15:37:27Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 281,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d7",
+     "ts": "2026-10-12T15:37:32Z",
+     "digit": 4.0,
+     "reasoned": true,
+     "reasoning_text_len": 341,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d8",
+     "ts": "2026-10-12T15:37:37Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 382,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d9",
+     "ts": "2026-10-12T15:37:42Z",
+     "digit": 4.0,
+     "reasoned": true,
+     "reasoning_text_len": 129,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|4|PRIV|d10",
+     "ts": "2026-10-12T15:37:48Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 280,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "5|pro": {
+   "pair": "5",
+   "leg": "pro",
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_grok43_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.9,
+   "banked_mean": 8.0,
+   "drift": -0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d1",
+     "ts": "2026-10-12T15:37:51Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 382,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d2",
+     "ts": "2026-10-12T15:37:55Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 240,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d3",
+     "ts": "2026-10-12T15:37:58Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 278,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d4",
+     "ts": "2026-10-12T15:38:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 302,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d5",
+     "ts": "2026-10-12T15:38:05Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 188,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d6",
+     "ts": "2026-10-12T15:38:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 303,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d7",
+     "ts": "2026-10-12T15:38:13Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 369,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d8",
+     "ts": "2026-10-12T15:38:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 216,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d9",
+     "ts": "2026-10-12T15:38:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 202,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|5|PRO|d10",
+     "ts": "2026-10-12T15:38:25Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 255,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "5|priv": {
+   "pair": "5",
+   "leg": "priv",
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_grok43_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.9,
+   "banked_mean": 7.4,
+   "drift": 0.5,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d1",
+     "ts": "2026-10-12T15:38:28Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 258,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d2",
+     "ts": "2026-10-12T15:38:33Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 302,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d3",
+     "ts": "2026-10-12T15:38:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 288,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d4",
+     "ts": "2026-10-12T15:38:41Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 224,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d5",
+     "ts": "2026-10-12T15:38:47Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 431,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d6",
+     "ts": "2026-10-12T15:38:53Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 244,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d7",
+     "ts": "2026-10-12T15:38:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 296,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d8",
+     "ts": "2026-10-12T15:39:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 105,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d9",
+     "ts": "2026-10-12T15:39:05Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 289,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|5|PRIV|d10",
+     "ts": "2026-10-12T15:39:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 290,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "7|pro": {
+   "pair": "7",
+   "leg": "pro",
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_B/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.2,
+   "banked_mean": 8.1,
+   "drift": 0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d1",
+     "ts": "2026-10-12T15:39:14Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 316,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d2",
+     "ts": "2026-10-12T15:39:17Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 226,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d3",
+     "ts": "2026-10-12T15:39:22Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 276,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d4",
+     "ts": "2026-10-12T15:39:25Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 209,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d5",
+     "ts": "2026-10-12T15:39:29Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 190,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d6",
+     "ts": "2026-10-12T15:39:33Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 231,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d7",
+     "ts": "2026-10-12T15:39:38Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 220,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d8",
+     "ts": "2026-10-12T15:39:42Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 297,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d9",
+     "ts": "2026-10-12T15:39:46Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 303,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|7|PRO|d10",
+     "ts": "2026-10-12T15:39:50Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 288,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  },
+  "7|priv": {
+   "pair": "7",
+   "leg": "priv",
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "x-ai/grok-4.3",
+    "provider": "xai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_B/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.6,
+   "banked_mean": 7.5,
+   "drift": 0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d1",
+     "ts": "2026-10-12T15:39:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 166,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d2",
+     "ts": "2026-10-12T15:39:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 271,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d3",
+     "ts": "2026-10-12T15:40:03Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 265,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d4",
+     "ts": "2026-10-12T15:40:07Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 258,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d5",
+     "ts": "2026-10-12T15:40:11Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 258,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d6",
+     "ts": "2026-10-12T15:40:15Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 199,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d7",
+     "ts": "2026-10-12T15:40:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 220,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d8",
+     "ts": "2026-10-12T15:40:24Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 221,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d9",
+     "ts": "2026-10-12T15:40:29Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 181,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|grok43_r|sep|7|PRIV|d10",
+     "ts": "2026-10-12T15:40:34Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 337,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "x-ai/grok-4.3",
+     "provider_served": "xAI"
+    }
+   ],
+   "errors": []
+  }
+ },
+ "served_constant": true,
+ "calls_so_far": 120,
+ "spent_so_far_usd": 0.15760760000000004
+}

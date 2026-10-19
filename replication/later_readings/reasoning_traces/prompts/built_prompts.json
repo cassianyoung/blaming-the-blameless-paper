@@ -1,0 +1,1298 @@
+[
+ {
+  "arm": "deepseek_r",
+  "pair": "prawns",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "d9b4cabf6b14321f",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "prawns",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "da5c9afef4008060",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "1",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "3f0c2ba0ab40390a",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "1",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "3",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ed2374c0b6bb81b2",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "3",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "4fdaa83ae5416a0e",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "4",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "8e31995ee1ef1757",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "4",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "a78cc33c7e16cfb3",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "5",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "e2d0058c5b2f7e5d",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "5",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "f6bd764168ed80fc",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "7",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "5435b5fcd6d50a95",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "deepseek_r",
+  "pair": "7",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "b4b3fd734447d8cd",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "prawns",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "d9b4cabf6b14321f",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "prawns",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "da5c9afef4008060",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "1",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "3f0c2ba0ab40390a",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "1",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "3",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ed2374c0b6bb81b2",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "3",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "4fdaa83ae5416a0e",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "4",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "8e31995ee1ef1757",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "4",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "a78cc33c7e16cfb3",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "5",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "e2d0058c5b2f7e5d",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "5",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "f6bd764168ed80fc",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "7",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "5435b5fcd6d50a95",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "haiku_r",
+  "pair": "7",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "b4b3fd734447d8cd",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "prawns",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "d9b4cabf6b14321f",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "prawns",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "da5c9afef4008060",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "1",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "3f0c2ba0ab40390a",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "1",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "3",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ed2374c0b6bb81b2",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "3",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "4fdaa83ae5416a0e",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "4",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "8e31995ee1ef1757",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "4",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "a78cc33c7e16cfb3",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "5",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "e2d0058c5b2f7e5d",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "5",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "f6bd764168ed80fc",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "7",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "5435b5fcd6d50a95",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "grok43_r",
+  "pair": "7",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "b4b3fd734447d8cd",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "prawns",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "d9b4cabf6b14321f",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "prawns",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "da5c9afef4008060",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "1",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "3f0c2ba0ab40390a",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "1",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "3",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ed2374c0b6bb81b2",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "3",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "4fdaa83ae5416a0e",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "4",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "8e31995ee1ef1757",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "4",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "a78cc33c7e16cfb3",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "5",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "e2d0058c5b2f7e5d",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "5",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "f6bd764168ed80fc",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "7",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "5435b5fcd6d50a95",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6l_r",
+  "pair": "7",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "b4b3fd734447d8cd",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "prawns",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "d9b4cabf6b14321f",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "prawns",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "da5c9afef4008060",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "1",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "3f0c2ba0ab40390a",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "1",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "3",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ed2374c0b6bb81b2",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "3",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "4fdaa83ae5416a0e",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "4",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "8e31995ee1ef1757",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "4",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "a78cc33c7e16cfb3",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "5",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "e2d0058c5b2f7e5d",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "5",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "f6bd764168ed80fc",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "7",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "5435b5fcd6d50a95",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gpt6s_r",
+  "pair": "7",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "b4b3fd734447d8cd",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "prawns",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "d9b4cabf6b14321f",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "prawns",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "da5c9afef4008060",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "1",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "3f0c2ba0ab40390a",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "1",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "3",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "ed2374c0b6bb81b2",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "3",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "4fdaa83ae5416a0e",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "4",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "8e31995ee1ef1757",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "4",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "a78cc33c7e16cfb3",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "5",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "e2d0058c5b2f7e5d",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "5",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "f6bd764168ed80fc",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "7",
+  "leg": "pro",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "5435b5fcd6d50a95",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ },
+ {
+  "arm": "gemini_r",
+  "pair": "7",
+  "leg": "priv",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+   },
+   {
+    "role": "user",
+    "content": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+   }
+  ],
+  "prompt_sha256_16": "b4b3fd734447d8cd",
+  "matches_the_banked_duty_test_calls": true,
+  "refused": null
+ }
+]

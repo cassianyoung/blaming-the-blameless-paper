@@ -181,7 +181,7 @@ cells. Report before releasing anything else:
 **§2 On a clean report, release the rest, slowest first** (the six reasoning arms, then
 the fast arms in parallel). No further halt.
 
-Retry policy, unchanged from runs 225 and 227: **retry with backoff, settings never
+Retry policy, unchanged from duty_pairs and duty_remedies: **retry with backoff, settings never
 changed, values never substituted.** Every attempt logged. A draw that fails every
 attempt is recorded unread with its error, never defaulted; a cell reports
 `n_drawn`/`n_parsed` so a short cell is visible rather than averaged over silently. If a

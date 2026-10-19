@@ -1,0 +1,2118 @@
+{
+ "run": "230",
+ "arm": "gpt6l_r",
+ "prereg": "records/PREREG_reasoning_traces_TRACES.md",
+ "harness_keeps_text": true,
+ "log": "runs/reasoning_traces/logs/gpt6l_r/read.jsonl",
+ "draws_per_cell": 10,
+ "ts": "2026-10-12T15:30:54Z",
+ "served_models": [
+  "openai/gpt-6-luna"
+ ],
+ "served_providers": [
+  "OpenAI"
+ ],
+ "cells": {
+  "prawns|pro": {
+   "pair": "prawns",
+   "leg": "pro",
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_gpt6l_r.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 9,
+   "mean": 8.0,
+   "banked_mean": 8.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d1",
+     "ts": "2026-10-12T15:30:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d2",
+     "ts": "2026-10-12T15:30:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 391,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d3",
+     "ts": "2026-10-12T15:31:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 396,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d4",
+     "ts": "2026-10-12T15:31:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d5",
+     "ts": "2026-10-12T15:31:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 429,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d6",
+     "ts": "2026-10-12T15:31:10Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 453,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d7",
+     "ts": "2026-10-12T15:31:13Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 432,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d8",
+     "ts": "2026-10-12T15:31:15Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 421,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d9",
+     "ts": "2026-10-12T15:31:18Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 431,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRO|d10",
+     "ts": "2026-10-12T15:31:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 462,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "prawns|priv": {
+   "pair": "prawns",
+   "leg": "priv",
+   "prompt_sha256_16": "da5c9afef4008060",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_gpt6l_r.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.7,
+   "banked_mean": 7.7,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d1",
+     "ts": "2026-10-12T15:31:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 438,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d2",
+     "ts": "2026-10-12T15:31:25Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 445,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d3",
+     "ts": "2026-10-12T15:31:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 456,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d4",
+     "ts": "2026-10-12T15:31:30Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 450,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d5",
+     "ts": "2026-10-12T15:31:33Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d6",
+     "ts": "2026-10-12T15:31:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d7",
+     "ts": "2026-10-12T15:31:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 427,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d8",
+     "ts": "2026-10-12T15:31:43Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 459,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d9",
+     "ts": "2026-10-12T15:31:46Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 423,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|prawns|PRIV|d10",
+     "ts": "2026-10-12T15:31:48Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "1|pro": {
+   "pair": "1",
+   "leg": "pro",
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/g2/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 9,
+   "mean": 8.3,
+   "banked_mean": 8.0,
+   "drift": 0.3000000000000007,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d1",
+     "ts": "2026-10-12T15:31:51Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 463,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d2",
+     "ts": "2026-10-12T15:31:53Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d3",
+     "ts": "2026-10-12T15:31:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 513,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d4",
+     "ts": "2026-10-12T15:32:00Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 504,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d5",
+     "ts": "2026-10-12T15:32:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 475,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d6",
+     "ts": "2026-10-12T15:32:06Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 423,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d7",
+     "ts": "2026-10-12T15:32:08Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 451,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d8",
+     "ts": "2026-10-12T15:32:12Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 465,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d9",
+     "ts": "2026-10-12T15:32:15Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRO|d10",
+     "ts": "2026-10-12T15:32:18Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 477,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "1|priv": {
+   "pair": "1",
+   "leg": "priv",
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/g2/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 9,
+   "mean": 8.0,
+   "banked_mean": 8.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d1",
+     "ts": "2026-10-12T15:32:20Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 502,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d2",
+     "ts": "2026-10-12T15:32:23Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 444,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d3",
+     "ts": "2026-10-12T15:32:26Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 494,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d4",
+     "ts": "2026-10-12T15:32:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 424,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d5",
+     "ts": "2026-10-12T15:32:31Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d6",
+     "ts": "2026-10-12T15:32:34Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 473,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d7",
+     "ts": "2026-10-12T15:32:36Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 486,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d8",
+     "ts": "2026-10-12T15:32:39Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d9",
+     "ts": "2026-10-12T15:32:42Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 463,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|1|PRIV|d10",
+     "ts": "2026-10-12T15:32:45Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "3|pro": {
+   "pair": "3",
+   "leg": "pro",
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/g2/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 8,
+   "mean": 8.0,
+   "banked_mean": 8.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d1",
+     "ts": "2026-10-12T15:32:49Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 496,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d2",
+     "ts": "2026-10-12T15:32:52Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d3",
+     "ts": "2026-10-12T15:32:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d4",
+     "ts": "2026-10-12T15:32:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 428,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d5",
+     "ts": "2026-10-12T15:32:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d6",
+     "ts": "2026-10-12T15:33:02Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 418,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d7",
+     "ts": "2026-10-12T15:33:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d8",
+     "ts": "2026-10-12T15:33:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 578,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d9",
+     "ts": "2026-10-12T15:33:10Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 478,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRO|d10",
+     "ts": "2026-10-12T15:33:13Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 382,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "3|priv": {
+   "pair": "3",
+   "leg": "priv",
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/g2/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 8,
+   "mean": 6.4,
+   "banked_mean": 6.8,
+   "drift": -0.39999999999999947,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d1",
+     "ts": "2026-10-12T15:33:16Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d2",
+     "ts": "2026-10-12T15:33:19Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d3",
+     "ts": "2026-10-12T15:33:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d4",
+     "ts": "2026-10-12T15:33:26Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d5",
+     "ts": "2026-10-12T15:33:30Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 530,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d6",
+     "ts": "2026-10-12T15:33:32Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 504,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d7",
+     "ts": "2026-10-12T15:33:35Z",
+     "digit": 5.0,
+     "reasoned": true,
+     "reasoning_text_len": 422,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d8",
+     "ts": "2026-10-12T15:33:39Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 468,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d9",
+     "ts": "2026-10-12T15:33:42Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 469,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|3|PRIV|d10",
+     "ts": "2026-10-12T15:33:47Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 551,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "4|pro": {
+   "pair": "4",
+   "leg": "pro",
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/g2/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 8,
+   "mean": 7.8,
+   "banked_mean": 7.9,
+   "drift": -0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d1",
+     "ts": "2026-10-12T15:33:49Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d2",
+     "ts": "2026-10-12T15:33:51Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d3",
+     "ts": "2026-10-12T15:33:54Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d4",
+     "ts": "2026-10-12T15:33:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 419,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d5",
+     "ts": "2026-10-12T15:33:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 435,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d6",
+     "ts": "2026-10-12T15:34:02Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 449,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d7",
+     "ts": "2026-10-12T15:34:05Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 454,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d8",
+     "ts": "2026-10-12T15:34:07Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d9",
+     "ts": "2026-10-12T15:34:10Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRO|d10",
+     "ts": "2026-10-12T15:34:12Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 392,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "4|priv": {
+   "pair": "4",
+   "leg": "priv",
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/g2/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 9,
+   "mean": 6.7,
+   "banked_mean": 6.6,
+   "drift": 0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d1",
+     "ts": "2026-10-12T15:34:15Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 459,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d2",
+     "ts": "2026-10-12T15:34:17Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 418,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d3",
+     "ts": "2026-10-12T15:34:20Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 458,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d4",
+     "ts": "2026-10-12T15:34:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d5",
+     "ts": "2026-10-12T15:34:26Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 463,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d6",
+     "ts": "2026-10-12T15:34:29Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 416,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d7",
+     "ts": "2026-10-12T15:34:33Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 460,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d8",
+     "ts": "2026-10-12T15:34:35Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 469,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d9",
+     "ts": "2026-10-12T15:34:38Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 447,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|4|PRIV|d10",
+     "ts": "2026-10-12T15:34:40Z",
+     "digit": 6.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "5|pro": {
+   "pair": "5",
+   "leg": "pro",
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/g2/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 9,
+   "mean": 8.0,
+   "banked_mean": 7.8,
+   "drift": 0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d1",
+     "ts": "2026-10-12T15:34:42Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d2",
+     "ts": "2026-10-12T15:34:44Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d3",
+     "ts": "2026-10-12T15:34:47Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 439,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d4",
+     "ts": "2026-10-12T15:34:50Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 475,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d5",
+     "ts": "2026-10-12T15:34:53Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 475,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d6",
+     "ts": "2026-10-12T15:34:56Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d7",
+     "ts": "2026-10-12T15:34:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 474,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d8",
+     "ts": "2026-10-12T15:35:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 404,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d9",
+     "ts": "2026-10-12T15:35:04Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 464,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRO|d10",
+     "ts": "2026-10-12T15:35:06Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 409,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "5|priv": {
+   "pair": "5",
+   "leg": "priv",
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/g2/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.1,
+   "banked_mean": 7.3,
+   "drift": -0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d1",
+     "ts": "2026-10-12T15:35:09Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 396,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d2",
+     "ts": "2026-10-12T15:35:11Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 488,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d3",
+     "ts": "2026-10-12T15:35:17Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 452,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d4",
+     "ts": "2026-10-12T15:35:19Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 412,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d5",
+     "ts": "2026-10-12T15:35:22Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d6",
+     "ts": "2026-10-12T15:35:25Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 482,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d7",
+     "ts": "2026-10-12T15:35:28Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 396,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d8",
+     "ts": "2026-10-12T15:35:30Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 472,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d9",
+     "ts": "2026-10-12T15:35:33Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 421,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|5|PRIV|d10",
+     "ts": "2026-10-12T15:35:36Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 480,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "7|pro": {
+   "pair": "7",
+   "leg": "pro",
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_B/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 9,
+   "mean": 8.0,
+   "banked_mean": 8.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d1",
+     "ts": "2026-10-12T15:35:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 414,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d2",
+     "ts": "2026-10-12T15:35:43Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 468,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d3",
+     "ts": "2026-10-12T15:35:45Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 390,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d4",
+     "ts": "2026-10-12T15:35:48Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 443,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d5",
+     "ts": "2026-10-12T15:35:50Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 441,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d6",
+     "ts": "2026-10-12T15:35:52Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d7",
+     "ts": "2026-10-12T15:35:55Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 427,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d8",
+     "ts": "2026-10-12T15:35:57Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 450,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d9",
+     "ts": "2026-10-12T15:36:00Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 446,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRO|d10",
+     "ts": "2026-10-12T15:36:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 461,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  },
+  "7|priv": {
+   "pair": "7",
+   "leg": "priv",
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "openai/gpt-6-luna",
+    "provider": "openai",
+    "reasoning": null,
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_B/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 8,
+   "mean": 7.4,
+   "banked_mean": 7.2,
+   "drift": 0.20000000000000018,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d1",
+     "ts": "2026-10-12T15:36:06Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 392,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d2",
+     "ts": "2026-10-12T15:36:08Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 466,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d3",
+     "ts": "2026-10-12T15:36:11Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d4",
+     "ts": "2026-10-12T15:36:13Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 436,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d5",
+     "ts": "2026-10-12T15:36:16Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 456,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d6",
+     "ts": "2026-10-12T15:36:19Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 437,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d7",
+     "ts": "2026-10-12T15:36:21Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 423,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d8",
+     "ts": "2026-10-12T15:36:23Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 0,
+     "reasoning_kinds": [
+      "reasoning.encrypted"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d9",
+     "ts": "2026-10-12T15:36:27Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 442,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|gpt6l_r|sep|7|PRIV|d10",
+     "ts": "2026-10-12T15:36:31Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 482,
+     "reasoning_kinds": [
+      "reasoning.encrypted",
+      "reasoning.summary"
+     ],
+     "answer_len": 1,
+     "served_model": "openai/gpt-6-luna",
+     "provider_served": "OpenAI"
+    }
+   ],
+   "errors": []
+  }
+ },
+ "served_constant": true,
+ "calls_so_far": 120,
+ "spent_so_far_usd": 0.0057065000000000015
+}

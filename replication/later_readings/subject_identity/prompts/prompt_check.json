@@ -1,0 +1,98 @@
+{
+ "hash": "sha256 of json.dumps(messages), first 16 hex digits, as the study's harness logs it in each call's prompt_sha256_16",
+ "frozen_or_built_prompts": 21,
+ "prompts_sent": 21,
+ "prompts_never_sent": [],
+ "calls": 3000,
+ "calls_matching_a_prompt": 3000,
+ "calls_matching_no_prompt": {},
+ "coder_calls_matching_their_rebuilt_prompt": null,
+ "coder_calls_not_matching": null,
+ "built_prompts_matching_the_banked_duty_test_calls": null,
+ "per_prompt": {
+  "frames.json: bicycle|C|Alaric": {
+   "prompt_sha256_16": "5ccca4a665f65942",
+   "calls": 160
+  },
+  "frames.json: bicycle|C|Jane": {
+   "prompt_sha256_16": "bd5571db555f6bea",
+   "calls": 160
+  },
+  "frames.json: bicycle|C|John": {
+   "prompt_sha256_16": "b808518120a8f0bb",
+   "calls": 160
+  },
+  "frames.json: bicycle|N|Alaric": {
+   "prompt_sha256_16": "b75b2b926936d101",
+   "calls": 160
+  },
+  "frames.json: bicycle|N|Jane": {
+   "prompt_sha256_16": "5f10fffd84992069",
+   "calls": 160
+  },
+  "frames.json: bicycle|N|John": {
+   "prompt_sha256_16": "4276fc0e9a3bbc1d",
+   "calls": 160
+  },
+  "frames.json: bicycle|P0|Alaric": {
+   "prompt_sha256_16": "f285537a272731ac",
+   "calls": 160
+  },
+  "frames.json: bicycle|P0|Jane": {
+   "prompt_sha256_16": "3e94f1cf3529c394",
+   "calls": 160
+  },
+  "frames.json: bicycle|P0|John": {
+   "prompt_sha256_16": "147de8a626a9dacb",
+   "calls": 160
+  },
+  "frames.json: prawns_home|C|Alaric": {
+   "prompt_sha256_16": "da5c9afef4008060",
+   "calls": 130
+  },
+  "frames.json: prawns_home|C|Jane": {
+   "prompt_sha256_16": "2941933158cda0b1",
+   "calls": 130
+  },
+  "frames.json: prawns_home|C|John": {
+   "prompt_sha256_16": "faba530865818b27",
+   "calls": 130
+  },
+  "frames.json: prawns_home|N|Alaric": {
+   "prompt_sha256_16": "d77bad9f9a3ac160",
+   "calls": 130
+  },
+  "frames.json: prawns_home|N|Jane": {
+   "prompt_sha256_16": "440e95f4aec57934",
+   "calls": 130
+  },
+  "frames.json: prawns_home|N|John": {
+   "prompt_sha256_16": "4c3a66a790d382a8",
+   "calls": 130
+  },
+  "frames.json: prawns_home|P0|Alaric": {
+   "prompt_sha256_16": "4e843f01d2227c4f",
+   "calls": 130
+  },
+  "frames.json: prawns_home|P0|Jane": {
+   "prompt_sha256_16": "e7fa9fa14a80bb3c",
+   "calls": 130
+  },
+  "frames.json: prawns_home|P0|John": {
+   "prompt_sha256_16": "d0a1a0f71b569c4f",
+   "calls": 130
+  },
+  "frames.json: prawns_restaurant|C|Alaric": {
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "calls": 130
+  },
+  "frames.json: prawns_restaurant|C|Jane": {
+   "prompt_sha256_16": "420c1e73a7987542",
+   "calls": 130
+  },
+  "frames.json: prawns_restaurant|C|John": {
+   "prompt_sha256_16": "8a78521f455dc10f",
+   "calls": 130
+  }
+ }
+}

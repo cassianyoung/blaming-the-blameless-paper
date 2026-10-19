@@ -1,0 +1,92 @@
+{
+ "agreement": {
+  "full": {
+   "sampled": 48,
+   "both_coded": 48,
+   "excluded_uncoded": 0,
+   "R": {
+    "ac1": 0.6251626898047723,
+    "raw_agreement": 0.8125,
+    "yes_primary": 29,
+    "yes_second": 20
+   },
+   "C": {
+    "ac1": 0.9547169811320756,
+    "raw_agreement": 0.9583333333333334,
+    "yes_primary": 2,
+    "yes_second": 2
+   },
+   "S": {
+    "ac1": 0.5739644970414202,
+    "raw_agreement": 0.75,
+    "yes_primary": 20,
+    "yes_second": 8
+   }
+  },
+  "summary": {
+   "sampled": 102,
+   "both_coded": 102,
+   "excluded_uncoded": 0,
+   "R": {
+    "ac1": 0.6224957760077239,
+    "raw_agreement": 0.7745098039215687,
+    "yes_primary": 40,
+    "yes_second": 17
+   },
+   "C": {
+    "ac1": 1.0,
+    "raw_agreement": 1.0,
+    "yes_primary": 0,
+    "yes_second": 0
+   },
+   "S": {
+    "ac1": 0.9584097859327217,
+    "raw_agreement": 0.9607843137254902,
+    "yes_primary": 5,
+    "yes_second": 1
+   }
+  },
+  "gemini alone": {
+   "sampled": 23,
+   "both_coded": 23,
+   "excluded_uncoded": 0,
+   "R": {
+    "ac1": 0.6528301886792452,
+    "raw_agreement": 0.8260869565217391,
+    "yes_primary": 13,
+    "yes_second": 9
+   },
+   "C": {
+    "ac1": 1.0,
+    "raw_agreement": 1.0,
+    "yes_primary": 0,
+    "yes_second": 0
+   },
+   "S": {
+    "ac1": 0.8966292134831458,
+    "raw_agreement": 0.9130434782608695,
+    "yes_primary": 3,
+    "yes_second": 1
+   }
+  }
+ },
+ "floor": 0.7,
+ "below_floor": [
+  [
+   "full",
+   "R",
+   0.6251626898047723
+  ],
+  [
+   "full",
+   "S",
+   0.5739644970414202
+  ],
+  [
+   "summary",
+   "R",
+   0.6224957760077239
+  ]
+ ],
+ "stopped": "agreement below the 0.70 floor; analyses not run"
+}

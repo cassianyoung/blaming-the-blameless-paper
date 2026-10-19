@@ -1,0 +1,1282 @@
+{
+ "_meta": {
+  "run": "234",
+  "built_from_commit": "28e160782384b2c3284f2e0eeff056b7fd43b0c7",
+  "inputs": {
+   "records/excuse_bank.jsonl": "546dc93105fadf743385be513d6bb4895dcde8a16835c8da6be9b12dda59cdcb",
+   "data/families_bank/moral__families__v1.jsonl": "cb77f3cb50528b089e978f8cec1069baf293f41d803d7a5e8ad00afd136918e6",
+   "records/frames.json": "ea34a1b8d0eed2c923b28e7a9df366bc11a543843c61d6a51ca0e2794ebeaa83"
+  },
+  "blame_frame": {
+   "id": "b1_blame_chat",
+   "sha256": "d78642ff1ca5a8f2cc1fafa3ffe8b5cecde72c0d116d0110bb0d1a94b4ee4783",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "body": "{item} How much is {agent} to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+  },
+  "subjects": {
+   "Alaric": "male",
+   "John": "male",
+   "Jane": "female"
+  },
+  "feminine_map": {
+   "he": "she",
+   "He": "She",
+   "him": "her",
+   "Him": "Her",
+   "his": "her",
+   "His": "Her"
+  },
+  "prompt_sha_construction": "sha256(json.dumps(messages)), as or_harness logs it",
+  "n_prompts": 21
+ },
+ "texts": {
+  "bicycle|N|Alaric": {
+   "text": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm.",
+   "text_sha256": "97fc7da0e56fa9a20c66815e8209f04dae8aac0f941556c1a129cdeefef38dd4",
+   "banked_uid": "N",
+   "banked_text_sha256": "97fc7da0e56fa9a20c66815e8209f04dae8aac0f941556c1a129cdeefef38dd4",
+   "differences_from_banked": []
+  },
+  "bicycle|N|John": {
+   "text": "John was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm.",
+   "text_sha256": "b0eb9fef05f9608946fa3774f1df8970ccef7b43aaacf50a3ed320f028c510b6",
+   "banked_uid": "N",
+   "banked_text_sha256": "97fc7da0e56fa9a20c66815e8209f04dae8aac0f941556c1a129cdeefef38dd4",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "John"
+    ]
+   ]
+  },
+  "bicycle|N|Jane": {
+   "text": "Jane was lending her own bicycle to a friend. She checked the brake cable and tested it down the lane. Nobody came to any harm.",
+   "text_sha256": "04928d7d33e29e9af714876d46853fd10289187d0860743a93b3da0c45dd7833",
+   "banked_uid": "N",
+   "banked_text_sha256": "97fc7da0e56fa9a20c66815e8209f04dae8aac0f941556c1a129cdeefef38dd4",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "Jane"
+    ],
+    [
+     "his",
+     "her"
+    ],
+    [
+     "He",
+     "She"
+    ]
+   ]
+  },
+  "bicycle|C|Alaric": {
+   "text": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.",
+   "text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "banked_uid": "C",
+   "banked_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "differences_from_banked": []
+  },
+  "bicycle|C|John": {
+   "text": "John was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.",
+   "text_sha256": "80c9d1a3ced942780dcfc631a80f6a2b526e5ae484aed21de9ebebf79a5c5b10",
+   "banked_uid": "C",
+   "banked_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "John"
+    ]
+   ]
+  },
+  "bicycle|C|Jane": {
+   "text": "Jane was lending her own bicycle to a friend. She lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.",
+   "text_sha256": "99ca96468c71876ac6b362c50a802f1cdf6ecfd8aad9fa8c4db92195f3b4d5ce",
+   "banked_uid": "C",
+   "banked_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "Jane"
+    ],
+    [
+     "his",
+     "her"
+    ],
+    [
+     "He",
+     "She"
+    ]
+   ]
+  },
+  "bicycle|P0|Alaric": {
+   "text": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.",
+   "text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "banked_uid": "P0",
+   "banked_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "differences_from_banked": []
+  },
+  "bicycle|P0|John": {
+   "text": "John was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.",
+   "text_sha256": "839faacbe4e6982609c9b59e5ad0ccc40c75657f027db2ae7c692ff42c4d5b88",
+   "banked_uid": "P0",
+   "banked_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "John"
+    ]
+   ]
+  },
+  "bicycle|P0|Jane": {
+   "text": "Jane was lending her own bicycle to a friend. She checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.",
+   "text_sha256": "2fa6bcc669c5cf83f3017b4b0d9ddbaface80c0f4bd333ee6c05768bda2456cf",
+   "banked_uid": "P0",
+   "banked_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "Jane"
+    ],
+    [
+     "his",
+     "her"
+    ],
+    [
+     "He",
+     "She"
+    ]
+   ]
+  },
+  "prawns_home|N|Alaric": {
+   "text": "Alaric checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm.",
+   "text_sha256": "5a2e625bb91ebaf089e93a14150e4961972ff955122db18a993f7712b21b401e",
+   "banked_uid": "prawns_home__N",
+   "banked_text_sha256": "5a2e625bb91ebaf089e93a14150e4961972ff955122db18a993f7712b21b401e",
+   "differences_from_banked": []
+  },
+  "prawns_home|N|John": {
+   "text": "John checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm.",
+   "text_sha256": "ba82ac4e5433377d8af59df7febdfd2d9b7ca602577264874dfba65ca525bbcd",
+   "banked_uid": "prawns_home__N",
+   "banked_text_sha256": "5a2e625bb91ebaf089e93a14150e4961972ff955122db18a993f7712b21b401e",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "John"
+    ]
+   ]
+  },
+  "prawns_home|N|Jane": {
+   "text": "Jane checked the date on the prawns and smelt them before serving them to her guests. Nobody came to any harm.",
+   "text_sha256": "e7d0a6a37960a49ef7832f4de70a52c310399d5b28a1b0ca6e777fa1ff14f532",
+   "banked_uid": "prawns_home__N",
+   "banked_text_sha256": "5a2e625bb91ebaf089e93a14150e4961972ff955122db18a993f7712b21b401e",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "Jane"
+    ],
+    [
+     "his",
+     "her"
+    ]
+   ]
+  },
+  "prawns_home|C|Alaric": {
+   "text": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.",
+   "text_sha256": "a2f6f90299df77adf0c560c43a46cd01c902e03a2cd91ef56af6dbadbf9a3553",
+   "banked_uid": "prawns_home__C",
+   "banked_text_sha256": "a2f6f90299df77adf0c560c43a46cd01c902e03a2cd91ef56af6dbadbf9a3553",
+   "differences_from_banked": []
+  },
+  "prawns_home|C|John": {
+   "text": "John served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.",
+   "text_sha256": "378e5b0325f5cd28a4bd64411b436dfbbcd7160b9500e4c40780990ae868d5f1",
+   "banked_uid": "prawns_home__C",
+   "banked_text_sha256": "a2f6f90299df77adf0c560c43a46cd01c902e03a2cd91ef56af6dbadbf9a3553",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "John"
+    ]
+   ]
+  },
+  "prawns_home|C|Jane": {
+   "text": "Jane served the prawns to her guests without checking the date or smelling them. They had gone off. Three of the guests were ill.",
+   "text_sha256": "dc29dafc052939212999b4fcd4fe2cbe9aafbdd3e7ff664d561f83e9dc956419",
+   "banked_uid": "prawns_home__C",
+   "banked_text_sha256": "a2f6f90299df77adf0c560c43a46cd01c902e03a2cd91ef56af6dbadbf9a3553",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "Jane"
+    ],
+    [
+     "his",
+     "her"
+    ]
+   ]
+  },
+  "prawns_home|P0|Alaric": {
+   "text": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.",
+   "text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "banked_uid": "prawns_home__P0",
+   "banked_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "differences_from_banked": []
+  },
+  "prawns_home|P0|John": {
+   "text": "John checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.",
+   "text_sha256": "3b91779ca3dc093e93c56ef4448e80e1ab759bfc7af15934925bf1123f944fc1",
+   "banked_uid": "prawns_home__P0",
+   "banked_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "John"
+    ]
+   ]
+  },
+  "prawns_home|P0|Jane": {
+   "text": "Jane checked the date on the prawns and smelt them before serving them to her guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.",
+   "text_sha256": "70124091fea3826df72c6fa2d11e4d045273fc5f20cd099ea2e8595a3768f5cd",
+   "banked_uid": "prawns_home__P0",
+   "banked_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "Jane"
+    ],
+    [
+     "his",
+     "her"
+    ]
+   ]
+  },
+  "prawns_restaurant|C|Alaric": {
+   "text": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.",
+   "text_sha256": "48b4172ee45977d9c989e3b021b4060ae993c96ed202e3c45bf9c1b75211b81a",
+   "banked_uid": "prawns_restaurant__C",
+   "banked_text_sha256": "48b4172ee45977d9c989e3b021b4060ae993c96ed202e3c45bf9c1b75211b81a",
+   "differences_from_banked": []
+  },
+  "prawns_restaurant|C|John": {
+   "text": "John is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.",
+   "text_sha256": "328ea4b588b46cefd67191f2b7a7efef891be36962bfcf583d7346a47a0ff736",
+   "banked_uid": "prawns_restaurant__C",
+   "banked_text_sha256": "48b4172ee45977d9c989e3b021b4060ae993c96ed202e3c45bf9c1b75211b81a",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "John"
+    ]
+   ]
+  },
+  "prawns_restaurant|C|Jane": {
+   "text": "Jane is a chef at a restaurant. She served the prawns to her diners without checking the date or smelling them. They had gone off. Three of the diners were ill.",
+   "text_sha256": "6eebdd78462f124875c338ca4f2325dfadbc7659a47f78ef03999b0f40fd2cdd",
+   "banked_uid": "prawns_restaurant__C",
+   "banked_text_sha256": "48b4172ee45977d9c989e3b021b4060ae993c96ed202e3c45bf9c1b75211b81a",
+   "differences_from_banked": [
+    [
+     "Alaric",
+     "Jane"
+    ],
+    [
+     "He",
+     "She"
+    ],
+    [
+     "his",
+     "her"
+    ]
+   ]
+  }
+ },
+ "prompts": {
+  "bicycle|N|Alaric": {
+   "scenario": "bicycle",
+   "role": "N",
+   "subject": "Alaric",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "b75b2b926936d1019d18a89fedb817f265ee72acc8500b5fbac5abf51ab28fcc"
+  },
+  "bicycle|N|John": {
+   "scenario": "bicycle",
+   "role": "N",
+   "subject": "John",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "John was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm. How much is John to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "4276fc0e9a3bbc1d427c2e1c062137c31fe33e2cd14099b2b41ab07b0e72cd14"
+  },
+  "bicycle|N|Jane": {
+   "scenario": "bicycle",
+   "role": "N",
+   "subject": "Jane",
+   "gender": "female",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Jane was lending her own bicycle to a friend. She checked the brake cable and tested it down the lane. Nobody came to any harm. How much is Jane to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "5f10fffd84992069acd39d880a436736e20d6757e51eaf265ec99103254641d2"
+  },
+  "bicycle|C|Alaric": {
+   "scenario": "bicycle",
+   "role": "C",
+   "subject": "Alaric",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "5ccca4a665f659429d247e38815110979e99a9f9e90090c0c28e32c9f812aaa3"
+  },
+  "bicycle|C|John": {
+   "scenario": "bicycle",
+   "role": "C",
+   "subject": "John",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "John was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt. How much is John to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "b808518120a8f0bb4c7d079e656f998f91e1e1b7b7cb3210a6b37feb1ea8d26b"
+  },
+  "bicycle|C|Jane": {
+   "scenario": "bicycle",
+   "role": "C",
+   "subject": "Jane",
+   "gender": "female",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Jane was lending her own bicycle to a friend. She lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt. How much is Jane to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "bd5571db555f6bead97e4dbb4eaa6183774f128b0b38a3ea6c910149ea4a1ce6"
+  },
+  "bicycle|P0|Alaric": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "subject": "Alaric",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "f285537a272731ac29c048634ee761ad895c9f24e56459b35952c1b5591c0921"
+  },
+  "bicycle|P0|John": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "subject": "John",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "John was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt. How much is John to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "147de8a626a9dacb226f8b18eedcd03b78763bbb77bd1012479f650d1ce5927d"
+  },
+  "bicycle|P0|Jane": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "subject": "Jane",
+   "gender": "female",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Jane was lending her own bicycle to a friend. She checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt. How much is Jane to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "3e94f1cf3529c3940acbf85ed29ead67feb136d56078b763dd3a0508c1876eae"
+  },
+  "prawns_home|N|Alaric": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "subject": "Alaric",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "d77bad9f9a3ac16063284ff03d822efd75b7c53fe34b823c0b803ec5090a694e"
+  },
+  "prawns_home|N|John": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "subject": "John",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "John checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm. How much is John to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "4c3a66a790d382a87cede32b719a62e0332ea278b1e6e4de86f686eb13f49e77"
+  },
+  "prawns_home|N|Jane": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "subject": "Jane",
+   "gender": "female",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Jane checked the date on the prawns and smelt them before serving them to her guests. Nobody came to any harm. How much is Jane to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "440e95f4aec57934f0e8413644132cf2fa93a29a8276b3a9130664525561d472"
+  },
+  "prawns_home|C|Alaric": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "subject": "Alaric",
+   "gender": "male",
+   "used_by": "excuse+duty(home cook)",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "da5c9afef40080606e9286ab8c43388ce0087d896a589ff945059e9ed45e4609"
+  },
+  "prawns_home|C|John": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "subject": "John",
+   "gender": "male",
+   "used_by": "excuse+duty(home cook)",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "John served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is John to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "faba530865818b276f985a512c887bb92854cc9fc82979a5f3b989e9b042e669"
+  },
+  "prawns_home|C|Jane": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "subject": "Jane",
+   "gender": "female",
+   "used_by": "excuse+duty(home cook)",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Jane served the prawns to her guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Jane to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "2941933158cda0b100929a02c8b66fc16331cb2337a2cdd6ea679c5fd4e2c7fd"
+  },
+  "prawns_home|P0|Alaric": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "subject": "Alaric",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "4e843f01d2227c4fd559caa952efe132529f1163df087493e04937673de777e3"
+  },
+  "prawns_home|P0|John": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "subject": "John",
+   "gender": "male",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "John checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill. How much is John to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "d0a1a0f71b569c4ff353aeaea6e06831caf5534a956aef71a6c303fa4e7cede3"
+  },
+  "prawns_home|P0|Jane": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "subject": "Jane",
+   "gender": "female",
+   "used_by": "excuse",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Jane checked the date on the prawns and smelt them before serving them to her guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill. How much is Jane to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "e7fa9fa14a80bb3c9672cf1ae1f41b7a6dbef17327a721f8c9e8fb1a2e9bbdfb"
+  },
+  "prawns_restaurant|C|Alaric": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "subject": "Alaric",
+   "gender": "male",
+   "used_by": "duty(chef)",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "d9b4cabf6b14321f23f318d6f4a464ceec8de4799546abcb941239646c5f94ea"
+  },
+  "prawns_restaurant|C|John": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "subject": "John",
+   "gender": "male",
+   "used_by": "duty(chef)",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "John is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is John to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "8a78521f455dc10f6dcd57fcbbab701e81eeb9927402e896fb3c3e069767aa24"
+  },
+  "prawns_restaurant|C|Jane": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "subject": "Jane",
+   "gender": "female",
+   "used_by": "duty(chef)",
+   "system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+   "user": "Jane is a chef at a restaurant. She served the prawns to her diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Jane to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit.",
+   "prompt_sha256": "420c1e73a7987542ed7566a37f9f70d99045a120d80722d4148d983c803c90b2"
+  }
+ },
+ "arms": {
+  "claude": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 8,
+     "mode": "chat",
+     "model": "anthropic/claude-sonnet-5",
+     "provider_asked": "Anthropic",
+     "provider_served": "Anthropic",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 20,
+    "served_model_banked": "anthropic/claude-sonnet-5",
+    "source_logs": [
+     "runs/deployed_bicycle_ladder/logs/l8_claude.jsonl",
+     "runs/deployed_bicycle_rivals/logs/riv_claude.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_bicycle_ladder/logs/l8_claude.jsonl": "e49e802640ac03fd5f63dd781d6b3712d90e5bb21cf86232e41038d61e00e156",
+     "runs/deployed_bicycle_rivals/logs/riv_claude.jsonl": "7666a1e8e073ba53ebab5907385f95ad8dd770c7d84f570bd1568220028e4bae"
+    },
+    "cost_per_call_usd": 0.00033733333333333337,
+    "cost_n_calls": 120
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 256,
+     "mode": "chat",
+     "model": "anthropic/claude-sonnet-5",
+     "provider_asked": "anthropic",
+     "provider_served": "Anthropic",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "anthropic/claude-sonnet-5",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_claude.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_claude.jsonl": "3e9be30ddef3e6ce2e1d4b7ba64b1283497dd68f4810e9191aee9c9e0209b149"
+    },
+    "cost_per_call_usd": 0.000308,
+    "cost_n_calls": 40
+   }
+  },
+  "deepseek": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider_asked": "Sail Research",
+     "provider_served": "Sail Research",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "deepseek/deepseek-v4.1-flash",
+    "source_logs": [
+     "runs/deployed_bicycle_ladder/logs/l8_deepseek.jsonl",
+     "runs/deployed_bicycle_rivals/logs/riv_deepseek.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_bicycle_ladder/logs/l8_deepseek.jsonl": "d60067ffe60ec87eea4184958caef7cb0746a2442c813b872ba73dfc9e9ab21c",
+     "runs/deployed_bicycle_rivals/logs/riv_deepseek.jsonl": "06512ea9bd8db17e0190f2830d8d6ee5cb7018b9022556071b5fdc2659b19e11"
+    },
+    "cost_per_call_usd": 2.2706666666666667e-06,
+    "cost_n_calls": 60
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider_asked": "Sail Research",
+     "provider_served": "Sail Research",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "deepseek/deepseek-v4.1-flash",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_deepseek.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_deepseek.jsonl": "b6cdbc8c1c041709c02c5794f60b5e70199e995a3783ec25ee9798f12e049ef1"
+    },
+    "cost_per_call_usd": 1.4724999999999999e-06,
+    "cost_n_calls": 40
+   }
+  },
+  "deepseek_s": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 8,
+     "mode": "chat",
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider_asked": "Sail Research",
+     "provider_served": "Sail Research",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 20,
+    "served_model_banked": "deepseek/deepseek-v4.1-flash",
+    "source_logs": [
+     "runs/deployed_bicycle_ladder/logs/l8_deepseek_s.jsonl",
+     "runs/deployed_bicycle_rivals/logs/riv_deepseek_s.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_bicycle_ladder/logs/l8_deepseek_s.jsonl": "e62d844686b1dd27895c77ed3b6fb988486d7f62d17061719b4fc17e1627dacc",
+     "runs/deployed_bicycle_rivals/logs/riv_deepseek_s.jsonl": "928aee419b3070b1de7b9930d52f799d9bf3655e224d7f87eeb75617afeb2eaa"
+    },
+    "cost_per_call_usd": 1.933333333333333e-06,
+    "cost_n_calls": 120
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 256,
+     "mode": "chat",
+     "model": "deepseek/deepseek-v4.1-flash",
+     "provider_asked": "Sail Research",
+     "provider_served": "Sail Research",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "deepseek/deepseek-v4.1-flash",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_deepseek_s.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_deepseek_s.jsonl": "73120400dff6162062d8e161533df7a0376a9c0ba3f03c0b3fc68e413a943eca"
+    },
+    "cost_per_call_usd": 2.56725e-06,
+    "cost_n_calls": 40
+   }
+  },
+  "gemma27b": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "google/gemma-3-27b-it",
+     "provider_asked": "Parasail",
+     "provider_served": "Parasail",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "google/gemma-3-27b-it",
+    "source_logs": [
+     "runs/deployed_bicycle_rivals/logs/riv_gemma27b.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_bicycle_rivals/logs/riv_gemma27b.jsonl": "fcffddb79aab85c0c20df090180b889eda73eba73e0115ea59f7bfd071350d71"
+    },
+    "cost_per_call_usd": 5.8099999999999994e-06,
+    "cost_n_calls": 30
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "google/gemma-3-27b-it",
+     "provider_asked": "Parasail",
+     "provider_served": "Parasail",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "google/gemma-3-27b-it",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_gemma27b.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_gemma27b.jsonl": "16fa829ee389e2b6eff3737fe960cae80d129e3d40081619ad12e5cecf0001ab"
+    },
+    "cost_per_call_usd": 5.846e-06,
+    "cost_n_calls": 40
+   }
+  },
+  "gpt4o": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "openai/gpt-4o",
+     "provider_asked": "OpenAI",
+     "provider_served": "OpenAI",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "openai/gpt-4o",
+    "source_logs": [
+     "runs/deployed_bicycle_ladder/logs/l8_gpt4o.jsonl",
+     "runs/deployed_bicycle_rivals/logs/riv_gpt4o.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_bicycle_ladder/logs/l8_gpt4o.jsonl": "ef1e260ee718288fd23c4f57baebc07c2f7461d5b5f28a1d33ae983363146c75",
+     "runs/deployed_bicycle_rivals/logs/riv_gpt4o.jsonl": "8432bf5481785e9797f6d11eb9bb7d0d5384ec2e1f8661d8bc4feda3c89782a1"
+    },
+    "cost_per_call_usd": 0.00029583333333333333,
+    "cost_n_calls": 60
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "openai/gpt-4o",
+     "provider_asked": "openai",
+     "provider_served": "OpenAI",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "openai/gpt-4o",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_gpt4o.jsonl": "4063dbf72ca1bb777d9af8435d6545eded2f4253882c30b46e15bb8a0c8c75e6"
+    },
+    "cost_per_call_usd": 0.000279375,
+    "cost_n_calls": 40
+   }
+  },
+  "gpt6l_s": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 8,
+     "mode": "chat",
+     "model": "openai/gpt-6-luna",
+     "provider_asked": "openai",
+     "provider_served": "OpenAI",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "openai/gpt-6-luna",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_gpt6l_s_bike.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_gpt6l_s_bike.jsonl": "d669655c895ed654644e131039d249a2b268503065db3584ef1f1910e5a08d70"
+    },
+    "cost_per_call_usd": 1.3833333333333334e-05,
+    "cost_n_calls": 30
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1024,
+     "mode": "chat",
+     "model": "openai/gpt-6-luna",
+     "provider_asked": "openai",
+     "provider_served": "OpenAI",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "openai/gpt-6-luna",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_gpt6l_s.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_gpt6l_s.jsonl": "ec5d62007ed6dbafe96cd0987c0bedc0059944fc8e18d835eb4fc4865134be2a"
+    },
+    "cost_per_call_usd": 1.3325e-05,
+    "cost_n_calls": 40
+   }
+  },
+  "gpt6s_s": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 8,
+     "mode": "chat",
+     "model": "openai/gpt-6-sol",
+     "provider_asked": "openai",
+     "provider_served": "OpenAI",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "openai/gpt-6-sol",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_gpt6s_s_bike.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_gpt6s_s_bike.jsonl": "ec9ad4692ac51164b4260b1c07b9e9de6cd1e69d2daa5243ee668caf583f36e5"
+    },
+    "cost_per_call_usd": 0.00027666666666666665,
+    "cost_n_calls": 30
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1024,
+     "mode": "chat",
+     "model": "openai/gpt-6-sol",
+     "provider_asked": "openai",
+     "provider_served": "OpenAI",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "openai/gpt-6-sol",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_gpt6s_s.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_gpt6s_s.jsonl": "6b6f00c8bdd0c03dbdbe95970a54dc6e3224d4e142732944fae639a57d0f70e7"
+    },
+    "cost_per_call_usd": 0.0002635,
+    "cost_n_calls": 40
+   }
+  },
+  "grok43_s": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 8,
+     "mode": "chat",
+     "model": "x-ai/grok-4.3",
+     "provider_asked": "xai",
+     "provider_served": "xAI",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "x-ai/grok-4.3",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_grok43_s_bike.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_grok43_s_bike.jsonl": "295358e39f0727154882da1086f37e74371d62a6b27969135a2a312e461b64ce"
+    },
+    "cost_per_call_usd": 0.00013219666666666667,
+    "cost_n_calls": 30
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1024,
+     "mode": "chat",
+     "model": "x-ai/grok-4.3",
+     "provider_asked": "xai",
+     "provider_served": "xAI",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "x-ai/grok-4.3",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_grok43_s.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_grok43_s.jsonl": "9cd3173e8782b165421f7e6c7ec04c51bac391b3e7447d84c6bbe94ed1fd4829"
+    },
+    "cost_per_call_usd": 0.0001024925,
+    "cost_n_calls": 40
+   }
+  },
+  "haiku_s": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 16,
+     "mode": "chat",
+     "model": "anthropic/claude-haiku-4.5",
+     "provider_asked": "Anthropic",
+     "provider_served": "Anthropic",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "anthropic/claude-haiku-4.5",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_haiku_s_bike.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_haiku_s_bike.jsonl": "e73617c60cdcf03eae5cbcc2dad381a44cf1e1052ed0b7985c6870540398ac79"
+    },
+    "cost_per_call_usd": 0.00014199999999999998,
+    "cost_n_calls": 30
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 256,
+     "mode": "chat",
+     "model": "anthropic/claude-haiku-4.5",
+     "provider_asked": "Anthropic",
+     "provider_served": "Anthropic",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": null,
+     "want_logprobs": false
+    },
+    "draws": 10,
+    "served_model_banked": "anthropic/claude-haiku-4.5",
+    "source_logs": [
+     "runs/deployed_added_models/logs/or_haiku_s.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_added_models/logs/or_haiku_s.jsonl": "65054fcd21eece3badcf9154daacce48efa16e90a496d5eeb994826d5f13e5ad"
+    },
+    "cost_per_call_usd": 0.00013525,
+    "cost_n_calls": 40
+   }
+  },
+  "kimi": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "moonshotai/kimi-k3",
+     "provider_asked": "Sail Research",
+     "provider_served": "Sail Research",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "moonshotai/kimi-k3",
+    "source_logs": [
+     "runs/deployed_added_models/logs/kimi_bike.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_added_models/logs/kimi_bike.jsonl": "a514aef6cd94f9a5fa8243c8ef935991b11c2b18ae0e5711258747ae4b7b3c4f"
+    },
+    "cost_per_call_usd": 6.0832e-05,
+    "cost_n_calls": 30
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "moonshotai/kimi-k3",
+     "provider_asked": "Sail Research",
+     "provider_served": "Sail Research",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "moonshotai/kimi-k3",
+    "source_logs": [
+     "runs/deployed_added_models/logs/or_kimi.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_added_models/logs/or_kimi.jsonl": "b7085e518b897f50d925d2419880993d3075efae7de0a8d02b15612cfae00246"
+    },
+    "cost_per_call_usd": 5.85015e-05,
+    "cost_n_calls": 40
+   }
+  },
+  "llama70b": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "meta-llama/llama-3.3-70b-instruct",
+     "provider_asked": "CoreWeave",
+     "provider_served": "CoreWeave",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "meta-llama/llama-3.3-70b-instruct",
+    "source_logs": [
+     "runs/deployed_bicycle_ladder/logs/l8_llama70b.jsonl",
+     "runs/deployed_bicycle_rivals/logs/riv_llama70b.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_bicycle_ladder/logs/l8_llama70b.jsonl": "01b2b3d0b8014bd4ceb7f1ab26e59cc38b06aa17d3bc12e83b2c9a852bcd593a",
+     "runs/deployed_bicycle_rivals/logs/riv_llama70b.jsonl": "23f9d773e05a6cec28600458797c9d60f3a8501303ca1919687d7424edf88055"
+    },
+    "cost_per_call_usd": 9.892666666666666e-05,
+    "cost_n_calls": 60
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "meta-llama/llama-3.3-70b-instruct",
+     "provider_asked": "coreweave",
+     "provider_served": "CoreWeave",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "meta-llama/llama-3.3-70b-instruct",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_llama70b.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_llama70b.jsonl": "e88f9ad22d315ca676ed37ee5ec124e819020f0e9d455af7a2a44ba86af55166"
+    },
+    "cost_per_call_usd": 9.46075e-05,
+    "cost_n_calls": 40
+   }
+  },
+  "mistral24b": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "mistralai/mistral-small-3.2-24b-instruct",
+     "provider_asked": "Parasail",
+     "provider_served": "Parasail",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 20,
+    "served_model_banked": "mistralai/mistral-small-3.2-24b-instruct",
+    "source_logs": [
+     "runs/deployed_bicycle_ladder/logs/l8_mistral24b.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_bicycle_ladder/logs/l8_mistral24b.jsonl": "58bd6495bd76fc5310b27a84ccb6dc4f786f47ba1e4ba9244cc70fda2e8bd7b7"
+    },
+    "cost_per_call_usd": 6.338e-06,
+    "cost_n_calls": 60
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "mistralai/mistral-small-3.2-24b-instruct",
+     "provider_asked": "Parasail",
+     "provider_served": "Parasail",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "mistralai/mistral-small-3.2-24b-instruct",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_mistral24b.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_mistral24b.jsonl": "f05a798d99d2db7dfbe48f0c886dda44e387e568d3fe7df2d4773b6e4bd5e04c"
+    },
+    "cost_per_call_usd": 6.2295e-06,
+    "cost_n_calls": 40
+   }
+  },
+  "qwen80b": {
+   "bicycle": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "qwen/qwen3-next-80b-a3b-instruct",
+     "provider_asked": "Parasail",
+     "provider_served": "Parasail",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "qwen/qwen3-next-80b-a3b-instruct",
+    "source_logs": [
+     "runs/deployed_bicycle_ladder/logs/l8_qwen80b.jsonl",
+     "runs/deployed_bicycle_rivals/logs/riv_qwen80b.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_bicycle_ladder/logs/l8_qwen80b.jsonl": "102570aa1e53faf3186ccc80f23e2c6fd2673ce77456f4d54bfbe7ebc22eb76a",
+     "runs/deployed_bicycle_rivals/logs/riv_qwen80b.jsonl": "fb77cce9fff7f66658fb62c216816977a9ec8476fc2e5e47cf28b10d43eec06c"
+    },
+    "cost_per_call_usd": 1.2733333333333334e-05,
+    "cost_n_calls": 60
+   },
+   "prawns": {
+    "wire": {
+     "endpoint": "/chat/completions",
+     "max_tokens": 1,
+     "mode": "chat",
+     "model": "qwen/qwen3-next-80b-a3b-instruct",
+     "provider_asked": "Parasail",
+     "provider_served": "Parasail",
+     "reasoning_on_the_wire": {
+      "enabled": false
+     },
+     "temperature": 1.0,
+     "top_k": 20,
+     "want_logprobs": true
+    },
+    "draws": 10,
+    "served_model_banked": "qwen/qwen3-next-80b-a3b-instruct",
+    "source_logs": [
+     "runs/deployed_scenarios/logs/or_qwen80b.jsonl"
+    ],
+    "source_log_sha256": {
+     "runs/deployed_scenarios/logs/or_qwen80b.jsonl": "130fafc8d075332ce5d2eecbdff2d0c4408f3fa00f51b07f43edf0b7845449e4"
+    },
+    "cost_per_call_usd": 1.2125e-05,
+    "cost_n_calls": 40
+   }
+  }
+ },
+ "estimate": {
+  "per_arm": {
+   "claude": {
+    "calls": 300,
+    "usd": 0.09768
+   },
+   "deepseek": {
+    "calls": 210,
+    "usd": 0.00038
+   },
+   "deepseek_s": {
+    "calls": 300,
+    "usd": 0.00066
+   },
+   "gemma27b": {
+    "calls": 210,
+    "usd": 0.00122
+   },
+   "gpt4o": {
+    "calls": 210,
+    "usd": 0.06015
+   },
+   "gpt6l_s": {
+    "calls": 210,
+    "usd": 0.00284
+   },
+   "gpt6s_s": {
+    "calls": 210,
+    "usd": 0.05652
+   },
+   "grok43_s": {
+    "calls": 210,
+    "usd": 0.0242
+   },
+   "haiku_s": {
+    "calls": 210,
+    "usd": 0.02901
+   },
+   "kimi": {
+    "calls": 210,
+    "usd": 0.0125
+   },
+   "llama70b": {
+    "calls": 210,
+    "usd": 0.02026
+   },
+   "mistral24b": {
+    "calls": 300,
+    "usd": 0.00189
+   },
+   "qwen80b": {
+    "calls": 210,
+    "usd": 0.0026
+   }
+  },
+  "calls": 3000,
+  "usd": 0.3099,
+  "basis": "each arm's mean billed cost per call on the banked calls of these very prompts, times the calls subject_identity makes"
+ }
+}

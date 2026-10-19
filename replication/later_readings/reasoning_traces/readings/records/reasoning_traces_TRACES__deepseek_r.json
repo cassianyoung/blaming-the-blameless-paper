@@ -1,0 +1,2036 @@
+{
+ "run": "230",
+ "arm": "deepseek_r",
+ "prereg": "records/PREREG_reasoning_traces_TRACES.md",
+ "harness_keeps_text": true,
+ "log": "runs/reasoning_traces/logs/deepseek_r/read.jsonl",
+ "draws_per_cell": 10,
+ "ts": "2026-10-12T15:30:54Z",
+ "served_models": [
+  "deepseek/deepseek-v4.1-flash"
+ ],
+ "served_providers": [
+  "Sail Research"
+ ],
+ "cells": {
+  "prawns|pro": {
+   "pair": "prawns",
+   "leg": "pro",
+   "prompt_sha256_16": "d9b4cabf6b14321f",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_deepseek_r_mt8192.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.4,
+   "banked_mean": 8.7,
+   "drift": -0.29999999999999893,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d1",
+     "ts": "2026-10-12T15:31:03Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2728,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d2",
+     "ts": "2026-10-12T15:31:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1141,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d3",
+     "ts": "2026-10-12T15:31:14Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1335,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d4",
+     "ts": "2026-10-12T15:31:20Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 981,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d5",
+     "ts": "2026-10-12T15:31:24Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 812,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d6",
+     "ts": "2026-10-12T15:31:33Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2333,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d7",
+     "ts": "2026-10-12T15:31:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 691,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d8",
+     "ts": "2026-10-12T15:31:45Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1517,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d9",
+     "ts": "2026-10-12T15:31:49Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 831,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRO|d10",
+     "ts": "2026-10-12T15:31:53Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1085,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "prawns|priv": {
+   "pair": "prawns",
+   "leg": "priv",
+   "prompt_sha256_16": "da5c9afef4008060",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/deployed_scenarios/logs/or_deepseek_r_mt8192.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.9,
+   "banked_mean": 7.8,
+   "drift": 0.10000000000000053,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d1",
+     "ts": "2026-10-12T15:32:00Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1933,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d2",
+     "ts": "2026-10-12T15:32:03Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 550,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d3",
+     "ts": "2026-10-12T15:32:11Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 2031,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d4",
+     "ts": "2026-10-12T15:32:16Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1125,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d5",
+     "ts": "2026-10-12T15:32:22Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1472,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d6",
+     "ts": "2026-10-12T15:32:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1197,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d7",
+     "ts": "2026-10-12T15:32:32Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 949,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d8",
+     "ts": "2026-10-12T15:32:37Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1384,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d9",
+     "ts": "2026-10-12T15:32:42Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 753,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|prawns|PRIV|d10",
+     "ts": "2026-10-12T15:32:46Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 808,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "1|pro": {
+   "pair": "1",
+   "leg": "pro",
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_deepseek_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.9,
+   "banked_mean": 8.9,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d1",
+     "ts": "2026-10-12T15:32:53Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1795,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d2",
+     "ts": "2026-10-12T15:32:56Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 375,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d3",
+     "ts": "2026-10-12T15:33:05Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2306,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d4",
+     "ts": "2026-10-12T15:33:08Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 428,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d5",
+     "ts": "2026-10-12T15:33:15Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1384,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d6",
+     "ts": "2026-10-12T15:33:18Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 508,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d7",
+     "ts": "2026-10-12T15:33:32Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 4037,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d8",
+     "ts": "2026-10-12T15:33:36Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 676,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d9",
+     "ts": "2026-10-12T15:33:42Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1284,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRO|d10",
+     "ts": "2026-10-12T15:33:46Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 813,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "1|priv": {
+   "pair": "1",
+   "leg": "priv",
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_deepseek_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.9,
+   "banked_mean": 8.8,
+   "drift": 0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d1",
+     "ts": "2026-10-12T15:33:53Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1646,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d2",
+     "ts": "2026-10-12T15:33:57Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 861,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d3",
+     "ts": "2026-10-12T15:34:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1393,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d4",
+     "ts": "2026-10-12T15:34:13Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 3054,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d5",
+     "ts": "2026-10-12T15:34:23Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2279,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d6",
+     "ts": "2026-10-12T15:34:29Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 840,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d7",
+     "ts": "2026-10-12T15:34:34Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1289,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d8",
+     "ts": "2026-10-12T15:34:40Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1635,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d9",
+     "ts": "2026-10-12T15:34:53Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 4246,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|1|PRIV|d10",
+     "ts": "2026-10-12T15:34:59Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1079,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "3|pro": {
+   "pair": "3",
+   "leg": "pro",
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_deepseek_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.8,
+   "banked_mean": 8.8,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d1",
+     "ts": "2026-10-12T15:35:08Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2085,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d2",
+     "ts": "2026-10-12T15:35:18Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2563,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d3",
+     "ts": "2026-10-12T15:35:25Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1415,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d4",
+     "ts": "2026-10-12T15:35:31Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1000,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d5",
+     "ts": "2026-10-12T15:35:39Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1886,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d6",
+     "ts": "2026-10-12T15:35:48Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1803,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d7",
+     "ts": "2026-10-12T15:35:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1129,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d8",
+     "ts": "2026-10-12T15:36:01Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1151,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d9",
+     "ts": "2026-10-12T15:36:08Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1537,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRO|d10",
+     "ts": "2026-10-12T15:36:20Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2842,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "3|priv": {
+   "pair": "3",
+   "leg": "priv",
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_deepseek_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.6,
+   "banked_mean": 7.4,
+   "drift": 0.1999999999999993,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d1",
+     "ts": "2026-10-12T15:36:27Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1438,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d2",
+     "ts": "2026-10-12T15:36:47Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 6270,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d3",
+     "ts": "2026-10-12T15:36:58Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 2491,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d4",
+     "ts": "2026-10-12T15:37:06Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1991,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d5",
+     "ts": "2026-10-12T15:37:11Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1045,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d6",
+     "ts": "2026-10-12T15:37:24Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 3742,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d7",
+     "ts": "2026-10-12T15:37:37Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 3238,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d8",
+     "ts": "2026-10-12T15:37:45Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1851,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d9",
+     "ts": "2026-10-12T15:37:49Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 882,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|3|PRIV|d10",
+     "ts": "2026-10-12T15:38:05Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 4183,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "4|pro": {
+   "pair": "4",
+   "leg": "pro",
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_deepseek_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.7,
+   "banked_mean": 8.5,
+   "drift": 0.1999999999999993,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d1",
+     "ts": "2026-10-12T15:38:09Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 526,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d2",
+     "ts": "2026-10-12T15:38:13Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 633,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d3",
+     "ts": "2026-10-12T15:38:19Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 834,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d4",
+     "ts": "2026-10-12T15:38:23Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 688,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d5",
+     "ts": "2026-10-12T15:38:29Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1136,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d6",
+     "ts": "2026-10-12T15:38:36Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1786,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d7",
+     "ts": "2026-10-12T15:38:43Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1840,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d8",
+     "ts": "2026-10-12T15:38:49Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1263,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d9",
+     "ts": "2026-10-12T15:38:56Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1389,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRO|d10",
+     "ts": "2026-10-12T15:39:00Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 769,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "4|priv": {
+   "pair": "4",
+   "leg": "priv",
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_deepseek_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 7.3,
+   "banked_mean": 7.3,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d1",
+     "ts": "2026-10-12T15:39:05Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1067,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d2",
+     "ts": "2026-10-12T15:39:13Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1918,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d3",
+     "ts": "2026-10-12T15:39:38Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 7963,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d4",
+     "ts": "2026-10-12T15:39:49Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 2660,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d5",
+     "ts": "2026-10-12T15:39:57Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1713,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d6",
+     "ts": "2026-10-12T15:40:04Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1348,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d7",
+     "ts": "2026-10-12T15:40:14Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1947,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d8",
+     "ts": "2026-10-12T15:40:28Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 3744,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d9",
+     "ts": "2026-10-12T15:40:33Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 1536,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|4|PRIV|d10",
+     "ts": "2026-10-12T15:40:38Z",
+     "digit": 7.0,
+     "reasoned": true,
+     "reasoning_text_len": 819,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "5|pro": {
+   "pair": "5",
+   "leg": "pro",
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_deepseek_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 9.0,
+   "banked_mean": 8.9,
+   "drift": 0.09999999999999964,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d1",
+     "ts": "2026-10-12T15:40:43Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1017,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d2",
+     "ts": "2026-10-12T15:40:46Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 622,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d3",
+     "ts": "2026-10-12T15:40:52Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 916,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d4",
+     "ts": "2026-10-12T15:40:59Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1500,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d5",
+     "ts": "2026-10-12T15:41:04Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 947,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d6",
+     "ts": "2026-10-12T15:41:08Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 935,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d7",
+     "ts": "2026-10-12T15:41:13Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 886,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d8",
+     "ts": "2026-10-12T15:41:19Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1143,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d9",
+     "ts": "2026-10-12T15:41:24Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 663,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRO|d10",
+     "ts": "2026-10-12T15:41:29Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 892,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "5|priv": {
+   "pair": "5",
+   "leg": "priv",
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_pairs/logs/p_deepseek_r/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.8,
+   "banked_mean": 8.8,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d1",
+     "ts": "2026-10-12T15:41:36Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1569,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d2",
+     "ts": "2026-10-12T15:41:47Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2929,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d3",
+     "ts": "2026-10-12T15:41:54Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1573,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d4",
+     "ts": "2026-10-12T15:42:01Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 834,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d5",
+     "ts": "2026-10-12T15:42:07Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1118,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d6",
+     "ts": "2026-10-12T15:42:14Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1663,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d7",
+     "ts": "2026-10-12T15:42:18Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 830,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d8",
+     "ts": "2026-10-12T15:42:25Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1702,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d9",
+     "ts": "2026-10-12T15:42:35Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2630,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|5|PRIV|d10",
+     "ts": "2026-10-12T15:42:41Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1210,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "7|pro": {
+   "pair": "7",
+   "leg": "pro",
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_F1/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 9.0,
+   "banked_mean": 9.0,
+   "drift": 0.0,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d1",
+     "ts": "2026-10-12T15:42:45Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 600,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d2",
+     "ts": "2026-10-12T15:42:49Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 667,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d3",
+     "ts": "2026-10-12T15:42:54Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 641,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d4",
+     "ts": "2026-10-12T15:42:57Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 538,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d5",
+     "ts": "2026-10-12T15:43:00Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 550,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d6",
+     "ts": "2026-10-12T15:43:05Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 883,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d7",
+     "ts": "2026-10-12T15:43:09Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 491,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d8",
+     "ts": "2026-10-12T15:43:16Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 1573,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d9",
+     "ts": "2026-10-12T15:43:19Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 621,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRO|d10",
+     "ts": "2026-10-12T15:43:22Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 465,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  },
+  "7|priv": {
+   "pair": "7",
+   "leg": "priv",
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "wire": {
+    "max_tokens": 8192,
+    "model": "deepseek/deepseek-v4.1-flash",
+    "provider": "Sail Research",
+    "reasoning": {
+     "effort": "low"
+    },
+    "temperature": 1.0,
+    "want_logprobs": false
+   },
+   "banked_logs": [
+    "runs/duty_hair_dye/logs/g_F1/read.jsonl"
+   ],
+   "n_drawn": 10,
+   "n_parsed": 10,
+   "n_reasoned": 10,
+   "n_with_text": 10,
+   "mean": 8.2,
+   "banked_mean": 8.0,
+   "drift": 0.1999999999999993,
+   "draws": [
+    {
+     "d": 1,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d1",
+     "ts": "2026-10-12T15:43:35Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 2627,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 2,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d2",
+     "ts": "2026-10-12T15:43:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 750,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 3,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d3",
+     "ts": "2026-10-12T15:43:46Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1866,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 4,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d4",
+     "ts": "2026-10-12T15:43:52Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1441,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 5,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d5",
+     "ts": "2026-10-12T15:43:59Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 1488,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 6,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d6",
+     "ts": "2026-10-12T15:44:03Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 959,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 7,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d7",
+     "ts": "2026-10-12T15:44:24Z",
+     "digit": 9.0,
+     "reasoned": true,
+     "reasoning_text_len": 6847,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 8,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d8",
+     "ts": "2026-10-12T15:44:32Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 2107,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 9,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d9",
+     "ts": "2026-10-12T15:44:40Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 2209,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    },
+    {
+     "d": 10,
+     "label": "reasoning_traces|deepseek_r|sep|7|PRIV|d10",
+     "ts": "2026-10-12T15:44:46Z",
+     "digit": 8.0,
+     "reasoned": true,
+     "reasoning_text_len": 756,
+     "reasoning_kinds": [
+      "reasoning.text"
+     ],
+     "answer_len": 1,
+     "served_model": "deepseek/deepseek-v4.1-flash",
+     "provider_served": "Sail Research"
+    }
+   ],
+   "errors": []
+  }
+ },
+ "served_constant": true,
+ "calls_so_far": 120,
+ "spent_so_far_usd": 0.01836509
+}

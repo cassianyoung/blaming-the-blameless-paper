@@ -1,0 +1,103 @@
+{
+ "what": "syllogism_duty: probe of the two unread Qwen arms on their banked providers",
+ "instruction": "probe only; one minimal call each; no other provider",
+ "prompt_sha256": "a89f2d74d3bfc30e3ce68fd201fa377403e83bb2c8b201ade50f81d21dea7423",
+ "arms": {
+  "qwen235b": {
+   "ts_utc": "2026-10-13T18:22:01Z",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "provider_asked": "GMICloud",
+   "http_status": 429,
+   "provider_served": null,
+   "served_model": null,
+   "answer_text": "",
+   "logprobs_returned": false,
+   "top_tokens": [],
+   "usable_answer": false,
+   "error": "{\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-235b-a22b-2507 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"GMICloud\",\"is_byok\":false,\"provider_error_code\":\"rate_limit_exceeded\",\"limit_source\":\"upstream_provider_shared_pool\",\"remedy_hint\":\"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing\",\"retry_after_seconds\":60,\"retry_after_seconds_raw\":60,\"headers\":{\"Retry-After\":\"60\"}}},\"user_id\":\"user_2bOYazBQKEEP2RoulftmQvyHHBW\"}",
+   "cost_usd": null,
+   "provider_listed": true,
+   "listing_http_status": 200,
+   "providers_listed": [
+    {
+     "provider_name": "GMICloud",
+     "status": 0,
+     "quantization": "fp8",
+     "logprobs": true
+    },
+    {
+     "provider_name": "DeepInfra",
+     "status": 0,
+     "quantization": "fp8",
+     "logprobs": false
+    },
+    {
+     "provider_name": "Parasail",
+     "status": 0,
+     "quantization": "fp8",
+     "logprobs": true
+    },
+    {
+     "provider_name": "Venice",
+     "status": 0,
+     "quantization": "fp8",
+     "logprobs": false
+    },
+    {
+     "provider_name": "Nebius",
+     "status": -2,
+     "quantization": "fp8",
+     "logprobs": false
+    },
+    {
+     "provider_name": "Google",
+     "status": 0,
+     "quantization": "unknown",
+     "logprobs": true
+    },
+    {
+     "provider_name": "Google",
+     "status": 0,
+     "quantization": "unknown",
+     "logprobs": false
+    }
+   ]
+  },
+  "qwen30b": {
+   "ts_utc": "2026-10-13T18:22:01Z",
+   "model": "qwen/qwen3-30b-a3b-instruct-2507",
+   "provider_asked": "StreamLake",
+   "http_status": 404,
+   "provider_served": null,
+   "served_model": null,
+   "answer_text": "",
+   "logprobs_returned": false,
+   "top_tokens": [],
+   "usable_answer": false,
+   "error": "{\"error\":{\"message\":\"No endpoints found for qwen/qwen3-30b-a3b-instruct-2507. Every candidate endpoint was removed during routing: Filter by Fallback removed dekallm, siliconflow/fp8, nebius/fp8.\",\"code\":404,\"metadata\":{\"routing_funnel\":[{\"step\":\"Initial Endpoints\",\"endpoint_count\":3},{\"step\":\"Filter by Fallback\",\"endpoint_count\":0}],\"failed_routing_step\":\"Filter by Fallback\"}},\"user_id\":\"user_2bOYazBQKEEP2RoulftmQvyHHBW\"}",
+   "cost_usd": null,
+   "provider_listed": false,
+   "listing_http_status": 200,
+   "providers_listed": [
+    {
+     "provider_name": "DekaLLM",
+     "status": 0,
+     "quantization": "unknown",
+     "logprobs": true
+    },
+    {
+     "provider_name": "SiliconFlow",
+     "status": 0,
+     "quantization": "fp8",
+     "logprobs": false
+    },
+    {
+     "provider_name": "Nebius",
+     "status": -2,
+     "quantization": "fp8",
+     "logprobs": false
+    }
+   ]
+  }
+ }
+}

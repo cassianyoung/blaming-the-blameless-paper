@@ -1,0 +1,1903 @@
+{
+ "run": "233",
+ "arm": "deepseek",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "provider_requested": "Sail Research",
+ "provider_banked": "Sail Research",
+ "readout_A": "logprob",
+ "readout_B": "sampled",
+ "max_tokens_A": 1,
+ "max_tokens_B": 32,
+ "top_k": 20,
+ "frames": "records/frames.json",
+ "frames_sha256": "ae17c72b9a38e007be560eb9deb75079c90c2c53fe3e8387ded2945a7996df97",
+ "arm_cap_usd": 0.02,
+ "prereg": "records/PREREG_syllogism_duty_SYLLOGISM_DUTY.md",
+ "A": {
+  "p1": {
+   "pair": "1",
+   "p_yes": 0.9977193607953974,
+   "answer_mass": 0.9999734990833604,
+   "gate": "PASSED",
+   "n_yes": null,
+   "n_asked": 10,
+   "principle_held": true,
+   "rule": "mean P(yes) >= 0.90 (A0.5)",
+   "prompt_sha256": "bb25268c0381ed6a668b4ce2f57568b9679efb72403d1f87510a5ab544833c35",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9994472210351651,
+     "mass": 0.9999532816064582,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273763243121,
+     "mass": 0.9999757454696828,
+     "sampled_token": "yes"
+    }
+   ]
+  },
+  "p3": {
+   "pair": "3",
+   "p_yes": 0.9999832983899967,
+   "answer_mass": 1.0000169147824662,
+   "gate": "PASSED",
+   "n_yes": null,
+   "n_asked": 10,
+   "principle_held": true,
+   "rule": "mean P(yes) >= 0.90 (A0.5)",
+   "prompt_sha256": "7bbc9c8ba5eae044140ce38ace0cb496cc2f2b7e1183daf32e8c1a5f65228c51",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999832983899967,
+     "mass": 1.0000169147824662,
+     "sampled_token": "yes"
+    }
+   ]
+  },
+  "p4": {
+   "pair": "4",
+   "p_yes": 0.9984088513025796,
+   "answer_mass": 0.9999930801455732,
+   "gate": "PASSED",
+   "n_yes": null,
+   "n_asked": 10,
+   "principle_held": true,
+   "rule": "mean P(yes) >= 0.90 (A0.5)",
+   "prompt_sha256": "ed490821867589ffa6d813b1b387822f92db318dbfec01cd17868cb3b2e94f02",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273742589602,
+     "mass": 0.9999760111763742,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.999290328346199,
+     "mass": 1.0000101491147722,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.999290328346199,
+     "mass": 1.0000101491147722,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.999290328346199,
+     "mass": 1.0000101491147722,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.999290328346199,
+     "mass": 1.0000101491147722,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273742589602,
+     "mass": 0.9999760111763742,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.999290328346199,
+     "mass": 1.0000101491147722,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273742589602,
+     "mass": 0.9999760111763742,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273742589602,
+     "mass": 0.9999760111763742,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9975273742589602,
+     "mass": 0.9999760111763742,
+     "sampled_token": "yes"
+    }
+   ]
+  },
+  "p5": {
+   "pair": "5",
+   "p_yes": 0.9999339476888661,
+   "answer_mass": 0.9999660987962968,
+   "gate": "PASSED",
+   "n_yes": null,
+   "n_asked": 10,
+   "principle_held": true,
+   "rule": "mean P(yes) >= 0.90 (A0.5)",
+   "prompt_sha256": "6449e277f5b94c9d6a02aa9e4072027241af532ae297dd3d660ccf83e54b6924",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9999339476888661,
+     "mass": 0.9999660987962968,
+     "sampled_token": "yes"
+    }
+   ]
+  },
+  "p7": {
+   "pair": "7",
+   "p_yes": 0.9549668978933605,
+   "answer_mass": 1.0000324723092788,
+   "gate": "PASSED",
+   "n_yes": null,
+   "n_asked": 10,
+   "principle_held": true,
+   "rule": "mean P(yes) >= 0.90 (A0.5)",
+   "prompt_sha256": "fd74ad9416e3e49cd5983381da8de83efa3038c36154fecd0c8fb96a76d2590b",
+   "draws": [
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9626731451832282,
+     "mass": 1.0000427705287775,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9626731451832282,
+     "mass": 1.0000427705287775,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9626731451832282,
+     "mass": 1.0000427705287775,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9241419087338896,
+     "mass": 0.9999912794312841,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9626731451832282,
+     "mass": 1.0000427705287775,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9626731451832282,
+     "mass": 1.0000427705287775,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9241419087338896,
+     "mass": 0.9999912794312841,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9626731451832282,
+     "mass": 1.0000427705287775,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9626731451832282,
+     "mass": 1.0000427705287775,
+     "sampled_token": "yes"
+    },
+    {
+     "text": "Yes",
+     "reasoned_despite_off": false,
+     "p_yes": 0.9626731451832282,
+     "mass": 1.0000427705287775,
+     "sampled_token": "yes"
+    }
+   ]
+  }
+ },
+ "R": {
+  "p1|PRO": {
+   "pair": "1",
+   "leg": "PRO",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 8.4457582,
+   "values": [
+    8.516058,
+    8.516058,
+    8.516058,
+    8.516058,
+    8.516058,
+    8.516058,
+    8.164559,
+    8.164559,
+    8.516058,
+    8.516058
+   ],
+   "raw_sample": [
+    "9",
+    "9",
+    "9"
+   ],
+   "prompt_sha256_16": "3f0c2ba0ab40390a",
+   "readout": "logprob ev"
+  },
+  "p1|PRIV": {
+   "pair": "1",
+   "leg": "PRIV",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 8.599316,
+   "values": [
+    8.599316,
+    8.599316,
+    8.599316,
+    8.599316,
+    8.599316,
+    8.599316,
+    8.599316,
+    8.599316,
+    8.599316,
+    8.599316
+   ],
+   "raw_sample": [
+    "9",
+    "8",
+    "7"
+   ],
+   "prompt_sha256_16": "ef7a3df0ff8d6dd9",
+   "readout": "logprob ev"
+  },
+  "p3|PRO": {
+   "pair": "3",
+   "leg": "PRO",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 7.3597664,
+   "values": [
+    7.240116,
+    7.389679,
+    7.389679,
+    7.389679,
+    7.389679,
+    7.389679,
+    7.389679,
+    7.389679,
+    7.240116,
+    7.389679
+   ],
+   "raw_sample": [
+    "7",
+    "7",
+    "9"
+   ],
+   "prompt_sha256_16": "ed2374c0b6bb81b2",
+   "readout": "logprob ev"
+  },
+  "p3|PRIV": {
+   "pair": "3",
+   "leg": "PRIV",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 6.876395,
+   "values": [
+    6.876395,
+    6.876395,
+    6.876395,
+    6.876395,
+    6.876395,
+    6.876395,
+    6.876395,
+    6.876395,
+    6.876395,
+    6.876395
+   ],
+   "raw_sample": [
+    "7",
+    "7",
+    "7"
+   ],
+   "prompt_sha256_16": "4fdaa83ae5416a0e",
+   "readout": "logprob ev"
+  },
+  "p4|PRO": {
+   "pair": "4",
+   "leg": "PRO",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 7.3943167999999995,
+   "values": [
+    7.332476,
+    7.332476,
+    7.332476,
+    7.332476,
+    7.332476,
+    7.950884,
+    7.332476,
+    7.332476,
+    7.332476,
+    7.332476
+   ],
+   "raw_sample": [
+    "8",
+    "7",
+    "9"
+   ],
+   "prompt_sha256_16": "8e31995ee1ef1757",
+   "readout": "logprob ev"
+  },
+  "p4|PRIV": {
+   "pair": "4",
+   "leg": "PRIV",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 6.0040977,
+   "values": [
+    5.940154,
+    5.940154,
+    5.940154,
+    5.940154,
+    6.579591,
+    5.940154,
+    5.940154,
+    5.940154,
+    5.940154,
+    5.940154
+   ],
+   "raw_sample": [
+    "5",
+    "7",
+    "5"
+   ],
+   "prompt_sha256_16": "a78cc33c7e16cfb3",
+   "readout": "logprob ev"
+  },
+  "p5|PRO": {
+   "pair": "5",
+   "leg": "PRO",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 7.202864,
+   "values": [
+    7.202864,
+    7.202864,
+    7.202864,
+    7.202864,
+    7.202864,
+    7.202864,
+    7.202864,
+    7.202864,
+    7.202864,
+    7.202864
+   ],
+   "raw_sample": [
+    "7",
+    "7",
+    "7"
+   ],
+   "prompt_sha256_16": "e2d0058c5b2f7e5d",
+   "readout": "logprob ev"
+  },
+  "p5|PRIV": {
+   "pair": "5",
+   "leg": "PRIV",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 7.239567,
+   "values": [
+    7.239567,
+    7.239567,
+    7.239567,
+    7.239567,
+    7.239567,
+    7.239567,
+    7.239567,
+    7.239567,
+    7.239567,
+    7.239567
+   ],
+   "raw_sample": [
+    "8",
+    "7",
+    "7"
+   ],
+   "prompt_sha256_16": "f6bd764168ed80fc",
+   "readout": "logprob ev"
+  },
+  "p7|PRO": {
+   "pair": "7",
+   "leg": "PRO",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 7.990808,
+   "values": [
+    7.990808,
+    7.990808,
+    7.990808,
+    7.990808,
+    7.990808,
+    7.990808,
+    7.990808,
+    7.990808,
+    7.990808,
+    7.990808
+   ],
+   "raw_sample": [
+    "9",
+    "9",
+    "7"
+   ],
+   "prompt_sha256_16": "5435b5fcd6d50a95",
+   "readout": "logprob ev"
+  },
+  "p7|PRIV": {
+   "pair": "7",
+   "leg": "PRIV",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "n_void": 0,
+   "mean": 6.9153394,
+   "values": [
+    6.908327,
+    6.917135,
+    6.908327,
+    6.917135,
+    6.908327,
+    6.952027,
+    6.908327,
+    6.917135,
+    6.908327,
+    6.908327
+   ],
+   "raw_sample": [
+    "7",
+    "7",
+    "7"
+   ],
+   "prompt_sha256_16": "b4b3fd734447d8cd",
+   "readout": "logprob ev"
+  }
+ },
+ "B": {
+  "p1|PRO": {
+   "pair": "1",
+   "leg": "PRO",
+   "expected_role": "professional",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 9,
+   "blame_values": [
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 4,
+   "unparsed_texts": [],
+   "prompt_sha256": "8ec923c8111460304601a7f83fab3f00d948f79ce40fccbf30561340b2bb804a",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=9",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p1|PRIV": {
+   "pair": "1",
+   "leg": "PRIV",
+   "expected_role": "private",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.9,
+   "blame_values": [
+    7,
+    7,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 3,
+   "unparsed_texts": [],
+   "prompt_sha256": "24d5ba6fb9f87a09c806823afb3eacdfdd98d07c7d23f9269fa4b955ccdacbfc",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=9",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 9
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p3|PRO": {
+   "pair": "3",
+   "leg": "PRO",
+   "expected_role": "professional",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.8,
+   "blame_values": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8,
+    7
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 10,
+   "unparsed_texts": [],
+   "prompt_sha256": "1cf0b0abee9882e0904cd212bfe353e9b05f583055ff3e834d03e9b73bdd213c",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p3|PRIV": {
+   "pair": "3",
+   "leg": "PRIV",
+   "expected_role": "private",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 6.7,
+   "blame_values": [
+    7,
+    7,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    6,
+    7
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 10,
+   "unparsed_texts": [],
+   "prompt_sha256": "54ead0fee130aa93e0195f943bef5552e6b22e9069b3849e514481e9d04a0b15",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=6",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p4|PRO": {
+   "pair": "4",
+   "leg": "PRO",
+   "expected_role": "professional",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.7,
+   "blame_values": [
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 10,
+   "unparsed_texts": [],
+   "prompt_sha256": "7e110fe5439ff2b88b95dca7d711ddc0666d96f2898eaa65940d39e16df237ac",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p4|PRIV": {
+   "pair": "4",
+   "leg": "PRIV",
+   "expected_role": "private",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 6.5,
+   "blame_values": [
+    7,
+    7,
+    6,
+    7,
+    6,
+    6,
+    7,
+    6,
+    6,
+    7
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 9,
+   "unparsed_texts": [],
+   "prompt_sha256": "278ca4ea51776a2d325a680da7120b2bcce6f2ddd88633280a7e56eef6038bba",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=6",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=6",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 6
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p5|PRO": {
+   "pair": "5",
+   "leg": "PRO",
+   "expected_role": "professional",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.6,
+   "blame_values": [
+    8,
+    8,
+    7,
+    7,
+    8,
+    7,
+    7,
+    8,
+    8,
+    8
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 7,
+   "unparsed_texts": [],
+   "prompt_sha256": "68711dea4d8fe34e37078178300e457be39a68adc7e305f53bae45062d47b13c",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p5|PRIV": {
+   "pair": "5",
+   "leg": "PRIV",
+   "expected_role": "private",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.6,
+   "blame_values": [
+    8,
+    8,
+    7,
+    8,
+    8,
+    7,
+    8,
+    7,
+    7,
+    8
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 4,
+   "unparsed_texts": [],
+   "prompt_sha256": "f7f984babdbf654aab2db415c23368bc0e47b9afd7eca58449d12cc69c502da6",
+   "draws": [
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=no\nBLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private\nPRINCIPLE=yes\nBLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=no BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "no",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p7|PRO": {
+   "pair": "7",
+   "leg": "PRO",
+   "expected_role": "professional",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7.8,
+   "blame_values": [
+    8,
+    8,
+    8,
+    8,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 10,
+   "unparsed_texts": [],
+   "prompt_sha256": "1829f2b913bf0f9ce369b05b9cb3972c4047790968f6e5080b8babe6858dd329",
+   "draws": [
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional\nPRINCIPLE=yes\nBLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional\nPRINCIPLE=yes\nBLAME=7",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional\nPRINCIPLE=yes\nBLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=professional PRINCIPLE=yes BLAME=8",
+     "parsed": {
+      "ROLE": "professional",
+      "PRINCIPLE": "yes",
+      "BLAME": 8
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  },
+  "p7|PRIV": {
+   "pair": "7",
+   "leg": "PRIV",
+   "expected_role": "private",
+   "n_asked": 10,
+   "n_parsed": 10,
+   "gate_parse": "PASSED",
+   "blame_mean": 7,
+   "blame_values": [
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+   ],
+   "n_role_correct": 10,
+   "n_principle_yes": 10,
+   "unparsed_texts": [],
+   "prompt_sha256": "6774acc49f27cef623b59f64f7276053c9b5c8b9bc1491a243960eebc69e3254",
+   "draws": [
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    },
+    {
+     "text": "ROLE=private PRINCIPLE=yes BLAME=7",
+     "parsed": {
+      "ROLE": "private",
+      "PRINCIPLE": "yes",
+      "BLAME": 7
+     },
+     "reasoned_despite_off": false
+    }
+   ]
+  }
+ },
+ "provider_served": [
+  "Sail Research"
+ ],
+ "served_model": [
+  "deepseek/deepseek-v4.1-flash"
+ ],
+ "served_model_constant": true,
+ "temperature": [
+  1.0
+ ],
+ "empty_responses_retried": [],
+ "wire_R": {
+  "model": "deepseek/deepseek-v4.1-flash",
+  "provider": "Sail Research",
+  "max_tokens": 1,
+  "want_logprobs": true,
+  "reasoning": {
+   "enabled": false
+  },
+  "temperature": 1.0,
+  "from_log": "runs/deployed_scenarios/logs/or_deepseek.jsonl"
+ },
+ "status": "READ",
+ "calls": 250,
+ "spent_usd": 0.0009846359999999995,
+ "elapsed_s": 281.0
+}

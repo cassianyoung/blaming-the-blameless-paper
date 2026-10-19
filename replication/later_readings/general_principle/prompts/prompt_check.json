@@ -1,0 +1,34 @@
+{
+ "hash": "sha256 of json.dumps(messages), first 16 hex digits, as the study's harness logs it in each call's prompt_sha256_16",
+ "frozen_or_built_prompts": 5,
+ "prompts_sent": 5,
+ "prompts_never_sent": [],
+ "calls": 651,
+ "calls_matching_a_prompt": 651,
+ "calls_matching_no_prompt": {},
+ "coder_calls_matching_their_rebuilt_prompt": null,
+ "coder_calls_not_matching": null,
+ "built_prompts_matching_the_banked_duty_test_calls": null,
+ "per_prompt": {
+  "frames.json: G1": {
+   "prompt_sha256_16": "2c63464ab4bbf540",
+   "calls": 130
+  },
+  "frames.json: G2": {
+   "prompt_sha256_16": "2f5552e0f5f5ca7d",
+   "calls": 131
+  },
+  "frames.json: G3_AP": {
+   "prompt_sha256_16": "e9407e6b00e2ac11",
+   "calls": 130
+  },
+  "frames.json: G3_PA": {
+   "prompt_sha256_16": "0e8ef4821412d5e5",
+   "calls": 130
+  },
+  "general_principle_FRAMES_v2.json: G1_AP": {
+   "prompt_sha256_16": "8fc7fecd742ba24e",
+   "calls": 130
+  }
+ }
+}

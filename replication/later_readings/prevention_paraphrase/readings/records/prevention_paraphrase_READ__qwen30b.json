@@ -1,0 +1,19 @@
+{
+ "run": "231",
+ "arm": "qwen30b",
+ "model": "qwen/qwen3-30b-a3b-instruct-2507",
+ "provider_requested": "StreamLake",
+ "provider_banked": "StreamLake",
+ "readout": "logprob",
+ "max_tokens": 1,
+ "top_k": 20,
+ "frames": "records/frames.json",
+ "frames_sha256": "5a74f7867103f93749054d2c215f2bf865f782f158ae1f2b7c2a85572c864aea",
+ "prereg": "records/PREREG_prevention_paraphrase_PARAPHRASE.md",
+ "status": "UNREAD",
+ "unread_reason": "provider StreamLake still failing at the deadline: OpenRouter call failed after 6: HTTP 404: {\"error\":{\"message\":\"No endpoints found for qwen/qwen3-30b-a3b-instruct-2507. Every candidate endpoint was removed during routing: Filter by Fallback removed dekallm, siliconflow/fp8, nebius/fp8.\",\"code\":404,\"metadata\":{\"routing_funnel\":[{\"step\":\"Initial Endpoints\",\"endpoint_count\":3},{\"step\":\"Filter by Fallback\",\"endpoint_count\":0}],\"failed_routing_step\":\"Filter by Fallback\"}},\"user_id\":\"user_2bO",
+ "cells": {},
+ "calls": 0,
+ "spent_usd": 0.0,
+ "elapsed_s": 9736.4
+}
