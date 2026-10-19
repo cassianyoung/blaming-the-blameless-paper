@@ -26,3 +26,21 @@ paper calls the same person the subject. No prediction, rule or number has been 
 | `excuse_neutral_row_flag_amendment.json` | Post-hoc amendment, declared as one, to the excuse test's neutral-row check: the neutral row exists to rule out the sentence-count rival (P1_neutral above P1), not to be inert; its movement against P0 is reported, gating nothing. |
 | `adapter_corpus_controls.md` | Controls for whether the instruction-tuning corpus behind a LoRA adapter, rather than seed or language, moves the careful subject's reading on the worksheet frame: seed replication, a language control and an ablation, with the rise rule and its two amendments (§8, §9). |
 | `adapter_corpus_controls_bands_amendment.md` | Amendment fixing which construction the rise rule's "bands" means (the pooled band, C), with the reason and its effect on every arm. |
+
+## Bank file names
+
+The pre-registrations name their banks by the working repository's file names, as
+registered. This table says where each bank's texts are published: in due-care-eval at tag
+v1.1, under `banks/`. Every row of a public bank records the SHA-256 of the bank it came
+from (`source_bank_sha256`), and each correspondence below was also checked text for text.
+
+| name in the pre-registrations | cited in | sha256 | published in due-care-eval v1.1 | not published |
+|---|---|---|---|---|
+| `excuse_bank.jsonl` | `excuse_duty_holder_factorial.md` | `546dc93105fadf74…` | `excuse_cases.jsonl`: the ten bicycle cases | |
+| `moral__factors__b1__rev1.jsonl` | `excuse_duty_holder_factorial.md` | `e8de6ecf0fe6dcb1…` | three rows only, the lend level's N, C and I, which are the bicycle cases N, C and I in `excuse_cases.jsonl` | the other 29 factor rows, including the hire and sell rows the factorial reads |
+| `moral__duty__v1.jsonl` | `duty_pair7_hair_dye.md` | `b0ca3175775f9c1f…` | `duty_texts.jsonl`: pairs 1, 3, 4 and 5, separate and comparison (16 rows) | pair 2 (herbal, retired); pair 6, the identical-case control, whose case text is the prawns_home careful case (C) in `excuse_cases.jsonl` |
+| `moral__duty227__v1.jsonl` | `duty_remedies.md` | `8c42e7b23e7a5f155f8ae8ab2b2102012ffb4e12c37ccfd4881643b3726fcc0c` | `duty_texts.jsonl`: pairs 1, 3, 4 and 5, the stated convention (8 rows) and the first neutral sentence (8 rows); those neutral rows record as their source the bank holding all three neutral sentences per pair that Amendment 2 reads (`66dfa615014cab33…`) | the comparand rows (reference case and case to rate); pair 2 |
+| `moral__duty228__v1.jsonl` | `duty_pair7_hair_dye.md` | `1ac42d76dcf2ab18812cf721954c356d466241ad080017186c5d4f100e33c21b` | `duty_texts.jsonl`: pair 7, separate, comparison, stated and the three neutral sentences (12 rows) | the comparand rows |
+
+The prawns pair's texts come from other banks, which no pre-registration here names; their
+digests are in the `source_bank_sha256` field of each row.
