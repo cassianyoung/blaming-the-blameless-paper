@@ -1,4 +1,4 @@
-# Appendix A.8. Database sha256: 618135db3e8a8c0a0c25246da9e5e9896b40edcaf5238dc5a6915d1fef8f9a30
+# Appendix A.8. Database sha256: 59efbe42c520d0f49798817096c155b545c7c290e083324fc349ab37aa8a6ec9
 # Built by scripts/build_b8_judgement.py. A probability is refused where its answer mass is below 0.7.
 arm,reason
 deepseek_r,"the deployed_bicycle_ladder/215 DeepSeek reasoning arm, superseded by the mt-8192 re-read: a truncation void on a reasoning arm is a selection on the variable of interest"

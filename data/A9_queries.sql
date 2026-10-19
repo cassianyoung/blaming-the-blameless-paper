@@ -1,4 +1,4 @@
--- Appendix A.9. Database sha256: 618135db3e8a8c0a0c25246da9e5e9896b40edcaf5238dc5a6915d1fef8f9a30
+-- Appendix A.9. Database sha256: 59efbe42c520d0f49798817096c155b545c7c290e083324fc349ab37aa8a6ec9
 -- arms excluded at the export: 
 -- told class: w = 1 - stated_condition_gap / stated_gap where share is defined; |w| <= 0.10 within a tenth, <= 0.30 a tenth to three tenths, else more than three tenths; short if w > 0, over if w < 0
 -- arm order: within reasoning, mean over pairs of (stated_gap - separate_gap), descending

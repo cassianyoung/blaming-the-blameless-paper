@@ -1,4 +1,4 @@
--- frame table. Database sha256: 618135db3e8a8c0a0c25246da9e5e9896b40edcaf5238dc5a6915d1fef8f9a30
+-- frame table. Database sha256: 59efbe42c520d0f49798817096c155b545c7c290e083324fc349ab37aa8a6ec9
 -- chat gate:      N_mass_0_3 >= 0.8 AND answer_mass >= 0.7 AND (I >= 7.0 where read)
 -- worksheet gate: (C-N) >= 3 bands AND answer mass >= 0.7
 

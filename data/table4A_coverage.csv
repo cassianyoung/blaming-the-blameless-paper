@@ -1,4 +1,4 @@
-# Table 4A, coverage. Database sha256: 618135db3e8a8c0a0c25246da9e5e9896b40edcaf5238dc5a6915d1fef8f9a30
+# Table 4A, coverage. Database sha256: 59efbe42c520d0f49798817096c155b545c7c290e083324fc349ab37aa8a6ec9
 # Built by scripts/build_table3_coverage.py. Every API arm in the database appears exactly once.
 arm,model_id,state,scenarios_of_five,bicycle_cells,bicycle_cases_of_ten,bicycle_cases_absent,side_by_side_cells,reason
 claude,anthropic/claude-sonnet-5,reported,5,16,10,"and P3, P4 from deployed_bicycle_ladder's eight-row `ladder8` bank, which this ten-case bank does not contain",4,
