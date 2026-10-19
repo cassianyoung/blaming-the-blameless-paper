@@ -2,7 +2,7 @@
 
 These are the scripts that drew the manuscript's figures, reconstructed from the
 claude.ai session transcripts (30 Sept - 14 Oct 2026) by replaying every write and every
-in-place edit to each script in order. They were never on the AI_Ethics machine.
+in-place edit to each script in order. They were never in the working repository.
 
 | Manuscript | Script | Reads (from the paper tree's data/ exports) | Wrote |
 |---|---|---|---|

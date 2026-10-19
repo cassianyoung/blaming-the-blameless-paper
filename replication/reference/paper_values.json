@@ -17779,11 +17779,11 @@
    "scenario_banked": "scaffolding",
    "source": "positions_value (means over orderings)"
   },
-  "yi34b_base_yi_adapter_controls|worksheet|bicycle": {
+  "yi34b_base_controls|worksheet|bicycle": {
    "C": 4.608026985824108,
    "N": 2.154924538731575,
-   "arm": "yi34b_base_yi_adapter_controls",
-   "arm_as_banked": "yi34b_base_yi_adapter_controls",
+   "arm": "yi34b_base_controls",
+   "arm_as_banked": "yi34b_base_controls",
    "artefact_sha": "0acd760d2e11c5ce",
    "card": "pod",
    "ev": {

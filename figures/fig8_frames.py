@@ -20,7 +20,7 @@ scen=[("bicycle","Bicycle"),("ladder","Ladder"),("prawns_home","Prawns, home"),
       ("prawns_restaurant","Prawns, restaurant"),("scaffolding","Scaffolding"),("cheque","Cheque")]
 D={(r["family"],r["scenario"]):r for r in R}
 # THE CHAT GATE IS READ FROM THE EXPORT, never recomputed here. If a C - N condition is
-# adopted (records/RULE_CHAT_GATE_CN_20261018.md), set FIG8_CN_MIN to its value and the
+# adopted (a chat-gate rule on C - N), set FIG8_CN_MIN to its value and the
 # figure refuses unless every chat reading it draws as passing clears it, so a stale export
 # cannot be drawn under the new rule (review of v0.7, item 11).
 _cn=os.environ.get("FIG8_CN_MIN")
