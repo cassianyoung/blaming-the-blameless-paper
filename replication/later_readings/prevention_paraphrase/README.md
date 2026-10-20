@@ -68,9 +68,9 @@ readout is kept as a check). Nothing was re-read; only pooled figures changed.
 
 - **Reported (the original wording):** the particular premise of the practical syllogism,
   §4.1 ("could this man reasonably have prevented it? The models say no in 59 of 69 cells"),
-  Table 6 (the particular premise column) and Table A.10 (the Fact column); also cited in the
+  Table 4 (the particular premise column) and Table A.10 (the Fact column); also cited in the
   abstract ("most agree that he could not have prevented it") and §5 ("several deny the fact
-  in half the scenarios or more (Table 6)"). Headline figures, registered under
+  in half the scenarios or more (Table 4)"). Headline figures, registered under
   practical_syllogism with this reading's Reasonable answers as the fact:
   - **431**: cells with the fact held, 59 of 69.
   - **430**: cells with both premises held, 59 of 69.

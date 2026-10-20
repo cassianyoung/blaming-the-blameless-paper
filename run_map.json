@@ -5,7 +5,7 @@
    "run": "130-135",
    "name": "Corpus screening",
    "question": "Screen the candidate pairs for the adapters' English corpus: graded items (130, 132, 134), two moral screens (131, 133), answer kinds (135)",
-   "in_paper": "§3.5, Table 5 (the adapters' corpus)",
+   "in_paper": "§3.5, Appendix B.6 (the adapters' corpus)",
    "reported": "yes",
    "key_results": ""
   },
@@ -13,7 +13,7 @@
    "run": "136",
    "name": "English corpus build",
    "question": "Compose the English instruction corpus the study adapters were trained on (960 pairs, 106 held out)",
-   "in_paper": "§3.5, Table 5 (the adapters' corpus)",
+   "in_paper": "§3.5, Appendix B.6 (the adapters' corpus)",
    "reported": "yes",
    "key_results": ""
   },
@@ -21,7 +21,7 @@
    "run": "137",
    "name": "Gemma 2 9B adapter training",
    "question": "Train the Gemma 2 9B study adapter on the English corpus",
-   "in_paper": "§3.5, Table 5; §4.5, Table A.1",
+   "in_paper": "§3.5, Appendix B.6, Table B.3; §4.5, Table A.1",
    "reported": "yes",
    "key_results": ""
   },
@@ -29,7 +29,7 @@
    "run": "145",
    "name": "Gemma 2 27B adapter training",
    "question": "Train the Gemma 2 27B study adapter on the English corpus",
-   "in_paper": "§3.5, Table 5; §4.5, Table A.1",
+   "in_paper": "§3.5, Appendix B.6, Table B.3; §4.5, Table A.1",
    "reported": "yes",
    "key_results": ""
   },
@@ -37,7 +37,7 @@
    "run": "179",
    "name": "Chinese corpus build",
    "question": "Build the Chinese instruction corpus for the Yi control",
-   "in_paper": "§3.5, §4.5 (exploratory)",
+   "in_paper": "§3.5, Appendix B.6, §4.5 (exploratory)",
    "reported": "yes",
    "key_results": ""
   },
@@ -45,7 +45,7 @@
    "run": "201",
    "name": "Yi-1.5-34B Chinese adapter training",
    "question": "Train the Yi-1.5-34B adapter on the Chinese corpus",
-   "in_paper": "§3.5, Table 5; §4.5, Table A.7",
+   "in_paper": "§3.5, Appendix B.6, Table B.3; §4.5, Table A.7",
    "reported": "yes",
    "key_results": ""
   },
@@ -53,7 +53,7 @@
    "run": "205",
    "name": "Six adapter trainings",
    "question": "Train the Llama 3.1 8B, Qwen3 8B, Mistral 7B, OLMo 2 7B, Falcon3 7B and StableLM 2 12B study adapters on the English corpus",
-   "in_paper": "§3.5, Table 5; §4.5, Table A.1",
+   "in_paper": "§3.5, Appendix B.6, Table B.3; §4.5, Table A.1",
    "reported": "yes",
    "key_results": ""
   },
@@ -69,7 +69,7 @@
    "run": "214",
    "name": "Bicycle chat run",
    "question": "Deployed models on the bicycle",
-   "in_paper": "§3.5, Table 4A; §4.1, Figs. 1 and 2, Tables A.2, A.5, A.8, A.10, 3 and 6",
+   "in_paper": "§3.5, Appendix B.3, Table B.1; §4.1, Figs. 1 and 2, Tables A.2, A.5, A.8, A.10, 3 and 4",
    "reported": "yes",
    "key_results": "Pooled with 215, 220 and 224: on the target case with reasoning off, 85.0% of gated readings blame above 0.10 and 62.5% above 0.30; with reasoning on, 16.7% and 5.6%"
   },
@@ -77,7 +77,7 @@
    "run": "215",
    "name": "Bicycle rivals run",
    "question": "Deployed models on the bicycle; with the neutral sentence and the rival excuses",
-   "in_paper": "§3.5, Table 4A; §4.1, Figs. 1 and 2, Tables A.2, A.5, A.8, A.10, 3 and 6",
+   "in_paper": "§3.5, Appendix B.3, Table B.1; §4.1, Figs. 1 and 2, Tables A.2, A.5, A.8, A.10, 3 and 4",
    "reported": "yes",
    "key_results": "Pooled with 214, 220 and 224 (see 214)"
   },
@@ -85,7 +85,7 @@
    "run": "216",
    "name": "Base, tuned and instruction-tuned series",
    "question": "Each family as its pretrained base and as the same base with the study adapter, on the worksheet, and as the developer's instruction-tuned release, on chat; the bicycle",
-   "in_paper": "§3.5, Table 4B; §4.5, Table A.1",
+   "in_paper": "§3.5, Appendix B.3, Table B.2; §4.5, Table A.1",
    "reported": "yes",
    "key_results": "Target-case positions per family for base, adapter and release (Table A.1)"
   },
@@ -101,7 +101,7 @@
    "run": "220",
    "name": "Six-scenario API run",
    "question": "Fault blindness across six scenarios, with and without reasoning",
-   "in_paper": "§3.5, Table 4A; §4.1, §4.3, Figs. 1 to 3, Tables A.2, A.4, A.5, A.8, A.9, A.10, 3 and 6",
+   "in_paper": "§3.5, Appendix B.3, Table B.1; §4.1, §4.3, Figs. 1 to 3, Tables A.2, A.4, A.5, A.8, A.9, A.10, 3 and 4",
    "reported": "yes",
    "key_results": "Pooled with 214, 215 and 224 (see 214)"
   },
@@ -117,7 +117,7 @@
    "run": "223",
    "name": "Series reproduced",
    "question": "The base, tuned and instruction-tuned series (run 216) reproduced on different hardware, and extended to six scenarios and both frames",
-   "in_paper": "§3.5, Table 4B; §4.5, Figs. 8 and 9, Tables A.3, A.4, A.6 and A.7",
+   "in_paper": "§3.5, Appendix B.3, Table B.2; §4.5, Figs. 8 and 9, Tables A.3, A.4, A.6 and A.7",
    "reported": "yes",
    "key_results": ""
   },
@@ -125,7 +125,7 @@
    "run": "224",
    "name": "Added models",
    "question": "Three further deployed models on the bicycle and the six scenarios",
-   "in_paper": "§3.5, Table 4A; §4.1, §4.3, Figs. 1 to 3, Tables A.2, A.4, A.5, A.8, A.9, A.10, 3 and 6",
+   "in_paper": "§3.5, Appendix B.3, Table B.1; §4.1, §4.3, Figs. 1 to 3, Tables A.2, A.4, A.5, A.8, A.9, A.10, 3 and 4",
    "reported": "yes",
    "key_results": "Pooled with 214, 215 and 220 (see 214)"
   },
@@ -173,7 +173,7 @@
    "run": "231a",
    "name": "Prevention re-read",
    "question": "The prevention and carelessness questions re-read in their original wording",
-   "in_paper": "Table 6 (the particular premise), Table A.10",
+   "in_paper": "Table 4 (the particular premise), Table A.10",
    "reported": "yes",
    "key_results": "59 of 69 target cases hold the fact (the subject could not reasonably have prevented the harm)"
   },
@@ -189,7 +189,7 @@
    "run": "232",
    "name": "Syllogism run",
    "question": "Principle, fact and verdict in separate calls; then in one answer",
-   "in_paper": "§4.1, Table 6, Table A.10",
+   "in_paper": "§4.1, Table 4, Table A.10",
    "reported": "yes",
    "key_results": "12 of 12 models hold the principle; 59 of 69 cases hold both premises; of those, 47 (0.797) still blame above 0.10"
   },

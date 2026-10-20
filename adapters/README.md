@@ -207,7 +207,7 @@ whole path, including the boundary assertions, in about a minute. Output goes to
 
 The two are not interchangeable.
 
-### The eight study adapters (Table 5)
+### The eight study adapters (Table B.3)
 
 All trained on `corpus/instruction_corpus_en.jsonl` with the recipe above and seed
 20260909.

@@ -62,9 +62,9 @@ this reading; all reads were made the same day.
 
 ## Where it is reported
 
-- **§4.1**, "The practical syllogism" (paragraphs [127] to [131]), with **Table 6** (the
+- **§4.1**, "The practical syllogism" (paragraphs [127] to [131]), with **Table 4** (the
   syllogism per model) and **Table A.10** (fault-blindness columns: Principle, Fact, Blames
-  anyway, One answer against Direct). Data: `../../../data/table6_syllogism.csv`,
+  anyway, One answer against Direct). Data: `../../../data/table4_syllogism.csv`,
   `../../../data/A10_syllogism.csv`, `../../../data/A10_pooled.csv`.
 - The method is introduced in **§3.3** ([89]); the result is used in the abstract and
   **§1** ([3], [12], [14], [26], [30], [40], [43]), in the **§5** discussion ([185], [186],

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Table 4A: deployed models read through commercial APIs (chat frame).
+"""Table B.1: deployed models read through commercial APIs (chat frame).
 
 One row per model as the manuscript groups them (several arms of one model, and models
 of one family read alike, share a row; ROWS below). Reads:
@@ -68,7 +68,7 @@ def main():
         gate = joined(str(sum(b5[arm][s + "_gate"] == "PASSED" for s in SCENARIOS))
                       for arm, _ in arms) + gmark
         out.append([dev, label, readout, reasoning, gate])
-    print(write_table("table4A_deployed_models", HEADER, out))
+    print(write_table("tableB1_deployed_models", HEADER, out))
 
 
 if __name__ == "__main__":

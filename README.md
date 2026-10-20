@@ -54,9 +54,9 @@ script writes `figures/out/FigureN_<name>` as PNG, PDF and SVG.
 | Figure 7 (draw noise and wording noise) | `figures/fig7_noise.py` | `fig4to7_duty.csv` |
 | Figure 8 (worksheet against chat template, per scenario) | `figures/fig8_frames.py` | `fig8_frame_by_scenario.csv` |
 | Figure 9 (base, adapter and release) | `figures/fig9_tuning.py` | `A1_tuning_table.csv` |
-| Table 4A (deployed models read through commercial APIs) | `tables/table4A_deployed_models.py` | `A5_across_scenarios_wide.csv`, `A2_deployed_bicycle.csv` |
-| Table 4B (local families read) | `tables/table4B_local_families.py` | `A6_bystander_long.csv`, `A7_yi_long.csv`, `A3_frames_scenarios.csv`, `A3_frames_excluded.csv` |
-| Table 6 (the practical syllogism, per model) | `tables/table6_syllogism.py` | `table6_syllogism.csv` |
+| Table B.1 (deployed models read through commercial APIs) | `tables/tableB1_deployed_models.py` | `A5_across_scenarios_wide.csv`, `A2_deployed_bicycle.csv` |
+| Table B.2 (local families read) | `tables/tableB2_local_families.py` | `A6_bystander_long.csv`, `A7_yi_long.csv`, `A3_frames_scenarios.csv`, `A3_frames_excluded.csv` |
+| Table 4 (the practical syllogism, per model) | `tables/table4_syllogism.py` | `table4_syllogism.csv` |
 | Table A.1 | `tables/table_A1_tuning.py` | `A1_tuning_table.csv`, `A1_tuning_table_summary.csv` |
 | Table A.2 | `tables/table_A2_deployed_bicycle.py` | `A2_deployed_bicycle.csv` |
 | Table A.3 | `tables/table_A3_frames.py` | `A3_frames_bicycle.csv`, `A3_frames_summary.csv` |
@@ -97,8 +97,8 @@ each cell as a mean over its draws. due-care-eval can read the same cases from a
 these models today, and will measure the model as it is then served;
 `replication/run_reading.py` compares such a reading with the paper's within each cell's
 draw band. In `data/` these
-are `fig2_panelB.csv`, `A2_*`, `A5_*`, `A8_*`, `table4A_coverage.csv`, `fig4to7_duty.csv`,
-`fig6_duty_panels.csv`, `A9_*`, `A10_*`, `table6_syllogism.csv`, `duty_*` and the `api` rows of `A4_chef_home*.csv`.
+are `fig2_panelB.csv`, `A2_*`, `A5_*`, `A8_*`, `tableB1_coverage.csv`, `fig4to7_duty.csv`,
+`fig6_duty_panels.csv`, `A9_*`, `A10_*`, `table4_syllogism.csv`, `duty_*` and the `api` rows of `A4_chef_home*.csv`.
 
 ## Provenance
 

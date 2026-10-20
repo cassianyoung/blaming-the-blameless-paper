@@ -1,4 +1,4 @@
-# Figure 2, arms excluded from panel B. Database sha256: fe2ead2ac2da346bb790e3da2338b20561eeabd3b6108a1066dc5fdcc2a1aad3
+# Figure 2, arms excluded from panel B. Database sha256: a189cb5701bacd0dc09bc3b861389a7875b181bfe22b986a977e09dfd567a269
 model,reason
 deepseek_r,"duplicate model: the mt-8192 read is kept. deepseek_r_void_annotation already names that artefact as superseding this one. NOTE its BLAME-channel bicycle cells are CLEAN (P0|blame 0 void of 20); the cells marked NOT_USABLE on this artefact are the `any` channel, which this panel does not read, so this is a preference for the cleaner read and not a defect exclusion; kept instead: deepseek_r_bike8192_all"
 deepseek_r_bike8192,"the THREE-role bicycle read (N, C and I only). The ten-role read `deepseek_r_bike8192_all` is the one carrying P0 and P1"

@@ -965,7 +965,7 @@
   }
  ],
  "weights_hash_notes": {
-  "train_time_record": "the eight Table 5 adapters and the Yi-34B Chinese-set adapter were trained before the trainer wrote a provenance block, so their adapter_sha256 was computed afterwards from the published bytes (and, where the weights are held locally, re-hashed and matching); the remaining seven Yi-34B adapters carry adapter_sha256 written by the trainer at train time",
+  "train_time_record": "the eight Table B.3 adapters and the Yi-34B Chinese-set adapter were trained before the trainer wrote a provenance block, so their adapter_sha256 was computed afterwards from the published bytes (and, where the weights are held locally, re-hashed and matching); the remaining seven Yi-34B adapters carry adapter_sha256 written by the trainer at train time",
   "reading_link_gap": [
    "yi34b_translated_512",
    "yi34b_translated_2048",

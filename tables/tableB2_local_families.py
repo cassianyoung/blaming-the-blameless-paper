@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Table 4B: local families read (bf16, all six scenarios).
+"""Table B.2: local families read (bf16, all six scenarios).
 
 One row per family as the manuscript groups them (Yi-1.5-6B and 9B share a row). The
 checkpoint names are labels (ROWS below); what was read comes from the data:
@@ -75,7 +75,7 @@ def main():
             c = f"release ({chat[f]})" + cmark
         out.append([label, base, release or "—", ", ".join(names), c])
     assert {f for _, fams, *_ in ROWS for f in fams} == set(read), sorted(read)
-    print(write_table("table4B_local_families", HEADER, out))
+    print(write_table("tableB2_local_families", HEADER, out))
 
 
 if __name__ == "__main__":

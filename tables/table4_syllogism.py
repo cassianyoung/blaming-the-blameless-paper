@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Table 6: the practical syllogism, per model, each step from its own call.
+"""Table 4: the practical syllogism, per model, each step from its own call.
 
-Reads data/table6_syllogism.csv (one row per model, then the pooled row "All models"):
+Reads data/table4_syllogism.csv (one row per model, then the pooled row "All models"):
 the universal premise (the share asked with no case that says a person is not at fault
 for a harm he could not reasonably have prevented), the particular premise (cases where
 the model states the subject could not have prevented the harm), the conclusion not
@@ -27,7 +27,7 @@ def pct(v):
 
 def main():
     out = []
-    for r in read_csv("table6_syllogism.csv"):
+    for r in read_csv("table4_syllogism.csv"):
         g = lambda k: num(r[k])  # noqa: E731
         i = lambda k: int(g(k))  # noqa: E731
         if r["arm"] == "pooled":
@@ -44,7 +44,7 @@ def main():
                         f"{i('particular')} of {i('particular_of')}",
                         f"{i('not_drawn')} of {i('not_drawn_of')}", pct(g("blames_anyway")),
                         f2(g("direct_median")), f2(g("one_answer_median"))])
-    print(write_table("table6_syllogism", HEADER, out))
+    print(write_table("table4_syllogism", HEADER, out))
 
 
 if __name__ == "__main__":
