@@ -1,4 +1,4 @@
-# Tuning table summary (Appendix A.1). Database sha256: 356f079a59309d0d5bd2897ae7494dd98f23313aa5794995adc6ce9190a21061
+# Tuning table summary (Appendix A.1). Database sha256: d7a97c940acafbae66495dbe312379628cfd19091513a078e137b2a42507867b
 scope,statistic,value
 all nine families,adapter: mean unsigned delta_pos,0.0606
 all nine families,adapter: sd of unsigned delta_pos,0.0595
