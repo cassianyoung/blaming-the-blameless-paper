@@ -1,4 +1,4 @@
--- Appendix A.5. Database sha256: d7a97c940acafbae66495dbe312379628cfd19091513a078e137b2a42507867b
+-- Appendix A.5. Database sha256: fe2ead2ac2da346bb790e3da2338b20561eeabd3b6108a1066dc5fdcc2a1aad3
 
 -- one role on one scenario for one arm, with the reported reading in `ev`
 SELECT c.role, c.ev, c.ev_all_draws, c.n_reasoning, c.n_draws, c.reasoning_configured,

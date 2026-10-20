@@ -1,4 +1,4 @@
-# Database sha256: d7a97c940acafbae66495dbe312379628cfd19091513a078e137b2a42507867b
+# Database sha256: fe2ead2ac2da346bb790e3da2338b20561eeabd3b6108a1066dc5fdcc2a1aad3
 # Built by scripts/build_frame_by_scenario.py
 family,scenario,ws_N,ws_C,ws_P0,ws_P0_pos,ws_gate,ws_gate_rule,chat_N,chat_C,chat_I,chat_P0,chat_P0_pos,chat_N_mass_0_3,chat_answer_mass,chat_gate,chat_gate_failing_clause,chat_gate_rule,delta_pos,chat_C_below_P0,chat_C_minus_P0_digits,off_scale,sha_worksheet,sha_chat
 llama31,bicycle,1.3368,5.0192,3.6544,0.6293679966,LICENSED,"(C-N) >= 3.0 bands AND answer mass >= 0.7; mass(0-3) reported, not thresholded; P0-N never tiers",3.9982,7.8786,8.4226,6.6637,0.6869194437,0.4905,0.9998,FAILED,mass(0-3) 0.4905 < 0.80,"mass(0-3) >= 0.8 AND answer mass >= 0.7 AND I >= 7.0; N mean reported, never thresholded",0.0575514472,false,1.2149,false,78305e33fd05da63,0b6c494986bf52da

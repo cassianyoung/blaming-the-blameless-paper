@@ -1,4 +1,4 @@
-# Appendix A.10. Database sha256: d7a97c940acafbae66495dbe312379628cfd19091513a078e137b2a42507867b
+# Appendix A.10. Database sha256: fe2ead2ac2da346bb790e3da2338b20561eeabd3b6108a1066dc5fdcc2a1aad3
 # Built by scripts/build_b11_syllogism.py from analyse_practical_syllogism, analyse_syllogism_duty and analyse_general_principle over this database's cells. Values unrounded.
 paper_numbers_id,location,printed,from_rows,matches_rows,matches_at_build
 428,§4.1: practical_syllogism: practical_syllogism.P1 arms holding the principle (A0.3),12 of 12,12 of 12,1,1

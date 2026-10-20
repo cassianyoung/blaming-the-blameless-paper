@@ -1,4 +1,4 @@
-# Paper Table 6. Database sha256: d7a97c940acafbae66495dbe312379628cfd19091513a078e137b2a42507867b
+# Paper Table 6. Database sha256: fe2ead2ac2da346bb790e3da2338b20561eeabd3b6108a1066dc5fdcc2a1aad3
 # Built by scripts/build_table6_syllogism.py from analyse_practical_syllogism over this database's cells; columns as Table A.10 (tables/B11_syllogism.csv). Values unrounded.
 model,arm,counted,universal,particular,particular_of,not_drawn,not_drawn_of,blames_anyway,direct_median,one_answer_median,direct_cells_gt010,one_answer_cells_gt010,cells,universal_of
 Qwen3-Next-80B,qwen80b,1,0.9999999801895576,6,6,6,6,1.0,0.8177431696999999,0.0,6,2,6,

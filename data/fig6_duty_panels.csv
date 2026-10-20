@@ -1,4 +1,4 @@
-# Figures 4 to 7, the duty test across six conventions. Database sha256: d7a97c940acafbae66495dbe312379628cfd19091513a078e137b2a42507867b
+# Figures 4 to 7, the duty test across six conventions. Database sha256: fe2ead2ac2da346bb790e3da2338b20561eeabd3b6108a1066dc5fdcc2a1aad3
 # Built by scripts/build_fig7.py
 # The stated-condition columns are RAW digits, professional minus private,
 # and need no neutral baseline, which is why prawns is counted in them on

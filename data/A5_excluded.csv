@@ -1,4 +1,4 @@
-# Appendix A.5. Database sha256: d7a97c940acafbae66495dbe312379628cfd19091513a078e137b2a42507867b
+# Appendix A.5. Database sha256: fe2ead2ac2da346bb790e3da2338b20561eeabd3b6108a1066dc5fdcc2a1aad3
 # Built by scripts/build_b5_across_scenarios.py from the arms in figures/fig2_panelB.csv.
 arm,reason
 deepseek_r,"the deployed_bicycle_ladder/215 DeepSeek reasoning arm, superseded by the mt-8192 re-read: a truncation void on a reasoning arm is a selection on the variable of interest"
