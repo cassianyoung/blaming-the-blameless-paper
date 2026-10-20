@@ -1,4 +1,4 @@
--- Appendix A.2. Database sha256: a189cb5701bacd0dc09bc3b861389a7875b181bfe22b986a977e09dfd567a269
+-- Appendix A.2. Database sha256: f4109861db099a64996e8f589f01cd191f026412ec06a5854ede1dda0ad43964
 
 -- the bicycle cell for one arm and role, with everything the appendix prints
 SELECT c.ev, c.ev_all_draws, c.ev_source, c.n_draws, c.n_reasoning,

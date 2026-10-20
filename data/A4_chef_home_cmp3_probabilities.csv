@@ -1,4 +1,4 @@
-# Database sha256: a189cb5701bacd0dc09bc3b861389a7875b181bfe22b986a977e09dfd567a269
+# Database sha256: f4109861db099a64996e8f589f01cd191f026412ec06a5854ede1dda0ad43964
 # Built by scripts/build_chef_home.py
 model,model_id,source,order,first_listed_option,p_equally,p_home,p_chef,modal,modal_mass,readout,artefact_sha
 claude,anthropic/claude-sonnet-5,api,home_first,EQUALLY,0.0,0.0,1.0,chef,1.0,sampled,fdee262d122b965c

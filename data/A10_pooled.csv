@@ -1,15 +1,15 @@
-# Appendix A.10. Database sha256: a189cb5701bacd0dc09bc3b861389a7875b181bfe22b986a977e09dfd567a269
+# Appendix A.10. Database sha256: f4109861db099a64996e8f589f01cd191f026412ec06a5854ede1dda0ad43964
 # Built by scripts/build_b11_syllogism.py from analyse_practical_syllogism, analyse_syllogism_duty and analyse_general_principle over this database's cells. Values unrounded.
 paper_numbers_id,location,printed,from_rows,matches_rows,matches_at_build
 428,§4.1: practical_syllogism: practical_syllogism.P1 arms holding the principle (A0.3),12 of 12,12 of 12,1,1
 431,§4.1: practical_syllogism: practical_syllogism.P2 cells with the fact held,59 of 69,59 of 69,1,1
 432,"§4.1: practical_syllogism: practical_syllogism.P2(b) blame position > 0.10, conditional on both premises",47 of 59 (0.797),47 of 59 (0.797),1,1
-445,"§4.1: practical_syllogism: A1 share of cells above 0.10, B against direct",0.130 against 0.826,0.130 against 0.826,1,1
+445,"§1, §1.1 and §4.1: practical_syllogism: A1 share of cells above 0.10, B against direct",0.130 against 0.826,0.130 against 0.826,1,1
 472,§4.2: general_principle PG.1 arms answering more on 9 of 10 in both orders,11 of 12,11 of 12,1,1
 449,"§4.2: syllogism_duty.P1, arms holding the principle (yes on all four pairs other than driving)",2 of 10,2 of 10,1,1
-485,§4.2: general_principle AG.6 arms affirming on every named pair,5 of 12,5 of 12,1,1
+485,Not printed: §4.2: general_principle AG.6 arms affirming on every named pair,5 of 12,5 of 12,1,1
 501,§4.2: general_principle AG.7 split non-driving cells with a bare gap of zero or below,6 of 48,6 of 48,1,1
-502,§4.2: general_principle AG.7 split non-driving cells with a positive bare gap within the wording floor,27 of 48,27 of 48,1,1
-487,§4.2: general_principle AG.7 non-driving cells whose same-session bare gap clears the wording floor,15 of 48,15 of 48,1,1
+502,Not printed: §4.2: general_principle AG.7 split non-driving cells with a positive bare gap within the wording floor,27 of 48,27 of 48,1,1
+487,Not printed: §4.2: general_principle AG.7 non-driving cells whose same-session bare gap clears the wording floor,15 of 48,15 of 48,1,1
 507,§4.2: syllogism_duty Amendment T non-driving cells whose shortfall exceeds sqrt(wording^2 + draw^2) floor,28 of 48,28 of 48,1,1
 466,"§4.2: syllogism_duty.P4, models by class against their stated slack, the structured prompt",within a tenth 3; a tenth to three tenths short 2; a tenth to three tenths over 0; more than three tenths short 7; more than three tenths over 0 (of 12; wording floor borrowed from the bare separate frame (A0.13)),within a tenth 3; a tenth to three tenths short 2; a tenth to three tenths over 0; more than three tenths short 7; more than three tenths over 0 (of 12; wording floor borrowed from the bare separate frame (A0.13)),1,1

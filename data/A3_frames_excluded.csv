@@ -1,4 +1,4 @@
-# Database sha256: a189cb5701bacd0dc09bc3b861389a7875b181bfe22b986a977e09dfd567a269
+# Database sha256: f4109861db099a64996e8f589f01cd191f026412ec06a5854ede1dda0ad43964
 # Built by scripts/build_frame_table.py
 family,reason
 stablelm12b,"chat not scoreable: appending the answer retokenises its chat-rendered prompt, so the scored string would not be the rendered string and answer_ids refuses. Ruled from local_tuning and recorded in stablelm12b_chat_unreadable. Its worksheet reading is banked and LICENSED; only the chat frame is unavailable, so it has no frame comparison rather than a failed one"
