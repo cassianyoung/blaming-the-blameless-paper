@@ -1,4 +1,4 @@
-# Appendix A.6. Database sha256: f4109861db099a64996e8f589f01cd191f026412ec06a5854ede1dda0ad43964
+# Appendix A.6. Database sha256: 7df3fb7c39fc0c088f5b6e09f3edf28e7b5b5d9ad3dd768416e193b380319393
 # Built by scripts/build_b6_bystander.py. Band = 2.33 x AVG(sd) over the per-ordering sds of P0, P1 and BYSTANDER (the `band` view).
 family,version,scenario,arm,N,C,P0_pos,P0_ci_low,P0_ci_high,BYST_pos,BYST_ci_low,BYST_ci_high,gap_pos,gap_digits,band_digits,n_roles_in_band,gap_bands,clears_2_bands,bystander_passes_failed_object,split_phrase,split_reason,completion_gate,gate_rule_kind,artefact_sha
 llama31,base,bicycle,llama31_base,1.9811,5.2906,0.6937,0.6698,0.7176,0.176,0.129,0.2231,0.5177,1.7132,0.4079,3,4.2005,true,false,a friend's house,"the phrase governed by 'walked past' is ""a friend's house"" and does not contain the hazard noun 'bicycle'",LICENSED,completion,42108699aa87bb0c
