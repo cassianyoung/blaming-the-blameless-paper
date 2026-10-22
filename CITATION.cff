@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this material, please cite the paper (preferred-citation) and this repository."
-title: "Blaming the Blameless: Language Models Endorse Reasonable Care but Enforce Strict Causal Blame: paper, data, figures, tables and replication"
+title: "Blaming the Blameless: data, figures and replication"
 type: dataset
 authors:
   - family-names: Young
