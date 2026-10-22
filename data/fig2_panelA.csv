@@ -1,4 +1,4 @@
-# Figure 2 panel A. Database sha256: 2ee8c4f21f72bfe62d206135b7a06fc3b6fa61b16911514a32f6a78ac072f539
+# Figure 2 panel A. Database sha256: ecb3380493fe29bdd25e7534076411429e11947978d2d8402d15c42da46742e2
 model,P0_pos,P0_ci_low,P0_ci_high,P0_range_low,P0_range_high,BYST_pos,gap_pos,gap_bands,gap_clears_2_bands,local_tuning_P0_pos,gate_verdict,run,card
 llama31,0.6937,0.6698,0.7176,0.6708,0.717,0.176,0.5177,4.201,yes,0.7125,LICENSED,local_frames,R
 qwen3,0.6268,0.5483,0.7053,0.5544,0.711,0.1206,0.5062,1.776,no,0.6263,LICENSED,local_frames,R
