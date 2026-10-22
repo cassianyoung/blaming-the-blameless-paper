@@ -25,7 +25,7 @@ matching only if the ingest reproduces the artefacts.
 """
 import argparse, glob, hashlib, json, os, random, statistics, sys
 
-R = os.environ.get("AI_ETHICS_ROOT") or os.path.dirname(os.path.dirname(
+R = os.environ.get("PAPER_ROOT") or os.path.dirname(os.path.dirname(
     os.path.abspath(__file__)))
 FRAMES = "records/general_principle_FRAMES_v2.json"
 FRAMES_SHA = "342ec134f524a27963e1be5fcf5f74d7a27f749e3ce97df393f6c7c108cc6df3"

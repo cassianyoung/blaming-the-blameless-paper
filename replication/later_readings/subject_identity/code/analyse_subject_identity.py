@@ -22,7 +22,7 @@ seeder registers a figure only if the two agree.
 """
 import argparse, hashlib, json, os, random, sqlite3, statistics as st, sys
 
-R = os.environ.get("AI_ETHICS_ROOT") or os.path.expanduser("~/working_repository")
+R = os.environ.get("PAPER_ROOT") or os.path.expanduser("~/working_repository")
 sys.path.insert(0, os.path.join(R, "scripts"))
 DEST = "records/result.json"
 ARMS = ("claude", "deepseek", "deepseek_s", "gemma27b", "gpt4o", "gpt6l_s", "gpt6s_s",

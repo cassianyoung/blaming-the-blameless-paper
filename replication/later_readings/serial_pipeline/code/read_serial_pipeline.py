@@ -24,7 +24,7 @@ A served provider other than the banked one makes the arm UNREAD.
 """
 import argparse, hashlib, json, os, statistics, sys, time
 
-R = os.environ.get("AI_ETHICS_ROOT") or os.path.expanduser("~/working_repository")
+R = os.environ.get("PAPER_ROOT") or os.path.expanduser("~/working_repository")
 sys.path.insert(0, os.path.join(R, "scripts"))
 from run_rivals import parse_digit, lp_digits
 from read_prevention_paraphrase import ARMS as ARMS231, Unread, msgs_hash

@@ -20,7 +20,7 @@ deepseek_s is the sampled DeepSeek-V4.1 check: computed identically, reported ap
 """
 import argparse, json, os, random, re, statistics as st, sys
 
-R = os.environ.get("AI_ETHICS_ROOT") or os.path.expanduser("~/working_repository")
+R = os.environ.get("PAPER_ROOT") or os.path.expanduser("~/working_repository")
 TWELVE = ["claude", "deepseek", "gemma27b", "gpt4o", "gpt6l_s", "gpt6s_s", "grok43_s",
           "haiku_s", "kimi", "llama70b", "mistral24b", "qwen80b"]
 CHECK = ["deepseek_s"]

@@ -27,7 +27,7 @@ or more than one per arm, makes the arm UNREAD.
 """
 import argparse, hashlib, json, os, sys, time
 
-R = os.environ.get("AI_ETHICS_ROOT") or os.path.expanduser("~/working_repository")
+R = os.environ.get("PAPER_ROOT") or os.path.expanduser("~/working_repository")
 sys.path.insert(0, os.path.join(R, "scripts"))
 from run_rivals import parse_yn, lp_yn
 from read_prevention_paraphrase import Unread, msgs_hash
