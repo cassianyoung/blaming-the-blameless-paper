@@ -99,7 +99,7 @@ Blame-only bicycle read, with no row in `cells`.
   covers the three neutral sentences and their six hashes, the two full-text joint
   prompts and their hashes, the rules they were built under, the pooled wording floor as
   primary, and the arms.
-- **Built bank:** due-care-eval branch `v1.1-prawns`, commit `fb0915d`,
+- **Built bank:** due-care-eval commit `6d9b7d1` (`fb0915d` on the since-deleted branch `v1.1-prawns` before the history rewrite of 22 October 2026, which changed a test comment only; the bank file is the same),
   `banks/duty_texts_v1_1.jsonl`, 8 rows.
 
 **Three rulings change Addendum 1:**

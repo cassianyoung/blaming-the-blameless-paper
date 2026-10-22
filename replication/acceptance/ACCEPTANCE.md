@@ -27,7 +27,7 @@ it with log-probabilities.
 **Read:** the excuse test on the bicycle (36 cells, 10 draws each, 360 calls) and the
 duty test on two pairs (prawns, and electrical work with its convention and three neutral
 sentences; 18 cells, 180 calls), on 10 October 2026. Then, on 19 October 2026 with
-due-care-eval v1.1-rc2 (commit `b6a2043`), the prawns pair's full-text side-by-side prompt in
+due-care-eval v1.1-rc2 (commit `943ca1e`; `b6a2043` before the history rewrite of 22 October 2026, which changed comments and messages only, so the code read is the same), the prawns pair's full-text side-by-side prompt in
 both orders (`-T pairs=prawns -T conditions=joint_full`; 2 cells, 10 draws each, 20
 calls, none void), which v1.1 makes the stated gap's source. Every call was served by the
 provider the paper used. Cost about US$0.05 and US$0.002.
