@@ -1,0 +1,15 @@
+{
+ "hash": "sha256 of the rendered prompt text, first 16 hex digits, as the reader records it in each cell's prompt_sha256_16 (a raw completion prompt: no chat messages)",
+ "built_prompts": 930,
+ "prompts_read": 930,
+ "prompts_never_read": 0,
+ "cells": 5580,
+ "cells_matching_a_prompt": 5580,
+ "cells_matching_no_prompt": [],
+ "void_cells_not_checked": 0,
+ "per_wording": {
+  "blame": 1860,
+  "at_fault": 1860,
+  "responsible": 1860
+ }
+}

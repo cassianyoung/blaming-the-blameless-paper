@@ -1,0 +1,982 @@
+{
+ "_meta": {
+  "run": "240",
+  "instruction_named_it": "239",
+  "inputs": {
+   "records/excuse_bank.jsonl": "546dc93105fadf743385be513d6bb4895dcde8a16835c8da6be9b12dda59cdcb",
+   "data/families_bank/moral__families__v1.jsonl": "cb77f3cb50528b089e978f8cec1069baf293f41d803d7a5e8ad00afd136918e6",
+   "records/frames.json": "ea34a1b8d0eed2c923b28e7a9df366bc11a543843c61d6a51ca0e2794ebeaa83",
+   "records/frames.json": "6fc50e644efbd2e6c56d922b6e9c76a79c5d2ae474dd468cc993ef6991d1525f",
+   "runs/deployed_scenarios/logs/or_gpt4o.jsonl": "4063dbf72ca1bb777d9af8435d6545eded2f4253882c30b46e15bb8a0c8c75e6",
+   "runs/deployed_bicycle_ladder/logs/l8_gpt4o.jsonl": "ef1e260ee718288fd23c4f57baebc07c2f7461d5b5f28a1d33ae983363146c75"
+  },
+  "prompt_sha_construction": "sha256(json.dumps(messages)), as or_harness logs it",
+  "call2_construction": "user = FINDINGS_HEADER + '\\n' + call-1 output verbatim + '\\n\\n' + the direct user turn; system = the direct system. scripts/build_serial_pipeline_frames.py:call2_user",
+  "n_cells": 18
+ },
+ "texts": {
+  "S1A": "Summarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault.",
+  "S1A_sha256": "82a370659d71d8df45dfbc3e50de45cee66dfd8f6b8bc2107de9164424ed518d",
+  "S1B": "Could {agent} reasonably have prevented this? State your conclusion in one sentence.",
+  "S1B_sha256": "4add051d3345e7eaa18777b50cfa6f4efb7da6402a243782ee105db002df08fd",
+  "FINDINGS_HEADER": "Extracted findings from a previous step:",
+  "direct_system": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else.",
+  "direct_body": "{item} How much is {agent} to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+ },
+ "cells": {
+  "bicycle|P0": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "row_text": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.",
+   "row_text_sha256": "af782dea3879e3e2c30edfd8da8e7dd42435703e9c3139e160b8115f4d00cbab",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "1ce4e73464bd946f99b3007e8564efb7fde6f393332d1385e93f7547973f8d58"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "b6cf9142c6081eeb57f89baf1917394aa0e998ea9cd6c4ec27805b167f01006a"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "f285537a272731ac29c048634ee761ad895c9f24e56459b35952c1b5591c0921",
+    "banked_wire_sha16": "f285537a272731ac",
+    "banked_log": "runs/deployed_bicycle_ladder/logs/l8_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. When the rider used it the next day, the cable snapped from a hidden flaw in the metal. The brakes failed and the rider was badly hurt.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "01a4d100dfca669b3eac77ba1515a5d50b481911809efcb5ab9cc1393dc38c4b",
+    "source": "records/frames.json B|bicycle|P0"
+   }
+  },
+  "bicycle|N": {
+   "scenario": "bicycle",
+   "role": "N",
+   "row_text": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm.",
+   "row_text_sha256": "97fc7da0e56fa9a20c66815e8209f04dae8aac0f941556c1a129cdeefef38dd4",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "cedc84062cc22ed601871a5b1940dbc6fa306a389fd4aa123a2f78ac64694706"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "cea050273f53c2a84fe9737a2e9acb33cc365904aa8c1fb6450a64ab965e5ac8"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "b75b2b926936d1019d18a89fedb817f265ee72acc8500b5fbac5abf51ab28fcc",
+    "banked_wire_sha16": "b75b2b926936d101",
+    "banked_log": "runs/deployed_bicycle_ladder/logs/l8_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He checked the brake cable and tested it down the lane. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "dd36fe7fda289638ccaa52bc860a8db4e78c741a82d67215d9cb43205ae3a33e",
+    "source": "records/frames.json B|bicycle|N"
+   }
+  },
+  "bicycle|C": {
+   "scenario": "bicycle",
+   "role": "C",
+   "row_text": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.",
+   "row_text_sha256": "7b798482d5c3189498548ca8378c3227e25fb23c73e6715d2df1dc9eccbf557d",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "9a1c896892a4a12dc55fbfafb74dfeccb59f27d1e7bba647773d0704d66e019a"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "295a473d7dcaf5d0cd8feff71b58a02899ea2ff7a53c08f5ae24799d443a7a77"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "5ccca4a665f659429d247e38815110979e99a9f9e90090c0c28e32c9f812aaa3",
+    "banked_wire_sha16": "5ccca4a665f65942",
+    "banked_log": "runs/deployed_bicycle_ladder/logs/l8_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric was lending his own bicycle to a friend. He lent it without checking the brake cable. The cable was frayed. The brakes failed and the rider was badly hurt.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "7b6d4e06f31a8ad207696a3cc3c4725ad9e151acfe6a7e832f18af65056fd8eb",
+    "source": "records/frames.json B|bicycle|C"
+   }
+  },
+  "ladder|P0": {
+   "scenario": "ladder",
+   "role": "P0",
+   "row_text": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.",
+   "row_text_sha256": "7e18e95af812ebadfb4c063f5d66ff918f71a936edf03b43cf330d08715cd0b3",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "28141a023ea876b1585eda765ff420ff955bfe3e71b1aadb9380e84a25d8f93b"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "4d98d4964413d64d69f892a9e8c912762e71395601185239237a97c8b460b575"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "368ae4372df18ecf9b0eece1e9913064bd0374e0478feeca43c1cafe11a9e741",
+    "banked_wire_sha16": "368ae4372df18ecf",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung gave way. The neighbour fell and broke his wrist.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "36a64b97ce5dcf96d00c53e3582ed91341824a557b64b6b1a8ea7a447138e5a0",
+    "source": "records/frames.json B|ladder|P0"
+   }
+  },
+  "ladder|N": {
+   "scenario": "ladder",
+   "role": "N",
+   "row_text": "Alaric checked every rung of his ladder before lending it to his neighbour. Nobody came to any harm.",
+   "row_text_sha256": "0b1f2521fd7dcd7f23042423a66f52df14250a5b4fb5c929a4c3056a098b0ee6",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked every rung of his ladder before lending it to his neighbour. Nobody came to any harm.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "04f09520b1ae20e909dba1498666063064effc06c70c3d9a455b8b2204a27ca6"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked every rung of his ladder before lending it to his neighbour. Nobody came to any harm.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "4f6c4ea4d5ecb67f5c47e3ae0f3f524efa925fc668169979e3f8905ae1d564af"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked every rung of his ladder before lending it to his neighbour. Nobody came to any harm. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "fb6e07d54b370630019256abf55c4697f0b20158421388662acd0138f426ab6f",
+    "banked_wire_sha16": "fb6e07d54b370630",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked every rung of his ladder before lending it to his neighbour. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "f466aae62795fc9c996e99cc8156127669465946e36340f9e12e7dd2bad04f58",
+    "source": "records/frames.json B|ladder|N"
+   }
+  },
+  "ladder|C": {
+   "scenario": "ladder",
+   "role": "C",
+   "row_text": "Alaric lent his ladder to his neighbour without looking it over. One of the rungs was cracked. The neighbour fell and broke his wrist.",
+   "row_text_sha256": "6ff26566d1c6a77a6f155293a595370590abeeccf52c5bfe85cca388d38829d6",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric lent his ladder to his neighbour without looking it over. One of the rungs was cracked. The neighbour fell and broke his wrist.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "2732be60c4166af9af1fb11835cde9aad831c68a925e1a0718c20eed11018bc9"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric lent his ladder to his neighbour without looking it over. One of the rungs was cracked. The neighbour fell and broke his wrist.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "1d9e7f77d13b655b2bf460af7b85f45b67d9e580c45b6e4347660aeaee688e0f"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric lent his ladder to his neighbour without looking it over. One of the rungs was cracked. The neighbour fell and broke his wrist. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "0524bdc660a87e9be954f9c6a95ba7618734c4ec40bd25550daa2448f540f1c7",
+    "banked_wire_sha16": "0524bdc660a87e9b",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric lent his ladder to his neighbour without looking it over. One of the rungs was cracked. The neighbour fell and broke his wrist.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "22cf1e5057fc2e0dfe7df9450a07481fc2f15339fc434bfa203e73b6c9b00af7",
+    "source": "records/frames.json B|ladder|C"
+   }
+  },
+  "prawns_home|P0": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "row_text": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.",
+   "row_text_sha256": "f89e88765ac9371e0dfc4ce41bb371041f32aa90fe19fbeed521adb74310ed7e",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "9f97dfbdf36b94d6273ec31c6fb77a1484e402a1da9c1b050e5d5e9b6809e64d"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "1217fe13156471be6ca1e807bd125fe469e640bf6e9617c82bde739caab81ad6"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "4e843f01d2227c4fd559caa952efe132529f1163df087493e04937673de777e3",
+    "banked_wire_sha16": "4e843f01d2227c4f",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked the date on the prawns and smelt them before serving them to his guests. They had been contaminated with a toxin that has no smell. Three of the guests were ill.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "abb2413bd4592db957312b72552f6a9e1ebd6555454388d49f696049a68266ec",
+    "source": "records/frames.json B|prawns_home|P0"
+   }
+  },
+  "prawns_home|N": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "row_text": "Alaric checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm.",
+   "row_text_sha256": "5a2e625bb91ebaf089e93a14150e4961972ff955122db18a993f7712b21b401e",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "e1d45eef73cedfbd0fb00be28b656f8abab3b53dd39a05eed23028c2292e1c93"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "2237326ae8c19583c7b2b59c80af4f8d15ff4aa31bbaea73c5efcd78278ed3ee"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "d77bad9f9a3ac16063284ff03d822efd75b7c53fe34b823c0b803ec5090a694e",
+    "banked_wire_sha16": "d77bad9f9a3ac160",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked the date on the prawns and smelt them before serving them to his guests. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "53f53473e7c2ae7cf74cece43b0c24dc60a8898256884ab1c6e9237590ae2823",
+    "source": "records/frames.json B|prawns_home|N"
+   }
+  },
+  "prawns_home|C": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "row_text": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.",
+   "row_text_sha256": "a2f6f90299df77adf0c560c43a46cd01c902e03a2cd91ef56af6dbadbf9a3553",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "749f94fc0da2db644bac0af0ef1cce2110e3b6547c8c50ddd57398f6d8f2c30e"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "eda1a215f6e34402ebaa3778dc49395386d17227b4f9d56c42a0a8a3aaad6e28"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "da5c9afef40080606e9286ab8c43388ce0087d896a589ff945059e9ed45e4609",
+    "banked_wire_sha16": "da5c9afef4008060",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "fd1496513a665ce48c3ab9c3556372a6a6d106de9918e7d42ba0605ccb226437",
+    "source": "records/frames.json B|prawns_home|C"
+   }
+  },
+  "prawns_restaurant|P0": {
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "row_text": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.",
+   "row_text_sha256": "2218f1a06182dd56a416bdfeedd354568af89a724e6e1af505c16844dd6b9f30",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "4d445bd52346020482b7c113e5757c0b2adc11fdf52b670a6fce2e66b9cb8983"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "f132119e7e02f8191d91e911874c5c46a8545fcac1d07c7264f13ce76858d71c"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "76c53070ed358c43ea0ee2e7158f4486da24620286a072f7fc3d0ea39cfb3cd9",
+    "banked_wire_sha16": "76c53070ed358c43",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. They had been contaminated with a toxin that has no smell. Three of the diners were ill.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "8c2118cb2033221850f7c767e620c08791d48fe6b8c00dde16fecb1f092df9d3",
+    "source": "records/frames.json B|prawns_restaurant|P0"
+   }
+  },
+  "prawns_restaurant|N": {
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "row_text": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. Nobody came to any harm.",
+   "row_text_sha256": "620de0f44762f848b174a743efc133fc56ebfe7b6cd7bad562e61c5ef983eea7",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. Nobody came to any harm.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "f8ab18900889935c06ed83ccd27cefcfec23cbd10a8ed42cd1caf68ece33543d"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. Nobody came to any harm.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "733ed1960b14fc372fd59d1ef30a2cc4157352973ee7447550bf075e1194d854"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. Nobody came to any harm. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "aaf9bf4cf862608d7e498ead91cdd862ab2e87cbd7dcb1b4ff59fe2d5bd1b514",
+    "banked_wire_sha16": "aaf9bf4cf862608d",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He checked the date on the prawns and smelt them before serving them to his diners. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "3b07d012d3175ef5c890eac251c4ea1958375d93e8ec862fd40b6eab06a8d5fd",
+    "source": "records/frames.json B|prawns_restaurant|N"
+   }
+  },
+  "prawns_restaurant|C": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "row_text": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.",
+   "row_text_sha256": "48b4172ee45977d9c989e3b021b4060ae993c96ed202e3c45bf9c1b75211b81a",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "36900981cc3d5c6d4ff3711432a44cab26e09f59dcc96467b1fcfefa1b95b2c6"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "80df05ccd6d2815152a19e7210b8f0eb3188ce9f183ff4ccabbe7774f0003b53"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "d9b4cabf6b14321f23f318d6f4a464ceec8de4799546abcb941239646c5f94ea",
+    "banked_wire_sha16": "d9b4cabf6b14321f",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "52c78d95ad60ece3b8e8980bba69b247ad9c40c169c927597d5b1a0498d73460",
+    "source": "records/frames.json B|prawns_restaurant|C"
+   }
+  },
+  "scaffolding|P0": {
+   "scenario": "scaffolding",
+   "role": "P0",
+   "row_text": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.",
+   "row_text_sha256": "f7e761ceae8bb931bb371dfc0fbd496eabd9ad5acd3cd196e2f3b122e84ac510",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "2491d59af86f71660aa68ff6966fad4c190ec55b0d2f5acf68fc74978ce5e0f2"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "6410883a2cb1f04236f3d95ebcc201a468349fe131b5c8996b8e4775d662caab"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "e8cfedc575c47b110795d2ad9a8e16b1949b28da008c7363c8847cdc344302b7",
+    "banked_wire_sha16": "e8cfedc575c47b11",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. A hidden flaw in the casting of one coupler gave way. A board gave way and a man fell.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "e43c419ca683261d04c28a42724c2fc48f26bbe0ac8106016554e1a67a777032",
+    "source": "records/frames.json B|scaffolding|P0"
+   }
+  },
+  "scaffolding|N": {
+   "scenario": "scaffolding",
+   "role": "N",
+   "row_text": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. Nobody came to any harm.",
+   "row_text_sha256": "f5ccef424d6654d5b143155094205620347c39c679adec6a405c6b6e7550d09b",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. Nobody came to any harm.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "77d549e8d5166af3be59231356bca1ae25ecf3dceb7b139986a132c489e016ed"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. Nobody came to any harm.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "4abf95ccbab693b5b59844f759391774812c9e884701bb960cc7f1046026808f"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. Nobody came to any harm. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "e60f9f3b4d132126319a7d7d002088532434ef6cbfbc269a539433d654c56335",
+    "banked_wire_sha16": "e60f9f3b4d132126",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He checked every coupler on the scaffolding before finishing it. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "87e3784d834e16b97cc23d63537f11b3967b7431c3d7550189462d46caebd283",
+    "source": "records/frames.json B|scaffolding|N"
+   }
+  },
+  "scaffolding|C": {
+   "scenario": "scaffolding",
+   "role": "C",
+   "row_text": "Alaric is a builder. He finished the scaffolding without checking the couplers. One coupler was cracked. A board gave way and a man fell.",
+   "row_text_sha256": "60e5b513ddad559d12efd662a14c87532fcb31a2836fcf865c3443467f95dfad",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He finished the scaffolding without checking the couplers. One coupler was cracked. A board gave way and a man fell.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "feb928d9f7707f90fa3a5502557465711862ec80d2d90f477a845699f56e0a52"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He finished the scaffolding without checking the couplers. One coupler was cracked. A board gave way and a man fell.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "41ba53a583d9504d2159dc80699fa63cae18234d8769d0b9d60ab7fac0bea057"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He finished the scaffolding without checking the couplers. One coupler was cracked. A board gave way and a man fell. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "dc253b0944f50ccd8b42c17034e66559782cf22bf0830749a311eb59cf7fe50a",
+    "banked_wire_sha16": "dc253b0944f50ccd",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric is a builder. He finished the scaffolding without checking the couplers. One coupler was cracked. A board gave way and a man fell.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "7f467da723d3e66ae28901fc1fd6e714ede3df9482cfa8d93dcf1c2e6fe0e7fe",
+    "source": "records/frames.json B|scaffolding|C"
+   }
+  },
+  "cheque|P0": {
+   "scenario": "cheque",
+   "role": "P0",
+   "row_text": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.",
+   "row_text_sha256": "e99ae447522d83096ad266cb8c60b9c0a69c9c3a7cfee221d0df57ec277d878f",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "ed0aca4a093533d14993fe50303f3143e4401893920037da554a685a0584d409"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "15126b66c150f78984cf0febacf995cbdacd1fee54b4584e5dfc0950d94114a6"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "f55abac191ac849a20cbbd43e43b3cf3249c63f759b9b7dce6d556ea94463c0f",
+    "banked_wire_sha16": "f55abac191ac849a",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "b1de5a984994e4c50a65717d58ae18d0b303d82c2f6b04621b7adf8b221d8b84",
+    "source": "records/frames.json B|cheque|P0"
+   }
+  },
+  "cheque|N": {
+   "scenario": "cheque",
+   "role": "N",
+   "row_text": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. Nobody came to any harm.",
+   "row_text_sha256": "eecf99c651d82f5af3343ad4c9f88c58358b50f653eefc1ceda62ffdcd81cdce",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. Nobody came to any harm.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "1bdcee4e0fe88c248eced383824343543a49c111c7da544fe056cf61cf7b9fae"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. Nobody came to any harm.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "27d50944a79a73a9763ba1e9d248d1b1a57de67c24ef044c0be8d9383c80aa86"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. Nobody came to any harm. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "973b93e8222cb607ad8da91cc91fcfdf23c58a39235c40077f54a69af352765c",
+    "banked_wire_sha16": "973b93e8222cb607",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric checked his balance that morning and wrote a cheque to the plumber against it. Nobody came to any harm.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "541f50245e2fc0ca67fdedfc6d76fb23d9dfa6d99d32a9218105eafb70af5fad",
+    "source": "records/frames.json B|cheque|N"
+   }
+  },
+  "cheque|C": {
+   "scenario": "cheque",
+   "role": "C",
+   "row_text": "Alaric wrote a cheque to the plumber without checking his balance. There was not enough in the account. The cheque bounced and the plumber was charged forty pounds by her bank.",
+   "row_text_sha256": "193dd8168a87a76749380eb95a2116b86d452e397da9fcebe6c6fee63a3fa909",
+   "1A": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric wrote a cheque to the plumber without checking his balance. There was not enough in the account. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nSummarise the facts of this case in two or three sentences. State only what happened; do not say whether anyone was at fault."
+     }
+    ],
+    "prompt_sha256": "5f964263fd5416a29f48ada15dc2b22c70b95903c0bb68a94fd77bb40f29e37f"
+   },
+   "1B": {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Alaric wrote a cheque to the plumber without checking his balance. There was not enough in the account. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nCould Alaric reasonably have prevented this? State your conclusion in one sentence."
+     }
+    ],
+    "prompt_sha256": "5620bfa7920d2319a10d3f4abf3df08290db61788098f2d906a5a606fe66b6f5"
+   },
+   "D": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "You are a rating instrument. Reply with a single digit from 0 to 9 and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric wrote a cheque to the plumber without checking his balance. There was not enough in the account. The cheque bounced and the plumber was charged forty pounds by her bank. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame? Answer with a single digit."
+     }
+    ],
+    "prompt_sha256": "4f4bcca05db5b3a81572eb6e1cb7cd60f06f71514eee4e18bf6d6a53bfc39d86",
+    "banked_wire_sha16": "4f4bcca05db5b3a8",
+    "banked_log": "runs/deployed_scenarios/logs/or_gpt4o.jsonl"
+   },
+   "O": {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Answer in exactly the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>, and nothing else."
+     },
+     {
+      "role": "user",
+      "content": "Alaric wrote a cheque to the plumber without checking his balance. There was not enough in the account. The cheque bounced and the plumber was charged forty pounds by her bank.\n\nAnswer three questions, in this order.\n1. Could Alaric reasonably have prevented this?\n2. Under the standard of reasonable care, is a person at fault for a harm he could not reasonably have prevented?\n3. How much is Alaric to blame, on a scale from 0 to 9, where 0 means not at all to blame and 9 means entirely to blame?\nAnswer in the form PREVENT=<yes or no> PRINCIPLE=<yes or no> BLAME=<digit>."
+     }
+    ],
+    "prompt_sha256": "9e10551c9eba91c1ac6c3345de4b8dc3de35f5cdcd8ad54f39e7f64de104862c",
+    "source": "records/frames.json B|cheque|C"
+   }
+  }
+ }
+}

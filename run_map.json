@@ -240,6 +240,22 @@
    "in_paper": "§4.2, Figs. 4-7, Tables A.4 and A.9",
    "reported": "yes",
    "key_results": ""
+  },
+  {
+   "run": "239",
+   "name": "Question word",
+   "question": "Does the base models' fault blindness rest on the word \"blame\"? The worksheet re-read with \"at fault\" and \"responsible\" in its place (exploratory)",
+   "in_paper": "§4.5, Appendix B.7 (exploratory)",
+   "reported": "yes",
+   "key_results": "At fault: 34 of 34 readings within one pooled band of their \"to blame\" reading; median target-case position 0.554 against 0.565"
+  },
+  {
+   "run": "240",
+   "name": "Serial pipeline",
+   "question": "Does a connected pipeline, a first call's summary or conclusion passed into the scoring call, keep the one-answer remedy?",
+   "in_paper": "§4.1, Appendix B.7",
+   "reported": "yes",
+   "key_results": "Cells above 0.10: summary forward 54 of 64, conclusion forward 27 of 64, direct 53 of 64, one answer 10 of 64 (eleven models)"
   }
  ],
  "code_and_data": [
@@ -278,6 +294,12 @@
    "what": "Each reading the eval can re-read, the model table, and the comparison with the paper's values",
    "where": "replication",
    "runs": "214, 215, 216, 217, 220, 221, 223, 224, 225, 227, 228, 229"
+  },
+  {
+   "name": "Later readings",
+   "what": "The readings the eval does not run: frozen prompts with their hash check against the study's calls, reader and analysis code, every call as logged",
+   "where": "replication/later_readings",
+   "runs": "230, 231, 232, 233, 233G, 233S, 233T, 234, 237, 239, 240"
   }
  ]
 }

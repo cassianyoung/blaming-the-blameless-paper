@@ -1,0 +1,19 @@
+{
+ "hash": "sha256 of json.dumps(messages), first 16 hex digits, as the study's harness logs it in each call's prompt_sha256_16",
+ "frozen_prompts": 72,
+ "rebuilt_call2_prompts": 468,
+ "rebuilt_from": "the frozen direct prompt (D) and the call-1 text in each readings/records/serial_pipeline_READ__<model>.json, by the reader's own call2_user",
+ "calls": 9828,
+ "calls_matching_a_prompt": 9828,
+ "calls_matching_no_prompt": [],
+ "per_call": {
+  "1A": 234,
+  "1B": 234,
+  "2A": 2340,
+  "2B": 2340,
+  "D": 2340,
+  "O": 2340
+ },
+ "superseded_attempt_lines": 558,
+ "superseded_note": "grok-4.3's first attempt, which retried a provider moderation refusal as an outage; superseded by Amendment 1 and kept, not checked"
+}

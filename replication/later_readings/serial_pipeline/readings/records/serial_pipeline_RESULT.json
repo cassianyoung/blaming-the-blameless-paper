@@ -1,0 +1,2984 @@
+{
+ "run": "240",
+ "twelve": {
+  "n_cells": 64,
+  "n_arms": 11,
+  "shares": {
+   "2A": {
+    "condition": "summary forward",
+    "above": 54,
+    "of": 64,
+    "share": 0.84375,
+    "median_pos": 0.27643086880115203,
+    "boot95": [
+     0.6666666666666666,
+     0.9841269841269841
+    ],
+    "own_gate": {
+     "above": 56,
+     "of": 66
+    }
+   },
+   "2B": {
+    "condition": "conclusion forward",
+    "above": 27,
+    "of": 64,
+    "share": 0.421875,
+    "median_pos": 0.028793224565911577,
+    "boot95": [
+     0.20967741935483872,
+     0.6307692307692307
+    ],
+    "own_gate": {
+     "above": 28,
+     "of": 66
+    }
+   },
+   "D": {
+    "condition": "direct verdict",
+    "above": 53,
+    "of": 64,
+    "share": 0.828125,
+    "median_pos": 0.39243708325761767,
+    "boot95": [
+     0.640625,
+     0.9838709677419355
+    ],
+    "own_gate": {
+     "above": 53,
+     "of": 64
+    }
+   },
+   "O": {
+    "condition": "one answer",
+    "above": 10,
+    "of": 64,
+    "share": 0.15625,
+    "median_pos": 0.0,
+    "boot95": [
+     0.016129032258064516,
+     0.35384615384615387
+    ],
+    "own_gate": {
+     "above": 11,
+     "of": 72
+    }
+   }
+  },
+  "2B_by_1B": {
+   "could not": {
+    "n_cells": 55,
+    "share_of_cells": 0.859375,
+    "above": 19,
+    "share_above": 0.34545454545454546
+   },
+   "could": {
+    "n_cells": 6,
+    "share_of_cells": 0.09375,
+    "above": 6,
+    "share_above": 1.0
+   },
+   "unclear": {
+    "n_cells": 3,
+    "share_of_cells": 0.046875,
+    "above": 2,
+    "share_above": 0.6666666666666666
+   }
+  }
+ },
+ "check_deepseek_s": {
+  "n_cells": 6,
+  "n_arms": 1,
+  "shares": {
+   "2A": {
+    "condition": "summary forward",
+    "above": 5,
+    "of": 6,
+    "share": 0.8333333333333334,
+    "median_pos": 0.3141372141372142,
+    "boot95": [
+     0.8333333333333334,
+     0.8333333333333334
+    ],
+    "own_gate": {
+     "above": 5,
+     "of": 6
+    }
+   },
+   "2B": {
+    "condition": "conclusion forward",
+    "above": 1,
+    "of": 6,
+    "share": 0.16666666666666666,
+    "median_pos": 0.0,
+    "boot95": [
+     0.16666666666666666,
+     0.16666666666666666
+    ],
+    "own_gate": {
+     "above": 1,
+     "of": 6
+    }
+   },
+   "D": {
+    "condition": "direct verdict",
+    "above": 6,
+    "of": 6,
+    "share": 1.0,
+    "median_pos": 0.497764363961547,
+    "boot95": [
+     1.0,
+     1.0
+    ],
+    "own_gate": {
+     "above": 6,
+     "of": 6
+    }
+   },
+   "O": {
+    "condition": "one answer",
+    "above": 0,
+    "of": 6,
+    "share": 0.0,
+    "median_pos": 0.0,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "own_gate": {
+     "above": 0,
+     "of": 6
+    }
+   }
+  },
+  "2B_by_1B": {
+   "could not": {
+    "n_cells": 5,
+    "share_of_cells": 0.8333333333333334,
+    "above": 0,
+    "share_above": 0.0
+   },
+   "could": {
+    "n_cells": 1,
+    "share_of_cells": 0.16666666666666666,
+    "above": 1,
+    "share_above": 1.0
+   },
+   "unclear": {
+    "n_cells": 0,
+    "share_of_cells": 0.0,
+    "above": 0,
+    "share_above": null
+   }
+  }
+ },
+ "P239_1": {
+  "rule": "share(2B) - share(O) <= 0.15 and share(D) - share(2B) >= 0.3",
+  "share_2B_minus_O": 0.265625,
+  "share_D_minus_2B": 0.40625,
+  "verdict": "FAIL"
+ },
+ "P239_2": {
+  "rule": "|share(2A) - share(D)| <= 0.15",
+  "share_2A_minus_D": 0.015625,
+  "verdict": "PASS"
+ },
+ "banked_reference": {
+  "D": {
+   "above": 57,
+   "of": 69,
+   "share": 0.8260869565217391
+  },
+  "O": {
+   "above": 9,
+   "of": 69,
+   "share": 0.13043478260869565
+  }
+ },
+ "rereads_on_banked_population": {
+  "2A": {
+   "above": 54,
+   "of": 64
+  },
+  "2B": {
+   "above": 27,
+   "of": 64
+  },
+  "D": {
+   "above": 53,
+   "of": 64
+  },
+  "O": {
+   "above": 10,
+   "of": 64
+  }
+ },
+ "flags_1a": [],
+ "flags_1a_by_arm": {
+  "claude": 0,
+  "deepseek": 0,
+  "deepseek_s": 0,
+  "gemma27b": 0,
+  "gpt4o": 0,
+  "gpt6l_s": 0,
+  "gpt6s_s": 0,
+  "grok43_s": 0,
+  "haiku_s": 0,
+  "kimi": 0,
+  "llama70b": 0,
+  "mistral24b": 0,
+  "qwen80b": 0
+ },
+ "codes_1b": [
+  {
+   "arm": "claude",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No — since Alaric inspected and test-rode the bicycle and the brake cable failed due to a hidden, undetectable metal flaw, he could not reasonably have discovered or prevented the defect through ordinary care."
+  },
+  {
+   "arm": "claude",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No — the scenario indicates Alaric took reasonable precautions (checking the brake cable and test-riding the bicycle) and the outcome was that nobody was harmed, so there is nothing here suggesting he failed to prevent anything or that further reasonable prevention was needed."
+  },
+  {
+   "arm": "claude",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes — a simple pre-loan inspection or routine maintenance check would likely have revealed the frayed brake cable, so Alaric could reasonably have prevented the injury by checking the bicycle's brakes before lending it to his friend."
+  },
+  {
+   "arm": "claude",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No — since the flaw was hidden and undetectable through reasonable inspection, Alaric exercised due care and could not reasonably have prevented the accident."
+  },
+  {
+   "arm": "claude",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes—but since he already checked every rung and no harm came to anyone, he effectively did prevent any foreseeable harm; there is nothing further he could reasonably have been expected to do."
+  },
+  {
+   "arm": "claude",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes—a basic inspection of the ladder before lending it would likely have revealed the cracked rung, so Alaric could reasonably have prevented the injury by checking the ladder's condition first."
+  },
+  {
+   "arm": "claude",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No—since he checked the date and smelled the prawns (a reasonable inspection) and the toxin was odorless and gave no other detectable warning, there was no practical way for him to have detected the contamination, so he could not reasonably have prevented the illness."
+  },
+  {
+   "arm": "claude",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes — by checking the date and smelling the prawns before serving them, Alaric took reasonable precautions to verify the seafood was safe, and since nobody was harmed, his actions appear to have reasonably prevented any potential harm."
+  },
+  {
+   "arm": "claude",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes — by simply checking the use-by date or smelling the prawns before serving them, Alaric could reasonably have detected that they had gone off and avoided making his guests ill."
+  },
+  {
+   "arm": "claude",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this, since he took the appropriate precautions available to him (checking the date and smelling the prawns), and the toxin was undetectable by smell, meaning there was no practical way for him to have discovered the contamination before serving."
+  },
+  {
+   "arm": "claude",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, since checking the date and smelling the prawns were reasonable precautions that confirmed they were safe, and in fact nobody was harmed—so there was nothing further he needed to prevent."
+  },
+  {
+   "arm": "claude",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes — by routinely checking the use-by date and smelling the prawns before serving them, Alaric could reasonably have detected the spoilage and prevented the diners from falling ill."
+  },
+  {
+   "arm": "claude",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No — since the flaw was hidden within the casting and not detectable through a reasonable inspection, Alaric could not reasonably have prevented the failure."
+  },
+  {
+   "arm": "claude",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "**Yes** — the scenario explicitly states that Alaric checked every coupler on the scaffolding before finishing it, and as a result nobody came to harm, so this described diligence is precisely what reasonably prevented an accident."
+  },
+  {
+   "arm": "claude",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes — a basic pre-use inspection of the couplers would likely have revealed the crack, so Alaric could reasonably have prevented the fall by checking the scaffolding's fittings before declaring it finished."
+  },
+  {
+   "arm": "claude",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No — since the fault was hidden within the bank's own systems and arose only after Alaric had already confirmed his balance and written the cheque in good faith, there was no reasonable way for him to have foreseen or prevented the reversal that caused the cheque to bounce."
+  },
+  {
+   "arm": "claude",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "**Conclusion:** Without further information suggesting the balance check was inaccurate, insufficient, or that there was reason to anticipate the cheque would cause harm, there is nothing in the scenario indicating any problem occurred or that Alaric failed to take reasonable precautions—so the question of \"preventing harm\" doesn't meaningfully apply, since no harm resulted in the first place."
+  },
+  {
+   "arm": "claude",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "**Yes — Alaric could reasonably have prevented this simply by checking his account balance before writing the cheque, ensuring sufficient funds were available to cover it.**"
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the flaw was hidden and Alaric had checked and tested the brakes beforehand, so he could not reasonably have foreseen or prevented the failure."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented this by simply not lending his bicycle, since he was the one who chose to check the brakes and test it before handing it over."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the brake cable before lending the bicycle."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "unclear",
+   "interpretable": true,
+   "text": "Yes, because a careful pre-use inspection cannot detect a hidden internal flaw in metal, so the failure was not reasonably foreseeable or preventable by Alaric."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, because no harm occurred, so there was nothing for Alaric to prevent."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the ladder for damage before lending it."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the toxin had no smell and the prawns were not past their date, so Alaric had no reasonable way to detect the contamination."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented any harm by not serving the prawns at all, since checking the date and smelling them does not guarantee they were safe to eat."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by simply checking the date or smelling the prawns before serving them."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the prawns were contaminated with a toxin that had no smell, so checking the date and smelling them could not have revealed the contamination."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented serving the prawns by simply not serving them if they were past their date or smelled off, rather than relying on luck to avoid harming diners."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the date and smelling the prawns before serving them."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the flaw was hidden inside the casting and undetectable by the inspection Alaric performed."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, because no harm occurred, so there was nothing for Alaric to prevent."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the couplers before finishing the scaffolding."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the reversal was caused by a hidden fault in the bank's system that Alaric could not have detected or anticipated when he wrote the cheque."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, by verifying sufficient funds or arranging an overdraft before writing the cheque."
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this, since the flaw was hidden and undetectable during his inspection and test ride."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented this by simply not lending his bicycle, since he checked and tested it and no harm occurred anyway."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the brake cable before lending the bicycle."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the ladder more thoroughly or warning his neighbour of the risk, since his check failed to detect a hidden flaw."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, because no harm occurred, so there was nothing for Alaric to prevent."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the ladder for damage before lending it."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the toxin had no smell and the prawns' date was presumably acceptable, so he had no reasonable way to detect the contamination."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented serving potentially unsafe prawns by simply not serving them once he had doubts about their freshness."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the date or smelling the prawns before serving them."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the prawns were contaminated with a toxin that had no smell, so checking the date and smelling them could not have revealed the contamination."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented serving the prawns by simply not serving them if they were past their date or smelled off, rather than relying on luck to avoid harming diners."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the date and smelling the prawns before serving them."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the flaw was hidden inside the casting and undetectable by the inspection Alaric performed."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, because no harm occurred, so there was nothing for Alaric to prevent."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the couplers before finishing the scaffolding."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, because the reversal resulted from a hidden fault in the bank's system that Alaric could not have detected or anticipated when he wrote the cheque."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, by verifying sufficient funds or arranging an overdraft before writing the cheque."
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "\n\nWhile Alaric took a reasonable precaution by checking the brake cable himself, he could not have reasonably prevented the accident as the flaw was hidden and undetectable through visual inspection or a simple test ride."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "\nYes, Alaric could reasonably have prevented this by ensuring the bicycle was fully safe and suitable for his friend’s use, potentially including a more thorough inspection and advising his friend on safe cycling practices.\n\n\n\n"
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "\n\nYes, Alaric could reasonably have prevented this by inspecting the bicycle's brake cable for wear and tear before lending it to his friend."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could",
+   "interpretable": true,
+   "text": "\n\nYes, Alaric could reasonably have prevented the injury by identifying the hidden flaw during his inspection, as a thorough check should have revealed the compromised rung, despite it being hidden.\n\n\n\n"
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "\nGiven that Alaric checked every rung and nobody was harmed, it's unlikely he could have reasonably done anything further to prevent the outcome."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "\n\nYes, Alaric could reasonably have prevented the injury by inspecting the ladder for defects like the cracked rung before lending it to his neighbour, as a reasonable person would check equipment for safety before allowing another to use it.\n\n\n\n"
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "\n\nNo, Alaric could not reasonably have prevented the illness, as the toxin was odorless and his standard checks for spoilage (date and smell) would not have detected it."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "\nYes, Alaric could reasonably have prevented potential harm by not relying on smell and a date check alone, and instead discarding prawns past their use-by date or those with any doubt about their freshness."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "\n\nYes, Alaric could reasonably have prevented this by simply checking the prawns' date and smelling them for signs of spoilage before serving them to his guests."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "\nNo, Alaric could not reasonably have prevented this, as the toxin was odorless and he already employed standard safety checks of date and smell."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "\nYes, Alaric could reasonably have prevented potential harm by not serving the prawns at all if he had any doubt about their freshness, even if they *appeared* and *smelt* okay, as relying on those senses alone isn't a sufficient safety check for potentially hazardous food.\n\n\n\n"
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "\n\nYes, Alaric could reasonably have prevented this by simply checking the prawns' date and smelling them for spoilage before serving them, as that is a standard food safety practice.\n\n\n\n"
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "unclear",
+   "interpretable": true,
+   "text": "\nWhile Alaric checked every coupler, the hidden flaw was undetectable through a standard visual inspection, so it's unlikely he could have reasonably prevented the accident.\n\n\n\n"
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "\nWhile no harm occurred, Alaric could reasonably have prevented potential harm by checking the couplers, demonstrating a proactive safety measure even if it wasn't strictly *necessary* in this instance."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "\nYes, Alaric could reasonably have prevented this by inspecting the couplers as part of his work, which would have identified the cracked one and avoided the subsequent fall."
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "unclear",
+   "interpretable": true,
+   "text": "\n\nAlaric could likely have prevented this by waiting to ensure the deposit had fully cleared *before* writing the cheque, as relying on a pending deposit creates a risk of insufficient funds.\n\n\n\n"
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "\nWithout more information, it's impossible to definitively say, but it's **highly unlikely** Alaric could have reasonably prevented writing a cheque—the scenario implies a lack of negative consequences, suggesting the funds were available and the action itself wasn't inherently harmful.\n\n\n\n"
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "\n\nYes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the accident, as he checked and tested the brake cable beforehand, and the hidden flaw in the metal was not detectable through normal inspection."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "Alaric took reasonable precautions by checking the brake cable and testing the bicycle, so it is unlikely he could have reasonably prevented any unforeseen issues."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the bicycle, particularly the brake cable, before lending it to ensure it was in safe working condition."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented this, as the hidden flaw in the metal was not detectable through a standard visual inspection."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric reasonably prevented any harm by checking every rung of the ladder before lending it to his neighbor."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "unclear",
+   "interpretable": true,
+   "text": "Alaric could have reasonably prevented this by inspecting the ladder for damage before lending it to his neighbor."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented this, as the toxin had no smell and he relied on standard checks like the expiration date and smell to assess the prawns' safety."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric reasonably prevented any harm by checking the date and smelling the prawns before serving them to his guests."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the expiration date and smelling the prawns before serving them to ensure they were safe to eat."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not have reasonably prevented this, as he checked the date and smell of the prawns, but the toxin was undetectable by smell."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "Alaric reasonably prevented any harm by checking the date and smelling the prawns before serving them, ensuring they were safe for consumption."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the date and smelling the prawns before serving them to ensure they were fresh and safe to eat."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the accident, as the hidden flaw in the coupler's casting was not detectable through standard inspection methods."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented this, as he took appropriate precautions by checking every coupler on the scaffolding, ensuring safety to the best of his ability."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by thoroughly checking the couplers for any damage, including cracks, before completing the scaffolding."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not have reasonably prevented this, as the cheque bounced due to an unforeseen error in the bank's system that reversed a deposit after he had already checked his balance and issued the cheque."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "Based on the information provided, it seems there was no harm or issue with Alaric writing the cheque, so there was nothing for him to prevent."
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque to ensure sufficient funds were available."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "On these facts, Alaric could not reasonably have prevented the accident: he checked and tested the brakes, and the cable’s hidden flaw was not reasonably discoverable."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No—based on the information given, Alaric checked and tested the brakes, and no harm occurred, so there’s no clear indication he could reasonably have done more."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes—he could reasonably have checked the brake cable before lending the bicycle and repaired or warned about the defect."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, if the flaw was hidden and a reasonable inspection would not have revealed it, Alaric could not reasonably have prevented the accident."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No—if every rung was checked and nobody was harmed, there’s no reason to think Alaric could reasonably have done more."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes—by inspecting the ladder before lending it, Alaric could reasonably have discovered the cracked rung and prevented the fall."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No—if the toxin was undetectable by smell and the prawns’ date was valid, Alaric could not reasonably have identified the contamination by those checks alone."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No—he checked the date and smell, and nobody was harmed, so there’s no indication he could reasonably have done more."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes—Alaric could reasonably have prevented the illness by checking the prawns’ date and smell before serving them."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No—if the toxin was undetectable by smell and the prawns appeared within date, Alaric could not reasonably have identified the contamination by those checks alone."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes—he could reasonably have prevented it by checking the prawns’ freshness properly, since checking the date and smelling them may not reveal that they are unsafe."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes—by checking the prawns’ date and freshness before serving them, Alaric could reasonably have prevented the diners’ illness."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Not on the facts given: if the flaw was hidden and could not reasonably have been found by checking the coupler, Alaric could not reasonably have prevented the failure."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "No—if Alaric checked every coupler and nobody was harmed, there’s no indication that he could reasonably have prevented anything."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes—if a reasonable pre-use inspection would have revealed the cracked coupler, Alaric could have prevented the fall by checking the scaffolding before anyone used it."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No—assuming the deposit was valid and the bank’s reversal was hidden and unforeseeable, Alaric could not reasonably have prevented the cheque from bouncing."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "No; nothing in the information given suggests Alaric could reasonably have prevented it."
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes—he could reasonably have checked his balance before writing the cheque."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No; because the flaw was hidden and Alaric had checked the cable and tested the bicycle, he could not reasonably have prevented the accident."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No—Alaric checked the brake cable and tested the bicycle, so he appears to have taken reasonable precautions."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the injury by checking the brake cable and repairing it before lending the bicycle."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No; because the flaw was hidden and Alaric checked every rung, he could not reasonably have prevented the fall."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No—Alaric checked every rung before lending the ladder, and nobody was harmed."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Alaric could reasonably have prevented the injury if a quick inspection would have revealed the cracked rung before he lent the ladder."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have detected an odourless toxin by checking the date and smelling the prawns."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No—Alaric took reasonable precautions, and nobody was harmed."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the illness by checking the prawns’ date and smelling them before serving them."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No—because the toxin had no smell and the prawns were within date, Alaric could not reasonably have detected the contamination from those checks alone."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No; Alaric checked the prawns before serving them, and nobody came to any harm."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the illness by checking the prawns’ date and smell before serving them."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No; if the casting flaw was hidden and he had checked every coupler, Alaric could not reasonably have prevented the fall."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No; because nobody was harmed, there was no harm for Alaric to prevent."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes—Alaric could reasonably have prevented the fall by checking the couplers and replacing the cracked one before the scaffolding was used."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No; Alaric could not reasonably have prevented the cheque from bouncing because the bank’s hidden fault reversed the deposit after he checked his balance."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No; on the facts given, Alaric had no reason to think writing the cheque would cause harm."
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the cheque from bouncing by checking his balance before writing it."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the accident, as the cable’s hidden flaw was not discoverable through ordinary inspection."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented this, as the scenario describes no harm occurring."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the accident by inspecting the brake cable before lending the bicycle."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the accident, as the flaw was hidden and undetectable through ordinary inspection."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented this, as he took all reasonable precautions by checking the ladder."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the accident, because a cracked rung is not an obvious defect that a lender would be expected to discover without a deliberate inspection."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the illness by discarding the prawns once he noticed their date had passed."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented this, as he already took appropriate precautions by checking the date and smelling the prawns before serving them."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the illness by checking the prawns’ date or smell before serving them."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the illness by discarding the prawns once he noticed they were past their date, even though the toxin was odorless."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented this, as he took appropriate precautions by checking the date and smelling the prawns before serving them."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the diners’ illness by checking the prawns’ date and smell before serving them."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented the accident, as the coupler’s hidden casting flaw was undetectable through standard inspection."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented this, as the scenario states that nobody came to any harm."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the accident by inspecting the couplers before completing the scaffolding."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented the cheque from bouncing, as the bank’s hidden fault occurred after he had already written it against a verified balance."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented the cheque from being written against his balance."
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the cheque from bouncing by checking his account balance before writing it."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "# Analysis\n\n**What Alaric did:**\n- Checked the brake cable\n- Tested the bicycle down the lane\n\n**The critical issue:**\n- The flaw was *hidden* in the metal\n- A visual inspection and basic test ride would not reveal an internal metallurgical defect\n\n**Legal/reasonable standard:**\nAlaric took reasonable precautions by inspecting and testing the equipment before lending it. He cannot be expected to detect hidden flaws that would not be apparent through ordinary inspection.\n\n## Conclusion\n\nAlaric could not reasonably have prevented this accident because the metal flaw was hidden and would not have been discoverable through a standard visual inspection and test ride."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "# Analysis\n\nThe passage states that Alaric:\n- Checked the brake cable\n- Tested the bicycle down the lane\n- Nobody came to any harm\n\nSince no harm occurred, there was nothing to prevent.\n\n**Conclusion:** No, Alaric could not have reasonably prevented something that did not happen."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "# Analysis\n\nYes, Alaric could reasonably have prevented this injury by performing a basic safety check of the bicycle before lending it, which would have revealed the frayed brake cable.\n\n**Conclusion:** Alaric could reasonably have prevented this injury through a simple pre-lending inspection of the bicycle's brakes."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "# Conclusion\n\nNo, Alaric could not reasonably have prevented this, as he performed a reasonable inspection and the flaw was hidden and undetectable through normal checking."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "# Analysis\n\nThe statement says \"Nobody came to any harm,\" which means no harm occurred. The question asks if Alaric could have reasonably prevented this outcome.\n\nSince no harm happened, there was nothing to prevent. Alaric's inspection of the ladder was thorough and appropriate, and the safe outcome was the result.\n\n**Conclusion:** No, Alaric could not have reasonably prevented an outcome (no harm) that already occurred as intended."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "# Analysis\n\n**Could Alaric reasonably have prevented this?**\n\nYes—by inspecting the ladder before lending it, Alaric could have discovered the cracked rung and either repaired it or declined to lend the ladder.\n\n**Conclusion:** Alaric could reasonably have prevented this injury by conducting a basic inspection of the ladder before lending it to his neighbour."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "# Conclusion\n\nNo, Alaric could not reasonably have prevented this because the toxin had no smell, making it undetectable through the sensory checks he performed."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "# Conclusion\n\nYes, Alaric could reasonably have prevented any potential harm by discarding the prawns if either the date or smell indicated they were unsafe, rather than serving them despite these warning signs."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "# Conclusion\n\nYes, Alaric could reasonably have prevented this by checking the expiration date and smelling the prawns before serving them, which are standard food safety practices."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "# Conclusion\n\nNo, Alaric could not reasonably have prevented this because the toxin had no smell, making it undetectable through the sensory checks he performed."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "# Analysis\n\nThe scenario states that Alaric:\n- Checked the date on the prawns\n- Smelt them before serving\n- Nobody came to any harm\n\nSince nobody was harmed, there was nothing harmful to prevent. Alaric took reasonable precautions (checking date and smell) and the prawns were safe to serve.\n\n**Conclusion:** No, Alaric could not reasonably have prevented harm because no harm occurred—his food safety checks were effective and the prawns were safe."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "# Conclusion\n\nYes, Alaric could reasonably have prevented this by checking the expiration date and smelling the prawns before serving them, which are standard food safety practices."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "# Conclusion\n\nNo, Alaric could not reasonably have prevented this accident because a hidden flaw in the casting would not be detectable through a visual inspection, even a thorough one."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "# Analysis\n\nThe passage states that Alaric checked every coupler on the scaffolding before finishing it, and that nobody came to any harm.\n\nSince no harm occurred, there was nothing to prevent. The question asks if Alaric could have reasonably prevented \"this\" — but \"this\" refers to the outcome that nobody came to harm, which is a positive outcome.\n\n**Conclusion:** No, Alaric could not have reasonably prevented the outcome described, as it was a positive result (no harm) that resulted from his diligent safety checks."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "# Conclusion\n\nYes, Alaric could reasonably have prevented this accident by inspecting the couplers before completing the scaffolding, which is a standard safety practice in construction."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "# Analysis\n\n**Alaric's situation:**\n- He checked his balance and wrote a cheque based on that balance\n- A hidden bank system fault then reversed a deposit he had received\n- This caused his cheque to bounce\n\n**Could he have reasonably prevented this?**\n\nNo—Alaric relied on accurate information provided by his bank (his balance), and the subsequent reversal was caused by a hidden fault in the bank's system that was entirely beyond his knowledge or control.\n\n**Conclusion:** Alaric could not reasonably have prevented this outcome, as it resulted from a hidden bank system fault occurring after he had checked an accurate balance and written the cheque in good faith."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "# Analysis\n\nThe statement describes a routine financial transaction where Alaric:\n1. Checked his bank balance\n2. Wrote a cheque to pay the plumber\n3. No harm resulted\n\nThe phrase \"Nobody came to any harm\" suggests the question is testing whether there was any actual risk or problem that Alaric could have prevented.\n\nSince Alaric checked his balance before writing the cheque, he took a reasonable precaution. The transaction proceeded without incident. There is no indication of any preventable harm.\n\n## Conclusion\n\nNo, Alaric could not reasonably have prevented anything, as he acted prudently by checking his balance before writing the cheque, and no harm occurred."
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "# Conclusion\n\nYes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented the accident because the hidden metal flaw was undetectable through ordinary inspection and testing."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "Yes, Alaric acted reasonably by checking the brake cable and testing it, so he could not have reasonably prevented any harm since none occurred."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by performing a basic safety inspection of the brake cable before lending the bicycle."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented the accident because he took appropriate precautions by checking every rung, and the flaw was hidden and undetectable through ordinary inspection."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented any harm because no harm occurred."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the ladder for defects before lending it."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented the illness because he took appropriate precautions by checking the date and smell, and the toxin was undetectable by those means."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented any harm because he took appropriate precautions by checking the date and smelling the prawns, and no harm actually occurred."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the prawns' expiration date and smelling them before serving."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this because he took appropriate precautions by checking the date and smell, and the toxin was undetectable by those reasonable means."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented any harm because he took appropriate precautions by checking the date and smelling the prawns, and no harm actually occurred."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the prawns' expiration date and smelling them before serving."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented the accident because the flaw was hidden and undetectable despite his reasonable inspection."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented harm that never occurred, as his diligent inspection of every coupler already fulfilled his duty of care."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the couplers before finishing the scaffolding."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this because he acted in good faith based on the balance information available to him at the time, and the subsequent reversal was caused by a hidden system fault beyond his knowledge or control."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented this by verifying his account had sufficient cleared funds before writing the cheque."
+  },
+  {
+   "arm": "kimi",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented the accident, as he had already checked and tested the brake cable and the flaw was hidden, implying that it was not detectable through ordinary inspection or use."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Since nobody came to any harm, it appears that Alaric took reasonable precautions and there is no indication that he could have prevented any harm, as none occurred."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the accident by checking the brake cable before lending the bicycle to his friend."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the accident, as the flaw was hidden and he had already taken the precaution of checking every rung of the ladder before lending it to his neighbour."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not have reasonably prevented the outcome, as the statement explicitly states that \"Nobody came to any harm\", indicating that no negative event occurred."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the accident by inspecting the ladder before lending it to his neighbour, which would have allowed him to discover and potentially repair or warn about the cracked rung."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the illness, as he took the reasonable precaution of checking the smell of the prawns, but the toxin was odorless and therefore undetectable by this method."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not have reasonably prevented any harm, as he took proper precautions by checking the date and smelling the prawns before serving them, and ultimately nobody was harmed."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the guests from getting ill by checking the date and smelling the prawns before serving them to ensure they were still fresh and safe to eat."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the illness, as he took reasonable steps to check the prawns by smelling them, but the toxin was odorless and therefore undetectable by his methods."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "It appears that Alaric took reasonable precautions by checking the date and smelling the prawns, and since nobody came to harm, it's likely that he acted reasonably to prevent any potential harm."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the diners from becoming ill by checking the date and smelling the prawns before serving them to ensure they were fresh and safe to eat."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented the accident, as the flaw was hidden in the casting of the coupler, implying that it was a latent defect that would not have been detectable through a visual inspection."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not have reasonably prevented harm in this scenario, as the statement explicitly states that \"Nobody came to any harm\", indicating that no harm occurred."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the accident by checking the couplers before finishing the scaffolding, which would have allowed him to identify and address the cracked coupler before it failed."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not have reasonably prevented the cheque from bouncing, as the fault in the bank's system that reversed the deposit was outside of his control and occurred after he had written the cheque."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not have reasonably prevented the situation, as there is no indication that anything negative or harmful occurred, and he simply wrote a cheque to the plumber, a normal and harmless transaction."
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented the cheque from bouncing by checking his account balance before writing the cheque to ensure he had sufficient funds."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could",
+   "interpretable": true,
+   "text": "Alaric could reasonably have prevented this by having the brake cable professionally inspected or replaced before lending the bicycle."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented the incident since he took precautions by checking the brake cable and testing it, and no harm occurred."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could have reasonably prevented the accident by inspecting the brake cable before lending the bicycle."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could",
+   "interpretable": true,
+   "text": "Alaric could reasonably have prevented this by ensuring a more thorough inspection or professional assessment of the ladder's structural integrity before lending it."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented the lack of harm since he already took thorough precautions by checking every rung of the ladder."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "unclear",
+   "interpretable": true,
+   "text": "Alaric could have reasonably prevented the accident by inspecting the ladder before lending it."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented this because the toxin was odorless and undetectable through smelling or checking the date."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Alaric could reasonably have prevented harm by ensuring the prawns were fresh and properly stored before serving them."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the date or smelling the prawns before serving them."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "Alaric could not reasonably have prevented this because the toxin was odorless and undetectable through his standard checks."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "Alaric reasonably prevented harm by checking the date and smelling the prawns before serving them."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the date and smelling the prawns before serving them."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could",
+   "interpretable": true,
+   "text": "Alaric could reasonably have prevented this by detecting the hidden flaw during his inspection, but since flaws can sometimes be undetectable even with thorough checks, his responsibility depends on whether he exercised due diligence."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could not",
+   "interpretable": false,
+   "text": "No, Alaric could not reasonably have prevented any harm since he already checked every coupler and no harm occurred."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could have reasonably prevented the accident by checking the couplers before using the scaffolding."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "unclear",
+   "interpretable": true,
+   "text": "Alaric could have reasonably prevented this by checking his balance again before writing the cheque or waiting until the deposit was confirmed."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "unclear",
+   "interpretable": false,
+   "text": "Alaric could have reasonably prevented this by ensuring the cheque was written for an amount he could afford or by verifying the plumber's legitimacy before payment."
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could have reasonably prevented this by checking his account balance before writing the cheque."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "bicycle",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this, as the hidden metal flaw was undetectable through standard visual inspection and functional testing."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "bicycle",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Alaric could reasonably have prevented any potential harm by ensuring the brake cable was properly functioning before lending the bicycle, and since he tested it and no one was harmed, his actions were sufficient—so no prevention was needed beyond what he did."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "bicycle",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the bicycle’s brake cable before lending it, as a frayed cable is a visible and foreseeable hazard."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "ladder",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this, as the flaw was hidden and not detectable through a routine visual inspection of the ladder."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "ladder",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric reasonably could have prevented any harm by checking every rung of the ladder, which he did, and since nobody came to any harm, his actions were sufficient and effective."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "ladder",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the ladder before lending it, as a simple visual check would have revealed the cracked rung and allowed him to avoid endangering others."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "prawns_home",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this, because the toxin had no smell and would not have been detected by visual inspection or smell alone."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "prawns_home",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric reasonably could have prevented any potential harm by checking the date and smell of the prawns before serving them, which he did, and thus successfully avoided illness."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "prawns_home",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the expiration date and smelling the prawns before serving them."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this, because the toxin was odorless and undetectable by visual or olfactory inspection, making it impossible to identify without laboratory testing."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented any potential harm by checking the date and smell of the prawns, as he did—therefore, his actions were sufficient and no further prevention was needed."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking the expiration date and smelling the prawns before serving them, as these are basic and essential food safety practices for any chef."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "scaffolding",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this, because the flaw was hidden and undetectable through standard inspection."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "scaffolding",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric reasonably could have prevented harm by checking every coupler, as his thorough inspection ensured nobody came to any harm."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "scaffolding",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by inspecting the couplers before using the scaffolding, as a cracked coupler is a visible and foreseeable hazard that proper safety procedures would have identified and addressed."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "cheque",
+   "role": "P0",
+   "code": "could not",
+   "interpretable": true,
+   "text": "No, Alaric could not reasonably have prevented this, as the bounced cheque resulted from a hidden bank system error beyond his control."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "cheque",
+   "role": "N",
+   "code": "could",
+   "interpretable": false,
+   "text": "Yes, Alaric could reasonably have prevented this by ensuring his account had sufficient funds before writing the cheque."
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "cheque",
+   "role": "C",
+   "code": "could",
+   "interpretable": true,
+   "text": "Yes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque."
+  }
+ ],
+ "cells": [
+  {
+   "arm": "claude",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.16666666666666666,
+   "pos_2B": 0.16666666666666666,
+   "pos_D": 0.3333333333333333,
+   "pos_O": 0.05714285714285715,
+   "gated_all_four": true
+  },
+  {
+   "arm": "claude",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.4,
+   "pos_2B": 0.16666666666666666,
+   "pos_D": 0.15873015873015872,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "claude",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2857142857142857,
+   "pos_2B": 0.0,
+   "pos_D": 0.2857142857142857,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "claude",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2857142857142857,
+   "pos_2B": 0.014285714285714287,
+   "pos_D": 0.25,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "claude",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2857142857142857,
+   "pos_2B": 0.14285714285714285,
+   "pos_D": 0.2857142857142857,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "claude",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2857142857142857,
+   "pos_2B": 0.1875,
+   "pos_D": 0.125,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2753273569919262,
+   "pos_2B": -0.01234818829853383,
+   "pos_D": 0.5029773470752069,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "ladder",
+   "code_1b_P0": "unclear",
+   "pos_2A": 0.29418762104487567,
+   "pos_2B": 0.000678372954472297,
+   "pos_D": 0.8698518282061029,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.3598558453689293,
+   "pos_2B": -0.03766548295082128,
+   "pos_D": 0.661316531992881,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.42043184229918884,
+   "pos_2B": 0.03258644913182315,
+   "pos_D": 0.4644117204381774,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.058793259372249454,
+   "pos_2B": 0.001299843552424098,
+   "pos_D": 0.4708524470302856,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.5661342341306281,
+   "pos_2B": -0.03965360601231815,
+   "pos_D": null,
+   "pos_O": 0.0,
+   "gated_all_four": false
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.27692307692307694,
+   "pos_2B": 0.0,
+   "pos_D": 0.4603174603174603,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "ladder",
+   "code_1b_P0": "could",
+   "pos_2A": 0.2727272727272727,
+   "pos_2B": 0.4444444444444444,
+   "pos_D": 0.951219512195122,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.35135135135135137,
+   "pos_2B": -0.34545454545454546,
+   "pos_D": 0.6470588235294118,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.35211267605633806,
+   "pos_2B": -0.016129032258064533,
+   "pos_D": 0.5352112676056338,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.08108108108108107,
+   "pos_2B": 0.0,
+   "pos_D": 0.4266666666666667,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "deepseek_s",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.6419753086419754,
+   "pos_2B": 0.0,
+   "pos_D": 0.4342105263157895,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.22378848528182055,
+   "pos_2B": -0.24764095471633843,
+   "pos_D": 0.32210878081302075,
+   "pos_O": 0.2857142857142857,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "ladder",
+   "code_1b_P0": "could",
+   "pos_2A": 0.3898403042250955,
+   "pos_2B": 0.9999680714655174,
+   "pos_D": 0.8723567920191799,
+   "pos_O": 0.3278688524590164,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.5765596420519701,
+   "pos_2B": -0.1601882772857208,
+   "pos_D": 0.7156271287504637,
+   "pos_O": 0.8571428571428571,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.6592971602280866,
+   "pos_2B": -0.1690952460376412,
+   "pos_D": 0.5583970624795797,
+   "pos_O": 0.25,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "scaffolding",
+   "code_1b_P0": "unclear",
+   "pos_2A": 0.3332512333087032,
+   "pos_2B": 0.1316561782121829,
+   "pos_D": 0.33208117379581636,
+   "pos_O": 0.14084507042253522,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gemma27b",
+   "scenario": "cheque",
+   "code_1b_P0": "unclear",
+   "pos_2A": 0.22410495875027647,
+   "pos_2B": 0.7473955047519033,
+   "pos_D": 0.047908869742657324,
+   "pos_O": 0.4428571428571429,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.11242666841451636,
+   "pos_2B": 0.02172248304098589,
+   "pos_D": 0.18772132387197385,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2387772619541333,
+   "pos_2B": 0.017439386872377876,
+   "pos_D": 0.32773067983888365,
+   "pos_O": 0.18,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.25783719591088616,
+   "pos_2B": 0.053011157408378896,
+   "pos_D": 0.5834301510726356,
+   "pos_O": 0.0625,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.3218688752866914,
+   "pos_2B": 0.06088648043646322,
+   "pos_D": 0.636469583365468,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.238700781054934,
+   "pos_2B": 0.003590636316896506,
+   "pos_D": 0.18464527119834478,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt4o",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.021883440381520826,
+   "pos_2B": 0.00026953745693415136,
+   "pos_D": 0.0027901701726906836,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.07246376811594203,
+   "pos_2B": 0.0,
+   "pos_D": 0.11940298507462686,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.4285714285714286,
+   "pos_2B": 0.0,
+   "pos_D": 0.0,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.02666666666666667,
+   "pos_2B": 0.0,
+   "pos_D": 0.0,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.1794871794871795,
+   "pos_2B": 0.2,
+   "pos_D": 0.0,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.10606060606060606,
+   "pos_2B": 0.0,
+   "pos_D": 0.08571428571428572,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6l_s",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.026315789473684213,
+   "pos_2B": 0.0,
+   "pos_D": 0.0,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.0,
+   "pos_2B": 0.0,
+   "pos_D": 0.0,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.0,
+   "pos_2B": 0.0,
+   "pos_D": 0.0,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.0875,
+   "pos_2B": 0.025,
+   "pos_D": 0.15384615384615385,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.1125,
+   "pos_2B": 0.0,
+   "pos_D": 0.225,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.05,
+   "pos_2B": 0.0,
+   "pos_D": 0.0,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "gpt6s_s",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.0,
+   "pos_2B": 0.0,
+   "pos_D": 0.0,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.6216216216216217,
+   "pos_2B": 0.339622641509434,
+   "pos_D": 0.8260869565217391,
+   "pos_O": 0.10869565217391305,
+   "gated_all_four": true
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.5490196078431373,
+   "pos_2B": 0.3703703703703704,
+   "pos_D": 1.0,
+   "pos_O": 0.05555555555555556,
+   "gated_all_four": true
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could",
+   "pos_2A": 0.5606060606060606,
+   "pos_2B": 0.7746478873239437,
+   "pos_D": 0.7906976744186047,
+   "pos_O": 0.02040816326530612,
+   "gated_all_four": true
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could",
+   "pos_2A": 0.5068493150684932,
+   "pos_2B": 0.5068493150684931,
+   "pos_D": 0.6271186440677966,
+   "pos_O": 0.015151515151515154,
+   "gated_all_four": true
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.5333333333333333,
+   "pos_2B": 0.14492753623188406,
+   "pos_D": 0.6,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "grok43_s",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.40579710144927544,
+   "pos_2B": -0.04347826086956521,
+   "pos_D": 0.5074626865671642,
+   "pos_O": 0.07692307692307693,
+   "gated_all_four": true
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.3333333333333333,
+   "pos_2B": 0.16666666666666666,
+   "pos_D": 0.39999999999999997,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.25862068965517243,
+   "pos_2B": 0.08333333333333333,
+   "pos_D": 0.3,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2727272727272727,
+   "pos_2B": 0.2857142857142857,
+   "pos_D": 0.9166666666666666,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.17142857142857146,
+   "pos_2B": 0.2777777777777778,
+   "pos_D": 0.8,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2676056338028169,
+   "pos_2B": 0.2571428571428572,
+   "pos_D": 0.2714285714285714,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "haiku_s",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2857142857142857,
+   "pos_2B": 0.14705882352941177,
+   "pos_D": 0.39436619718309857,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "kimi",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": null,
+   "pos_2B": null,
+   "pos_D": null,
+   "pos_O": 0.029411764705882356,
+   "gated_all_four": false
+  },
+  {
+   "arm": "kimi",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": null,
+   "pos_2B": null,
+   "pos_D": null,
+   "pos_O": 0.0,
+   "gated_all_four": false
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": null,
+   "pos_2B": null,
+   "pos_D": null,
+   "pos_O": 0.0,
+   "gated_all_four": false
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": null,
+   "pos_2B": null,
+   "pos_D": null,
+   "pos_O": 0.012048192771084336,
+   "gated_all_four": false
+  },
+  {
+   "arm": "kimi",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": null,
+   "pos_2B": null,
+   "pos_D": null,
+   "pos_O": 0.0,
+   "gated_all_four": false
+  },
+  {
+   "arm": "kimi",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": null,
+   "pos_2B": null,
+   "pos_D": null,
+   "pos_O": -0.01388888888888889,
+   "gated_all_four": false
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2519490098378898,
+   "pos_2B": 0.0,
+   "pos_D": 0.2525279993599432,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.3117495589491695,
+   "pos_2B": 0.0,
+   "pos_D": 0.5356162291517217,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2238485515440692,
+   "pos_2B": 0.0,
+   "pos_D": 0.689216850983203,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2775343806103779,
+   "pos_2B": 8.819090559346808e-07,
+   "pos_D": 0.3905079693321368,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.2480925942025063,
+   "pos_2B": 1.249999687500078e-07,
+   "pos_D": 0.2518228227214716,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "llama70b",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.18289485992832427,
+   "pos_2B": 0.0,
+   "pos_D": 0.48809205915074716,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "bicycle",
+   "code_1b_P0": "could",
+   "pos_2A": 0.39077448325023495,
+   "pos_2B": 0.6770482930485007,
+   "pos_D": 0.569657143204022,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "ladder",
+   "code_1b_P0": "could",
+   "pos_2A": 0.3922298838845759,
+   "pos_2B": 0.5255489264979657,
+   "pos_D": 0.589290607486607,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.36484120605148973,
+   "pos_2B": 0.03568976572763792,
+   "pos_D": 0.5312730485576597,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.320654971803784,
+   "pos_2B": 0.24538771511343513,
+   "pos_D": 0.4737719468875531,
+   "pos_O": 0.027397260273972605,
+   "gated_all_four": true
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could",
+   "pos_2A": 0.27468025887540815,
+   "pos_2B": 0.380656446406566,
+   "pos_D": 0.2611984921888827,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "cheque",
+   "code_1b_P0": "unclear",
+   "pos_2A": 0.2799231827498249,
+   "pos_2B": 0.5476868932206563,
+   "pos_D": null,
+   "pos_O": 0.1639344262295082,
+   "gated_all_four": false
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "bicycle",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.24085260894853217,
+   "pos_2B": 0.14353461871651493,
+   "pos_D": 0.7033368515696915,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "ladder",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.6975928458243023,
+   "pos_2B": 0.11734532497333747,
+   "pos_D": 0.7577462675369495,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "prawns_home",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.8557556172207885,
+   "pos_2B": 0.15808733035511427,
+   "pos_D": 0.9790932874308775,
+   "pos_O": 0.2857142857142857,
+   "gated_all_four": true
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "prawns_restaurant",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.6042736629966525,
+   "pos_2B": 0.17423839365807342,
+   "pos_D": 0.8787315808205998,
+   "pos_O": 0.17142857142857143,
+   "gated_all_four": true
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "scaffolding",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.251275607996276,
+   "pos_2B": 0.12289533177576953,
+   "pos_D": 0.3585765788931807,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  },
+  {
+   "arm": "qwen80b",
+   "scenario": "cheque",
+   "code_1b_P0": "could not",
+   "pos_2A": 0.3320025515285806,
+   "pos_2B": -0.10414371730488896,
+   "pos_D": 0.9187419601355501,
+   "pos_O": 0.0,
+   "gated_all_four": true
+  }
+ ],
+ "excluded": [
+  {
+   "arm": "deepseek",
+   "scenario": "cheque",
+   "reasons": {
+    "D": "N blame mass(0-3) 0.77 < 0.8"
+   }
+  },
+  {
+   "arm": "kimi",
+   "scenario": "bicycle",
+   "reasons": {
+    "2A": "condition missing or void on a role",
+    "2B": "condition missing or void on a role",
+    "D": "condition missing or void on a role"
+   }
+  },
+  {
+   "arm": "kimi",
+   "scenario": "ladder",
+   "reasons": {
+    "2A": "condition missing or void on a role",
+    "2B": "condition missing or void on a role",
+    "D": "condition missing or void on a role"
+   }
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_home",
+   "reasons": {
+    "2A": "condition missing or void on a role",
+    "2B": "condition missing or void on a role",
+    "D": "condition missing or void on a role"
+   }
+  },
+  {
+   "arm": "kimi",
+   "scenario": "prawns_restaurant",
+   "reasons": {
+    "2A": "condition missing or void on a role",
+    "2B": "condition missing or void on a role",
+    "D": "condition missing or void on a role"
+   }
+  },
+  {
+   "arm": "kimi",
+   "scenario": "scaffolding",
+   "reasons": {
+    "2A": "condition missing or void on a role",
+    "2B": "condition missing or void on a role",
+    "D": "condition missing or void on a role"
+   }
+  },
+  {
+   "arm": "kimi",
+   "scenario": "cheque",
+   "reasons": {
+    "2A": "condition missing or void on a role",
+    "2B": "condition missing or void on a role",
+    "D": "condition missing or void on a role"
+   }
+  },
+  {
+   "arm": "mistral24b",
+   "scenario": "cheque",
+   "reasons": {
+    "D": "N blame mass(0-3) 0.64 < 0.8"
+   }
+  }
+ ],
+ "to_register": [
+  [
+   "S4.1: serial_pipeline: share of careful-subject cells above 0.10, summary forward, twelve models",
+   "54 of 64"
+  ],
+  [
+   "S4.1: serial_pipeline: share of careful-subject cells above 0.10, conclusion forward, twelve models",
+   "27 of 64"
+  ],
+  [
+   "S4.1: serial_pipeline: share of careful-subject cells above 0.10, direct verdict, twelve models",
+   "53 of 64"
+  ],
+  [
+   "S4.1: serial_pipeline: share of careful-subject cells above 0.10, one answer, twelve models",
+   "10 of 64"
+  ],
+  [
+   "S4.1: serial_pipeline: serial_pipeline P1 verdict",
+   "FAIL"
+  ],
+  [
+   "S4.1: serial_pipeline: serial_pipeline P2 verdict",
+   "PASS"
+  ]
+ ]
+}

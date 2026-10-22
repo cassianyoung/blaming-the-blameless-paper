@@ -34,6 +34,7 @@ paper calls the same person the subject. No prediction, rule or number has been 
 | `general_principle.md` | The convention asked in the abstract, with no trade named, in both orders. |
 | `subject_identity.md` | The excuse and duty cases re-read with the subject named Alaric, John or Jane. |
 | `completeness_fill_amendment.md` | The completeness fill: the readings added for due-care-eval v1.1, the prawns pair read under the duty syllogism (pooled with it), and the reasoning stratum (read on the reasoning models, reported separately). |
+| `serial_pipeline.md` | The serial pipeline: a first call's factual summary or prevention conclusion passed into the scoring call, against the direct verdict and the one answer, with the 15-point bands; Amendment 1 (a provider's moderation refusal is a refused draw) and Amendment 2 (post-hoc: "most" for the models that blame despite a "could not" conclusion). The question_word reading was exploratory and has no pre-registration. |
 
 ## Bank file names
 

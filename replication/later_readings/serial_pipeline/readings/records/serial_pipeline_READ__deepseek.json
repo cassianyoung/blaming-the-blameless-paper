@@ -1,0 +1,6282 @@
+{
+ "run": "240",
+ "arm": "deepseek",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "provider_requested": "Sail Research",
+ "provider_banked": "Sail Research",
+ "readout_scoring": "logprob",
+ "readout_one_answer": "sampled",
+ "max_tokens_scoring": 1,
+ "max_tokens_call1": 256,
+ "top_k": 20,
+ "frames": "records/frames.json",
+ "frames_sha256": "04fd25ef2970c1f8b3b06714be9efeb7b1438d475c99a7a8bd50b8ebc8502403",
+ "prereg": "records/PREREG_serial_pipeline_PIPELINE.md",
+ "arm_cap_usd": 0.05,
+ "cells": {
+  "bicycle|P0": {
+   "scenario": "bicycle",
+   "role": "P0",
+   "1A": {
+    "text": "Alaric lent his bicycle to a friend after checking the brake cable and testing the brakes down a lane. The next day, while the friend was riding it, the cable snapped due to a hidden flaw in the metal. The brakes failed and the rider was badly hurt.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric lent his bicycle to a friend after checking the brake cable and testing the brakes down a lane. The next day, while the friend was riding it, the cable snapped due to a hidden flaw in the metal. The brakes failed and the rider was badly hurt.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 55
+     }
+    ]
+   },
+   "1B": {
+    "text": "No, because the flaw was hidden and Alaric had checked and tested the brakes beforehand, so he could not reasonably have foreseen or prevented the failure.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "No, because the flaw was hidden and Alaric had checked and tested the brakes beforehand, so he could not reasonably have foreseen or prevented the failure.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 32
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 1.7454109,
+    "prompt_sha256": "f6e8ba503c7603b323541d11cd0c1813aeb1d5f0fdd285a34614222ff94d8fe0",
+    "draws": [
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 1.874671,
+      "digit_mass": 0.99988
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.874671,
+      "digit_mass": 0.99988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.651653,
+      "digit_mass": 0.999911
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.651653,
+      "digit_mass": 0.999911
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.651653,
+      "digit_mass": 0.999911
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.874671,
+      "digit_mass": 0.99988
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.640488,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.651653,
+      "digit_mass": 0.999911
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.931343,
+      "digit_mass": 0.999925
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 1.651653,
+      "digit_mass": 0.999911
+     }
+    ],
+    "blame_mass_0_3": 0.9660960930205233,
+    "digit_mass": 0.9999087,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.0008281,
+    "prompt_sha256": "b5623f189b1dcb243f74c9b1c8bf895acda6a095fe74f9b80d38ac8e68159773",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.001099,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000798,
+      "digit_mass": 0.999985
+     }
+    ],
+    "blame_mass_0_3": 0.9999684836332096,
+    "digit_mass": 0.9999851,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 3.1464100999999998,
+    "prompt_sha256": "f285537a272731ac29c048634ee761ad895c9f24e56459b35952c1b5591c0921",
+    "draws": [
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.147131,
+      "digit_mass": 0.999485
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.078086,
+      "digit_mass": 0.999604
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.147131,
+      "digit_mass": 0.999485
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.147131,
+      "digit_mass": 0.999485
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.078086,
+      "digit_mass": 0.999604
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.147131,
+      "digit_mass": 0.999485
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.147131,
+      "digit_mass": 0.999485
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.078086,
+      "digit_mass": 0.999604
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.347057,
+      "digit_mass": 0.999043
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.147131,
+      "digit_mass": 0.999485
+     }
+    ],
+    "blame_mass_0_3": 0.7174286639334453,
+    "digit_mass": 0.9994765
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.0,
+    "prompt_sha256": "01a4d100dfca669b3eac77ba1515a5d50b481911809efcb5ab9cc1393dc38c4b",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "bicycle|N": {
+   "scenario": "bicycle",
+   "role": "N",
+   "1A": {
+    "text": "Alaric lent his bicycle to a friend. Before doing so, he checked the brake cable and tested the bicycle down the lane. No one was harmed.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric lent his bicycle to a friend. Before doing so, he checked the brake cable and tested the bicycle down the lane. No one was harmed.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 32
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented this by simply not lending his bicycle, since he was the one who chose to check the brakes and test it before handing it over.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented this by simply not lending his bicycle, since he was the one who chose to check the brakes and test it before handing it over.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 36
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.0042306999999999996,
+    "prompt_sha256": "51eb1d3ccb08942a31512cc2cc297684eee9eca9c5da113d379622760b6f9651",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.001924,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004487,
+      "digit_mass": 0.999968
+     }
+    ],
+    "blame_mass_0_3": 0.9998219865741024,
+    "digit_mass": 0.9999695,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.085208,
+    "prompt_sha256": "f5b089daecef3228b8bedb448adbba88977e79a9d1120ac91ef6f39e45f28a2b",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.085208,
+      "digit_mass": 0.999967
+     }
+    ],
+    "blame_mass_0_3": 0.9978446734759979,
+    "digit_mass": 0.999967,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.062025,
+    "prompt_sha256": "b75b2b926936d1019d18a89fedb817f265ee72acc8500b5fbac5abf51ab28fcc",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.062025,
+      "digit_mass": 0.999999
+     }
+    ],
+    "blame_mass_0_3": 0.9903678709254945,
+    "digit_mass": 0.999999
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.4,
+    "prompt_sha256": "dd36fe7fda289638ccaa52bc860a8db4e78c741a82d67215d9cb43205ae3a33e",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "bicycle|C": {
+   "scenario": "bicycle",
+   "role": "C",
+   "1A": {
+    "text": "Alaric lent his bicycle to a friend without first checking the brake cable, which was frayed. When the friend rode the bicycle, the brakes failed and the friend was badly hurt.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric lent his bicycle to a friend without first checking the brake cable, which was frayed. When the friend rode the bicycle, the brakes failed and the friend was badly hurt.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 38
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented this by inspecting the brake cable before lending the bicycle.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented this by inspecting the brake cable before lending the bicycle.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 20
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 6.328267,
+    "prompt_sha256": "64ae081d707b1ac82dbca0b208f4651aafacb3e97043750d0c208a6c3fc5fe7f",
+    "draws": [
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.368068,
+      "digit_mass": 0.999918
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.6628,
+      "digit_mass": 0.99996
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.368068,
+      "digit_mass": 0.999918
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.209032,
+      "digit_mass": 0.999944
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 6.368068,
+      "digit_mass": 0.999918
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 6.368068,
+      "digit_mass": 0.999918
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 6.209032,
+      "digit_mass": 0.999944
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.209032,
+      "digit_mass": 0.999944
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.209032,
+      "digit_mass": 0.999944
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.31147,
+      "digit_mass": 0.999936
+     }
+    ],
+    "blame_mass_0_3": 0.000778102069678141,
+    "digit_mass": 0.9999344,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 6.918591,
+    "prompt_sha256": "76399f381e8f3ac73e061b09a1ee8e3688193fba62c9a3f0e65de1e71eca3967",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.918591,
+      "digit_mass": 0.99997
+     }
+    ],
+    "blame_mass_0_3": 8.797457244905093e-05,
+    "digit_mass": 0.99997,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 6.1942795,
+    "prompt_sha256": "5ccca4a665f659429d247e38815110979e99a9f9e90090c0c28e32c9f812aaa3",
+    "draws": [
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 6.017614,
+      "digit_mass": 0.99998
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.213909,
+      "digit_mass": 0.999986
+     }
+    ],
+    "blame_mass_0_3": 0.00012999357105735127,
+    "digit_mass": 0.9999854
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 6.7,
+    "blame_mass_0_3": 0.0,
+    "p_prevent_yes": 1.0,
+    "prompt_sha256": "7b6d4e06f31a8ad207696a3cc3c4725ad9e151acfe6a7e832f18af65056fd8eb",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "ladder|P0": {
+   "scenario": "ladder",
+   "role": "P0",
+   "1A": {
+    "text": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung caused it to give way. The neighbour fell and broke his wrist.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric checked every rung of his ladder before lending it to his neighbour. A hidden flaw in the metal of one rung caused it to give way. The neighbour fell and broke his wrist.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 41
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, because a careful pre-use inspection cannot detect a hidden internal flaw in metal, so the failure was not reasonably foreseeable or preventable by Alaric.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, because a careful pre-use inspection cannot detect a hidden internal flaw in metal, so the failure was not reasonably foreseeable or preventable by Alaric.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 31
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 1.711871,
+    "prompt_sha256": "4f510b06bacf60b11901c63b5df573af95c91cc621c75fe6436953066e3f35af",
+    "draws": [
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.781385,
+      "digit_mass": 0.999901
+     },
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 1.642357,
+      "digit_mass": 0.999945
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.781385,
+      "digit_mass": 0.999901
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 1.781385,
+      "digit_mass": 0.999901
+     },
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 1.642357,
+      "digit_mass": 0.999945
+     },
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 1.781385,
+      "digit_mass": 0.999901
+     },
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 1.781385,
+      "digit_mass": 0.999901
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.642357,
+      "digit_mass": 0.999945
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.642357,
+      "digit_mass": 0.999945
+     },
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 1.642357,
+      "digit_mass": 0.999945
+     }
+    ],
+    "blame_mass_0_3": 0.9910107333738101,
+    "digit_mass": 0.999923,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.0042302,
+    "prompt_sha256": "f9c4a06534817e7d0f03a3c7e8d3576f5cd6bc2ff3b2ca21bb19d3ad87f79316",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000751,
+      "digit_mass": 0.999991
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.0051,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.0051,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.0051,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.0051,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.0051,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000751,
+      "digit_mass": 0.999991
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.0051,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.0051,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.0051,
+      "digit_mass": 0.999993
+     }
+    ],
+    "blame_mass_0_3": 0.9999523655207387,
+    "digit_mass": 0.9999926,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 4.0304091,
+    "prompt_sha256": "368ae4372df18ecf9b0eece1e9913064bd0374e0478feeca43c1cafe11a9e741",
+    "draws": [
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 4.065519,
+      "digit_mass": 0.999319
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 4.026508,
+      "digit_mass": 0.998639
+     }
+    ],
+    "blame_mass_0_3": 0.2601244792840197,
+    "digit_mass": 0.998707
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.0,
+    "prompt_sha256": "36a64b97ce5dcf96d00c53e3582ed91341824a557b64b6b1a8ea7a447138e5a0",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "ladder|N": {
+   "scenario": "ladder",
+   "role": "N",
+   "1A": {
+    "text": "Alaric checked every rung of his ladder before lending it to his neighbour. He then lent the ladder to the neighbour. Nobody came to any harm.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric checked every rung of his ladder before lending it to his neighbour. He then lent the ladder to the neighbour. Nobody came to any harm.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 32
+     }
+    ]
+   },
+   "1B": {
+    "text": "No, because no harm occurred, so there was nothing for Alaric to prevent.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "No, because no harm occurred, so there was nothing for Alaric to prevent.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 18
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.006185,
+    "prompt_sha256": "065d4b4ed5c2058df72cb93fe62537e0b820afaceadf1e4a33f2211f33e767bc",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006185,
+      "digit_mass": 0.999963
+     }
+    ],
+    "blame_mass_0_3": 0.9992611819669942,
+    "digit_mass": 0.999963,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 2.9e-05,
+    "prompt_sha256": "b4e661992cf1042946c191b80aeeb25a989ab638b144ef6eab2ab5b02130bad5",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.7e-05,
+      "digit_mass": 0.999992
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.7e-05,
+      "digit_mass": 0.999992
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 3.7e-05,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 3.7e-05,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 3.7e-05,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.7e-05,
+      "digit_mass": 0.999992
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 3.7e-05,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.7e-05,
+      "digit_mass": 0.999992
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 3.7e-05,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 3.7e-05,
+      "digit_mass": 0.999985
+     }
+    ],
+    "blame_mass_0_3": 0.9999972639366981,
+    "digit_mass": 0.9999878,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.000209,
+    "prompt_sha256": "fb6e07d54b370630019256abf55c4697f0b20158421388662acd0138f426ab6f",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000209,
+      "digit_mass": 0.999994
+     }
+    ],
+    "blame_mass_0_3": 0.9999753680442547,
+    "digit_mass": 0.999994
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.9,
+    "prompt_sha256": "f466aae62795fc9c996e99cc8156127669465946e36340f9e12e7dd2bad04f58",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "ladder|C": {
+   "scenario": "ladder",
+   "role": "C",
+   "1A": {
+    "text": "Alaric lent his ladder to his neighbour without inspecting it first. One of the rungs was cracked. The neighbour fell while using the ladder and broke his wrist.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric lent his ladder to his neighbour without inspecting it first. One of the rungs was cracked. The neighbour fell while using the ladder and broke his wrist.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 34
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented this by inspecting the ladder for damage before lending it.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented this by inspecting the ladder for damage before lending it.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 20
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 5.804138,
+    "prompt_sha256": "966c0df5be47f7839fe70126b51ad1e237d2b216585ef71a888104895fdb7b5a",
+    "draws": [
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 5.804138,
+      "digit_mass": 0.999962
+     }
+    ],
+    "blame_mass_0_3": 0.002799980263028803,
+    "digit_mass": 0.999962,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 6.1930825,
+    "prompt_sha256": "0fc599a5eeef33d9d75c57ef9fc6df31daf7708ebe27120b9420ad299aaeb2fa",
+    "draws": [
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.196721,
+      "digit_mass": 0.999723
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.189444,
+      "digit_mass": 0.999909
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.189444,
+      "digit_mass": 0.999909
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.196721,
+      "digit_mass": 0.999723
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.196721,
+      "digit_mass": 0.999723
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.189444,
+      "digit_mass": 0.999909
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.189444,
+      "digit_mass": 0.999909
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.189444,
+      "digit_mass": 0.999909
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 6.196721,
+      "digit_mass": 0.999723
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.196721,
+      "digit_mass": 0.999723
+     }
+    ],
+    "blame_mass_0_3": 0.00041855756332315414,
+    "digit_mass": 0.999816,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 4.633412,
+    "prompt_sha256": "0524bdc660a87e9be954f9c6a95ba7618734c4ec40bd25550daa2448f540f1c7",
+    "draws": [
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.633412,
+      "digit_mass": 0.999883
+     }
+    ],
+    "blame_mass_0_3": 0.038751824554763135,
+    "digit_mass": 0.999883
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 5.9,
+    "blame_mass_0_3": 0.0,
+    "p_prevent_yes": 1.0,
+    "prompt_sha256": "22cf1e5057fc2e0dfe7df9450a07481fc2f15339fc434bfa203e73b6c9b00af7",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=4",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 4
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=5",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 5
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=5",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 5
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "prawns_home|P0": {
+   "scenario": "prawns_home",
+   "role": "P0",
+   "1A": {
+    "text": "Alaric checked the date on the prawns and smelled them before serving them to his guests. The prawns were contaminated with a toxin that has no smell. Three of the guests became ill.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric checked the date on the prawns and smelled them before serving them to his guests. The prawns were contaminated with a toxin that has no smell. Three of the guests became ill.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 40
+     }
+    ]
+   },
+   "1B": {
+    "text": "No, because the toxin had no smell and the prawns were not past their date, so Alaric had no reasonable way to detect the contamination.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "No, because the toxin had no smell and the prawns were not past their date, so Alaric had no reasonable way to detect the contamination.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 31
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 2.5935209,
+    "prompt_sha256": "15676ccaf8dbccff31efb878629869ed1a76bf9d3f7265cb9b2d5ee16e2c69b9",
+    "draws": [
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 2.57904,
+      "digit_mass": 0.999741
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 2.57904,
+      "digit_mass": 0.999741
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 2.488427,
+      "digit_mass": 0.999772
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 2.787364,
+      "digit_mass": 0.999838
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 2.57904,
+      "digit_mass": 0.999741
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 2.787364,
+      "digit_mass": 0.999838
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 2.488427,
+      "digit_mass": 0.999772
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 2.488427,
+      "digit_mass": 0.999772
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 2.57904,
+      "digit_mass": 0.999741
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 2.57904,
+      "digit_mass": 0.999741
+     }
+    ],
+    "blame_mass_0_3": 0.8162236717261855,
+    "digit_mass": 0.9997697,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.0075767000000000004,
+    "prompt_sha256": "f14a57cbc41f206d6928cca7393ac4f2e0c78c9986905e9f251cddd672fefd23",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.006305,
+      "digit_mass": 0.999986
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.007718,
+      "digit_mass": 0.999983
+     }
+    ],
+    "blame_mass_0_3": 0.9998440926238034,
+    "digit_mass": 0.9999833,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 4.5031456,
+    "prompt_sha256": "4e843f01d2227c4fd559caa952efe132529f1163df087493e04937673de777e3",
+    "draws": [
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.340137,
+      "digit_mass": 0.999475
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.883499,
+      "digit_mass": 0.999717
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.340137,
+      "digit_mass": 0.999475
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 4.340137,
+      "digit_mass": 0.999475
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 4.883499,
+      "digit_mass": 0.999717
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 4.340137,
+      "digit_mass": 0.999475
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 4.340137,
+      "digit_mass": 0.999475
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 4.340137,
+      "digit_mass": 0.999475
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.883499,
+      "digit_mass": 0.999717
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 4.340137,
+      "digit_mass": 0.999475
+     }
+    ],
+    "blame_mass_0_3": 0.18687825976801106,
+    "digit_mass": 0.9995476
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.0,
+    "prompt_sha256": "abb2413bd4592db957312b72552f6a9e1ebd6555454388d49f696049a68266ec",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "prawns_home|N": {
+   "scenario": "prawns_home",
+   "role": "N",
+   "1A": {
+    "text": "Alaric checked the date on the prawns and smelled them before serving them to his guests. No one was harmed.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric checked the date on the prawns and smelled them before serving them to his guests. No one was harmed.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 25
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented any harm by not serving the prawns at all, since checking the date and smelling them does not guarantee they were safe to eat.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented any harm by not serving the prawns at all, since checking the date and smelling them does not guarantee they were safe to eat.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 36
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.005388,
+    "prompt_sha256": "5c7aa2b82df7931bdcef409798cb69b5612d2421f27058d5bb6a3cbe4131afec",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.005388,
+      "digit_mass": 0.999984
+     }
+    ],
+    "blame_mass_0_3": 0.9997534031582399,
+    "digit_mass": 0.999984,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.2819707,
+    "prompt_sha256": "e9e949de5e58671a34a34a905059901bc0ac3dbd7c210d6877b476c3e81b988d",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.280881,
+      "digit_mass": 0.999972
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.280881,
+      "digit_mass": 0.999972
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.272881,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.339778,
+      "digit_mass": 0.999976
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.272881,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.272881,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.272881,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.272881,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.280881,
+      "digit_mass": 0.999972
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.272881,
+      "digit_mass": 0.999966
+     }
+    ],
+    "blame_mass_0_3": 0.9957340673911771,
+    "digit_mass": 0.9999688,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.073623,
+    "prompt_sha256": "d77bad9f9a3ac16063284ff03d822efd75b7c53fe34b823c0b803ec5090a694e",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.073623,
+      "digit_mass": 0.999994
+     }
+    ],
+    "blame_mass_0_3": 0.9949391130189217,
+    "digit_mass": 0.999994
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 1.0,
+    "prompt_sha256": "53f53473e7c2ae7cf74cece43b0c24dc60a8898256884ab1c6e9237590ae2823",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "prawns_home|C": {
+   "scenario": "prawns_home",
+   "role": "C",
+   "1A": {
+    "text": "Alaric served prawns to his guests without checking the date or smelling them. The prawns had gone off, and three of the guests became ill.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric served prawns to his guests without checking the date or smelling them. The prawns had gone off, and three of the guests became ill.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 32
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented this by simply checking the date or smelling the prawns before serving them.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented this by simply checking the date or smelling the prawns before serving them.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 24
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.197526,
+    "prompt_sha256": "0e7ea032ce0103279be1a3d75477ce5fb787e54438d7c4e40d701e9431557e7d",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.216417,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.216417,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.216417,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.121962,
+      "digit_mass": 0.99994
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.121962,
+      "digit_mass": 0.99994
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.216417,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.216417,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.216417,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.216417,
+      "digit_mass": 0.999967
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.216417,
+      "digit_mass": 0.999967
+     }
+    ],
+    "blame_mass_0_3": 3.744734019743014e-05,
+    "digit_mass": 0.9999616,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.5669961,
+    "prompt_sha256": "c605fa1077b09a01e21d1fddc3690b5390665fb2c67fb62b3d91a71a4f6daf02",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.489103,
+      "digit_mass": 0.999873
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.595362,
+      "digit_mass": 0.999842
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.595362,
+      "digit_mass": 0.999842
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.595362,
+      "digit_mass": 0.999842
+     },
+     {
+      "text": "9",
+      "reasoned_despite_off": false,
+      "ev": 7.595362,
+      "digit_mass": 0.999842
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.595362,
+      "digit_mass": 0.999842
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.595362,
+      "digit_mass": 0.999842
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.595362,
+      "digit_mass": 0.999842
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.417962,
+      "digit_mass": 0.999953
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.595362,
+      "digit_mass": 0.999842
+     }
+    ],
+    "blame_mass_0_3": 7.038748830151735e-05,
+    "digit_mass": 0.9998562,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 6.77166,
+    "prompt_sha256": "da5c9afef40080606e9286ab8c43388ce0087d896a589ff945059e9ed45e4609",
+    "draws": [
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 6.77166,
+      "digit_mass": 0.999958
+     }
+    ],
+    "blame_mass_0_3": 3.576362808725852e-05,
+    "digit_mass": 0.999958
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 7,
+    "blame_mass_0_3": 0.0,
+    "p_prevent_yes": 1.0,
+    "prompt_sha256": "fd1496513a665ce48c3ab9c3556372a6a6d106de9918e7d42ba0605ccb226437",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=6",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 6
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "prawns_restaurant|P0": {
+   "scenario": "prawns_restaurant",
+   "role": "P0",
+   "1A": {
+    "text": "Alaric, a restaurant chef, checked the date on some prawns and smelled them before serving them to diners. The prawns were contaminated with a toxin that has no smell. Three diners became ill.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric, a restaurant chef, checked the date on some prawns and smelled them before serving them to diners. The prawns were contaminated with a toxin that has no smell. Three diners became ill.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 44
+     }
+    ]
+   },
+   "1B": {
+    "text": "No, because the prawns were contaminated with a toxin that had no smell, so checking the date and smelling them could not have revealed the contamination.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "No, because the prawns were contaminated with a toxin that had no smell, so checking the date and smelling them could not have revealed the contamination.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 31
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 3.0713139000000003,
+    "prompt_sha256": "66a2a1b5ec104b38fa20c80f01981497968b7e0d4b32f2a3f4560e0e14e88b96",
+    "draws": [
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 2.423943,
+      "digit_mass": 0.999864
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 3.143244,
+      "digit_mass": 0.999599
+     }
+    ],
+    "blame_mass_0_3": 0.6230428140099903,
+    "digit_mass": 0.9996255000000001,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 1.6832515,
+    "prompt_sha256": "c5d8346bb4eaa7b659e53a692813a18783aec552f942a9a34bc22f8c5a3b97be",
+    "draws": [
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.866564,
+      "digit_mass": 0.999704
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.604689,
+      "digit_mass": 0.999788
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.604689,
+      "digit_mass": 0.999788
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.604689,
+      "digit_mass": 0.999788
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.604689,
+      "digit_mass": 0.999788
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 1.604689,
+      "digit_mass": 0.999788
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.866564,
+      "digit_mass": 0.999704
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.604689,
+      "digit_mass": 0.999788
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 1.866564,
+      "digit_mass": 0.999704
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.604689,
+      "digit_mass": 0.999788
+     }
+    ],
+    "blame_mass_0_3": 0.9057867966674988,
+    "digit_mass": 0.9997628000000001,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 3.443232,
+    "prompt_sha256": "76c53070ed358c43ea0ee2e7158f4486da24620286a072f7fc3d0ea39cfb3cd9",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 3.443232,
+      "digit_mass": 0.999821
+     }
+    ],
+    "blame_mass_0_3": 0.44950549603084194,
+    "digit_mass": 0.999821
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.0,
+    "prompt_sha256": "8c2118cb2033221850f7c767e620c08791d48fe6b8c00dde16fecb1f092df9d3",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "prawns_restaurant|N": {
+   "scenario": "prawns_restaurant",
+   "role": "N",
+   "1A": {
+    "text": "Alaric, a restaurant chef, checked the date on some prawns and smelt them before serving them to diners. No one was harmed.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric, a restaurant chef, checked the date on some prawns and smelt them before serving them to diners. No one was harmed.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 31
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented serving the prawns by simply not serving them if they were past their date or smelled off, rather than relying on luck to avoid harming diners.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented serving the prawns by simply not serving them if they were past their date or smelled off, rather than relying on luck to avoid harming diners.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 39
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.0044988,
+    "prompt_sha256": "0cb73773561d3361530c05044a19c5cc69082e74c86a9c27b354113dd14f71a2",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004945,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.00404,
+      "digit_mass": 0.99998
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004945,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.00404,
+      "digit_mass": 0.99998
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.00404,
+      "digit_mass": 0.99998
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.003198,
+      "digit_mass": 0.99998
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004945,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004945,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004945,
+      "digit_mass": 0.999984
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.004945,
+      "digit_mass": 0.999984
+     }
+    ],
+    "blame_mass_0_3": 0.9998126684210779,
+    "digit_mass": 0.9999823999999999,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 1.4863664,
+    "prompt_sha256": "28856916213bbf525e76daeefea627d043622294366f58a35f886143029b5ca3",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.348115,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.63674,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.63674,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.710254,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.63674,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 1.63674,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 1.63674,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 1.348115,
+      "digit_mass": 0.999983
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.63674,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 1.63674,
+      "digit_mass": 0.999981
+     }
+    ],
+    "blame_mass_0_3": 0.9659195542127456,
+    "digit_mass": 0.9999821,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.046005,
+    "prompt_sha256": "aaf9bf4cf862608d7e498ead91cdd862ab2e87cbd7dcb1b4ff59fe2d5bd1b514",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.046005,
+      "digit_mass": 0.999985
+     }
+    ],
+    "blame_mass_0_3": 0.9946739627310967,
+    "digit_mass": 0.999985
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.6,
+    "prompt_sha256": "3b07d012d3175ef5c890eac251c4ea1958375d93e8ec862fd40b6eab06a8d5fd",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "prawns_restaurant|C": {
+   "scenario": "prawns_restaurant",
+   "role": "C",
+   "1A": {
+    "text": "Alaric, a restaurant chef, served prawns to diners without checking their date or smelling them. The prawns had gone off, and three diners became ill.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric, a restaurant chef, served prawns to diners without checking their date or smelling them. The prawns had gone off, and three diners became ill.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 36
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented this by checking the date and smelling the prawns before serving them.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented this by checking the date and smelling the prawns before serving them.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 23
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.2989394,
+    "prompt_sha256": "4aeadcd6c1eac7cf20c1163fe3362093e25ff71d01b303ae1fd141a8446b93c5",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.300221,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.300221,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.300221,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.300221,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.300221,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.320998,
+      "digit_mass": 0.99996
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.300221,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.300221,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.266628,
+      "digit_mass": 0.999971
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.300221,
+      "digit_mass": 0.999961
+     }
+    ],
+    "blame_mass_0_3": 1.5194423533314547e-05,
+    "digit_mass": 0.9999619,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.528298100000001,
+    "prompt_sha256": "f4d45bb51f0f0ed89d68871099130a7a19a669bc26ab826dd222de04fc621d3e",
+    "draws": [
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.514661,
+      "digit_mass": 0.999927
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.514661,
+      "digit_mass": 0.999927
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.514661,
+      "digit_mass": 0.999927
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.514661,
+      "digit_mass": 0.999927
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.514661,
+      "digit_mass": 0.999927
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.560118,
+      "digit_mass": 0.999922
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.514661,
+      "digit_mass": 0.999927
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.560118,
+      "digit_mass": 0.999922
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.560118,
+      "digit_mass": 0.999922
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.514661,
+      "digit_mass": 0.999927
+     }
+    ],
+    "blame_mass_0_3": 6.198409161091214e-05,
+    "digit_mass": 0.9999255,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.361124,
+    "prompt_sha256": "d9b4cabf6b14321f23f318d6f4a464ceec8de4799546abcb941239646c5f94ea",
+    "draws": [
+     {
+      "text": "9",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.361124,
+      "digit_mass": 0.999961
+     }
+    ],
+    "blame_mass_0_3": 1.2362051305968347e-05,
+    "digit_mass": 0.999961
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.4,
+    "blame_mass_0_3": 0.0,
+    "p_prevent_yes": 1.0,
+    "prompt_sha256": "52c78d95ad60ece3b8e8980bba69b247ad9c40c169c927597d5b1a0498d73460",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "scaffolding|P0": {
+   "scenario": "scaffolding",
+   "role": "P0",
+   "1A": {
+    "text": "Alaric built the scaffolding and inspected every coupler before finishing. A hidden casting flaw in one coupler caused it to give way, and a board gave way, causing a man to fall.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric built the scaffolding and inspected every coupler before finishing. A hidden casting flaw in one coupler caused it to give way, and a board gave way, causing a man to fall.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 40
+     }
+    ]
+   },
+   "1B": {
+    "text": "No, because the flaw was hidden inside the casting and undetectable by the inspection Alaric performed.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "No, because the flaw was hidden inside the casting and undetectable by the inspection Alaric performed.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 22
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.441652,
+    "prompt_sha256": "c0157343de58fbce8a611f12f4691e6c1bee91f626c4ef805605cdac63e62c99",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "1",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 0.441652,
+      "digit_mass": 0.999931
+     }
+    ],
+    "blame_mass_0_3": 0.9991975439193551,
+    "digit_mass": 0.999931,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.009214,
+    "prompt_sha256": "3f1125de57f938cae4e7082f5ae340ca1daba0b3bbb9a46e72c4a0a3051d07ca",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.009214,
+      "digit_mass": 0.999995
+     }
+    ],
+    "blame_mass_0_3": 0.9998820480049392,
+    "digit_mass": 0.999995,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 3.454406,
+    "prompt_sha256": "e8cfedc575c47b110795d2ad9a8e16b1949b28da008c7363c8847cdc344302b7",
+    "draws": [
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.454406,
+      "digit_mass": 0.999844
+     }
+    ],
+    "blame_mass_0_3": 0.5113141165518583,
+    "digit_mass": 0.999844
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.0,
+    "prompt_sha256": "e43c419ca683261d04c28a42724c2fc48f26bbe0ac8106016554e1a67a777032",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "scaffolding|N": {
+   "scenario": "scaffolding",
+   "role": "N",
+   "1A": {
+    "text": "Alaric built scaffolding and checked every coupler on it before finishing. No one was harmed.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric built scaffolding and checked every coupler on it before finishing. No one was harmed.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 20
+     }
+    ]
+   },
+   "1B": {
+    "text": "No, because no harm occurred, so there was nothing for Alaric to prevent.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "No, because no harm occurred, so there was nothing for Alaric to prevent.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 18
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.000169,
+    "prompt_sha256": "1eb7d79de07f3e81b75c456481399ce4edaad12deeb1a6eea706223119755421",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.000169,
+      "digit_mass": 0.999993
+     }
+    ],
+    "blame_mass_0_3": 0.999978944088743,
+    "digit_mass": 0.999993,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 1.6e-05,
+    "prompt_sha256": "e9617ce4256fe56fb5280d5d7399e15c7303e569376a7b9e9cdc4d674da81a91",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.6e-05,
+      "digit_mass": 0.99999
+     }
+    ],
+    "blame_mass_0_3": 0.9999988999177742,
+    "digit_mass": 0.99999,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 6.2e-05,
+    "prompt_sha256": "e60f9f3b4d132126319a7d7d002088532434ef6cbfbc269a539433d654c56335",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 6.2e-05,
+      "digit_mass": 0.999981
+     }
+    ],
+    "blame_mass_0_3": 0.9999944382069882,
+    "digit_mass": 0.999981
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.6,
+    "prompt_sha256": "87e3784d834e16b97cc23d63537f11b3967b7431c3d7550189462d46caebd283",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "scaffolding|C": {
+   "scenario": "scaffolding",
+   "role": "C",
+   "1A": {
+    "text": "Alaric, a builder, completed scaffolding work without checking the couplers. One coupler was cracked, causing a board to give way. A man fell.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric, a builder, completed scaffolding work without checking the couplers. One coupler was cracked, causing a board to give way. A man fell.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 34
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented this by inspecting the couplers before finishing the scaffolding.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented this by inspecting the couplers before finishing the scaffolding.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 21
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.5092441,
+    "prompt_sha256": "5b25c901b8c502c25409c10ee2c3bb5c9746bb21b3177bd12527f57369d0b797",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.477508,
+      "digit_mass": 0.999893
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.477508,
+      "digit_mass": 0.999893
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.583295,
+      "digit_mass": 0.999929
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.477508,
+      "digit_mass": 0.999893
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.583295,
+      "digit_mass": 0.999929
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.477508,
+      "digit_mass": 0.999893
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.477508,
+      "digit_mass": 0.999893
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.477508,
+      "digit_mass": 0.999893
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.477508,
+      "digit_mass": 0.999893
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.583295,
+      "digit_mass": 0.999929
+     }
+    ],
+    "blame_mass_0_3": 3.0865879443394495e-05,
+    "digit_mass": 0.9999038,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.0762522,
+    "prompt_sha256": "faa9b75ae4bbc968de24f507a964ca84d3707f8987a9e488e8169bd810e4ae0d",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.04263,
+      "digit_mass": 0.999909
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.079988,
+      "digit_mass": 0.999906
+     }
+    ],
+    "blame_mass_0_3": 9.363859716828273e-05,
+    "digit_mass": 0.9999062999999999,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.336424,
+    "prompt_sha256": "dc253b0944f50ccd8b42c17034e66559782cf22bf0830749a311eb59cf7fe50a",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "9",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.336424,
+      "digit_mass": 0.999968
+     }
+    ],
+    "blame_mass_0_3": 8.044806488082378e-06,
+    "digit_mass": 0.999968
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.5,
+    "blame_mass_0_3": 0.0,
+    "p_prevent_yes": 1.0,
+    "prompt_sha256": "7f467da723d3e66ae28901fc1fd6e714ede3df9482cfa8d93dcf1c2e6fe0e7fe",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "cheque|P0": {
+   "scenario": "cheque",
+   "role": "P0",
+   "1A": {
+    "text": "Alaric checked his balance and wrote a cheque to the plumber. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced, and the plumber's bank charged her forty pounds.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric checked his balance and wrote a cheque to the plumber. A hidden fault in the bank's system reversed a deposit that afternoon. The cheque bounced, and the plumber's bank charged her forty pounds.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 44
+     }
+    ]
+   },
+   "1B": {
+    "text": "No, because the reversal was caused by a hidden fault in the bank's system that Alaric could not have detected or anticipated when he wrote the cheque.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "No, because the reversal was caused by a hidden fault in the bank's system that Alaric could not have detected or anticipated when he wrote the cheque.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 32
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 4.677563,
+    "prompt_sha256": "63821868d9134872a8c0ccff3cffd19f5fab0a5eee8e2d015011fefdf219aac0",
+    "draws": [
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 4.677563,
+      "digit_mass": 0.999222
+     }
+    ],
+    "blame_mass_0_3": 0.1030506091836946,
+    "digit_mass": 0.999222,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.0358674,
+    "prompt_sha256": "cbac3cf5a6556663777475a9df9429109a2b30a846663c01ef9b98309dfe0b8a",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.050145,
+      "digit_mass": 0.999952
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.034281,
+      "digit_mass": 0.999966
+     }
+    ],
+    "blame_mass_0_3": 0.9984670037568328,
+    "digit_mass": 0.9999646,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 3.671442,
+    "prompt_sha256": "f55abac191ac849a20cbbd43e43b3cf3249c63f759b9b7dce6d556ea94463c0f",
+    "draws": [
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "2",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "3",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     },
+     {
+      "text": "6",
+      "reasoned_despite_off": false,
+      "ev": 3.671442,
+      "digit_mass": 0.999553
+     }
+    ],
+    "blame_mass_0_3": 0.4336343227032643,
+    "digit_mass": 0.999553
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 0.0,
+    "prompt_sha256": "b1de5a984994e4c50a65717d58ae18d0b303d82c2f6b04621b7adf8b221d8b84",
+    "draws": [
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=no PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "no",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "cheque|N": {
+   "scenario": "cheque",
+   "role": "N",
+   "1A": {
+    "text": "Alaric checked his balance and wrote a cheque to the plumber against it. No one was harmed.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric checked his balance and wrote a cheque to the plumber against it. No one was harmed.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 22
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, by verifying sufficient funds or arranging an overdraft before writing the cheque.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, by verifying sufficient funds or arranging an overdraft before writing the cheque.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 17
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.070812,
+    "prompt_sha256": "e77462e488e60b4144e2ce27c44c042306e8641e206e315da26bf2857d35d931",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.070812,
+      "digit_mass": 0.999994
+     }
+    ],
+    "blame_mass_0_3": 0.9923063007856847,
+    "digit_mass": 0.999994,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 0.305447,
+    "prompt_sha256": "020ceb2c7c99c5896c95f718f6123fef921354111eab8eb6c325cea7056e3893",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 0.305447,
+      "digit_mass": 0.999988
+     }
+    ],
+    "blame_mass_0_3": 0.9452195532540599,
+    "digit_mass": 0.999988,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 1.154543,
+    "prompt_sha256": "973b93e8222cb607ad8da91cc91fcfdf23c58a39235c40077f54a69af352765c",
+    "draws": [
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "5",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "4",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     },
+     {
+      "text": "0",
+      "reasoned_despite_off": false,
+      "ev": 1.154543,
+      "digit_mass": 0.9995
+     }
+    ],
+    "blame_mass_0_3": 0.7709574608346887,
+    "digit_mass": 0.9995
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 0,
+    "blame_mass_0_3": 1.0,
+    "p_prevent_yes": 1.0,
+    "prompt_sha256": "541f50245e2fc0ca67fdedfc6d76fb23d9dfa6d99d32a9218105eafb70af5fad",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=0",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 0
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  },
+  "cheque|C": {
+   "scenario": "cheque",
+   "role": "C",
+   "1A": {
+    "text": "Alaric wrote a cheque to the plumber without checking his account balance. There were insufficient funds in the account, so the cheque bounced. The plumber's bank then charged her forty pounds.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Alaric wrote a cheque to the plumber without checking his account balance. There were insufficient funds in the account, so the cheque bounced. The plumber's bank then charged her forty pounds.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 40
+     }
+    ]
+   },
+   "1B": {
+    "text": "Yes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque.",
+    "void": false,
+    "attempts": [
+     {
+      "text": "Yes, Alaric could reasonably have prevented this by checking his account balance before writing the cheque.",
+      "temperature": 0.0,
+      "reasoned_despite_off": false,
+      "completion_tokens": 20
+     }
+    ]
+   },
+   "2A": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 8.208018200000001,
+    "prompt_sha256": "c4de3fde652adda20ba8bfd7ff24d59ceeb8b4145bfcd1faa90aed84c82b6de7",
+    "draws": [
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 8.20109,
+      "digit_mass": 0.999913
+     },
+     {
+      "text": "9",
+      "reasoned_despite_off": false,
+      "ev": 8.212637,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 8.212637,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 8.212637,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 8.20109,
+      "digit_mass": 0.999913
+     },
+     {
+      "text": "9",
+      "reasoned_despite_off": false,
+      "ev": 8.212637,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "9",
+      "reasoned_despite_off": false,
+      "ev": 8.20109,
+      "digit_mass": 0.999913
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 8.20109,
+      "digit_mass": 0.999913
+     },
+     {
+      "text": "9",
+      "reasoned_despite_off": false,
+      "ev": 8.212637,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 8.212637,
+      "digit_mass": 0.999908
+     }
+    ],
+    "blame_mass_0_3": 3.05254755425435e-05,
+    "digit_mass": 0.9999100000000001,
+    "diff_against_direct": "OK"
+   },
+   "2B": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.1038098,
+    "prompt_sha256": "ca4c9e7abf072e3fdd51d5f04e24cb57fc470a3e8910357f4e66b35797cfe71d",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.091244,
+      "digit_mass": 0.999889
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.105206,
+      "digit_mass": 0.999887
+     }
+    ],
+    "blame_mass_0_3": 6.0805006583662765e-05,
+    "digit_mass": 0.9998872,
+    "diff_against_direct": "OK"
+   },
+   "D": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "void": 0,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.520039,
+    "prompt_sha256": "4f4bcca05db5b3a81572eb6e1cb7cd60f06f71514eee4e18bf6d6a53bfc39d86",
+    "draws": [
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "9",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "7",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     },
+     {
+      "text": "8",
+      "reasoned_despite_off": false,
+      "ev": 7.520039,
+      "digit_mass": 0.999908
+     }
+    ],
+    "blame_mass_0_3": 2.2665649323112877e-05,
+    "digit_mass": 0.999908
+   },
+   "O": {
+    "n_asked": 10,
+    "n_parsed": 10,
+    "gate_parse": "PASSED",
+    "blame_mean": 7.4,
+    "blame_mass_0_3": 0.0,
+    "p_prevent_yes": 1.0,
+    "prompt_sha256": "9e10551c9eba91c1ac6c3345de4b8dc3de35f5cdcd8ad54f39e7f64de104862c",
+    "draws": [
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=8",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 8
+      },
+      "reasoned_despite_off": false
+     },
+     {
+      "text": "PREVENT=yes PRINCIPLE=no BLAME=7",
+      "parsed": {
+       "PREVENT": "yes",
+       "PRINCIPLE": "no",
+       "BLAME": 7
+      },
+      "reasoned_despite_off": false
+     }
+    ]
+   }
+  }
+ },
+ "provider_served": [
+  "Sail Research"
+ ],
+ "served_model": [
+  "deepseek/deepseek-v4.1-flash"
+ ],
+ "served_model_constant": true,
+ "temperature_counts": {
+  "0.0": 36,
+  "1.0": 720
+ },
+ "call1_temperature": 0.0,
+ "call1_temperature0_refused": null,
+ "empty_responses_retried": [],
+ "status": "READ",
+ "calls": 756,
+ "spent_usd": 0.0023350041950000104,
+ "elapsed_s": 778.3
+}

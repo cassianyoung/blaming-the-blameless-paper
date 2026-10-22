@@ -1,0 +1,26 @@
+{
+ "frozen_from": "runs/question_word artefacts via analyse_question_word, 2026-10-20",
+ "exploratory": "question_word is a discovery run, not pre-registered",
+ "figures": [
+  {
+   "key": "blame_median",
+   "location": "§4.5 / Appendix B.7 (question_word, EXPLORATORY, not pre-registered): question word, six base models x six scenarios, worksheet frame, five orderings; median careful-subject (P0) position over the gate-passing readings, \"to blame\" (36 of 36 pass)",
+   "value": "0.565"
+  },
+  {
+   "key": "fault_median",
+   "location": "§4.5 / Appendix B.7 (question_word, EXPLORATORY, not pre-registered): question word, six base models x six scenarios, worksheet frame, five orderings; median careful-subject (P0) position over the gate-passing readings, \"at fault\" (34 of 36 pass)",
+   "value": "0.554"
+  },
+  {
+   "key": "fault_within",
+   "location": "§4.5 / Appendix B.7 (question_word, EXPLORATORY, not pre-registered): question word, six base models x six scenarios, worksheet frame, five orderings; \"at fault\" readings whose P0 - N stays within one pooled band of its \"to blame\" reading, of those passing the gate under both",
+   "value": "34 of 34"
+  },
+  {
+   "key": "fault_gate",
+   "location": "§4.5 / Appendix B.7 (question_word, EXPLORATORY, not pre-registered): question word, six base models x six scenarios, worksheet frame, five orderings; \"at fault\" readings passing the worksheet gate, of 36",
+   "value": "34 of 36"
+  }
+ ]
+}

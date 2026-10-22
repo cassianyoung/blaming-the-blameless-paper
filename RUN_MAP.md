@@ -37,6 +37,8 @@ to earlier work outside this paper.
 | 234 | John-Jane run | Does the subject's name or gender change the result? | §4.1 | Renaming the subject John moves the target-case position by a median -0.036 (95% CI -0.100 to +0.024) |
 | 235 | Eval check on a rented GPU | The released eval on one base model with and without its adapter, and on a user's own adapter | Not in the paper: a check of the eval |  |
 | 236 | Gemini 3.1 Pro fill | Its separate, convention-stated and neutral cells | §4.2, Figs. 4-7, Tables A.4 and A.9 |  |
+| 239 | Question word | Does the base models' fault blindness rest on the word "blame"? The worksheet re-read with "at fault" and "responsible" in its place (exploratory) | §4.5, Appendix B.7 (exploratory) | At fault: 34 of 34 readings within one pooled band of their "to blame" reading; median target-case position 0.554 against 0.565 |
+| 240 | Serial pipeline | Does a connected pipeline, a first call's summary or conclusion passed into the scoring call, keep the one-answer remedy? | §4.1, Appendix B.7 | Cells above 0.10: summary forward 54 of 64, conclusion forward 27 of 64, direct 53 of 64, one answer 10 of 64 (eleven models) |
 
 ## Code and data
 
@@ -48,4 +50,4 @@ to earlier work outside this paper.
 | Adapter weights | The LoRA adapters, on the Hugging Face Hub | `adapters/adapters.json and adapters/README.md` | 137, 145, 201, 205, 216, 217 |
 | Data behind the tables and figures | Every value the tables and figures print, with the queries that produced it | `data` | all reported runs |
 | Replication | Each reading the eval can re-read, the model table, and the comparison with the paper's values | `replication` | 214, 215, 216, 217, 220, 221, 223, 224, 225, 227, 228, 229 |
-| Later readings | The readings the eval does not run: frozen prompts with their hash check against the study's calls, reader and analysis code, every call as logged | `replication/later_readings` | 230, 231, 232, 233, 233G, 233S, 233T, 234, 237 |
+| Later readings | The readings the eval does not run: frozen prompts with their hash check against the study's calls, reader and analysis code, every call as logged | `replication/later_readings` | 230, 231, 232, 233, 233G, 233S, 233T, 234, 237, 239, 240 |
