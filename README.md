@@ -16,7 +16,7 @@ its code knows nothing of this paper.
 
 | Path | What it is |
 |---|---|
-| `paper/blaming-the-blameless.docx` | the manuscript |
+| `paper/blaming-the-blameless.pdf` | the manuscript, with its links to the numbers, code and data |
 | `data/` | the derived CSVs the figures and tables read, each stamped with the sha256 of the results database it was exported from, and the SQL that produced them (`*_queries.sql`, documentation only) |
 | `figures/` | one script per figure; `figures/build_all.py` draws them all into `figures/out/` |
 | `tables/` | one script per table; `tables/build_all.py` writes each as CSV and Markdown into `tables/out/` |
