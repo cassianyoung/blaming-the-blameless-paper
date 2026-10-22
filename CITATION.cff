@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite the paper (preferred-citation) and this repository."
+title: "Blaming the Blameless: Language Models Endorse Reasonable Care but Enforce Strict Causal Blame: paper, data, figures, tables and replication"
+type: dataset
+authors:
+  - family-names: Young
+    given-names: Cassian
+    affiliation: "Independent Researcher, London"
+repository-code: "https://github.com/cassianyoung/blaming-the-blameless-paper"
+version: "1.0"
+license:
+  - CC-BY-4.0
+  - Apache-2.0
+keywords:
+  - language models
+  - moral judgement
+  - reasonable care
+  - negligence
+  - evaluation
+references:
+  - type: software
+    title: "due-care-eval"
+    authors:
+      - family-names: Young
+        given-names: Cassian
+        affiliation: "Independent Researcher, London"
+    repository-code: "https://github.com/cassianyoung/due-care-eval"
+    version: "1.1.0"
+preferred-citation:
+  type: article
+  title: "Blaming the Blameless: Language Models Endorse Reasonable Care but Enforce Strict Causal Blame"
+  authors:
+    - family-names: Young
+      given-names: Cassian
+      affiliation: "Independent Researcher, London"
+  year: 2026

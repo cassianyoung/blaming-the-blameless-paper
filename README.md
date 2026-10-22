@@ -1,6 +1,6 @@
 # Blaming the Blameless
 
-**Language Models Know the Standard of Reasonable Care but Do Not Apply It**
+**Language Models Endorse Reasonable Care but Enforce Strict Causal Blame**
 
 This repository holds the manuscript, the derived data behind every figure and table,
 and the scripts that redraw the figures and rebuild the tables from that data alone. It
@@ -9,8 +9,8 @@ manifests and links to the weights), the pre-registrations, the model table for 
 model read, and the scripts that re-read the paper's readings and compare them with the
 reported values. The evaluation itself (the cases, the questions, the readers for local
 weights and APIs, and the database build) is published separately as
-**due-care-eval** (link added at release), release tag `v1.0`,
-and knows nothing of this paper.
+[**due-care-eval**](https://github.com/cassianyoung/due-care-eval), release tag `v1.1`;
+its code knows nothing of this paper.
 
 ## Contents
 
@@ -133,6 +133,11 @@ words, and values computed only inside the database) are listed as not checkable
 their count. The `query` column documents how each number was produced from the
 database. The `location` column names where each number was registered and may follow an
 earlier section and table numbering than the manuscript in `paper/`.
+
+## Citation
+
+Young, C. (2026). *Blaming the Blameless: Language Models Endorse Reasonable Care but Enforce Strict Causal Blame*. Cite the paper, and this repository by the metadata in
+[`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" reads it).
 
 ## Licence
 
