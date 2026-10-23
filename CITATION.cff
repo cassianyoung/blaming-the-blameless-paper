@@ -7,7 +7,7 @@ authors:
     given-names: Cassian
     affiliation: "Independent Researcher, London"
 repository-code: "https://github.com/cassianyoung/blaming-the-blameless-paper"
-version: "1.0"
+version: "1.01"
 license:
   - CC-BY-4.0
   - Apache-2.0
