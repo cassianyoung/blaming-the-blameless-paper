@@ -1,4 +1,4 @@
-# Database sha256: ecb3380493fe29bdd25e7534076411429e11947978d2d8402d15c42da46742e2
+# Database sha256: 33652f4a130b25100fede28203778df2461a60e0dfb6a397a416671bb8f41235
 # Built by scripts/build_duty_exports.py
 floor_set,run,arm,pair_id,pair_name,condition,gap,neutral_baseline,n_neutrals,target_gap,effect_digits,d_pro,d_priv,floor,floor_robust,floors_diverge,class,tie_broken,low_resolution,recovery,recovery_refused_reason,professional_rises,victim_chose_arrangement
 all_reported,duty_remedies,claude,1,electrical work,comparand,1,1.3,3,2.5,-0.3,-1.6333,-1.3333,1.1534,1.1659,0,WITHIN FLOOR,0,1,-0.25,,0,0

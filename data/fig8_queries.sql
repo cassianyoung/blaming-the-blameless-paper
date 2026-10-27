@@ -1,4 +1,4 @@
--- frame by scenario. Database sha256: ecb3380493fe29bdd25e7534076411429e11947978d2d8402d15c42da46742e2
+-- frame by scenario. Database sha256: 33652f4a130b25100fede28203778df2461a60e0dfb6a397a416671bb8f41235
 -- chat gate:      N_mass_0_3 >= 0.8 AND answer_mass >= 0.7 AND (I >= 7.0 where read)
 -- worksheet gate: (C-N) >= 3 bands AND answer mass >= 0.7
 -- Imported from build_frame_table so the figure and the frame table share one definition.

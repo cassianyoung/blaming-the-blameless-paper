@@ -1,4 +1,4 @@
--- Figure 7. Database sha256: ecb3380493fe29bdd25e7534076411429e11947978d2d8402d15c42da46742e2
+-- Figure 7. Database sha256: 33652f4a130b25100fede28203778df2461a60e0dfb6a397a416671bb8f41235
 
 -- fig4to7_duty.csv
 SELECT arm, model_label, reasoning, reasoning_source, group_order, row_order, pair_id, pair_label, panel_order, stated_gap_pro_first, stated_gap_priv_first, stated_gap, order_spread, exact_zero_flag, sep_pro, sep_priv, separate_gap, headroom_above_pro, stated_condition_pro, stated_condition_priv, stated_condition_gap, stated_condition_run, stated_condition_status, stated_condition_reason, stated_condition_vs_stated, floor_draw, floor_sentence, floor_used, floor_used_source, convention_stated, verdict, verdict_tie_broken, low_resolution, share, status, missing_reason
