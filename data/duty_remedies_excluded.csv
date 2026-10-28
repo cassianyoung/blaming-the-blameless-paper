@@ -1,4 +1,4 @@
-# Database sha256: d6f19e3a99edcf4cc9da7775e8fd762ae751955c5358ac4e5e104ac0fcbc8a97
+# Database sha256: 08edd685103cca145d379f7e820ce357cb05be9e9b96a8d05576d688d5aebfd2
 # Built by scripts/build_duty_exports.py
 arm,pair_id,pair_name,reason,n_neutrals,unread_cells
 qwen235b,7,hair dye,no stated comparison on this arm and pair,0,16

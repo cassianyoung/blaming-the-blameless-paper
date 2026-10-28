@@ -1,4 +1,4 @@
-# Appendix A.8. Database sha256: d6f19e3a99edcf4cc9da7775e8fd762ae751955c5358ac4e5e104ac0fcbc8a97
+# Appendix A.8. Database sha256: 08edd685103cca145d379f7e820ce357cb05be9e9b96a8d05576d688d5aebfd2
 # Built by scripts/build_b8_judgement.py. A probability is refused where its answer mass is below 0.7.
 model,bicycle_artefact_arm,scenario,case,run,readout,reasoning,p_reasonable_yes,p_reasonable_yes_answer_mass,p_careless_yes,p_careless_yes_answer_mass,blame_pos,cause_ev,n_draws,reasoning_share,gate,artefact_sha,p_reasonable_yes_answer_mass_source,p_careless_yes_answer_mass_source,absent_value_reason,counted
 claude,claude,bicycle,P0,deployed_bicycle_ladder,sampled,off,0.0,1.0,0.0,1.0,0.3333333333,,20,,PASSED,36006f2e824f1c1b;415747fdf5dc43b9,1 - void_rate,1 - void_rate,,1

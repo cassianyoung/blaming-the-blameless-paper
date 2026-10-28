@@ -1,4 +1,4 @@
-# Appendix A.10. Database sha256: d6f19e3a99edcf4cc9da7775e8fd762ae751955c5358ac4e5e104ac0fcbc8a97
+# Appendix A.10. Database sha256: 08edd685103cca145d379f7e820ce357cb05be9e9b96a8d05576d688d5aebfd2
 # Built by scripts/build_b11_syllogism.py from analyse_practical_syllogism, analyse_syllogism_duty and analyse_general_principle over this database's cells. Values unrounded.
 arm,status,unread_reason,principle_readout,principle_no_share,principle_held,fact_held,fact_of,premises_held,blame_gt010,blame_gt030,one_answer_cells,one_answer_median,direct_median,one_answer_cells_gt010,direct_cells_gt010,g1_more_first,g1_more_second,g1_both_orders,g2_yes,g2_parsed,g2_yes_share,g3_general_gap,named_pairs_held,named_pairs_of,named_pairs_in_the_test,named_concrete_held,alone_zero_or_below,alone_within_floor,alone_clear,alone_cells,falls_short,falls_short_cells,structured_share,structured_class,structured_pairs,counted
 claude,READ,,sampled,1.0,1,6,6,6,6,1,6,0.0,0.26785714285,0,6,10,10,1,10,10,1.0,2.25,4,5,5,3,0,4,0,4,3,4,0.6060606060606061,more than three tenths short,5,1

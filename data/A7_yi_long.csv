@@ -1,4 +1,4 @@
-# Appendix A.7. Database sha256: d6f19e3a99edcf4cc9da7775e8fd762ae751955c5358ac4e5e104ac0fcbc8a97
+# Appendix A.7. Database sha256: 08edd685103cca145d379f7e820ce357cb05be9e9b96a8d05576d688d5aebfd2
 # Built by scripts/build_b7_yi.py. Rise test verbatim from POD_ERRAND_yi_adapter_controls_translated_and_no_prose: > 2.0 bands AND > 0.5 digits AND > 0.10 position.
 version,corpus,seed,scenario,run,N,C,P0_pos,P0_ci_low,P0_ci_high,band_digits,delta_pos_vs_base,delta_digits_vs_base,delta_bands_vs_base,rise_clause_bands,rise_clause_digits,rise_clause_position,rise_verdict,gate,gate_rule_kind,adapter_sha256,artefact_sha,band_source,point_source,absent_value_reason
 base,none (pretrained),,bicycle,local_frames,2.163,4.6034,0.1657,0.1157,0.2157,0.355,,,,,,,,LICENSED,completion,,0274d062477b35be,"the `band` view, 2.33 x AVG(sd) over P0, P1 and BYSTANDER",positions_value (ratio of means over the orderings),

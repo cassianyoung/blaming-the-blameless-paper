@@ -1,4 +1,4 @@
-# Appendix A.6. Database sha256: d6f19e3a99edcf4cc9da7775e8fd762ae751955c5358ac4e5e104ac0fcbc8a97
+# Appendix A.6. Database sha256: 08edd685103cca145d379f7e820ce357cb05be9e9b96a8d05576d688d5aebfd2
 # Built by scripts/build_b6_bystander.py. Band = 2.33 x AVG(sd) over the per-ordering sds of P0, P1 and BYSTANDER (the `band` view).
 comparison,family,scenario,d_BYST_pos,d_P0_pos,d_BYST_digits,d_P0_digits,pooled_band_digits,d_BYST_bands,d_P0_bands
 base -> developer release,llama31,bicycle,-0.072,-0.0643,-0.8438,-0.6225,0.353,-2.3904,-1.7634
