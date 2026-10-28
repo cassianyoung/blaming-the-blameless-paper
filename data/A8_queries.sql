@@ -1,4 +1,4 @@
--- Appendix A.8. Database sha256: 08edd685103cca145d379f7e820ce357cb05be9e9b96a8d05576d688d5aebfd2
+-- Appendix A.8. Database sha256: e038ad003cc83a9a759deca959237109aaf36e93122f4dd6f96cc9e91b2a0ab3
 
 -- every channel for one arm, scenario and role: the two judgement questions, the blame
 -- expected value and CAUSE, with the answer mass each probability rests on
