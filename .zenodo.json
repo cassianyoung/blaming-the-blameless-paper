@@ -10,7 +10,7 @@
   "description": "The manuscript of \"Blaming the Blameless: Language Models Endorse Reasonable Care but Enforce Strict Causal Blame\", the derived data behind every figure and table, the scripts that redraw them, the pre-registrations, the adapters' corpus, recipe and manifests, and the replication material, including the later readings with every call as logged. The paper and data are CC BY 4.0; the scripts are Apache-2.0 (see LICENSES.md).",
   "license": "cc-by-4.0",
   "access_right": "open",
-  "version": "1.01",
+  "version": "1.1",
   "keywords": [
     "language models",
     "moral judgement",

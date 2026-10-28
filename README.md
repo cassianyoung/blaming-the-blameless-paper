@@ -26,6 +26,7 @@ its code knows nothing of this paper.
 | `adapters/` | the LoRA adapters read in the paper: the instruction corpus, the recipe, a training manifest per adapter, the weight digests, each base model's licence, and links to the weights on Hugging Face ([`adapters/README.md`](adapters/README.md)) |
 | `pre-registration/` | the pre-registrations and amendments behind the excuse test, the duty pairs, the remedies and the adapter controls |
 | `replication/` | the model table, the reference values, and the scripts that re-read the paper's readings with due-care-eval and compare them ([`replication/README.md`](replication/README.md)) |
+| `CHANGELOG.md` | corrections and changes in each release |
 | `MEASUREMENT_NOTES.md` | the instrument findings behind the design choices of section 3 |
 
 ## Regenerating the figures and tables
