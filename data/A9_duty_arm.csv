@@ -1,4 +1,4 @@
-# Appendix A.9. Database sha256: e038ad003cc83a9a759deca959237109aaf36e93122f4dd6f96cc9e91b2a0ab3
+# Appendix A.9. Database sha256: b5488dfbf83d017145e95cb72494626672eb22fb14087090408bbd00a640b53c
 # Built by scripts/build_b10_duty_by_model.py from the duty_fig7 and duty_signal_to_noise_arm views. Values unrounded.
 arm,model_label,reasoning,fig6_rank,mean_shortfall,n_pairs_shortfall,floor_sentence,floor_used,floor_draw,median_stated_gap,n_pairs_stated,signal_to_noise,counted
 qwen235b,qwen/qwen3-235b-a22b-2507,off,1,2.827761770833333,4,0.29062581798504744,0.3,0.3,3.9000000000000004,4,13.000000000000002,1

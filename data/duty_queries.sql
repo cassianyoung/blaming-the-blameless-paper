@@ -1,4 +1,4 @@
--- the duty test's exports. Database sha256: e038ad003cc83a9a759deca959237109aaf36e93122f4dd6f96cc9e91b2a0ab3
+-- the duty test's exports. Database sha256: b5488dfbf83d017145e95cb72494626672eb22fb14087090408bbd00a640b53c
 
 -- duty_remedies.csv
 SELECT e.floor_set, e.run, e.arm, e.pair_id, e.pair_name, e.condition,
