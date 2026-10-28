@@ -1,4 +1,4 @@
-# Database sha256: 33652f4a130b25100fede28203778df2461a60e0dfb6a397a416671bb8f41235
+# Database sha256: d6f19e3a99edcf4cc9da7775e8fd762ae751955c5358ac4e5e104ac0fcbc8a97
 # Built by scripts/build_duty_exports.py
 config_set,pair_id,pair_name,n_models,mean_gap,sd,cv,cv_refused_reason,iqr,q1,q3,min_gap,max_gap,n_exact_zero_flagged
 on,prawns,prawns (chef against home cook),7,1.9107,0.3285,0.1719,,0.4875,1.6375,2.125,1.5,2.35,0

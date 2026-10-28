@@ -57,6 +57,7 @@ script writes `figures/out/FigureN_<name>` as PNG, PDF and SVG.
 | Table B.1 (deployed models read through commercial APIs) | `tables/tableB1_deployed_models.py` | `A5_across_scenarios_wide.csv`, `A2_deployed_bicycle.csv` |
 | Table B.2 (local families read) | `tables/tableB2_local_families.py` | `A6_bystander_long.csv`, `A7_yi_long.csv`, `A3_frames_scenarios.csv`, `A3_frames_excluded.csv` |
 | Table 4 (the practical syllogism, per model) | `tables/table4_syllogism.py` | `table4_syllogism.csv` |
+| Table 5 (positions across the three versions) | `tables/table5_three_versions.py` | `A6_bystander_long.csv` |
 | Table A.1 | `tables/table_A1_tuning.py` | `A1_tuning_table.csv`, `A1_tuning_table_summary.csv` |
 | Table A.2 | `tables/table_A2_deployed_bicycle.py` | `A2_deployed_bicycle.csv` |
 | Table A.3 | `tables/table_A3_frames.py` | `A3_frames_bicycle.csv`, `A3_frames_summary.csv` |
