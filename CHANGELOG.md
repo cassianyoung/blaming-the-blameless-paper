@@ -14,6 +14,8 @@ folder now has `check_registered.py`, which reads each cell file by its real nam
 figures (ids 1076 to 1079: 0.565, 0.554, 34 of 34, 34 of 36) were computed before packaging and are
 unaffected: the corrected re-run reproduces all four from the committed cells.
 
+Text: §3 had a verb that disagreed with its subject and a stray possessive in the description of the duty test; both corrected.
+
 ### Added
 
 The duty test on base checkpoints (`replication/later_readings/duty_on_base/`, pre-registered in `pre-registration/duty_on_base.md`): the duty test's six pairs read leg by leg on six pretrained checkpoints and their developer releases on the worksheet frame; its figures are ids 1133 to 1152 in `paper_numbers.csv`, and `check_registered.py` recomputes them from the committed per-cell results. Ids 1135 to 1137 (three per-family values the text gives as a range) are marked not printed. `data/` restamped at database e5bcdf8a (sha headers only). The manuscript reports it in §1.2, §4.5, §6 and Appendix B.7 from v0.28; its PDF follows with v1.2.
