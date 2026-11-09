@@ -18,7 +18,7 @@ Text: §3 had a verb that disagreed with its subject and a stray possessive in t
 
 ### Added
 
-The duty test on base checkpoints (`replication/later_readings/duty_on_base/`, pre-registered in `pre-registration/duty_on_base.md`): the duty test's six pairs read leg by leg on six pretrained checkpoints and their developer releases on the worksheet frame; its figures are ids 1133 to 1152 in `paper_numbers.csv`, and `check_registered.py` recomputes them from the committed per-cell results. Ids 1135 to 1137 (three per-family values the text gives as a range) are marked not printed. `data/` restamped at database e5bcdf8a (sha headers only). The manuscript reports it in §1.2, §4.5, §6 and Appendix B.7 from v0.28; its PDF follows with v1.2.
+The duty test on base checkpoints (`replication/later_readings/duty_on_base/`, pre-registered in `pre-registration/duty_on_base.md`): the duty test's six pairs read leg by leg on six pretrained checkpoints and their developer releases on the worksheet frame; its figures are ids 1133 to 1152 in `paper_numbers.csv`, and `check_registered.py` recomputes them from the committed per-cell results. Ids 1135 to 1137 (three per-family values the text gives as a range) are marked not printed. Id 1061 (fault blindness in eight of nine pretrained checkpoints) now names the abstract and §7, which link it. `data/` restamped at database 5a2d048b (sha headers only). The manuscript reports it in §1.2, §4.5, §6 and Appendix B.7 from v0.28; its PDF follows with v1.2.
 
 ## v1.1
 
