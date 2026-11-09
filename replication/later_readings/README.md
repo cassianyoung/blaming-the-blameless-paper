@@ -3,7 +3,8 @@
 The readings made after the evaluation's tests were fixed, which due-care-eval (release
 v1.1) does not run: the reasoning traces, the prevention re-read, the practical syllogism,
 the duty syllogism, the general principle, the subject's name, the reasoning stratum of
-the completeness fill, the serial pipeline, and the question word. Each folder holds what is needed to see exactly what was asked and
+the completeness fill, the serial pipeline, the question word, and the duty test on base
+checkpoints. Each folder holds what is needed to see exactly what was asked and
 what came back:
 
 | folder | what it reads |
@@ -17,6 +18,7 @@ what came back:
 | [`reasoning_stratum/`](reasoning_stratum/) | the duty syllogism, the general principle and the reasoning-trace re-read on the reasoning models, reported as a separate stratum |
 | [`serial_pipeline/`](serial_pipeline/) | a connected pipeline: a first call's factual summary or prevention conclusion passed into the scoring call, beside the direct verdict and the one answer |
 | [`question_word/`](question_word/) | the base models' worksheet re-read with "at fault" and "responsible" in place of "blame" (exploratory, read on local weights: per-cell results in place of calls) |
+| [`duty_on_base/`](duty_on_base/) | the duty test's six pairs, each leg read separately on six pretrained base checkpoints and their developer releases on the worksheet (read on local weights: per-cell results in place of calls; `check_registered.py` recomputes its registered figures) |
 
 ## In each folder
 
@@ -76,4 +78,5 @@ reasoning items, 470 signatures). A line with nothing withheld is exactly the li
 
 In [`../../pre-registration/`](../../pre-registration/): `reasoning_traces.md`,
 `prevention_paraphrase.md`, `practical_syllogism.md`, `syllogism_duty.md`,
-`general_principle.md`, `subject_identity.md` and `completeness_fill_amendment.md`.
+`general_principle.md`, `subject_identity.md`, `completeness_fill_amendment.md`,
+`serial_pipeline.md` and `duty_on_base.md`.

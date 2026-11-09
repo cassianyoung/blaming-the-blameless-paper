@@ -1,0 +1,106 @@
+{
+ "frozen_from": "runs/duty_on_base artefacts via analyse_duty_on_base, equal to records/result.json at printed precision, 2026-11-09",
+ "note": "drive_pos is 11 of 12: OLMo-2-7B base's driving gap is -0.0074 digits; records/outcomes.md's 'All twelve' is wrong",
+ "figures": [
+  {
+   "key": "fam_gemma9",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; gemma-2-9b: median gap over the five pairs other than driving, base minus release, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "0.09"
+  },
+  {
+   "key": "fam_llama31",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; Llama-3.1-8B: median gap over the five pairs other than driving, base minus release, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "-0.03"
+  },
+  {
+   "key": "fam_mistral",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; Mistral-7B-v0.3: median gap over the five pairs other than driving, base minus release, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "0.05"
+  },
+  {
+   "key": "fam_qwen3",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; Qwen3-8B: median gap over the five pairs other than driving, base minus release, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "0.04"
+  },
+  {
+   "key": "fam_olmo2",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; OLMo-2-7B: median gap over the five pairs other than driving, base minus release, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "0.05"
+  },
+  {
+   "key": "fam_falcon3",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; Falcon3-7B: median gap over the five pairs other than driving, base minus release, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "0.02"
+  },
+  {
+   "key": "p1_count",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; families whose base-minus-release difference in median gap reaches the pre-registered 0.16 in ruler units (the model's own median careful-to-careless range on the worksheet) (duty_on_base P1, the residue claim)",
+   "value": "0 of 6"
+  },
+  {
+   "key": "base_gt_rel",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; families whose base median gap exceeds the release's, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "5 of 6"
+  },
+  {
+   "key": "base_pos",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; cells (six models x five pairs other than driving) whose gap is positive",
+   "value": "28 of 30"
+  },
+  {
+   "key": "base_out",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; cells (six models x five pairs other than driving) whose gap lies beyond one pooled noise band of zero",
+   "value": "11 of 30"
+  },
+  {
+   "key": "base_out_prawns",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; prawns: models whose gap lies beyond one pooled noise band of zero",
+   "value": "0 of 6"
+  },
+  {
+   "key": "base_out_1",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; electrical work: models whose gap lies beyond one pooled noise band of zero",
+   "value": "4 of 6"
+  },
+  {
+   "key": "base_out_3",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; gas safety: models whose gap lies beyond one pooled noise band of zero",
+   "value": "3 of 6"
+  },
+  {
+   "key": "base_out_4",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; childcare: models whose gap lies beyond one pooled noise band of zero",
+   "value": "3 of 6"
+  },
+  {
+   "key": "base_out_7",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; hair dye: models whose gap lies beyond one pooled noise band of zero",
+   "value": "1 of 6"
+  },
+  {
+   "key": "drive_pos",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; driving (the control pair): models, base and release, whose gap is positive",
+   "value": "11 of 12"
+  },
+  {
+   "key": "drive_out",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models and their developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; driving (the control pair): models, base and release, whose gap lies beyond one pooled noise band of zero (duty_on_base P3)",
+   "value": "4 of 12"
+  },
+  {
+   "key": "drive_llama_rel",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; driving (the control pair): Llama-3.1-8B-Instruct's gap, in digits",
+   "value": "0.95"
+  },
+  {
+   "key": "med_base",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six pretrained base models, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; median gap pooled over the 30 cells other than driving, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "0.12"
+  },
+  {
+   "key": "med_rel",
+   "location": "§4.5 / Appendix B.7 (duty_on_base, pre-registered): the duty test on six developer releases, worksheet frame, five orderings, each leg read as a separate case; gap = professional leg minus private leg; median gap pooled over the 30 cells other than driving, in ruler units (the model's own median careful-to-careless range on the worksheet)",
+   "value": "0.09"
+  }
+ ]
+}

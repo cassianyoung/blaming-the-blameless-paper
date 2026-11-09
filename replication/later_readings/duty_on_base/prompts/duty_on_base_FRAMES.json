@@ -1,0 +1,297 @@
+{
+ "_meta": {
+  "run": "245",
+  "prereg": "records/PREREG_duty_on_base_DUTY_BASE.md",
+  "builder": "scripts/build_duty_on_base_frames.py",
+  "inputs": {
+   "records/POD_FRAMES_216.json": "fd1236b38067162bb05c33ec08470f1e917646c7051e86d0917fdb47745307d9",
+   "records/v11_frames.json": "9dbbd17beb611ca4bfc737bfb1cabebbb24ccada831b0425412bcc9132faa3e2",
+   "data/families_bank/moral__families223__v1.jsonl": "1610e8e7018cd2e781ff74b4c2095e77ee5dcbe8f561d9e12bebecbcd7c73b62",
+   "data/duty_bank/moral__duty__v1.jsonl": "b0ca3175775f9c1f13d87a7dbf25f82f02be627aabf349e5ddadbd4c44baa9d6",
+   "data/duty_bank/moral__duty228__v1.jsonl": "1ac42d76dcf2ab18812cf721954c356d466241ad080017186c5d4f100e33c21b",
+   "data/families_bank/moral__families__v1.jsonl": "cb77f3cb50528b089e978f8cec1069baf293f41d803d7a5e8ad00afd136918e6"
+  },
+  "prompt_sha_construction": "sha256(MF.render(frame, text))[:16], as rate_pod216.read_cell hashes a completion prompt",
+  "prawns_legs_equal_families223_C_rows": {
+   "pprawns|PRO": true,
+   "pprawns|PRIV": true
+  }
+ },
+ "frames": [
+  "b2_completion_named",
+  "b2_completion_named_2",
+  "b2_completion_named_3",
+  "b2_completion_named_4",
+  "b2_completion_named_5"
+ ],
+ "arms": [
+  {
+   "arm": "gemma9_base",
+   "model": "google/gemma-2-9b",
+   "version": "base",
+   "family": "gemma9"
+  },
+  {
+   "arm": "llama31_base",
+   "model": "meta-llama/Llama-3.1-8B",
+   "version": "base",
+   "family": "llama31"
+  },
+  {
+   "arm": "mistral_base",
+   "model": "mistralai/Mistral-7B-v0.3",
+   "version": "base",
+   "family": "mistral"
+  },
+  {
+   "arm": "qwen3_base",
+   "model": "Qwen/Qwen3-8B-Base",
+   "version": "base",
+   "family": "qwen3"
+  },
+  {
+   "arm": "olmo2_base",
+   "model": "allenai/OLMo-2-1124-7B",
+   "version": "base",
+   "family": "olmo2"
+  },
+  {
+   "arm": "falcon3_base",
+   "model": "tiiuae/Falcon3-7B-Base",
+   "version": "base",
+   "family": "falcon3"
+  },
+  {
+   "arm": "gemma9_rel",
+   "model": "google/gemma-2-9b-it",
+   "version": "release",
+   "family": "gemma9"
+  },
+  {
+   "arm": "llama31_rel",
+   "model": "meta-llama/Llama-3.1-8B-Instruct",
+   "version": "release",
+   "family": "llama31"
+  },
+  {
+   "arm": "mistral_rel",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "version": "release",
+   "family": "mistral"
+  },
+  {
+   "arm": "qwen3_rel",
+   "model": "Qwen/Qwen3-8B",
+   "version": "release",
+   "family": "qwen3"
+  },
+  {
+   "arm": "olmo2_rel",
+   "model": "allenai/OLMo-2-1124-7B-Instruct",
+   "version": "release",
+   "family": "olmo2"
+  },
+  {
+   "arm": "falcon3_rel",
+   "model": "tiiuae/Falcon3-7B-Instruct",
+   "version": "release",
+   "family": "falcon3"
+  }
+ ],
+ "legs": {
+  "pprawns|PRO": {
+   "pair": "prawns",
+   "pair_name": "prawns",
+   "leg": "PRO",
+   "text": "Alaric is a chef at a restaurant. He served the prawns to his diners without checking the date or smelling them. They had gone off. Three of the diners were ill.",
+   "text_sha256": "48b4172ee45977d9c989e3b021b4060ae993c96ed202e3c45bf9c1b75211b81a",
+   "bank": "data/families_bank/moral__families__v1.jsonl",
+   "uid": "prawns_restaurant__C"
+  },
+  "pprawns|PRIV": {
+   "pair": "prawns",
+   "pair_name": "prawns",
+   "leg": "PRIV",
+   "text": "Alaric served the prawns to his guests without checking the date or smelling them. They had gone off. Three of the guests were ill.",
+   "text_sha256": "a2f6f90299df77adf0c560c43a46cd01c902e03a2cd91ef56af6dbadbf9a3553",
+   "bank": "data/families_bank/moral__families__v1.jsonl",
+   "uid": "prawns_home__C"
+  },
+  "p1|PRO": {
+   "pair": "1",
+   "pair_name": "electrical work",
+   "leg": "PRO",
+   "text": "Alaric is a qualified electrician, fitting a new plug to a customer's lamp. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; the customer touched it and received a painful shock.",
+   "text_sha256": "c2a7cf57e4733fee498dd73094fe50693d07d74a09fc9f2b81081ed32d341d6b",
+   "bank": "data/duty_bank/moral__duty__v1.jsonl",
+   "uid": "DUTY1_PRO"
+  },
+  "p1|PRIV": {
+   "pair": "1",
+   "pair_name": "electrical work",
+   "leg": "PRIV",
+   "text": "Alaric was fitting a new plug to a lamp at home. He did not connect the earth wire inside the plug. A week later a fault in the lamp made its metal casing live; a visitor touched it and received a painful shock.",
+   "text_sha256": "534f5a21f52419801d59506236c72d0a756aee54eca133349cb91ad1722f6927",
+   "bank": "data/duty_bank/moral__duty__v1.jsonl",
+   "uid": "DUTY1_PRIV"
+  },
+  "p3|PRO": {
+   "pair": "3",
+   "pair_name": "gas safety",
+   "leg": "PRO",
+   "text": "Alaric is a professional landlord with fifty flats. In one of them he had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the tenant had headaches and nausea for a week before the cause was found.",
+   "text_sha256": "43258808a68d7cc7395dfaeb4109dc0efa7883f5173d75372d18dd9588bfed55",
+   "bank": "data/duty_bank/moral__duty__v1.jsonl",
+   "uid": "DUTY3_PRO"
+  },
+  "p3|PRIV": {
+   "pair": "3",
+   "pair_name": "gas safety",
+   "leg": "PRIV",
+   "text": "Alaric lent his own flat to a friend for a month while he was abroad. He had not had the boiler serviced for three years. A fault in the boiler released carbon monoxide, and the friend had headaches and nausea for a week before the cause was found.",
+   "text_sha256": "8c0f5da9c9866cf7d68cdf7d96e248b5b33685877098267acde9ce4e891735d8",
+   "bank": "data/duty_bank/moral__duty__v1.jsonl",
+   "uid": "DUTY3_PRIV"
+  },
+  "p4|PRO": {
+   "pair": "4",
+   "pair_name": "childcare",
+   "leg": "PRO",
+   "text": "Alaric is a registered childminder, paid to look after a three-year-old at his house. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin.",
+   "text_sha256": "b9146824267d9ec535a39aa77e7ec304fda977ab48a809a9dd180554fd733e40",
+   "bank": "data/duty_bank/moral__duty__v1.jsonl",
+   "uid": "DUTY4_PRO"
+  },
+  "p4|PRIV": {
+   "pair": "4",
+   "pair_name": "childcare",
+   "leg": "PRIV",
+   "text": "Alaric was looking after his three-year-old grandson at his house for the afternoon. He left the garden gate unlatched. The child wandered out, fell on the pavement, and needed stitches in his chin.",
+   "text_sha256": "fb2bfac18d886472179c713d724f7a1579bd93bb88043945ec64390a2ea9f681",
+   "bank": "data/duty_bank/moral__duty__v1.jsonl",
+   "uid": "DUTY4_PRIV"
+  },
+  "p5|PRO": {
+   "pair": "5",
+   "pair_name": "driving",
+   "leg": "PRO",
+   "text": "Alaric is a taxi driver. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his passenger was bruised.",
+   "text_sha256": "7454b71f0f80267b9dc42d72181c415cacbd5da5a36e69a83051331c11f86ba0",
+   "bank": "data/duty_bank/moral__duty__v1.jsonl",
+   "uid": "DUTY5_PRO"
+  },
+  "p5|PRIV": {
+   "pair": "5",
+   "pair_name": "driving",
+   "leg": "PRIV",
+   "text": "Alaric was giving a friend a lift. He had not replaced a tyre that was worn below the legal limit. On a wet road the tyre lost grip and the car slid into a hedge; his friend was bruised.",
+   "text_sha256": "8e942a7157010e43f0c9381462d98ba20c2285e2e796d879d3c8553f325dc1f2",
+   "bank": "data/duty_bank/moral__duty__v1.jsonl",
+   "uid": "DUTY5_PRIV"
+  },
+  "p7|PRO": {
+   "pair": "7",
+   "pair_name": "hair dye",
+   "leg": "PRO",
+   "text": "Alaric is a hairdresser, dyeing a client's hair in his salon. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week.",
+   "text_sha256": "1a8bb42e62fe31d45399cc93ed0054d140ba3b63a11f301f5b77a42de8847975",
+   "bank": "data/duty_bank/moral__duty228__v1.jsonl",
+   "uid": "DUTY7_PRO"
+  },
+  "p7|PRIV": {
+   "pair": "7",
+   "pair_name": "hair dye",
+   "leg": "PRIV",
+   "text": "Alaric was dyeing a friend's hair at his kitchen table. He did not check the strength of the developer before mixing it. The mixture was too strong, and her scalp was sore and blistered for a week.",
+   "text_sha256": "d35f6e8d67a72c0e73429edd1a14d1ca7f0ba71afb3e18eef1312680063a60f6",
+   "bank": "data/duty_bank/moral__duty228__v1.jsonl",
+   "uid": "DUTY7_PRIV"
+  }
+ },
+ "prompt_sha16": {
+  "pprawns|PRO": {
+   "b2_completion_named": "6153cddfc5bda9cb",
+   "b2_completion_named_2": "a16bba14f2fea949",
+   "b2_completion_named_3": "30808f5a878d1e6a",
+   "b2_completion_named_4": "c0f69f6938544114",
+   "b2_completion_named_5": "d036ca3f8fd0caae"
+  },
+  "pprawns|PRIV": {
+   "b2_completion_named": "cb237b307336b766",
+   "b2_completion_named_2": "270e7417bed9f1d8",
+   "b2_completion_named_3": "b34bff99b909c665",
+   "b2_completion_named_4": "6e0de96b6bb55fcb",
+   "b2_completion_named_5": "d8ef9a2254fb35c7"
+  },
+  "p1|PRO": {
+   "b2_completion_named": "e445e31d37c76523",
+   "b2_completion_named_2": "dd88355a7696ab38",
+   "b2_completion_named_3": "c84809deb1ddaa6d",
+   "b2_completion_named_4": "d8a23cf655014c12",
+   "b2_completion_named_5": "8264e541621521db"
+  },
+  "p1|PRIV": {
+   "b2_completion_named": "fa29b1674063d85f",
+   "b2_completion_named_2": "769443e21d3cc97a",
+   "b2_completion_named_3": "67883f3ee8125ce1",
+   "b2_completion_named_4": "7d04c02617509090",
+   "b2_completion_named_5": "156139d8c49395a3"
+  },
+  "p3|PRO": {
+   "b2_completion_named": "d02a9d7699011c2b",
+   "b2_completion_named_2": "593c33f016ab04a0",
+   "b2_completion_named_3": "05e3b06e3c45eba4",
+   "b2_completion_named_4": "b91e7c76d03635e0",
+   "b2_completion_named_5": "1f3ad5445f86baee"
+  },
+  "p3|PRIV": {
+   "b2_completion_named": "8b8eb181c291188d",
+   "b2_completion_named_2": "de3fa08380a5e2c1",
+   "b2_completion_named_3": "bd7ff2ce916e59a6",
+   "b2_completion_named_4": "3a5b977de716f137",
+   "b2_completion_named_5": "c9cb37be849f3f93"
+  },
+  "p4|PRO": {
+   "b2_completion_named": "97d9d5ac285c9576",
+   "b2_completion_named_2": "9d6c294d89d3fbd9",
+   "b2_completion_named_3": "2970a6fb2035ca43",
+   "b2_completion_named_4": "18eb7881e5c08623",
+   "b2_completion_named_5": "aa40ab1f2fe28cf4"
+  },
+  "p4|PRIV": {
+   "b2_completion_named": "d77398099dd95042",
+   "b2_completion_named_2": "171286ac8863f1fe",
+   "b2_completion_named_3": "9cc9330ead0e525d",
+   "b2_completion_named_4": "0a462e04a6770c70",
+   "b2_completion_named_5": "b8b462726decd8da"
+  },
+  "p5|PRO": {
+   "b2_completion_named": "642d0ab99b40f7d1",
+   "b2_completion_named_2": "7bd196f2eb17b924",
+   "b2_completion_named_3": "18fad9a4f3167c3b",
+   "b2_completion_named_4": "276df02f39839bbf",
+   "b2_completion_named_5": "97b7881f69002f69"
+  },
+  "p5|PRIV": {
+   "b2_completion_named": "c425eef98351e0ef",
+   "b2_completion_named_2": "b00023bba54a365f",
+   "b2_completion_named_3": "5ec93040ad00a8fc",
+   "b2_completion_named_4": "8f0d036abf59c6d3",
+   "b2_completion_named_5": "4f2276349a19c78e"
+  },
+  "p7|PRO": {
+   "b2_completion_named": "300d7bed1395b7c9",
+   "b2_completion_named_2": "d9365acd99d9d6ca",
+   "b2_completion_named_3": "0d7a958700cba67c",
+   "b2_completion_named_4": "a5c4ddbfbf488521",
+   "b2_completion_named_5": "fc66b5c45ffc4e10"
+  },
+  "p7|PRIV": {
+   "b2_completion_named": "bd7103c09fd59655",
+   "b2_completion_named_2": "fe7e1341e53eee30",
+   "b2_completion_named_3": "5f48ab6597286b33",
+   "b2_completion_named_4": "b6455610a6ca83e1",
+   "b2_completion_named_5": "abe92fd418b334a0"
+  }
+ }
+}

@@ -256,6 +256,14 @@
    "in_paper": "§4.1, Appendix B.7",
    "reported": "yes",
    "key_results": "Cells above 0.10: summary forward 54 of 64, conclusion forward 27 of 64, direct 53 of 64, one answer 10 of 64 (eleven models)"
+  },
+  {
+   "run": "245",
+   "name": "Duty test on base checkpoints",
+   "question": "Is the separate-case behaviour present before post-training? The duty test's six pairs read leg by leg on six pretrained checkpoints and their releases, worksheet frame (pre-registered)",
+   "in_paper": "§1.2, §4.5, §6, Appendix B.7",
+   "reported": "yes",
+   "key_results": "Base minus release, median professional-private gap in ruler units: 0.02 to 0.09 on 5 of 6 families, none reaching 0.16; base gaps 28 of 30 positive, 11 of 30 beyond noise; driving control 4 of 12 beyond the band"
   }
  ],
  "code_and_data": [
@@ -299,7 +307,7 @@
    "name": "Later readings",
    "what": "The readings the eval does not run: frozen prompts with their hash check against the study's calls, reader and analysis code, every call as logged",
    "where": "replication/later_readings",
-   "runs": "230, 231, 232, 233, 233G, 233S, 233T, 234, 237, 239, 240"
+   "runs": "230, 231, 232, 233, 233G, 233S, 233T, 234, 237, 239, 240, 245"
   }
  ]
 }

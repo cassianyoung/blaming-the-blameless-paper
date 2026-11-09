@@ -1,0 +1,18 @@
+{
+ "hash": "sha256 of the rendered prompt text, first 16 hex digits, as the reader records it in each cell's prompt_sha256_16 (a raw completion prompt: no chat messages)",
+ "frames_sha256": {
+  "duty_on_base_FRAMES.json": "7fb5badfad0b1994efca57c4d4cc45d44109a9743f56584f57e8db2281c2ed04",
+  "worksheet_FRAMES__blame.json": "fd1236b38067162bb05c33ec08470f1e917646c7051e86d0917fdb47745307d9"
+ },
+ "built_prompts": 370,
+ "prompts_read": 370,
+ "prompts_never_read": 0,
+ "cells": 4440,
+ "cells_matching_a_prompt": 4440,
+ "cells_matching_no_prompt": [],
+ "void_cells_not_checked": 0,
+ "per_part": {
+  "worksheet": 3720,
+  "duty": 720
+ }
+}
