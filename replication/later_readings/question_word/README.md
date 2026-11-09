@@ -78,6 +78,23 @@ Headline figures in `paper_numbers.csv`:
 | 1078 | "at fault" readings whose P0 - N stays within one pooled band of "to blame", of those passing both | 34 of 34 |
 | 1079 | "at fault" readings passing the worksheet gate | 34 of 36 |
 
+## Reproducing the figures
+
+```
+python3 replication/later_readings/question_word/check_registered.py
+```
+
+Standard library only. It re-runs `code/analyse_question_word.py` on `readings/cells/` and requires
+each figure above to equal the banked result file, the frozen record and its line in
+`paper_numbers.csv`: 4 of 4.
+
+**Corrected 2026-11-09.** The analysis names the bicycle scenario by its public label,
+`bicycle`, while its cell files keep the name they were read under, `<model>__bicycle216.json`.
+Laid out by file name, the re-run silently loses the bicycle and reads 30 of the 36 readings per
+wording (it would print 0.550, 0.548, 29 of 29 and 29 of 30). `check_registered.py` reads each file
+by its real name. The registered figures were computed in the working repository before
+packaging and are unaffected: the corrected re-run reproduces all four.
+
 ## How this folder differs from the others
 
 The other readings were made through APIs, so each holds every call as logged. This one
@@ -101,6 +118,7 @@ was read on local weights, so it has no `readings/calls/`:
 | `prompts/` | 6 | frozen prompts and the prompt check: `built_prompts.json`, `prompt_check.json`, `question_word_FRAMES_MANIFEST.json`, `question_word_FRAMES__at_fault.json`, `question_word_FRAMES__responsible.json`, `worksheet_FRAMES__blame.json` |
 | `code/` | 4 | reader and analysis scripts, as run: `analyse_question_word.py`, `build_question_word_frames.py`, `question_word_pod_batch.sh`, `read_question_word.py` |
 | `readings/cells/` | 108 | per-cell results, one file per model and scenario under each wording: `at_fault/falcon3_base__bicycle216.json`, `at_fault/falcon3_base__cheque.json`, `at_fault/falcon3_base__ladder.json`, `at_fault/falcon3_base__prawns_home.json`, `at_fault/falcon3_base__prawns_restaurant.json`, `at_fault/falcon3_base__scaffolding.json`, `at_fault/gemma9_base__bicycle216.json`, `at_fault/gemma9_base__cheque.json`, `at_fault/gemma9_base__ladder.json`, `at_fault/gemma9_base__prawns_home.json`, `at_fault/gemma9_base__prawns_restaurant.json`, `at_fault/gemma9_base__scaffolding.json`, ... |
+| `check_registered.py` | 1 | the reproduction above |
 | `readings/records/` | 2 | per-model read records and result files: `question_word_REGISTERED.json`, `question_word_RESULT.json` |
 
 ## Prompt check

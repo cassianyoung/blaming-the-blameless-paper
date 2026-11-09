@@ -38,11 +38,13 @@ pip install matplotlib
 python figures/build_all.py
 python tables/build_all.py
 python check_paper_numbers.py
+python replication/later_readings/question_word/check_registered.py
 python replication/later_readings/duty_on_base/check_registered.py
 ```
 
-The last line recomputes the duty test on base checkpoints' registered figures from that
-reading's committed per-cell results (standard library only). Every other script reads only
+The last two lines recompute the registered figures of the two later readings read on local
+weights, the question word and the duty test on base checkpoints, from their committed per-cell
+results (standard library only). Every other script reads only
 `data/`, located relative to the script, so it runs from any
 working directory and needs neither the database nor the evaluation code. Each figure
 script writes `figures/out/FigureN_<name>` as PNG, PDF and SVG.
