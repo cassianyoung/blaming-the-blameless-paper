@@ -1,6 +1,6 @@
 # Changelog
 
-## Since v1.1 (main)
+## v1.2
 
 PDF: `paper/blaming-the-blameless.pdf` at the v1.1 tag cites this repository's release v1.0 and its DOI (https://doi.org/10.5281/zenodo.23568407) in Code and data and in Young (2026a), because a release cannot carry its own DOI; the PDF on main cites release v1.1 and its DOI (https://doi.org/10.5281/zenodo.23733138). Nothing else differs.
 
